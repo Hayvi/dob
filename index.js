@@ -1,28 +1,51 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const mongoose = require('mongoose');
+require('dotenv').config();
 const ForzzaScraper = require('./scraper');
+const Game = require('./models/Game');
 
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Initialize scraper once for the server lifetime or per request?
-// For real-time Swarm API, maintaining one connection is better.
+// MongoDB Connection
+const mongoUri = process.env.MONGODB_URI;
+if (mongoUri) {
+    mongoose.connect(mongoUri)
+        .then(() => console.log('Connected to MongoDB Atlas'))
+        .catch(err => console.error('MongoDB connection error:', err));
+} else {
+    console.warn('MONGODB_URI not found. Running without persistent storage.');
+}
+
 const scraper = new ForzzaScraper();
 
-// Helper to save sport data in organized directory
-function saveSportData(sportName, games) {
-    const date = new Date().toISOString().split('T')[0];
-    const dir = path.join(__dirname, 'data', sportName.replace(/[^a-z0-9]/gi, '_'));
-    if (!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true });
+// Helper to save sport data in MongoDB
+async function saveSportData(sportName, games) {
+    if (!mongoUri) {
+        // Fallback or skip if no DB
+        return null;
     }
-    const filePath = path.join(dir, `${date}.json`);
-    fs.writeFileSync(filePath, JSON.stringify(games, null, 2));
 
-    // Also save as latest for easy access
-    fs.writeFileSync(path.join(dir, 'latest.json'), JSON.stringify(games, null, 2));
-    return filePath;
+    const scrape_ts = new Date();
+    const operations = games.map(game => ({
+        updateOne: {
+            filter: { gameId: game.id },
+            update: {
+                ...game,
+                gameId: game.id,
+                sport: sportName,
+                last_updated: scrape_ts
+            },
+            upsert: true
+        }
+    }));
+
+    if (operations.length > 0) {
+        await Game.bulkWrite(operations);
+    }
+    return scrape_ts;
 }
 
 // Global function to parse games from Swarm response
@@ -69,9 +92,7 @@ function parseGamesFromData(rawData, sportName = "Unknown") {
 
 app.get('/api/hierarchy', async (req, res) => {
     try {
-        if (!scraper.sessionId) {
-            await scraper.init();
-        }
+        if (!scraper.sessionId) await scraper.init();
         const hierarchy = await scraper.getHierarchy();
         res.json(hierarchy);
     } catch (error) {
@@ -79,63 +100,52 @@ app.get('/api/hierarchy', async (req, res) => {
     }
 });
 
-app.get('/api/games', async (req, res) => {
-    const { competitionId } = req.query;
-    if (!competitionId) {
-        return res.status(400).json({ error: 'competitionId is required' });
-    }
-
+app.get('/api/football-games', async (req, res) => {
     try {
-        if (!scraper.sessionId) {
-            await scraper.init();
-        }
-        const games = await scraper.getGames(competitionId);
-        res.json(games);
+        if (!mongoUri) return res.status(501).json({ error: 'MongoDB not configured' });
+
+        const latestGame = await Game.findOne({ sport: 'Football' }).sort({ last_updated: -1 });
+        if (!latestGame) return res.status(404).json({ error: 'No football data found.' });
+
+        const games = await Game.find({
+            sport: 'Football',
+            last_updated: latestGame.last_updated
+        });
+
+        res.json({
+            source: 'mongodb',
+            sport: 'Football',
+            last_updated: latestGame.last_updated,
+            count: games.length,
+            data: games
+        });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 });
 
-app.get('/api/odds', async (req, res) => {
-    const { gameId } = req.query;
-    if (!gameId) {
-        return res.status(400).json({ error: 'gameId is required' });
-    }
+app.get('/api/sport-games', async (req, res) => {
+    const { sportName } = req.query;
+    if (!sportName) return res.status(400).json({ error: 'sportName is required' });
 
     try {
-        if (!scraper.sessionId) {
-            await scraper.init();
-        }
-        const odds = await scraper.getGameDetails(gameId);
-        res.json(odds);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
+        if (!mongoUri) return res.status(501).json({ error: 'MongoDB not configured' });
 
-app.get('/api/football-games', (req, res) => {
-    try {
-        const dir = path.join(__dirname, 'data', 'Football');
-        const latestPath = path.join(dir, 'latest.json');
+        const latestGame = await Game.findOne({ sport: sportName }).sort({ last_updated: -1 });
+        if (!latestGame) return res.status(404).json({ error: `No data found for ${sportName}` });
 
-        if (fs.existsSync(latestPath)) {
-            const data = fs.readFileSync(latestPath, 'utf8');
-            const parsed = JSON.parse(data);
-            res.json({
-                source: 'cache',
-                sport: 'Football',
-                count: parsed.length,
-                data: parsed
-            });
-        } else {
-            // Check old path for migration support
-            if (fs.existsSync('football_games.json')) {
-                const data = fs.readFileSync('football_games.json', 'utf8');
-                res.json({ source: 'legacy-cache', data: JSON.parse(data) });
-            } else {
-                res.status(404).json({ error: 'Football data not found. Run a scrape first.' });
-            }
-        }
+        const games = await Game.find({
+            sport: sportName,
+            last_updated: latestGame.last_updated
+        });
+
+        res.json({
+            source: 'mongodb',
+            sport: sportName,
+            last_updated: latestGame.last_updated,
+            count: games.length,
+            data: games
+        });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
@@ -171,10 +181,6 @@ app.get('/api/sport-games-count', async (req, res) => {
 
     try {
         if (!scraper.sessionId) await scraper.init();
-
-        // We first need the ID if it's name-based, or we can try to find it in hierarchy
-        // But Swarm allows searching by name in some cases, or we just fetch hierarchy first.
-        // Let's use the hierarchy to find the ID and then get count.
         const rawHierarchy = await scraper.getHierarchy();
         const hierarchy = rawHierarchy.data || rawHierarchy;
         const sports = hierarchy.sport || (hierarchy.data ? hierarchy.data.sport : null);
@@ -217,31 +223,6 @@ app.get('/api/sport-games-count', async (req, res) => {
     }
 });
 
-app.get('/api/sport-games', (req, res) => {
-    const { sportName } = req.query;
-    if (!sportName) return res.status(400).json({ error: 'sportName is required' });
-
-    try {
-        const dir = path.join(__dirname, 'data', sportName.replace(/[^a-z0-9]/gi, '_'));
-        const latestPath = path.join(dir, 'latest.json');
-
-        if (fs.existsSync(latestPath)) {
-            const data = fs.readFileSync(latestPath, 'utf8');
-            const parsed = JSON.parse(data);
-            res.json({
-                source: 'cache',
-                sport: sportName,
-                count: parsed.length,
-                data: parsed
-            });
-        } else {
-            res.status(404).json({ error: `Data for ${sportName} not found.` });
-        }
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
 app.get('/api/sport-full-scrape', async (req, res) => {
     const { sportId, sportName } = req.query;
     if (!sportId || !sportName) {
@@ -252,8 +233,13 @@ app.get('/api/sport-full-scrape', async (req, res) => {
         if (!scraper.sessionId) await scraper.init();
         const rawData = await scraper.getGamesBySport(sportId);
         const allGames = parseGamesFromData(rawData, sportName);
-        saveSportData(sportName, allGames);
-        res.json(allGames);
+        const scrapeTime = await saveSportData(sportName, allGames);
+        res.json({
+            message: `Scrape completed for ${sportName}`,
+            count: allGames.length,
+            last_updated: scrapeTime,
+            data: allGames
+        });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
@@ -276,7 +262,7 @@ app.get('/api/fetch-all-sports', async (req, res) => {
                     const rawData = await scraper.getGamesBySport(sportId);
                     const games = parseGamesFromData(rawData, sport.name);
                     if (games.length > 0) {
-                        saveSportData(sport.name, games);
+                        await saveSportData(sport.name, games);
                         summary.push({ sport: sport.name, id: sportId, count: games.length });
                     }
                 } catch (err) {
@@ -302,50 +288,13 @@ app.get('/api/football-full-scrape', async (req, res) => {
         if (!scraper.sessionId) await scraper.init();
         const rawData = await scraper.getGamesBySport(1);
         const allGames = parseGamesFromData(rawData, "Football");
-        saveSportData("Football", allGames);
-        res.json(allGames);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
-
-app.get('/api/full-scrape', async (req, res) => {
-    try {
-        if (!scraper.sessionId) {
-            await scraper.init();
-        }
-
-        const hierarchy = await scraper.getHierarchy();
-        const results = [];
-
-        // This is a naive full scrape, it can be very slow if many competitions are present
-        // In a real scenario, we might want to limit this or use a queue.
-        for (const sportId in hierarchy.sport) {
-            const sport = hierarchy.sport[sportId];
-            for (const regionId in sport.region) {
-                const region = sport.region[regionId];
-                for (const compId in region.competition) {
-                    const competition = region.competition[compId];
-                    const gamesData = await scraper.getGames(competition.id);
-
-                    if (gamesData && gamesData.game) {
-                        for (const gameId in gamesData.game) {
-                            const game = gamesData.game[gameId];
-                            const odds = await scraper.getGameDetails(game.id);
-                            results.push({
-                                sport: sport.name,
-                                region: region.name,
-                                competition: competition.name,
-                                game: game,
-                                odds: odds
-                            });
-                        }
-                    }
-                }
-            }
-        }
-
-        res.json(results);
+        const scrapeTime = await saveSportData("Football", allGames);
+        res.json({
+            message: "Football scrape completed",
+            count: allGames.length,
+            last_updated: scrapeTime,
+            data: allGames
+        });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }

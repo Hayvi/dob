@@ -1,10 +1,10 @@
 node_modules/
 .DS_Store
 *.log
-football_games.json
-count_debug.json
-hierarchy_debug.json
-football_raw_debug.json
-games_debug.json
-app_menu.json
-test_count.js
+.env
+data/
+*.json
+!package.json
+!package-lock.json
+debug_*.js
+test_*.js
