@@ -157,7 +157,7 @@ app.get('/api/football-games-count', async (req, res) => {
         const rawData = await scraper.sendRequest('get', {
             source: 'betting',
             what: { sport: ['id', 'name'], game: ['id'] },
-            where: { sport: { id: 1 } }
+            where: { sport: { id: 1 }, game: { type: 0 } }
         });
         const data = rawData.data && rawData.data.data ? rawData.data.data : (rawData.data || rawData);
         let count = 0;
@@ -202,7 +202,10 @@ app.get('/api/sport-games-count', async (req, res) => {
         const rawData = await scraper.sendRequest('get', {
             source: 'betting',
             what: { sport: ['id', 'name'], game: ['id'] },
-            where: { sport: { id: parseInt(sportId) } }
+            where: {
+                sport: { id: parseInt(sportId) },
+                game: { type: 0 }
+            }
         });
 
         const data = rawData.data && rawData.data.data ? rawData.data.data : (rawData.data || rawData);
