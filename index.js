@@ -92,7 +92,6 @@ function parseGamesFromData(rawData, sportName = "Unknown") {
 
 app.get('/api/hierarchy', async (req, res) => {
     try {
-        if (!scraper.sessionId) await scraper.init();
         const hierarchy = await scraper.getHierarchy();
         res.json(hierarchy);
     } catch (error) {
@@ -153,7 +152,6 @@ app.get('/api/sport-games', async (req, res) => {
 
 app.get('/api/football-games-count', async (req, res) => {
     try {
-        if (!scraper.sessionId) await scraper.init();
         const rawData = await scraper.sendRequest('get', {
             source: 'betting',
             what: { sport: ['id', 'name'], game: ['id'] },
@@ -180,7 +178,6 @@ app.get('/api/sport-games-count', async (req, res) => {
     if (!sportName) return res.status(400).json({ error: 'sportName is required' });
 
     try {
-        if (!scraper.sessionId) await scraper.init();
         const rawHierarchy = await scraper.getHierarchy();
         const hierarchy = rawHierarchy.data || rawHierarchy;
         const sports = hierarchy.sport || (hierarchy.data ? hierarchy.data.sport : null);
@@ -233,7 +230,6 @@ app.get('/api/sport-full-scrape', async (req, res) => {
     }
 
     try {
-        if (!scraper.sessionId) await scraper.init();
         const rawData = await scraper.getGamesBySport(sportId);
         const allGames = parseGamesFromData(rawData, sportName);
         const scrapeTime = await saveSportData(sportName, allGames);
@@ -250,7 +246,6 @@ app.get('/api/sport-full-scrape', async (req, res) => {
 
 app.get('/api/fetch-all-sports', async (req, res) => {
     try {
-        if (!scraper.sessionId) await scraper.init();
         const rawHierarchy = await scraper.getHierarchy();
         const hierarchy = rawHierarchy.data || rawHierarchy;
         const summary = [];
@@ -288,7 +283,6 @@ app.get('/api/fetch-all-sports', async (req, res) => {
 
 app.get('/api/football-full-scrape', async (req, res) => {
     try {
-        if (!scraper.sessionId) await scraper.init();
         const rawData = await scraper.getGamesBySport(1);
         const allGames = parseGamesFromData(rawData, "Football");
         const scrapeTime = await saveSportData("Football", allGames);

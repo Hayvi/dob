@@ -8,10 +8,51 @@ class ForzzaScraper {
         this.ws = null;
         this.sessionId = null;
         this.pendingRequests = new Map();
+        this.isConnecting = false;
+    }
+
+    isConnected() {
+        return this.ws && this.ws.readyState === WebSocket.OPEN && this.sessionId;
+    }
+
+    async ensureConnection() {
+        if (this.isConnected()) return;
+        
+        // Prevent multiple simultaneous connection attempts
+        if (this.isConnecting) {
+            // Wait for ongoing connection
+            await new Promise(resolve => {
+                const check = setInterval(() => {
+                    if (!this.isConnecting) {
+                        clearInterval(check);
+                        resolve();
+                    }
+                }, 100);
+            });
+            if (this.isConnected()) return;
+        }
+        
+        await this.init();
     }
 
     async init() {
+        // Close existing connection if any
+        if (this.ws) {
+            try {
+                this.ws.close();
+            } catch (e) {}
+            this.ws = null;
+            this.sessionId = null;
+        }
+
+        this.isConnecting = true;
+
         return new Promise((resolve, reject) => {
+            const connectionTimeout = setTimeout(() => {
+                this.isConnecting = false;
+                reject(new Error('WebSocket connection timeout'));
+            }, 15000);
+
             this.ws = new WebSocket(this.wsUrl);
 
             this.ws.on('open', async () => {
@@ -22,11 +63,18 @@ class ForzzaScraper {
                     });
                     if (response && response.data && response.data.sid) {
                         this.sessionId = response.data.sid;
+                        clearTimeout(connectionTimeout);
+                        this.isConnecting = false;
+                        console.log('WebSocket connected, session:', this.sessionId);
                         resolve(this.sessionId);
                     } else {
+                        clearTimeout(connectionTimeout);
+                        this.isConnecting = false;
                         reject(new Error('Failed to get session ID'));
                     }
                 } catch (error) {
+                    clearTimeout(connectionTimeout);
+                    this.isConnecting = false;
                     reject(error);
                 }
             });
@@ -34,24 +82,40 @@ class ForzzaScraper {
             this.ws.on('message', (data) => {
                 const message = JSON.parse(data.toString());
                 if (message.rid && this.pendingRequests.has(message.rid)) {
-                    const { resolve } = this.pendingRequests.get(message.rid);
+                    const { resolve, timeout } = this.pendingRequests.get(message.rid);
+                    clearTimeout(timeout);
                     this.pendingRequests.delete(message.rid);
                     resolve(message);
                 }
             });
 
             this.ws.on('error', (error) => {
-                console.error('WebSocket error:', error);
+                console.error('WebSocket error:', error.message);
+                clearTimeout(connectionTimeout);
+                this.isConnecting = false;
+                this.sessionId = null;
                 reject(error);
             });
 
             this.ws.on('close', () => {
                 console.log('WebSocket connection closed');
+                this.sessionId = null;
+                this.isConnecting = false;
             });
         });
     }
 
-    async sendRequest(command, params = {}) {
+    async sendRequest(command, params = {}, timeoutMs = 60000) {
+        // Ensure connection before sending (except for session request)
+        if (command !== 'request_session') {
+            await this.ensureConnection();
+        }
+
+        // Double-check connection state
+        if (command !== 'request_session' && (!this.ws || this.ws.readyState !== WebSocket.OPEN)) {
+            throw new Error('WebSocket not connected');
+        }
+
         const rid = uuidv4();
         const request = {
             command,
@@ -65,15 +129,22 @@ class ForzzaScraper {
                     this.pendingRequests.delete(rid);
                     reject(new Error(`Request ${command} timed out`));
                 }
-            }, 30000);
+            }, timeoutMs);
 
             this.pendingRequests.set(rid, { resolve, reject, timeout });
-            this.ws.send(JSON.stringify(request));
+            
+            try {
+                this.ws.send(JSON.stringify(request));
+            } catch (error) {
+                clearTimeout(timeout);
+                this.pendingRequests.delete(rid);
+                this.sessionId = null;
+                reject(new Error(`Failed to send request: ${error.message}`));
+            }
         });
     }
 
     async getHierarchy() {
-        // We use 'get' command to retrieve the sports hierarchy
         const response = await this.sendRequest('get', {
             source: 'betting',
             what: {
@@ -115,9 +186,9 @@ class ForzzaScraper {
             },
             where: {
                 sport: { id: parseInt(sportId) },
-                game: { type: 0 } // Prematch
+                game: { type: 0 }
             }
-        });
+        }, 90000); // 90 second timeout for large sports
         return response.data;
     }
 
@@ -138,6 +209,8 @@ class ForzzaScraper {
     close() {
         if (this.ws) {
             this.ws.close();
+            this.ws = null;
+            this.sessionId = null;
         }
     }
 }
