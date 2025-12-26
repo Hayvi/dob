@@ -105,9 +105,11 @@ class ForzzaScraper {
         const response = await this.sendRequest('get', {
             source: 'betting',
             what: {
-                region: ['id', 'name', 'order'],
-                competition: ['id', 'name', 'order'],
-                game: ['id', 'team1_name', 'team2_name', 'start_ts', 'markets_count', 'info']
+                region: ['id', 'name'],
+                competition: ['id', 'name'],
+                game: ['id', 'team1_name', 'team2_name', 'start_ts'],
+                market: ['id', 'name', 'type', 'display_key'],
+                event: ['id', 'name', 'price']
             },
             where: {
                 sport: { id: parseInt(sportId) },

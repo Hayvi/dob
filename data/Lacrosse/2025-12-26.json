@@ -7,19 +7,566 @@
     "team1_name": "Las Vegas Desert Dogs",
     "team2_name": "Toronto Rock",
     "start_ts": 1766880000,
-    "markets_count": 31,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104093710": {
+        "id": 2104093710,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206063": {
+            "id": 6272206063,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6272206062": {
+            "id": 6272206062,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104093715": {
+        "id": 2104093715,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206073": {
+            "id": 6272206073,
+            "name": "Under ",
+            "price": 1.43
+          },
+          "6272206075": {
+            "id": 6272206075,
+            "name": "Over ",
+            "price": 2.62
+          }
+        }
+      },
+      "2104093720": {
+        "id": 2104093720,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206089": {
+            "id": 6272206089,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.87
+          },
+          "6272206088": {
+            "id": 6272206088,
+            "name": "Toronto Rock ",
+            "price": 1.83
+          }
+        }
+      },
+      "2104093725": {
+        "id": 2104093725,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206097": {
+            "id": 6272206097,
+            "name": "Under ",
+            "price": 1.58
+          },
+          "6272206099": {
+            "id": 6272206099,
+            "name": "Over ",
+            "price": 2.23
+          }
+        }
+      },
+      "2104093729": {
+        "id": 2104093729,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206107": {
+            "id": 6272206107,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.7
+          },
+          "6272206106": {
+            "id": 6272206106,
+            "name": "Toronto Rock ",
+            "price": 2.02
+          }
+        }
+      },
+      "2104093734": {
+        "id": 2104093734,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206117": {
+            "id": 6272206117,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 2.8
+          },
+          "6272206116": {
+            "id": 6272206116,
+            "name": "Toronto Rock ",
+            "price": 1.38
+          }
+        }
+      },
+      "2104093739": {
+        "id": 2104093739,
+        "name": "Match Winner",
+        "type": "MatchResult",
+        "display_key": "WINNER",
+        "event": {
+          "6272206125": {
+            "id": 6272206125,
+            "name": "W2",
+            "price": 1.57
+          },
+          "6272206127": {
+            "id": 6272206127,
+            "name": "W1",
+            "price": 2.25
+          }
+        }
+      },
+      "2104864550": {
+        "id": 2104864550,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369605": {
+            "id": 6274369605,
+            "name": "Over ",
+            "price": 1.76
+          },
+          "6274369604": {
+            "id": 6274369604,
+            "name": "Under ",
+            "price": 1.94
+          }
+        }
+      },
+      "2104864554": {
+        "id": 2104864554,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369613": {
+            "id": 6274369613,
+            "name": "Over ",
+            "price": 1.94
+          },
+          "6274369612": {
+            "id": 6274369612,
+            "name": "Under ",
+            "price": 1.76
+          }
+        }
+      },
+      "2106354645": {
+        "id": 2106354645,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278566485": {
+            "id": 6278566485,
+            "name": "Toronto Rock ",
+            "price": 2.3
+          },
+          "6278566486": {
+            "id": 6278566486,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106543288": {
+        "id": 2106543288,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101193": {
+            "id": 6279101193,
+            "name": "Under ",
+            "price": 1.28
+          },
+          "6279101194": {
+            "id": 6279101194,
+            "name": "Over ",
+            "price": 3.3
+          }
+        }
+      },
+      "2106543289": {
+        "id": 2106543289,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101197": {
+            "id": 6279101197,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101200": {
+            "id": 6279101200,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543290": {
+        "id": 2106543290,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101209": {
+            "id": 6279101209,
+            "name": "Toronto Rock ",
+            "price": 2.62
+          },
+          "6279101211": {
+            "id": 6279101211,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.43
+          }
+        }
+      },
+      "2106543291": {
+        "id": 2106543291,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101222": {
+            "id": 6279101222,
+            "name": "Under ",
+            "price": 2.13
+          },
+          "6279101224": {
+            "id": 6279101224,
+            "name": "Over ",
+            "price": 1.63
+          }
+        }
+      },
+      "2106543292": {
+        "id": 2106543292,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101235": {
+            "id": 6279101235,
+            "name": "Over ",
+            "price": 1.63
+          },
+          "6279101234": {
+            "id": 6279101234,
+            "name": "Under ",
+            "price": 2.13
+          }
+        }
+      },
+      "2106543293": {
+        "id": 2106543293,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101246": {
+            "id": 6279101246,
+            "name": "Under ",
+            "price": 1.33
+          },
+          "6279101248": {
+            "id": 6279101248,
+            "name": "Over ",
+            "price": 3.05
+          }
+        }
+      },
+      "2106543294": {
+        "id": 2106543294,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101259": {
+            "id": 6279101259,
+            "name": "Under ",
+            "price": 3.75
+          },
+          "6279101260": {
+            "id": 6279101260,
+            "name": "Over ",
+            "price": 1.23
+          }
+        }
+      },
+      "2106543296": {
+        "id": 2106543296,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101263": {
+            "id": 6279101263,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101264": {
+            "id": 6279101264,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543297": {
+        "id": 2106543297,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101265": {
+            "id": 6279101265,
+            "name": "Toronto Rock ",
+            "price": 1.3
+          },
+          "6279101266": {
+            "id": 6279101266,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 3.2
+          }
+        }
+      },
+      "2106543298": {
+        "id": 2106543298,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101267": {
+            "id": 6279101267,
+            "name": "Under ",
+            "price": 1.5
+          },
+          "6279101268": {
+            "id": 6279101268,
+            "name": "Over ",
+            "price": 2.4
+          }
+        }
+      },
+      "2106543299": {
+        "id": 2106543299,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101269": {
+            "id": 6279101269,
+            "name": "Toronto Rock ",
+            "price": 3.57
+          },
+          "6279101270": {
+            "id": 6279101270,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.25
+          }
+        }
+      },
+      "2106543300": {
+        "id": 2106543300,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101271": {
+            "id": 6279101271,
+            "name": "Under ",
+            "price": 2.4
+          },
+          "6279101272": {
+            "id": 6279101272,
+            "name": "Over ",
+            "price": 1.5
+          }
+        }
+      },
+      "2106543301": {
+        "id": 2106543301,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101273": {
+            "id": 6279101273,
+            "name": "Under ",
+            "price": 1.45
+          },
+          "6279101274": {
+            "id": 6279101274,
+            "name": "Over ",
+            "price": 2.55
+          }
+        }
+      },
+      "2106543302": {
+        "id": 2106543302,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101275": {
+            "id": 6279101275,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101276": {
+            "id": 6279101276,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543303": {
+        "id": 2106543303,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101277": {
+            "id": 6279101277,
+            "name": "Under ",
+            "price": 2.7
+          },
+          "6279101278": {
+            "id": 6279101278,
+            "name": "Over ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106543304": {
+        "id": 2106543304,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101279": {
+            "id": 6279101279,
+            "name": "Under ",
+            "price": 3.05
+          },
+          "6279101280": {
+            "id": 6279101280,
+            "name": "Over ",
+            "price": 1.33
+          }
+        }
+      },
+      "2106543305": {
+        "id": 2106543305,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101281": {
+            "id": 6279101281,
+            "name": "Under ",
+            "price": 3.2
+          },
+          "6279101282": {
+            "id": 6279101282,
+            "name": "Over ",
+            "price": 1.3
+          }
+        }
+      },
+      "2106543306": {
+        "id": 2106543306,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101283": {
+            "id": 6279101283,
+            "name": "Under ",
+            "price": 2.62
+          },
+          "6279101284": {
+            "id": 6279101284,
+            "name": "Over ",
+            "price": 1.43
+          }
+        }
+      },
+      "2106543307": {
+        "id": 2106543307,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101285": {
+            "id": 6279101285,
+            "name": "Under ",
+            "price": 1.67
+          },
+          "6279101286": {
+            "id": 6279101286,
+            "name": "Over ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106543308": {
+        "id": 2106543308,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101287": {
+            "id": 6279101287,
+            "name": "Toronto Rock ",
+            "price": 3.05
+          },
+          "6279101288": {
+            "id": 6279101288,
+            "name": "Las Vegas Desert Dogs ",
+            "price": 1.33
+          }
+        }
+      },
+      "2106543309": {
+        "id": 2106543309,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101289": {
+            "id": 6279101289,
+            "name": "Under ",
+            "price": 1.3
+          },
+          "6279101290": {
+            "id": 6279101290,
+            "name": "Over ",
+            "price": 3.2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -29,19 +576,566 @@
     "team1_name": "Philadelphia Wings",
     "team2_name": "Ottawa Black Bears",
     "start_ts": 1766880000,
-    "markets_count": 31,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104093707": {
+        "id": 2104093707,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206056": {
+            "id": 6272206056,
+            "name": "Under ",
+            "price": 1.85
+          },
+          "6272206058": {
+            "id": 6272206058,
+            "name": "Over ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104093712": {
+        "id": 2104093712,
+        "name": "Match Winner",
+        "type": "MatchResult",
+        "display_key": "WINNER",
+        "event": {
+          "6272206067": {
+            "id": 6272206067,
+            "name": "W1",
+            "price": 2.07
+          },
+          "6272206066": {
+            "id": 6272206066,
+            "name": "W2",
+            "price": 1.67
+          }
+        }
+      },
+      "2104093719": {
+        "id": 2104093719,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206084": {
+            "id": 6272206084,
+            "name": "Ottawa Black Bears ",
+            "price": 2.23
+          },
+          "6272206086": {
+            "id": 6272206086,
+            "name": "Philadelphia Wings ",
+            "price": 1.58
+          }
+        }
+      },
+      "2104093723": {
+        "id": 2104093723,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206094": {
+            "id": 6272206094,
+            "name": "Ottawa Black Bears ",
+            "price": 1.94
+          },
+          "6272206096": {
+            "id": 6272206096,
+            "name": "Philadelphia Wings ",
+            "price": 1.76
+          }
+        }
+      },
+      "2104093728": {
+        "id": 2104093728,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206105": {
+            "id": 6272206105,
+            "name": "Over ",
+            "price": 2.62
+          },
+          "6272206104": {
+            "id": 6272206104,
+            "name": "Under ",
+            "price": 1.43
+          }
+        }
+      },
+      "2104093733": {
+        "id": 2104093733,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206115": {
+            "id": 6272206115,
+            "name": "Over ",
+            "price": 2.13
+          },
+          "6272206114": {
+            "id": 6272206114,
+            "name": "Under ",
+            "price": 1.63
+          }
+        }
+      },
+      "2104093738": {
+        "id": 2104093738,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206124": {
+            "id": 6272206124,
+            "name": "Ottawa Black Bears ",
+            "price": 1.46
+          },
+          "6272206126": {
+            "id": 6272206126,
+            "name": "Philadelphia Wings ",
+            "price": 2.52
+          }
+        }
+      },
+      "2104864555": {
+        "id": 2104864555,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369615": {
+            "id": 6274369615,
+            "name": "Over ",
+            "price": 2
+          },
+          "6274369614": {
+            "id": 6274369614,
+            "name": "Under ",
+            "price": 1.72
+          }
+        }
+      },
+      "2104864556": {
+        "id": 2104864556,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369617": {
+            "id": 6274369617,
+            "name": "Over ",
+            "price": 2
+          },
+          "6274369616": {
+            "id": 6274369616,
+            "name": "Under ",
+            "price": 1.72
+          }
+        }
+      },
+      "2105200384": {
+        "id": 2105200384,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6275316445": {
+            "id": 6275316445,
+            "name": "Over ",
+            "price": 1.68
+          },
+          "6275316444": {
+            "id": 6275316444,
+            "name": "Under ",
+            "price": 2.05
+          }
+        }
+      },
+      "2106543404": {
+        "id": 2106543404,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101527": {
+            "id": 6279101527,
+            "name": "Under ",
+            "price": 1.48
+          },
+          "6279101528": {
+            "id": 6279101528,
+            "name": "Over ",
+            "price": 2.45
+          }
+        }
+      },
+      "2106543407": {
+        "id": 2106543407,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101533": {
+            "id": 6279101533,
+            "name": "Under ",
+            "price": 2.1
+          },
+          "6279101534": {
+            "id": 6279101534,
+            "name": "Over ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106543410": {
+        "id": 2106543410,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101539": {
+            "id": 6279101539,
+            "name": "Under ",
+            "price": 3.3
+          },
+          "6279101540": {
+            "id": 6279101540,
+            "name": "Over ",
+            "price": 1.28
+          }
+        }
+      },
+      "2106543413": {
+        "id": 2106543413,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101544": {
+            "id": 6279101544,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101546": {
+            "id": 6279101546,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543416": {
+        "id": 2106543416,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101551": {
+            "id": 6279101551,
+            "name": "Under ",
+            "price": 1.33
+          },
+          "6279101552": {
+            "id": 6279101552,
+            "name": "Over ",
+            "price": 3.05
+          }
+        }
+      },
+      "2106543419": {
+        "id": 2106543419,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101556": {
+            "id": 6279101556,
+            "name": "Under ",
+            "price": 1.3
+          },
+          "6279101558": {
+            "id": 6279101558,
+            "name": "Over ",
+            "price": 3.2
+          }
+        }
+      },
+      "2106543421": {
+        "id": 2106543421,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101561": {
+            "id": 6279101561,
+            "name": "Ottawa Black Bears ",
+            "price": 3.47
+          },
+          "6279101563": {
+            "id": 6279101563,
+            "name": "Philadelphia Wings ",
+            "price": 1.26
+          }
+        }
+      },
+      "2106543424": {
+        "id": 2106543424,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101567": {
+            "id": 6279101567,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6279101568": {
+            "id": 6279101568,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106543427": {
+        "id": 2106543427,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101573": {
+            "id": 6279101573,
+            "name": "Under ",
+            "price": 2.55
+          },
+          "6279101574": {
+            "id": 6279101574,
+            "name": "Over ",
+            "price": 1.45
+          }
+        }
+      },
+      "2106543430": {
+        "id": 2106543430,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101579": {
+            "id": 6279101579,
+            "name": "Under ",
+            "price": 3.57
+          },
+          "6279101580": {
+            "id": 6279101580,
+            "name": "Over ",
+            "price": 1.25
+          }
+        }
+      },
+      "2106543433": {
+        "id": 2106543433,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101585": {
+            "id": 6279101585,
+            "name": "Ottawa Black Bears ",
+            "price": 2.55
+          },
+          "6279101586": {
+            "id": 6279101586,
+            "name": "Philadelphia Wings ",
+            "price": 1.45
+          }
+        }
+      },
+      "2106543436": {
+        "id": 2106543436,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101591": {
+            "id": 6279101591,
+            "name": "Under ",
+            "price": 1.3
+          },
+          "6279101592": {
+            "id": 6279101592,
+            "name": "Over ",
+            "price": 3.2
+          }
+        }
+      },
+      "2106543439": {
+        "id": 2106543439,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101597": {
+            "id": 6279101597,
+            "name": "Under ",
+            "price": 1.19
+          },
+          "6279101598": {
+            "id": 6279101598,
+            "name": "Over ",
+            "price": 4.15
+          }
+        }
+      },
+      "2106543442": {
+        "id": 2106543442,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101603": {
+            "id": 6279101603,
+            "name": "Under ",
+            "price": 3.47
+          },
+          "6279101604": {
+            "id": 6279101604,
+            "name": "Over ",
+            "price": 1.26
+          }
+        }
+      },
+      "2106543445": {
+        "id": 2106543445,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101609": {
+            "id": 6279101609,
+            "name": "Under ",
+            "price": 2.7
+          },
+          "6279101610": {
+            "id": 6279101610,
+            "name": "Over ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106543448": {
+        "id": 2106543448,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101615": {
+            "id": 6279101615,
+            "name": "Under ",
+            "price": 1.48
+          },
+          "6279101616": {
+            "id": 6279101616,
+            "name": "Over ",
+            "price": 2.45
+          }
+        }
+      },
+      "2106543451": {
+        "id": 2106543451,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101621": {
+            "id": 6279101621,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101622": {
+            "id": 6279101622,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543454": {
+        "id": 2106543454,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101627": {
+            "id": 6279101627,
+            "name": "Under ",
+            "price": 2.7
+          },
+          "6279101628": {
+            "id": 6279101628,
+            "name": "Over ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106543457": {
+        "id": 2106543457,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101633": {
+            "id": 6279101633,
+            "name": "Ottawa Black Bears ",
+            "price": 1.35
+          },
+          "6279101634": {
+            "id": 6279101634,
+            "name": "Philadelphia Wings ",
+            "price": 2.95
+          }
+        }
+      },
+      "2106543460": {
+        "id": 2106543460,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101639": {
+            "id": 6279101639,
+            "name": "Ottawa Black Bears ",
+            "price": 1.26
+          },
+          "6279101640": {
+            "id": 6279101640,
+            "name": "Philadelphia Wings ",
+            "price": 3.47
+          }
+        }
+      },
+      "2106543463": {
+        "id": 2106543463,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101645": {
+            "id": 6279101645,
+            "name": "Ottawa Black Bears ",
+            "price": 2.95
+          },
+          "6279101646": {
+            "id": 6279101646,
+            "name": "Philadelphia Wings ",
+            "price": 1.35
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -51,19 +1145,566 @@
     "team1_name": "Saskatchewan Rush",
     "team2_name": "Halifax Thunderbirds",
     "start_ts": 1766876400,
-    "markets_count": 31,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104093709": {
+        "id": 2104093709,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206061": {
+            "id": 6272206061,
+            "name": "Saskatchewan Rush ",
+            "price": 2.5
+          },
+          "6272206060": {
+            "id": 6272206060,
+            "name": "Halifax Thunderbirds ",
+            "price": 1.47
+          }
+        }
+      },
+      "2104093713": {
+        "id": 2104093713,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206069": {
+            "id": 6272206069,
+            "name": "Over ",
+            "price": 2.23
+          },
+          "6272206068": {
+            "id": 6272206068,
+            "name": "Under ",
+            "price": 1.58
+          }
+        }
+      },
+      "2104093717": {
+        "id": 2104093717,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206083": {
+            "id": 6272206083,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6272206082": {
+            "id": 6272206082,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104093722": {
+        "id": 2104093722,
+        "name": "Match Winner",
+        "type": "MatchResult",
+        "display_key": "WINNER",
+        "event": {
+          "6272206093": {
+            "id": 6272206093,
+            "name": "W1",
+            "price": 2.05
+          },
+          "6272206092": {
+            "id": 6272206092,
+            "name": "W2",
+            "price": 1.68
+          }
+        }
+      },
+      "2104093727": {
+        "id": 2104093727,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206103": {
+            "id": 6272206103,
+            "name": "Saskatchewan Rush ",
+            "price": 1.58
+          },
+          "6272206102": {
+            "id": 6272206102,
+            "name": "Halifax Thunderbirds ",
+            "price": 2.23
+          }
+        }
+      },
+      "2104093732": {
+        "id": 2104093732,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206113": {
+            "id": 6272206113,
+            "name": "Over ",
+            "price": 2.62
+          },
+          "6272206112": {
+            "id": 6272206112,
+            "name": "Under ",
+            "price": 1.43
+          }
+        }
+      },
+      "2104093737": {
+        "id": 2104093737,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206123": {
+            "id": 6272206123,
+            "name": "Saskatchewan Rush ",
+            "price": 1.76
+          },
+          "6272206122": {
+            "id": 6272206122,
+            "name": "Halifax Thunderbirds ",
+            "price": 1.94
+          }
+        }
+      },
+      "2104864548": {
+        "id": 2104864548,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369600": {
+            "id": 6274369600,
+            "name": "Under ",
+            "price": 1.87
+          },
+          "6274369603": {
+            "id": 6274369603,
+            "name": "Over ",
+            "price": 1.83
+          }
+        }
+      },
+      "2104864552": {
+        "id": 2104864552,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369609": {
+            "id": 6274369609,
+            "name": "Over ",
+            "price": 1.87
+          },
+          "6274369608": {
+            "id": 6274369608,
+            "name": "Under ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106543400": {
+        "id": 2106543400,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101519": {
+            "id": 6279101519,
+            "name": "Under ",
+            "price": 1.38
+          },
+          "6279101520": {
+            "id": 6279101520,
+            "name": "Over ",
+            "price": 2.8
+          }
+        }
+      },
+      "2106543402": {
+        "id": 2106543402,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101523": {
+            "id": 6279101523,
+            "name": "Under ",
+            "price": 1.38
+          },
+          "6279101524": {
+            "id": 6279101524,
+            "name": "Over ",
+            "price": 2.8
+          }
+        }
+      },
+      "2106543405": {
+        "id": 2106543405,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101529": {
+            "id": 6279101529,
+            "name": "Halifax Thunderbirds ",
+            "price": 2.95
+          },
+          "6279101530": {
+            "id": 6279101530,
+            "name": "Saskatchewan Rush ",
+            "price": 1.35
+          }
+        }
+      },
+      "2106543408": {
+        "id": 2106543408,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101535": {
+            "id": 6279101535,
+            "name": "Halifax Thunderbirds ",
+            "price": 1.37
+          },
+          "6279101536": {
+            "id": 6279101536,
+            "name": "Saskatchewan Rush ",
+            "price": 2.85
+          }
+        }
+      },
+      "2106543411": {
+        "id": 2106543411,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101541": {
+            "id": 6279101541,
+            "name": "Halifax Thunderbirds ",
+            "price": 3.4
+          },
+          "6279101542": {
+            "id": 6279101542,
+            "name": "Saskatchewan Rush ",
+            "price": 1.27
+          }
+        }
+      },
+      "2106543414": {
+        "id": 2106543414,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101547": {
+            "id": 6279101547,
+            "name": "Under ",
+            "price": 3.75
+          },
+          "6279101548": {
+            "id": 6279101548,
+            "name": "Over ",
+            "price": 1.23
+          }
+        }
+      },
+      "2106543417": {
+        "id": 2106543417,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101553": {
+            "id": 6279101553,
+            "name": "Under ",
+            "price": 1.57
+          },
+          "6279101554": {
+            "id": 6279101554,
+            "name": "Over ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106543420": {
+        "id": 2106543420,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101559": {
+            "id": 6279101559,
+            "name": "Under ",
+            "price": 2.8
+          },
+          "6279101560": {
+            "id": 6279101560,
+            "name": "Over ",
+            "price": 1.38
+          }
+        }
+      },
+      "2106543423": {
+        "id": 2106543423,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101565": {
+            "id": 6279101565,
+            "name": "Under ",
+            "price": 2.23
+          },
+          "6279101566": {
+            "id": 6279101566,
+            "name": "Over ",
+            "price": 1.58
+          }
+        }
+      },
+      "2106543426": {
+        "id": 2106543426,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101571": {
+            "id": 6279101571,
+            "name": "Under ",
+            "price": 1.25
+          },
+          "6279101572": {
+            "id": 6279101572,
+            "name": "Over ",
+            "price": 3.57
+          }
+        }
+      },
+      "2106543429": {
+        "id": 2106543429,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101577": {
+            "id": 6279101577,
+            "name": "Under ",
+            "price": 1.58
+          },
+          "6279101578": {
+            "id": 6279101578,
+            "name": "Over ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106543432": {
+        "id": 2106543432,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101583": {
+            "id": 6279101583,
+            "name": "Halifax Thunderbirds ",
+            "price": 2.55
+          },
+          "6279101584": {
+            "id": 6279101584,
+            "name": "Saskatchewan Rush ",
+            "price": 1.45
+          }
+        }
+      },
+      "2106543435": {
+        "id": 2106543435,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101589": {
+            "id": 6279101589,
+            "name": "Under ",
+            "price": 4.05
+          },
+          "6279101590": {
+            "id": 6279101590,
+            "name": "Over ",
+            "price": 1.2
+          }
+        }
+      },
+      "2106543438": {
+        "id": 2106543438,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101595": {
+            "id": 6279101595,
+            "name": "Under ",
+            "price": 2.62
+          },
+          "6279101596": {
+            "id": 6279101596,
+            "name": "Over ",
+            "price": 1.43
+          }
+        }
+      },
+      "2106543441": {
+        "id": 2106543441,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101601": {
+            "id": 6279101601,
+            "name": "Under ",
+            "price": 1.26
+          },
+          "6279101602": {
+            "id": 6279101602,
+            "name": "Over ",
+            "price": 3.47
+          }
+        }
+      },
+      "2106543444": {
+        "id": 2106543444,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101607": {
+            "id": 6279101607,
+            "name": "Under ",
+            "price": 2.3
+          },
+          "6279101608": {
+            "id": 6279101608,
+            "name": "Over ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106543447": {
+        "id": 2106543447,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101613": {
+            "id": 6279101613,
+            "name": "Under ",
+            "price": 2.13
+          },
+          "6279101614": {
+            "id": 6279101614,
+            "name": "Over ",
+            "price": 1.63
+          }
+        }
+      },
+      "2106543450": {
+        "id": 2106543450,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101619": {
+            "id": 6279101619,
+            "name": "Under ",
+            "price": 3.2
+          },
+          "6279101620": {
+            "id": 6279101620,
+            "name": "Over ",
+            "price": 1.3
+          }
+        }
+      },
+      "2106543453": {
+        "id": 2106543453,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101625": {
+            "id": 6279101625,
+            "name": "Halifax Thunderbirds ",
+            "price": 1.28
+          },
+          "6279101626": {
+            "id": 6279101626,
+            "name": "Saskatchewan Rush ",
+            "price": 3.3
+          }
+        }
+      },
+      "2106543456": {
+        "id": 2106543456,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101631": {
+            "id": 6279101631,
+            "name": "Under ",
+            "price": 1.28
+          },
+          "6279101632": {
+            "id": 6279101632,
+            "name": "Over ",
+            "price": 3.3
+          }
+        }
+      },
+      "2106543459": {
+        "id": 2106543459,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101637": {
+            "id": 6279101637,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6279101638": {
+            "id": 6279101638,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2106543462": {
+        "id": 2106543462,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101643": {
+            "id": 6279101643,
+            "name": "Under ",
+            "price": 2.95
+          },
+          "6279101644": {
+            "id": 6279101644,
+            "name": "Over ",
+            "price": 1.35
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -73,19 +1714,170 @@
     "team1_name": "Buffalo Bandits",
     "team2_name": "Calgary Roughnecks",
     "start_ts": 1766970000,
-    "markets_count": 9,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104093714": {
+        "id": 2104093714,
+        "name": "Match Winner",
+        "type": "MatchResult",
+        "display_key": "WINNER",
+        "event": {
+          "6272206071": {
+            "id": 6272206071,
+            "name": "W2",
+            "price": 2.7
+          },
+          "6272206072": {
+            "id": 6272206072,
+            "name": "W1",
+            "price": 1.4
+          }
+        }
+      },
+      "2104093718": {
+        "id": 2104093718,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206085": {
+            "id": 6272206085,
+            "name": "Calgary Roughnecks ",
+            "price": 1.55
+          },
+          "6272206087": {
+            "id": 6272206087,
+            "name": "Buffalo Bandits ",
+            "price": 2.3
+          }
+        }
+      },
+      "2104093724": {
+        "id": 2104093724,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206095": {
+            "id": 6272206095,
+            "name": "Calgary Roughnecks ",
+            "price": 1.9
+          },
+          "6272206098": {
+            "id": 6272206098,
+            "name": "Buffalo Bandits ",
+            "price": 1.8
+          }
+        }
+      },
+      "2104093730": {
+        "id": 2104093730,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206109": {
+            "id": 6272206109,
+            "name": "Over ",
+            "price": 2.23
+          },
+          "6272206108": {
+            "id": 6272206108,
+            "name": "Under ",
+            "price": 1.58
+          }
+        }
+      },
+      "2104093735": {
+        "id": 2104093735,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206119": {
+            "id": 6272206119,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6272206118": {
+            "id": 6272206118,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2104093740": {
+        "id": 2104093740,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206129": {
+            "id": 6272206129,
+            "name": "Over ",
+            "price": 2.62
+          },
+          "6272206128": {
+            "id": 6272206128,
+            "name": "Under ",
+            "price": 1.43
+          }
+        }
+      },
+      "2104864549": {
+        "id": 2104864549,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369601": {
+            "id": 6274369601,
+            "name": "Under ",
+            "price": 1.83
+          },
+          "6274369602": {
+            "id": 6274369602,
+            "name": "Over ",
+            "price": 1.87
+          }
+        }
+      },
+      "2104864553": {
+        "id": 2104864553,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369611": {
+            "id": 6274369611,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6274369610": {
+            "id": 6274369610,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2105201574": {
+        "id": 2105201574,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6275319905": {
+            "id": 6275319905,
+            "name": "Buffalo Bandits ",
+            "price": 2.62
+          },
+          "6275319904": {
+            "id": 6275319904,
+            "name": "Calgary Roughnecks ",
+            "price": 1.43
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -95,19 +1887,566 @@
     "team1_name": "Georgia Swarm",
     "team2_name": "Colorado Mammoth",
     "start_ts": 1766887200,
-    "markets_count": 31,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104093716": {
+        "id": 2104093716,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206077": {
+            "id": 6272206077,
+            "name": "Colorado Mammoth ",
+            "price": 2.1
+          },
+          "6272206078": {
+            "id": 6272206078,
+            "name": "Georgia Swarm ",
+            "price": 1.65
+          }
+        }
+      },
+      "2104093721": {
+        "id": 2104093721,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206091": {
+            "id": 6272206091,
+            "name": "Georgia Swarm ",
+            "price": 2.37
+          },
+          "6272206090": {
+            "id": 6272206090,
+            "name": "Colorado Mammoth ",
+            "price": 1.52
+          }
+        }
+      },
+      "2104093726": {
+        "id": 2104093726,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206101": {
+            "id": 6272206101,
+            "name": "Over ",
+            "price": 2.5
+          },
+          "6272206100": {
+            "id": 6272206100,
+            "name": "Under ",
+            "price": 1.47
+          }
+        }
+      },
+      "2104093731": {
+        "id": 2104093731,
+        "name": "Match Winner",
+        "type": "MatchResult",
+        "display_key": "WINNER",
+        "event": {
+          "6272206111": {
+            "id": 6272206111,
+            "name": "W1",
+            "price": 1.93
+          },
+          "6272206110": {
+            "id": 6272206110,
+            "name": "W2",
+            "price": 1.77
+          }
+        }
+      },
+      "2104093736": {
+        "id": 2104093736,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206121": {
+            "id": 6272206121,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6272206120": {
+            "id": 6272206120,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2104093741": {
+        "id": 2104093741,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6272206131": {
+            "id": 6272206131,
+            "name": "Over ",
+            "price": 2.02
+          },
+          "6272206130": {
+            "id": 6272206130,
+            "name": "Under ",
+            "price": 1.7
+          }
+        }
+      },
+      "2104093742": {
+        "id": 2104093742,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6272206133": {
+            "id": 6272206133,
+            "name": "Georgia Swarm ",
+            "price": 2.7
+          },
+          "6272206132": {
+            "id": 6272206132,
+            "name": "Colorado Mammoth ",
+            "price": 1.4
+          }
+        }
+      },
+      "2104864547": {
+        "id": 2104864547,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369599": {
+            "id": 6274369599,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6274369598": {
+            "id": 6274369598,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104864551": {
+        "id": 2104864551,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6274369607": {
+            "id": 6274369607,
+            "name": "Over ",
+            "price": 1.72
+          },
+          "6274369606": {
+            "id": 6274369606,
+            "name": "Under ",
+            "price": 2
+          }
+        }
+      },
+      "2106543401": {
+        "id": 2106543401,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101521": {
+            "id": 6279101521,
+            "name": "Under ",
+            "price": 1.45
+          },
+          "6279101522": {
+            "id": 6279101522,
+            "name": "Over ",
+            "price": 2.55
+          }
+        }
+      },
+      "2106543403": {
+        "id": 2106543403,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101525": {
+            "id": 6279101525,
+            "name": "Under ",
+            "price": 4.05
+          },
+          "6279101526": {
+            "id": 6279101526,
+            "name": "Over ",
+            "price": 1.2
+          }
+        }
+      },
+      "2106543406": {
+        "id": 2106543406,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101531": {
+            "id": 6279101531,
+            "name": "Colorado Mammoth ",
+            "price": 1.3
+          },
+          "6279101532": {
+            "id": 6279101532,
+            "name": "Georgia Swarm ",
+            "price": 3.2
+          }
+        }
+      },
+      "2106543409": {
+        "id": 2106543409,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101537": {
+            "id": 6279101537,
+            "name": "Under ",
+            "price": 1.25
+          },
+          "6279101538": {
+            "id": 6279101538,
+            "name": "Over ",
+            "price": 3.57
+          }
+        }
+      },
+      "2106543412": {
+        "id": 2106543412,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101543": {
+            "id": 6279101543,
+            "name": "Under ",
+            "price": 1.3
+          },
+          "6279101545": {
+            "id": 6279101545,
+            "name": "Over ",
+            "price": 3.2
+          }
+        }
+      },
+      "2106543415": {
+        "id": 2106543415,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101549": {
+            "id": 6279101549,
+            "name": "Under ",
+            "price": 1.19
+          },
+          "6279101550": {
+            "id": 6279101550,
+            "name": "Over ",
+            "price": 4.15
+          }
+        }
+      },
+      "2106543418": {
+        "id": 2106543418,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101555": {
+            "id": 6279101555,
+            "name": "Colorado Mammoth ",
+            "price": 2.4
+          },
+          "6279101557": {
+            "id": 6279101557,
+            "name": "Georgia Swarm ",
+            "price": 1.5
+          }
+        }
+      },
+      "2106543422": {
+        "id": 2106543422,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101562": {
+            "id": 6279101562,
+            "name": "Under ",
+            "price": 2.37
+          },
+          "6279101564": {
+            "id": 6279101564,
+            "name": "Over ",
+            "price": 1.52
+          }
+        }
+      },
+      "2106543425": {
+        "id": 2106543425,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101569": {
+            "id": 6279101569,
+            "name": "Under ",
+            "price": 1.33
+          },
+          "6279101570": {
+            "id": 6279101570,
+            "name": "Over ",
+            "price": 3.05
+          }
+        }
+      },
+      "2106543428": {
+        "id": 2106543428,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101575": {
+            "id": 6279101575,
+            "name": "Colorado Mammoth ",
+            "price": 1.23
+          },
+          "6279101576": {
+            "id": 6279101576,
+            "name": "Georgia Swarm ",
+            "price": 3.75
+          }
+        }
+      },
+      "2106543431": {
+        "id": 2106543431,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101581": {
+            "id": 6279101581,
+            "name": "Under ",
+            "price": 3.75
+          },
+          "6279101582": {
+            "id": 6279101582,
+            "name": "Over ",
+            "price": 1.23
+          }
+        }
+      },
+      "2106543434": {
+        "id": 2106543434,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101587": {
+            "id": 6279101587,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6279101588": {
+            "id": 6279101588,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106543437": {
+        "id": 2106543437,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101593": {
+            "id": 6279101593,
+            "name": "Under ",
+            "price": 1.22
+          },
+          "6279101594": {
+            "id": 6279101594,
+            "name": "Over ",
+            "price": 3.83
+          }
+        }
+      },
+      "2106543440": {
+        "id": 2106543440,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101599": {
+            "id": 6279101599,
+            "name": "Under ",
+            "price": 1.57
+          },
+          "6279101600": {
+            "id": 6279101600,
+            "name": "Over ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106543443": {
+        "id": 2106543443,
+        "name": "Total Goals",
+        "type": "MatchTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101605": {
+            "id": 6279101605,
+            "name": "Under ",
+            "price": 2.8
+          },
+          "6279101606": {
+            "id": 6279101606,
+            "name": "Over ",
+            "price": 1.38
+          }
+        }
+      },
+      "2106543446": {
+        "id": 2106543446,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101611": {
+            "id": 6279101611,
+            "name": "Colorado Mammoth ",
+            "price": 2.8
+          },
+          "6279101612": {
+            "id": 6279101612,
+            "name": "Georgia Swarm ",
+            "price": 1.38
+          }
+        }
+      },
+      "2106543449": {
+        "id": 2106543449,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279101617": {
+            "id": 6279101617,
+            "name": "Colorado Mammoth ",
+            "price": 3.2
+          },
+          "6279101618": {
+            "id": 6279101618,
+            "name": "Georgia Swarm ",
+            "price": 1.3
+          }
+        }
+      },
+      "2106543452": {
+        "id": 2106543452,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101623": {
+            "id": 6279101623,
+            "name": "Under ",
+            "price": 2.45
+          },
+          "6279101624": {
+            "id": 6279101624,
+            "name": "Over ",
+            "price": 1.48
+          }
+        }
+      },
+      "2106543455": {
+        "id": 2106543455,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101629": {
+            "id": 6279101629,
+            "name": "Under ",
+            "price": 2.95
+          },
+          "6279101630": {
+            "id": 6279101630,
+            "name": "Over ",
+            "price": 1.35
+          }
+        }
+      },
+      "2106543458": {
+        "id": 2106543458,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101635": {
+            "id": 6279101635,
+            "name": "Under ",
+            "price": 3.2
+          },
+          "6279101636": {
+            "id": 6279101636,
+            "name": "Over ",
+            "price": 1.3
+          }
+        }
+      },
+      "2106543461": {
+        "id": 2106543461,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101641": {
+            "id": 6279101641,
+            "name": "Under ",
+            "price": 1.67
+          },
+          "6279101642": {
+            "id": 6279101642,
+            "name": "Over ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106543464": {
+        "id": 2106543464,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total Goals",
+        "display_key": "TOTALS",
+        "event": {
+          "6279101647": {
+            "id": 6279101647,
+            "name": "Under ",
+            "price": 1.37
+          },
+          "6279101648": {
+            "id": 6279101648,
+            "name": "Over ",
+            "price": 2.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -116,19 +2455,36 @@
     "id": 28218068,
     "team1_name": "PLL Championship Series 2026",
     "start_ts": 1771174800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2029085416": {
+        "id": 2029085416,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6054629779": {
+            "id": 6054629779,
+            "name": "Denver Outlaws",
+            "price": 3.5
+          },
+          "6054629778": {
+            "id": 6054629778,
+            "name": "New York Atlas",
+            "price": 3.3
+          },
+          "6054629781": {
+            "id": 6054629781,
+            "name": "Carolina Chaos",
+            "price": 4
+          },
+          "6054629780": {
+            "id": 6054629780,
+            "name": "California Redwoods",
+            "price": 3.75
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Lacrosse",
@@ -137,18 +2493,85 @@
     "id": 28095613,
     "team1_name": "National Lacrosse League 2025/2026",
     "start_ts": 1766876400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "15:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2011111669": {
+        "id": 2011111669,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6001840025": {
+            "id": 6001840025,
+            "name": "Saskatchewan Rush",
+            "price": 8
+          },
+          "6001840024": {
+            "id": 6001840024,
+            "name": "Buffalo Bandits",
+            "price": 4.5
+          },
+          "6001840027": {
+            "id": 6001840027,
+            "name": "Halifax Thunderbirds",
+            "price": 9.5
+          },
+          "6001840026": {
+            "id": 6001840026,
+            "name": "Rochester Knighthawks",
+            "price": 9
+          },
+          "6001840029": {
+            "id": 6001840029,
+            "name": "Toronto Rock",
+            "price": 10
+          },
+          "6001840028": {
+            "id": 6001840028,
+            "name": "Vancouver Warriors",
+            "price": 10
+          },
+          "6001840031": {
+            "id": 6001840031,
+            "name": "Georgia Swarm",
+            "price": 12
+          },
+          "6001840030": {
+            "id": 6001840030,
+            "name": "San Diego Seals",
+            "price": 10
+          },
+          "6001840033": {
+            "id": 6001840033,
+            "name": "Oshawa Firewolves",
+            "price": 17
+          },
+          "6001840032": {
+            "id": 6001840032,
+            "name": "Calgary Roughnecks",
+            "price": 15
+          },
+          "6001840035": {
+            "id": 6001840035,
+            "name": "Colorado Mammoth",
+            "price": 21
+          },
+          "6001840034": {
+            "id": 6001840034,
+            "name": "Ottawa Black Bears",
+            "price": 17
+          },
+          "6001840037": {
+            "id": 6001840037,
+            "name": "Las Vegas Desert Dogs",
+            "price": 41
+          },
+          "6001840036": {
+            "id": 6001840036,
+            "name": "Philadelphia Wings",
+            "price": 26
+          }
+        }
+      }
+    }
   }
 ]

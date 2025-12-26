@@ -7,19 +7,31 @@
     "team1_name": "Etoile Lavalloise Mayenne FC",
     "team2_name": "FC Semey",
     "start_ts": 1771862400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105007837": {
+        "id": 2105007837,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6274769555": {
+            "id": 6274769555,
+            "name": "W2",
+            "price": 1.72
+          },
+          "6274769557": {
+            "id": 6274769557,
+            "name": "Draw",
+            "price": 5.1
+          },
+          "6274769559": {
+            "id": 6274769559,
+            "name": "W1",
+            "price": 3.2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -29,19 +41,116 @@
     "team1_name": "Kairat Almaty",
     "team2_name": "Cartagena FS",
     "start_ts": 1771862400,
-    "markets_count": 6,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105007839": {
+        "id": 2105007839,
+        "name": "Team 1 To Score in Both Halves",
+        "type": "Team1ToScoreinBothHalves",
+        "event": {
+          "6274769565": {
+            "id": 6274769565,
+            "name": "Yes",
+            "price": 1.61
+          },
+          "6274769564": {
+            "id": 6274769564,
+            "name": "No",
+            "price": 2.17
+          }
+        }
+      },
+      "2105007840": {
+        "id": 2105007840,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6274769567": {
+            "id": 6274769567,
+            "name": "Draw",
+            "price": 4.3
+          },
+          "6274769566": {
+            "id": 6274769566,
+            "name": "W2",
+            "price": 2.64
+          },
+          "6274769568": {
+            "id": 6274769568,
+            "name": "W1",
+            "price": 2.09
+          }
+        }
+      },
+      "2105007841": {
+        "id": 2105007841,
+        "name": "Own goal",
+        "type": "Owngoal",
+        "event": {
+          "6274769569": {
+            "id": 6274769569,
+            "name": "No",
+            "price": 1.08
+          },
+          "6274769570": {
+            "id": 6274769570,
+            "name": "Yes",
+            "price": 6.5
+          }
+        }
+      },
+      "2105007842": {
+        "id": 2105007842,
+        "name": "1st Half Red Card",
+        "type": "HalfRedCard",
+        "event": {
+          "6274769571": {
+            "id": 6274769571,
+            "name": "No",
+            "price": 1.02
+          },
+          "6274769572": {
+            "id": 6274769572,
+            "name": "Yes",
+            "price": 10
+          }
+        }
+      },
+      "2105007843": {
+        "id": 2105007843,
+        "name": "Team 2 To Score in Both Halves",
+        "type": "Team2ToScoreinBothHalves",
+        "event": {
+          "6274769573": {
+            "id": 6274769573,
+            "name": "No",
+            "price": 1.9
+          },
+          "6274769574": {
+            "id": 6274769574,
+            "name": "Yes",
+            "price": 1.8
+          }
+        }
+      },
+      "2105007844": {
+        "id": 2105007844,
+        "name": "Red Card",
+        "type": "RedCard",
+        "event": {
+          "6274769575": {
+            "id": 6274769575,
+            "name": "No",
+            "price": 1.13
+          },
+          "6274769576": {
+            "id": 6274769576,
+            "name": "Yes",
+            "price": 5.1
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -51,19 +160,31 @@
     "team1_name": "SL Benfica",
     "team2_name": "Sporting CP",
     "start_ts": 1771862400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105007838": {
+        "id": 2105007838,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6274769561": {
+            "id": 6274769561,
+            "name": "W2",
+            "price": 2.29
+          },
+          "6274769563": {
+            "id": 6274769563,
+            "name": "W1",
+            "price": 2.41
+          },
+          "6274769562": {
+            "id": 6274769562,
+            "name": "Draw",
+            "price": 4.2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -73,19 +194,31 @@
     "team1_name": "AE Palma Futsal",
     "team2_name": "FC Riga",
     "start_ts": 1771862400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105007836": {
+        "id": 2105007836,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6274769556": {
+            "id": 6274769556,
+            "name": "W2",
+            "price": 12
+          },
+          "6274769558": {
+            "id": 6274769558,
+            "name": "Draw",
+            "price": 9.6
+          },
+          "6274769560": {
+            "id": 6274769560,
+            "name": "W1",
+            "price": 1.11
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -95,19 +228,65 @@
     "team1_name": "Caspian Aktau",
     "team2_name": "Kairat Almaty",
     "start_ts": 1767715200,
-    "markets_count": 3,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2100290404": {
+        "id": 2100290404,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6261329395": {
+            "id": 6261329395,
+            "name": "W2",
+            "price": 1.09
+          },
+          "6261329397": {
+            "id": 6261329397,
+            "name": "W1",
+            "price": 12
+          },
+          "6261329396": {
+            "id": 6261329396,
+            "name": "Draw",
+            "price": 11
+          }
+        }
+      },
+      "2100290405": {
+        "id": 2100290405,
+        "name": "Team 2 To Score in Both Halves",
+        "type": "Team2ToScoreinBothHalves",
+        "event": {
+          "6261329399": {
+            "id": 6261329399,
+            "name": "Yes",
+            "price": 1.13
+          },
+          "6261329398": {
+            "id": 6261329398,
+            "name": "No",
+            "price": 5.1
+          }
+        }
+      },
+      "2100290406": {
+        "id": 2100290406,
+        "name": "Team 1 To Score in Both Halves",
+        "type": "Team1ToScoreinBothHalves",
+        "event": {
+          "6261329401": {
+            "id": 6261329401,
+            "name": "Yes",
+            "price": 2.35
+          },
+          "6261329400": {
+            "id": 6261329400,
+            "name": "No",
+            "price": 1.53
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -117,19 +296,31 @@
     "team1_name": "Bayterek",
     "team2_name": "FK Aktobe",
     "start_ts": 1767711600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105807660": {
+        "id": 2105807660,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6277024211": {
+            "id": 6277024211,
+            "name": "W2",
+            "price": 1.36
+          },
+          "6277024213": {
+            "id": 6277024213,
+            "name": "W1",
+            "price": 5.1
+          },
+          "6277024212": {
+            "id": 6277024212,
+            "name": "Draw",
+            "price": 6.4
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -139,19 +330,31 @@
     "team1_name": "MFC Tulpar",
     "team2_name": "Karaganda",
     "start_ts": 1767711600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105807659": {
+        "id": 2105807659,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6277024209": {
+            "id": 6277024209,
+            "name": "Draw",
+            "price": 4.9
+          },
+          "6277024208": {
+            "id": 6277024208,
+            "name": "W2",
+            "price": 1.8
+          },
+          "6277024210": {
+            "id": 6277024210,
+            "name": "W1",
+            "price": 3.04
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -161,19 +364,31 @@
     "team1_name": "Zhetysu",
     "team2_name": "MFC Ayat Rudny",
     "start_ts": 1767711600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105809985": {
+        "id": 2105809985,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6277030849": {
+            "id": 6277030849,
+            "name": "Draw",
+            "price": 8.8
+          },
+          "6277030848": {
+            "id": 6277030848,
+            "name": "W2",
+            "price": 1.14
+          },
+          "6277030850": {
+            "id": 6277030850,
+            "name": "W1",
+            "price": 9.8
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Futsal",
@@ -183,18 +398,30 @@
     "team1_name": "Astana",
     "team2_name": "FC Semey",
     "start_ts": 1767711600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105809988": {
+        "id": 2105809988,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6277030855": {
+            "id": 6277030855,
+            "name": "W2",
+            "price": 1.13
+          },
+          "6277030857": {
+            "id": 6277030857,
+            "name": "W1",
+            "price": 10
+          },
+          "6277030856": {
+            "id": 6277030856,
+            "name": "Draw",
+            "price": 9.1
+          }
+        }
+      }
+    }
   }
 ]

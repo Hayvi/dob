@@ -6,11 +6,588 @@
     "id": 28668194,
     "team1_name": "The 83rd Annual Golden Globe Awards 2026",
     "start_ts": 1768089600,
-    "markets_count": 15,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098251675": {
+        "id": 2098251675,
+        "name": "Best Animated Motion Picture",
+        "type": "BestAnimatedMotionPicture",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255465241": {
+            "id": 6255465241,
+            "name": "Little Amelie or The Character of Rain",
+            "price": 7
+          },
+          "6255465240": {
+            "id": 6255465240,
+            "name": "KPop Demon Hunters",
+            "price": 1.28
+          },
+          "6255465243": {
+            "id": 6255465243,
+            "name": "Zootopia 2",
+            "price": 12
+          },
+          "6255465242": {
+            "id": 6255465242,
+            "name": "Arco",
+            "price": 8
+          },
+          "6255465245": {
+            "id": 6255465245,
+            "name": "Demon Slayer: Kimetsu No Yaiba Infinity Castle",
+            "price": 26
+          },
+          "6255465244": {
+            "id": 6255465244,
+            "name": "Elio",
+            "price": 26
+          }
+        }
+      },
+      "2098251676": {
+        "id": 2098251676,
+        "name": "Best Supporting Actress",
+        "type": "BestSupportingActress",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255463573": {
+            "id": 6255463573,
+            "name": "Teyana Taylor (One Battle After Another)",
+            "price": 2.1
+          },
+          "6255463575": {
+            "id": 6255463575,
+            "name": "Ariana Grande (Wicked: For Good)",
+            "price": 6
+          },
+          "6255463574": {
+            "id": 6255463574,
+            "name": "Amy Madigan (Weapons)",
+            "price": 3.25
+          },
+          "6255463577": {
+            "id": 6255463577,
+            "name": "Elle Fanning (Sentimental Value)",
+            "price": 21
+          },
+          "6255463576": {
+            "id": 6255463576,
+            "name": "Inga Ibsdotter Lilleaas (Sentimental Value)",
+            "price": 6
+          },
+          "6255463578": {
+            "id": 6255463578,
+            "name": "Emily Blunt (The Smashing Machine)",
+            "price": 34
+          }
+        }
+      },
+      "2098251677": {
+        "id": 2098251677,
+        "name": "Best Supporting Actor",
+        "type": "BestSupportingActor",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255461301": {
+            "id": 6255461301,
+            "name": "Benicio Del Toro (One Battle After Another)",
+            "price": 2.75
+          },
+          "6255461300": {
+            "id": 6255461300,
+            "name": "Stellan Skarsgard (Sentimental Value)",
+            "price": 2.2
+          },
+          "6255461303": {
+            "id": 6255461303,
+            "name": "Paul Mescal (Hamnet)",
+            "price": 13
+          },
+          "6255461302": {
+            "id": 6255461302,
+            "name": "Sean Penn (One Battle After Another)",
+            "price": 4
+          },
+          "6255461305": {
+            "id": 6255461305,
+            "name": "Adam Sandler (Jay Kelly)",
+            "price": 34
+          },
+          "6255461304": {
+            "id": 6255461304,
+            "name": "Jacob Elordi (Frankenstein)",
+            "price": 29
+          }
+        }
+      },
+      "2098251678": {
+        "id": 2098251678,
+        "name": "Best Original Score",
+        "type": "BestOriginalScore",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255473267": {
+            "id": 6255473267,
+            "name": "One Battle After Another",
+            "price": 5
+          },
+          "6255473266": {
+            "id": 6255473266,
+            "name": "Sinners",
+            "price": 1.4
+          },
+          "6255473269": {
+            "id": 6255473269,
+            "name": "Hamnet",
+            "price": 21
+          },
+          "6255473268": {
+            "id": 6255473268,
+            "name": "Sirat",
+            "price": 5.5
+          },
+          "6255473271": {
+            "id": 6255473271,
+            "name": "Frankenstein",
+            "price": 29
+          },
+          "6255473270": {
+            "id": 6255473270,
+            "name": "F1: The Movie",
+            "price": 29
+          }
+        }
+      },
+      "2098251679": {
+        "id": 2098251679,
+        "name": "Cinematic and Box Office Achievement",
+        "type": "CinematicandBoxOfficeAchievement",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255469777": {
+            "id": 6255469777,
+            "name": "Sinners",
+            "price": 1.3
+          },
+          "6255469779": {
+            "id": 6255469779,
+            "name": "KPop Demon Hunters",
+            "price": 8.5
+          },
+          "6255469778": {
+            "id": 6255469778,
+            "name": "Avatar: Fire and Ash",
+            "price": 5
+          },
+          "6255469781": {
+            "id": 6255469781,
+            "name": "Zootopia 2",
+            "price": 26
+          },
+          "6255469780": {
+            "id": 6255469780,
+            "name": "Wicked: For Good",
+            "price": 17
+          },
+          "6255469783": {
+            "id": 6255469783,
+            "name": "F1: The Movie",
+            "price": 67
+          },
+          "6255469782": {
+            "id": 6255469782,
+            "name": "Weapons",
+            "price": 34
+          },
+          "6255469784": {
+            "id": 6255469784,
+            "name": "Mission: Impossible - The Final Reckoning",
+            "price": 101
+          }
+        }
+      },
+      "2098251680": {
+        "id": 2098251680,
+        "name": "Best  Screenplay",
+        "type": "BestScreenplay",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255467183": {
+            "id": 6255467183,
+            "name": "It Was Just an Accident",
+            "price": 2.75
+          },
+          "6255467182": {
+            "id": 6255467182,
+            "name": "One Battle After Another",
+            "price": 2.1
+          },
+          "6255467185": {
+            "id": 6255467185,
+            "name": "Sentimental Value",
+            "price": 8
+          },
+          "6255467184": {
+            "id": 6255467184,
+            "name": "Sinners",
+            "price": 6.5
+          },
+          "6255467187": {
+            "id": 6255467187,
+            "name": "Marty Supreme",
+            "price": 17
+          },
+          "6255467186": {
+            "id": 6255467186,
+            "name": "Hamnet",
+            "price": 29
+          }
+        }
+      },
+      "2098251681": {
+        "id": 2098251681,
+        "name": "Best Original Song",
+        "type": "BestOriginalSong",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255474513": {
+            "id": 6255474513,
+            "name": "Golden (KPop Demon Hunters)",
+            "price": 1.36
+          },
+          "6255474515": {
+            "id": 6255474515,
+            "name": "Dream As One (Avatar: Fire and Ash)",
+            "price": 10
+          },
+          "6255474514": {
+            "id": 6255474514,
+            "name": "I Lied To You (Sinners)",
+            "price": 5
+          },
+          "6255474517": {
+            "id": 6255474517,
+            "name": "The Girl in the Bubble (Wicked: For Good) ",
+            "price": 19
+          },
+          "6255474516": {
+            "id": 6255474516,
+            "name": "Train Dreams (Train Dreams)",
+            "price": 19
+          },
+          "6255474518": {
+            "id": 6255474518,
+            "name": "No Place Like Home (Wicked: For Good)",
+            "price": 19
+          }
+        }
+      },
+      "2098251682": {
+        "id": 2098251682,
+        "name": "Best Actor (Drama)",
+        "type": "BestActor(Drama)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255442115": {
+            "id": 6255442115,
+            "name": "Wagner Moura (The Secret Agent)",
+            "price": 1.33
+          },
+          "6255442117": {
+            "id": 6255442117,
+            "name": "Dwayne Johnson (The Smashing Machine)",
+            "price": 15
+          },
+          "6255442116": {
+            "id": 6255442116,
+            "name": "Michael B. Jordan (Sinners)",
+            "price": 4.33
+          },
+          "6255442119": {
+            "id": 6255442119,
+            "name": "Joel Edgerton (Train Dreams)",
+            "price": 21
+          },
+          "6255442118": {
+            "id": 6255442118,
+            "name": "Jeremy Allen White (Springsteen: Deliver Me From Nowhere)",
+            "price": 15
+          },
+          "6255442120": {
+            "id": 6255442120,
+            "name": "Oscar Isaac (Frankenstein)",
+            "price": 26
+          }
+        }
+      },
+      "2098251683": {
+        "id": 2098251683,
+        "name": "Best Picture (Musical or Comedy)",
+        "type": "BestPicture(MusicalorComedy)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255440565": {
+            "id": 6255440565,
+            "name": "One Battle After Another",
+            "price": 1.1
+          },
+          "6255440567": {
+            "id": 6255440567,
+            "name": "Bugonia",
+            "price": 15
+          },
+          "6255440566": {
+            "id": 6255440566,
+            "name": "Marty Supreme",
+            "price": 7
+          },
+          "6255440569": {
+            "id": 6255440569,
+            "name": "Nouvelle Vague",
+            "price": 51
+          },
+          "6255440568": {
+            "id": 6255440568,
+            "name": "No Other Choice",
+            "price": 21
+          },
+          "6255440570": {
+            "id": 6255440570,
+            "name": "Blue Moon",
+            "price": 51
+          }
+        }
+      },
+      "2098251684": {
+        "id": 2098251684,
+        "name": "Best Picture (Drama)",
+        "type": "BestPicture(Drama)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255438999": {
+            "id": 6255438999,
+            "name": "Hamnet",
+            "price": 1.72
+          },
+          "6255439001": {
+            "id": 6255439001,
+            "name": "It Was Just an Accident",
+            "price": 6.5
+          },
+          "6255439000": {
+            "id": 6255439000,
+            "name": "Sinners",
+            "price": 3
+          },
+          "6255439003": {
+            "id": 6255439003,
+            "name": "Frankenstein",
+            "price": 34
+          },
+          "6255439002": {
+            "id": 6255439002,
+            "name": "Sentimental Value",
+            "price": 11
+          },
+          "6255439004": {
+            "id": 6255439004,
+            "name": "The Secret Agent",
+            "price": 51
+          }
+        }
+      },
+      "2098251685": {
+        "id": 2098251685,
+        "name": "Best Actor (Musical or Comedy)",
+        "type": "BestActor(MusicalorComedy)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255443598": {
+            "id": 6255443598,
+            "name": "Timothee Chalamet (Marty Supreme)",
+            "price": 1.57
+          },
+          "6255443603": {
+            "id": 6255443603,
+            "name": "Ethan Hawke (Blue Moon)",
+            "price": 7
+          },
+          "6255443602": {
+            "id": 6255443602,
+            "name": "Leonardo DiCaprio (One Battle After Another)",
+            "price": 3.25
+          },
+          "6255443605": {
+            "id": 6255443605,
+            "name": "George Clooney (Jay Kelly)",
+            "price": 41
+          },
+          "6255443604": {
+            "id": 6255443604,
+            "name": "Lee Byung-hun (No Other Choice)",
+            "price": 19
+          },
+          "6255443606": {
+            "id": 6255443606,
+            "name": "Jesse Plemons (Bugonia)",
+            "price": 41
+          }
+        }
+      },
+      "2098251686": {
+        "id": 2098251686,
+        "name": "Best Director",
+        "type": "BestDirector",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255451233": {
+            "id": 6255451233,
+            "name": "Jafar Panahi (It Was Just an Accident)",
+            "price": 6
+          },
+          "6255451232": {
+            "id": 6255451232,
+            "name": "Paul Thomas Anderson (One Battle After Another)",
+            "price": 1.25
+          },
+          "6255451235": {
+            "id": 6255451235,
+            "name": "Ryan Coogler (Sinners)",
+            "price": 23
+          },
+          "6255451234": {
+            "id": 6255451234,
+            "name": "Chloe Zhao (Hamnet)",
+            "price": 7.5
+          },
+          "6255451237": {
+            "id": 6255451237,
+            "name": "Guillermo del Toro (Frankenstein)",
+            "price": 51
+          },
+          "6255451236": {
+            "id": 6255451236,
+            "name": "Joachim Trier (Sentimental Value)",
+            "price": 23
+          }
+        }
+      },
+      "2098251687": {
+        "id": 2098251687,
+        "name": "Best Actress (Musical or Comedy)",
+        "type": "BestActress(MusicalorComedy)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255447755": {
+            "id": 6255447755,
+            "name": "Emma Stone (Bugonia)",
+            "price": 3.5
+          },
+          "6255447754": {
+            "id": 6255447754,
+            "name": "Rose Byrne (If I had Legs I'd Kick You)",
+            "price": 1.53
+          },
+          "6255447757": {
+            "id": 6255447757,
+            "name": "Chase Infiniti (One Battle After Another)",
+            "price": 9
+          },
+          "6255447759": {
+            "id": 6255447759,
+            "name": "Cynthia Erivo (Wicked: For Good)",
+            "price": 17
+          },
+          "6255447761": {
+            "id": 6255447761,
+            "name": "Kate Hudson (Song Sung Blue)",
+            "price": 21
+          },
+          "6255447760": {
+            "id": 6255447760,
+            "name": "Amanda Seyfried (The Testament of Ann Lee)",
+            "price": 17
+          }
+        }
+      },
+      "2098251688": {
+        "id": 2098251688,
+        "name": "Best Actress (Drama)",
+        "type": "BestActress(Drama)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255445445": {
+            "id": 6255445445,
+            "name": "Renate Reinsve (Sentimental Value)",
+            "price": 7
+          },
+          "6255445444": {
+            "id": 6255445444,
+            "name": "Jessie Buckley (Hamnet)",
+            "price": 1.12
+          },
+          "6255445447": {
+            "id": 6255445447,
+            "name": "Julia Roberts (After the Hunt)",
+            "price": 21
+          },
+          "6255445446": {
+            "id": 6255445446,
+            "name": "Jennifer Lawrence (Die My Love)",
+            "price": 13
+          },
+          "6255445449": {
+            "id": 6255445449,
+            "name": "Eva Victor (Sorry, Baby)",
+            "price": 51
+          },
+          "6255445448": {
+            "id": 6255445448,
+            "name": "Tessa Thompson (Hedda)",
+            "price": 41
+          }
+        }
+      },
+      "2098252925": {
+        "id": 2098252925,
+        "name": "Best Motion Picture - Foreign",
+        "type": "BestMotionPicture-Foreign",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255478673": {
+            "id": 6255478673,
+            "name": "Sentimental Value",
+            "price": 2.5
+          },
+          "6255478672": {
+            "id": 6255478672,
+            "name": "It Was Just an Accident",
+            "price": 1.44
+          },
+          "6255478675": {
+            "id": 6255478675,
+            "name": "The Voice of Hind Rajab",
+            "price": 21
+          },
+          "6255478674": {
+            "id": 6255478674,
+            "name": "The Secret Agent",
+            "price": 10
+          },
+          "6255478677": {
+            "id": 6255478677,
+            "name": "Sirat",
+            "price": 34
+          },
+          "6255478676": {
+            "id": 6255478676,
+            "name": "No Other Choice",
+            "price": 26
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Special Bets",
@@ -19,10 +596,190 @@
     "id": 28717929,
     "team1_name": "Triple J Hottest 100",
     "start_ts": 1769212800,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106421474": {
+        "id": 2106421474,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6278768919": {
+            "id": 6278768919,
+            "name": "Man I Need - Olivia Dean",
+            "price": 1.4
+          },
+          "6278768921": {
+            "id": 6278768921,
+            "name": "Keith - Playlunch",
+            "price": 9
+          },
+          "6278768920": {
+            "id": 6278768920,
+            "name": "iPod Touch - Ninajirachi",
+            "price": 5.5
+          },
+          "6278768923": {
+            "id": 6278768923,
+            "name": "Dracula - Tame Impala",
+            "price": 16
+          },
+          "6278768922": {
+            "id": 6278768922,
+            "name": "Dancing2 - Keli Holiday",
+            "price": 13
+          },
+          "6278768925": {
+            "id": 6278768925,
+            "name": "Dreamin (feat. Daya) - Dom Dolla",
+            "price": 26
+          },
+          "6278768924": {
+            "id": 6278768924,
+            "name": "Whateverrrr - Spacey Jane",
+            "price": 23
+          },
+          "6278768927": {
+            "id": 6278768927,
+            "name": "back to friends - sombr",
+            "price": 34
+          },
+          "6278768926": {
+            "id": 6278768926,
+            "name": "12 to 12 - sombr",
+            "price": 26
+          },
+          "6278768929": {
+            "id": 6278768929,
+            "name": "Victory Lap - Fred again.., Skepta & PlaqueBoyMax",
+            "price": 34
+          },
+          "6278768928": {
+            "id": 6278768928,
+            "name": "WHERE IS MY HUSBAND! - RAYE",
+            "price": 34
+          },
+          "6278768931": {
+            "id": 6278768931,
+            "name": "No Broke Boys - Disco Lines & Tinashe",
+            "price": 51
+          },
+          "6278768930": {
+            "id": 6278768930,
+            "name": "Illegal - PinkPantheress",
+            "price": 51
+          },
+          "6278768933": {
+            "id": 6278768933,
+            "name": "Sally, When The Wine Runs Out - ROLE MODEL",
+            "price": 67
+          },
+          "6278768932": {
+            "id": 6278768932,
+            "name": "Fame is Gun - Addison Rae",
+            "price": 67
+          },
+          "6278768935": {
+            "id": 6278768935,
+            "name": "What Was That - Lorde",
+            "price": 67
+          },
+          "6278768934": {
+            "id": 6278768934,
+            "name": "The Subway - Chappel Roan",
+            "price": 67
+          },
+          "6278768937": {
+            "id": 6278768937,
+            "name": "Anxiety - Doechii",
+            "price": 81
+          },
+          "6278768936": {
+            "id": 6278768936,
+            "name": "Nice To Each Other - Olivia Dean",
+            "price": 81
+          },
+          "6278768938": {
+            "id": 6278768938,
+            "name": "undressed - sombr",
+            "price": 81
+          },
+          "6278776155": {
+            "id": 6278776155,
+            "name": "Jealous Type - Doja Cat",
+            "price": 101
+          },
+          "6278776154": {
+            "id": 6278776154,
+            "name": "Please Don't Move To Melbourne - Ball Park Music",
+            "price": 81
+          },
+          "6278776157": {
+            "id": 6278776157,
+            "name": "car - Royel Otis",
+            "price": 101
+          },
+          "6278776156": {
+            "id": 6278776156,
+            "name": "Man Of The Year - Lorde",
+            "price": 101
+          },
+          "6278776160": {
+            "id": 6278776160,
+            "name": "we never dated - sombr",
+            "price": 101
+          },
+          "6278776169": {
+            "id": 6278776169,
+            "name": "Rein Me In [with Olivia Dean] - Sam Fender",
+            "price": 101
+          },
+          "6278776177": {
+            "id": 6278776177,
+            "name": "It's Amazing To Be Young - Fontaines D.C.",
+            "price": 101
+          },
+          "6278776188": {
+            "id": 6278776188,
+            "name": "Love Balloon - Ocean Alley",
+            "price": 126
+          },
+          "6278776200": {
+            "id": 6278776200,
+            "name": "Sports car - Tate McRae",
+            "price": 126
+          },
+          "6278776209": {
+            "id": 6278776209,
+            "name": "Basic Being Basic - Djo",
+            "price": 126
+          },
+          "6278776219": {
+            "id": 6278776219,
+            "name": "Ordinary - Alex Warren",
+            "price": 126
+          },
+          "6278776227": {
+            "id": 6278776227,
+            "name": "So Easy [To Fall In Love] - Olivia Dean",
+            "price": 126
+          },
+          "6278776238": {
+            "id": 6278776238,
+            "name": "Relationships - HAIM",
+            "price": 126
+          },
+          "6278776247": {
+            "id": 6278776247,
+            "name": "What Did I Miss? - Drake",
+            "price": 126
+          },
+          "6278776260": {
+            "id": 6278776260,
+            "name": "Berghain - ROSALIA, Bjork & Yves Tumor",
+            "price": 126
+          }
+        }
+      }
+    }
   }
 ]

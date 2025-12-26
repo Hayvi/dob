@@ -7,18 +7,26 @@
     "team1_name": "KingZone",
     "team2_name": "Four Angry Men",
     "start_ts": 1766824200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106870291": {
+        "id": 2106870291,
+        "name": "Match Winner",
+        "type": "MatchWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6280039882": {
+            "id": 6280039882,
+            "name": "W1",
+            "price": 1.83
+          },
+          "6280039881": {
+            "id": 6280039881,
+            "name": "W2",
+            "price": 1.87
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Rainbow Six",
@@ -28,17 +36,25 @@
     "team1_name": "All Gamers",
     "team2_name": "WolvesY",
     "start_ts": 1766813400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106870290": {
+        "id": 2106870290,
+        "name": "Match Winner",
+        "type": "MatchWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6280039883": {
+            "id": 6280039883,
+            "name": "W1",
+            "price": 1.045
+          },
+          "6280039880": {
+            "id": 6280039880,
+            "name": "W2",
+            "price": 8.2
+          }
+        }
+      }
+    }
   }
 ]

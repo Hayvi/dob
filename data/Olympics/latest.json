@@ -6,10 +6,115 @@
     "id": 27421508,
     "team1_name": "Winter Olympics 2026. Medal Specials",
     "start_ts": 1770451200,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1913815466": {
+        "id": 1913815466,
+        "name": "Most Gold Medals",
+        "type": "MostGoldMedals",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255381779": {
+            "id": 6255381779,
+            "name": "Ireland",
+            "price": 2501
+          },
+          "5719193531": {
+            "id": 5719193531,
+            "name": "Germany",
+            "price": 5.5
+          },
+          "5719193530": {
+            "id": 5719193530,
+            "name": "Norway",
+            "price": 1.65
+          },
+          "5719193533": {
+            "id": 5719193533,
+            "name": "Canada",
+            "price": 7
+          },
+          "5719193532": {
+            "id": 5719193532,
+            "name": "USA ",
+            "price": 6.5
+          },
+          "5719193535": {
+            "id": 5719193535,
+            "name": "Netherlands",
+            "price": 21
+          },
+          "5719193534": {
+            "id": 5719193534,
+            "name": "Italy",
+            "price": 13
+          },
+          "5719193537": {
+            "id": 5719193537,
+            "name": "Sweden",
+            "price": 51
+          },
+          "5719193536": {
+            "id": 5719193536,
+            "name": "Switzerland",
+            "price": 26
+          },
+          "5719193539": {
+            "id": 5719193539,
+            "name": "China",
+            "price": 101
+          },
+          "5719193538": {
+            "id": 5719193538,
+            "name": "France",
+            "price": 67
+          },
+          "5719193541": {
+            "id": 5719193541,
+            "name": "Austria",
+            "price": 251
+          },
+          "5719193540": {
+            "id": 5719193540,
+            "name": "Japan",
+            "price": 151
+          },
+          "5719193543": {
+            "id": 5719193543,
+            "name": "Great Britain",
+            "price": 751
+          },
+          "5719193542": {
+            "id": 5719193542,
+            "name": "South Korea",
+            "price": 501
+          },
+          "5719193545": {
+            "id": 5719193545,
+            "name": "Czechia",
+            "price": 2001
+          },
+          "5719193544": {
+            "id": 5719193544,
+            "name": "Slovenia",
+            "price": 1001
+          },
+          "5719193547": {
+            "id": 5719193547,
+            "name": "Australia",
+            "price": 2501
+          },
+          "5719193546": {
+            "id": 5719193546,
+            "name": "Finland",
+            "price": 2001
+          },
+          "5719193550": {
+            "id": 5719193550,
+            "name": "Poland",
+            "price": 2501
+          }
+        }
+      }
+    }
   }
 ]

@@ -7,18 +7,224 @@
     "team1_name": "John Higgins",
     "team2_name": "Barry Hawkins",
     "start_ts": 1768330800,
-    "markets_count": 12,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875311": {
+        "id": 2104875311,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401169": {
+            "id": 6274401169,
+            "name": "W2",
+            "price": 1.94
+          },
+          "6274401170": {
+            "id": 6274401170,
+            "name": "W1",
+            "price": 1.76
+          }
+        }
+      },
+      "2104875313": {
+        "id": 2104875313,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401173": {
+            "id": 6274401173,
+            "name": "Under ",
+            "price": 2.95
+          },
+          "6274401174": {
+            "id": 6274401174,
+            "name": "Over ",
+            "price": 1.35
+          }
+        }
+      },
+      "2104875315": {
+        "id": 2104875315,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401177": {
+            "id": 6274401177,
+            "name": "Barry Hawkins ",
+            "price": 2.87
+          },
+          "6274401178": {
+            "id": 6274401178,
+            "name": "John Higgins ",
+            "price": 1.36
+          }
+        }
+      },
+      "2104875318": {
+        "id": 2104875318,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401181": {
+            "id": 6274401181,
+            "name": "Barry Hawkins ",
+            "price": 1.71
+          },
+          "6274401182": {
+            "id": 6274401182,
+            "name": "John Higgins ",
+            "price": 2.01
+          }
+        }
+      },
+      "2104875320": {
+        "id": 2104875320,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401185": {
+            "id": 6274401185,
+            "name": "Barry Hawkins ",
+            "price": 1.17
+          },
+          "6274401186": {
+            "id": 6274401186,
+            "name": "John Higgins ",
+            "price": 4.42
+          }
+        }
+      },
+      "2104875323": {
+        "id": 2104875323,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401191": {
+            "id": 6274401191,
+            "name": "Barry Hawkins ",
+            "price": 1.38
+          },
+          "6274401192": {
+            "id": 6274401192,
+            "name": "John Higgins ",
+            "price": 2.8
+          }
+        }
+      },
+      "2104875328": {
+        "id": 2104875328,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401201": {
+            "id": 6274401201,
+            "name": "W2",
+            "price": 2.2
+          },
+          "6274401202": {
+            "id": 6274401202,
+            "name": "W1",
+            "price": 1.6
+          }
+        }
+      },
+      "2104875335": {
+        "id": 2104875335,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401215": {
+            "id": 6274401215,
+            "name": "Barry Hawkins ",
+            "price": 4.3
+          },
+          "6274401217": {
+            "id": 6274401217,
+            "name": "John Higgins ",
+            "price": 1.18
+          }
+        }
+      },
+      "2104875344": {
+        "id": 2104875344,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401233": {
+            "id": 6274401233,
+            "name": "Under ",
+            "price": 1.25
+          },
+          "6274401236": {
+            "id": 6274401236,
+            "name": "Over ",
+            "price": 3.57
+          }
+        }
+      },
+      "2104875352": {
+        "id": 2104875352,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401249": {
+            "id": 6274401249,
+            "name": "Under ",
+            "price": 6.15
+          },
+          "6274401250": {
+            "id": 6274401250,
+            "name": "Over ",
+            "price": 1.09
+          }
+        }
+      },
+      "2104875360": {
+        "id": 2104875360,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401264": {
+            "id": 6274401264,
+            "name": "Under ",
+            "price": 1.81
+          },
+          "6274401266": {
+            "id": 6274401266,
+            "name": "Over ",
+            "price": 1.89
+          }
+        }
+      },
+      "2104875368": {
+        "id": 2104875368,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401283": {
+            "id": 6274401283,
+            "name": "Over ",
+            "price": 1.55
+          },
+          "6274401281": {
+            "id": 6274401281,
+            "name": "Under ",
+            "price": 2.3
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -28,18 +234,224 @@
     "team1_name": "Zhao Xintong",
     "team2_name": "Gary Wilson",
     "start_ts": 1768244400,
-    "markets_count": 12,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875322": {
+        "id": 2104875322,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401189": {
+            "id": 6274401189,
+            "name": "Under ",
+            "price": 4.75
+          },
+          "6274401190": {
+            "id": 6274401190,
+            "name": "Over ",
+            "price": 1.15
+          }
+        }
+      },
+      "2104875325": {
+        "id": 2104875325,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401196": {
+            "id": 6274401196,
+            "name": "Gary Wilson ",
+            "price": 1.65
+          },
+          "6274401198": {
+            "id": 6274401198,
+            "name": "Zhao Xintong ",
+            "price": 2.1
+          }
+        }
+      },
+      "2104875331": {
+        "id": 2104875331,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401207": {
+            "id": 6274401207,
+            "name": "Under ",
+            "price": 1.19
+          },
+          "6274401208": {
+            "id": 6274401208,
+            "name": "Over ",
+            "price": 4.15
+          }
+        }
+      },
+      "2104875337": {
+        "id": 2104875337,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401219": {
+            "id": 6274401219,
+            "name": "Under ",
+            "price": 2.59
+          },
+          "6274401220": {
+            "id": 6274401220,
+            "name": "Over ",
+            "price": 1.44
+          }
+        }
+      },
+      "2104875343": {
+        "id": 2104875343,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401231": {
+            "id": 6274401231,
+            "name": "Under ",
+            "price": 1.65
+          },
+          "6274401232": {
+            "id": 6274401232,
+            "name": "Over ",
+            "price": 2.1
+          }
+        }
+      },
+      "2104875349": {
+        "id": 2104875349,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401242": {
+            "id": 6274401242,
+            "name": "Gary Wilson ",
+            "price": 4.15
+          },
+          "6274401244": {
+            "id": 6274401244,
+            "name": "Zhao Xintong ",
+            "price": 1.19
+          }
+        }
+      },
+      "2104875356": {
+        "id": 2104875356,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401257": {
+            "id": 6274401257,
+            "name": "W2",
+            "price": 3.05
+          },
+          "6274401258": {
+            "id": 6274401258,
+            "name": "W1",
+            "price": 1.33
+          }
+        }
+      },
+      "2104875363": {
+        "id": 2104875363,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401271": {
+            "id": 6274401271,
+            "name": "Gary Wilson ",
+            "price": 1.3
+          },
+          "6274401272": {
+            "id": 6274401272,
+            "name": "Zhao Xintong ",
+            "price": 3.2
+          }
+        }
+      },
+      "2104875372": {
+        "id": 2104875372,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401289": {
+            "id": 6274401289,
+            "name": "Gary Wilson ",
+            "price": 2.2
+          },
+          "6274401290": {
+            "id": 6274401290,
+            "name": "Zhao Xintong ",
+            "price": 1.6
+          }
+        }
+      },
+      "2104875379": {
+        "id": 2104875379,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401303": {
+            "id": 6274401303,
+            "name": "W2",
+            "price": 2.2
+          },
+          "6274401304": {
+            "id": 6274401304,
+            "name": "W1",
+            "price": 1.6
+          }
+        }
+      },
+      "2104875385": {
+        "id": 2104875385,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401316": {
+            "id": 6274401316,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401315": {
+            "id": 6274401315,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2104924602": {
+        "id": 2104924602,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274540889": {
+            "id": 6274540889,
+            "name": "Zhao Xintong ",
+            "price": 5.55
+          },
+          "6274540888": {
+            "id": 6274540888,
+            "name": "Gary Wilson ",
+            "price": 1.11
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -49,18 +461,242 @@
     "team1_name": "Judd Trump",
     "team2_name": "Ding Junhui",
     "start_ts": 1768395600,
-    "markets_count": 13,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875310": {
+        "id": 2104875310,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401167": {
+            "id": 6274401167,
+            "name": "Ding Junhui ",
+            "price": 4.75
+          },
+          "6274401168": {
+            "id": 6274401168,
+            "name": "Judd Trump ",
+            "price": 1.15
+          }
+        }
+      },
+      "2104875312": {
+        "id": 2104875312,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401171": {
+            "id": 6274401171,
+            "name": "Under ",
+            "price": 2.52
+          },
+          "6274401172": {
+            "id": 6274401172,
+            "name": "Over ",
+            "price": 1.46
+          }
+        }
+      },
+      "2104875314": {
+        "id": 2104875314,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401175": {
+            "id": 6274401175,
+            "name": "Under ",
+            "price": 1.19
+          },
+          "6274401176": {
+            "id": 6274401176,
+            "name": "Over ",
+            "price": 4.15
+          }
+        }
+      },
+      "2104875316": {
+        "id": 2104875316,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401179": {
+            "id": 6274401179,
+            "name": "Under ",
+            "price": 4.9
+          },
+          "6274401180": {
+            "id": 6274401180,
+            "name": "Over ",
+            "price": 1.14
+          }
+        }
+      },
+      "2104875319": {
+        "id": 2104875319,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401183": {
+            "id": 6274401183,
+            "name": "Under ",
+            "price": 1.63
+          },
+          "6274401184": {
+            "id": 6274401184,
+            "name": "Over ",
+            "price": 2.13
+          }
+        }
+      },
+      "2104875321": {
+        "id": 2104875321,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401187": {
+            "id": 6274401187,
+            "name": "Ding Junhui ",
+            "price": 1.13
+          },
+          "6274401188": {
+            "id": 6274401188,
+            "name": "Judd Trump ",
+            "price": 5.1
+          }
+        }
+      },
+      "2104875324": {
+        "id": 2104875324,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401193": {
+            "id": 6274401193,
+            "name": "Ding Junhui ",
+            "price": 2.37
+          },
+          "6274401194": {
+            "id": 6274401194,
+            "name": "Judd Trump ",
+            "price": 1.52
+          }
+        }
+      },
+      "2104875329": {
+        "id": 2104875329,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401203": {
+            "id": 6274401203,
+            "name": "Ding Junhui ",
+            "price": 1.36
+          },
+          "6274401204": {
+            "id": 6274401204,
+            "name": "Judd Trump ",
+            "price": 2.87
+          }
+        }
+      },
+      "2104875334": {
+        "id": 2104875334,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401213": {
+            "id": 6274401213,
+            "name": "Ding Junhui ",
+            "price": 1.74
+          },
+          "6274401214": {
+            "id": 6274401214,
+            "name": "Judd Trump ",
+            "price": 1.96
+          }
+        }
+      },
+      "2104875340": {
+        "id": 2104875340,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401225": {
+            "id": 6274401225,
+            "name": "W2",
+            "price": 3.25
+          },
+          "6274401227": {
+            "id": 6274401227,
+            "name": "W1",
+            "price": 1.29
+          }
+        }
+      },
+      "2104875351": {
+        "id": 2104875351,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401248": {
+            "id": 6274401248,
+            "name": "W1",
+            "price": 1.58
+          },
+          "6274401247": {
+            "id": 6274401247,
+            "name": "W2",
+            "price": 2.23
+          }
+        }
+      },
+      "2104875358": {
+        "id": 2104875358,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401265": {
+            "id": 6274401265,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401261": {
+            "id": 6274401261,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2105032320": {
+        "id": 2105032320,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274840113": {
+            "id": 6274840113,
+            "name": "Over ",
+            "price": 1.01
+          },
+          "6274840112": {
+            "id": 6274840112,
+            "name": "Under ",
+            "price": 11
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -70,18 +706,260 @@
     "team1_name": "Mark James Williams",
     "team2_name": "Mark Allen",
     "start_ts": 1768222800,
-    "markets_count": 14,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875327": {
+        "id": 2104875327,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401199": {
+            "id": 6274401199,
+            "name": "Mark Allen ",
+            "price": 3.57
+          },
+          "6274401200": {
+            "id": 6274401200,
+            "name": "Mark James Williams ",
+            "price": 1.25
+          }
+        }
+      },
+      "2104875332": {
+        "id": 2104875332,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401209": {
+            "id": 6274401209,
+            "name": "Mark Allen ",
+            "price": 1.29
+          },
+          "6274401210": {
+            "id": 6274401210,
+            "name": "Mark James Williams ",
+            "price": 3.25
+          }
+        }
+      },
+      "2104875338": {
+        "id": 2104875338,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401221": {
+            "id": 6274401221,
+            "name": "Mark Allen ",
+            "price": 2.5
+          },
+          "6274401222": {
+            "id": 6274401222,
+            "name": "Mark James Williams ",
+            "price": 1.47
+          }
+        }
+      },
+      "2104875342": {
+        "id": 2104875342,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401229": {
+            "id": 6274401229,
+            "name": "Under ",
+            "price": 6.3
+          },
+          "6274401230": {
+            "id": 6274401230,
+            "name": "Over ",
+            "price": 1.085
+          }
+        }
+      },
+      "2104875347": {
+        "id": 2104875347,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401239": {
+            "id": 6274401239,
+            "name": "Under ",
+            "price": 1.83
+          },
+          "6274401240": {
+            "id": 6274401240,
+            "name": "Over ",
+            "price": 1.87
+          }
+        }
+      },
+      "2104875354": {
+        "id": 2104875354,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401253": {
+            "id": 6274401253,
+            "name": "Under ",
+            "price": 3.05
+          },
+          "6274401254": {
+            "id": 6274401254,
+            "name": "Over ",
+            "price": 1.33
+          }
+        }
+      },
+      "2104875361": {
+        "id": 2104875361,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401267": {
+            "id": 6274401267,
+            "name": "W2",
+            "price": 1.91
+          },
+          "6274401268": {
+            "id": 6274401268,
+            "name": "W1",
+            "price": 1.79
+          }
+        }
+      },
+      "2104875367": {
+        "id": 2104875367,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401279": {
+            "id": 6274401279,
+            "name": "Mark Allen ",
+            "price": 1.55
+          },
+          "6274401280": {
+            "id": 6274401280,
+            "name": "Mark James Williams ",
+            "price": 2.3
+          }
+        }
+      },
+      "2104875375": {
+        "id": 2104875375,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401295": {
+            "id": 6274401295,
+            "name": "Mark Allen ",
+            "price": 1.13
+          },
+          "6274401298": {
+            "id": 6274401298,
+            "name": "Mark James Williams ",
+            "price": 5.1
+          }
+        }
+      },
+      "2104875381": {
+        "id": 2104875381,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401307": {
+            "id": 6274401307,
+            "name": "Under ",
+            "price": 1.26
+          },
+          "6274401308": {
+            "id": 6274401308,
+            "name": "Over ",
+            "price": 3.47
+          }
+        }
+      },
+      "2104875387": {
+        "id": 2104875387,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401320": {
+            "id": 6274401320,
+            "name": "Over ",
+            "price": 1.56
+          },
+          "6274401319": {
+            "id": 6274401319,
+            "name": "Under ",
+            "price": 2.27
+          }
+        }
+      },
+      "2104875392": {
+        "id": 2104875392,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401329": {
+            "id": 6274401329,
+            "name": "W2",
+            "price": 1.87
+          },
+          "6274401330": {
+            "id": 6274401330,
+            "name": "W1",
+            "price": 1.83
+          }
+        }
+      },
+      "2104977539": {
+        "id": 2104977539,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274686789": {
+            "id": 6274686789,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6274686790": {
+            "id": 6274686790,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2105032319": {
+        "id": 2105032319,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274840111": {
+            "id": 6274840111,
+            "name": "Mark James Williams ",
+            "price": 1.11
+          },
+          "6274840110": {
+            "id": 6274840110,
+            "name": "Mark Allen ",
+            "price": 5.55
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -91,18 +969,242 @@
     "team1_name": "Mark Selby",
     "team2_name": "Xiao Guodong",
     "start_ts": 1768158000,
-    "markets_count": 13,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875333": {
+        "id": 2104875333,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401211": {
+            "id": 6274401211,
+            "name": "Xiao Guodong ",
+            "price": 2.39
+          },
+          "6274401212": {
+            "id": 6274401212,
+            "name": "Mark Selby ",
+            "price": 1.51
+          }
+        }
+      },
+      "2104875339": {
+        "id": 2104875339,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401223": {
+            "id": 6274401223,
+            "name": "Xiao Guodong ",
+            "price": 1.14
+          },
+          "6274401224": {
+            "id": 6274401224,
+            "name": "Mark Selby ",
+            "price": 4.9
+          }
+        }
+      },
+      "2104875345": {
+        "id": 2104875345,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401235": {
+            "id": 6274401235,
+            "name": "Over ",
+            "price": 1.15
+          },
+          "6274401234": {
+            "id": 6274401234,
+            "name": "Under ",
+            "price": 4.75
+          }
+        }
+      },
+      "2104875350": {
+        "id": 2104875350,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401245": {
+            "id": 6274401245,
+            "name": "Under ",
+            "price": 1.2
+          },
+          "6274401246": {
+            "id": 6274401246,
+            "name": "Over ",
+            "price": 4.05
+          }
+        }
+      },
+      "2104875357": {
+        "id": 2104875357,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401259": {
+            "id": 6274401259,
+            "name": "W2",
+            "price": 2.3
+          },
+          "6274401260": {
+            "id": 6274401260,
+            "name": "W1",
+            "price": 1.55
+          }
+        }
+      },
+      "2104875364": {
+        "id": 2104875364,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401273": {
+            "id": 6274401273,
+            "name": "Xiao Guodong ",
+            "price": 1.36
+          },
+          "6274401274": {
+            "id": 6274401274,
+            "name": "Mark Selby ",
+            "price": 2.87
+          }
+        }
+      },
+      "2104875370": {
+        "id": 2104875370,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401285": {
+            "id": 6274401285,
+            "name": "Under ",
+            "price": 2.5
+          },
+          "6274401286": {
+            "id": 6274401286,
+            "name": "Over ",
+            "price": 1.47
+          }
+        }
+      },
+      "2104875377": {
+        "id": 2104875377,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401299": {
+            "id": 6274401299,
+            "name": "Under ",
+            "price": 1.61
+          },
+          "6274401300": {
+            "id": 6274401300,
+            "name": "Over ",
+            "price": 2.17
+          }
+        }
+      },
+      "2104875383": {
+        "id": 2104875383,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401311": {
+            "id": 6274401311,
+            "name": "Xiao Guodong ",
+            "price": 4.75
+          },
+          "6274401312": {
+            "id": 6274401312,
+            "name": "Mark Selby ",
+            "price": 1.15
+          }
+        }
+      },
+      "2104875389": {
+        "id": 2104875389,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401323": {
+            "id": 6274401323,
+            "name": "Xiao Guodong ",
+            "price": 1.75
+          },
+          "6274401324": {
+            "id": 6274401324,
+            "name": "Mark Selby ",
+            "price": 1.95
+          }
+        }
+      },
+      "2104875395": {
+        "id": 2104875395,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401335": {
+            "id": 6274401335,
+            "name": "W2",
+            "price": 3.3
+          },
+          "6274401336": {
+            "id": 6274401336,
+            "name": "W1",
+            "price": 1.28
+          }
+        }
+      },
+      "2104875400": {
+        "id": 2104875400,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401346": {
+            "id": 6274401346,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401345": {
+            "id": 6274401345,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2105032318": {
+        "id": 2105032318,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274840109": {
+            "id": 6274840109,
+            "name": "Over ",
+            "price": 1.01
+          },
+          "6274840108": {
+            "id": 6274840108,
+            "name": "Under ",
+            "price": 11
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -112,18 +1214,242 @@
     "team1_name": "Shaun Murphy",
     "team2_name": "Wu Yize",
     "start_ts": 1768136400,
-    "markets_count": 13,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875346": {
+        "id": 2104875346,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401237": {
+            "id": 6274401237,
+            "name": "Under ",
+            "price": 5.55
+          },
+          "6274401238": {
+            "id": 6274401238,
+            "name": "Over ",
+            "price": 1.11
+          }
+        }
+      },
+      "2104875353": {
+        "id": 2104875353,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401251": {
+            "id": 6274401251,
+            "name": "Wu Yize ",
+            "price": 4.42
+          },
+          "6274401252": {
+            "id": 6274401252,
+            "name": "Shaun Murphy ",
+            "price": 1.17
+          }
+        }
+      },
+      "2104875359": {
+        "id": 2104875359,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401263": {
+            "id": 6274401263,
+            "name": "Shaun Murphy ",
+            "price": 2
+          },
+          "6274401262": {
+            "id": 6274401262,
+            "name": "Wu Yize ",
+            "price": 1.72
+          }
+        }
+      },
+      "2104875365": {
+        "id": 2104875365,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401275": {
+            "id": 6274401275,
+            "name": "W2",
+            "price": 2.23
+          },
+          "6274401277": {
+            "id": 6274401277,
+            "name": "W1",
+            "price": 1.58
+          }
+        }
+      },
+      "2104875373": {
+        "id": 2104875373,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401291": {
+            "id": 6274401291,
+            "name": "Under ",
+            "price": 2.95
+          },
+          "6274401292": {
+            "id": 6274401292,
+            "name": "Over ",
+            "price": 1.35
+          }
+        }
+      },
+      "2104875378": {
+        "id": 2104875378,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401301": {
+            "id": 6274401301,
+            "name": "Wu Yize ",
+            "price": 2.95
+          },
+          "6274401302": {
+            "id": 6274401302,
+            "name": "Shaun Murphy ",
+            "price": 1.35
+          }
+        }
+      },
+      "2104875384": {
+        "id": 2104875384,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401313": {
+            "id": 6274401313,
+            "name": "Wu Yize ",
+            "price": 1.19
+          },
+          "6274401314": {
+            "id": 6274401314,
+            "name": "Shaun Murphy ",
+            "price": 4.15
+          }
+        }
+      },
+      "2104875390": {
+        "id": 2104875390,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401325": {
+            "id": 6274401325,
+            "name": "Under ",
+            "price": 1.72
+          },
+          "6274401326": {
+            "id": 6274401326,
+            "name": "Over ",
+            "price": 2
+          }
+        }
+      },
+      "2104875393": {
+        "id": 2104875393,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401331": {
+            "id": 6274401331,
+            "name": "Wu Yize ",
+            "price": 1.4
+          },
+          "6274401333": {
+            "id": 6274401333,
+            "name": "Shaun Murphy ",
+            "price": 2.7
+          }
+        }
+      },
+      "2104875398": {
+        "id": 2104875398,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401341": {
+            "id": 6274401341,
+            "name": "Under ",
+            "price": 1.24
+          },
+          "6274401342": {
+            "id": 6274401342,
+            "name": "Over ",
+            "price": 3.65
+          }
+        }
+      },
+      "2104875402": {
+        "id": 2104875402,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401352": {
+            "id": 6274401352,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401351": {
+            "id": 6274401351,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2104875404": {
+        "id": 2104875404,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401355": {
+            "id": 6274401355,
+            "name": "W2",
+            "price": 2
+          },
+          "6274401356": {
+            "id": 6274401356,
+            "name": "W1",
+            "price": 1.72
+          }
+        }
+      },
+      "2104977540": {
+        "id": 2104977540,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274686791": {
+            "id": 6274686791,
+            "name": "Under ",
+            "price": 2.35
+          },
+          "6274686792": {
+            "id": 6274686792,
+            "name": "Over ",
+            "price": 1.53
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -133,18 +1459,260 @@
     "team1_name": "Neil Robertson",
     "team2_name": "Ronnie O'Sullivan",
     "start_ts": 1768417200,
-    "markets_count": 14,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875366": {
+        "id": 2104875366,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401276": {
+            "id": 6274401276,
+            "name": "Ronnie O'Sullivan ",
+            "price": 3.3
+          },
+          "6274401278": {
+            "id": 6274401278,
+            "name": "Neil Robertson ",
+            "price": 1.28
+          }
+        }
+      },
+      "2104875371": {
+        "id": 2104875371,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401287": {
+            "id": 6274401287,
+            "name": "W2",
+            "price": 1.85
+          },
+          "6274401288": {
+            "id": 6274401288,
+            "name": "W1",
+            "price": 1.85
+          }
+        }
+      },
+      "2104875374": {
+        "id": 2104875374,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401293": {
+            "id": 6274401293,
+            "name": "Ronnie O'Sullivan ",
+            "price": 1.27
+          },
+          "6274401294": {
+            "id": 6274401294,
+            "name": "Neil Robertson ",
+            "price": 3.4
+          }
+        }
+      },
+      "2104875380": {
+        "id": 2104875380,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401305": {
+            "id": 6274401305,
+            "name": "Ronnie O'Sullivan ",
+            "price": 1.52
+          },
+          "6274401306": {
+            "id": 6274401306,
+            "name": "Neil Robertson ",
+            "price": 2.37
+          }
+        }
+      },
+      "2104875386": {
+        "id": 2104875386,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401317": {
+            "id": 6274401317,
+            "name": "Under ",
+            "price": 3
+          },
+          "6274401318": {
+            "id": 6274401318,
+            "name": "Over ",
+            "price": 1.34
+          }
+        }
+      },
+      "2104875391": {
+        "id": 2104875391,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401327": {
+            "id": 6274401327,
+            "name": "Under ",
+            "price": 1.81
+          },
+          "6274401328": {
+            "id": 6274401328,
+            "name": "Over ",
+            "price": 1.89
+          }
+        }
+      },
+      "2104875396": {
+        "id": 2104875396,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401337": {
+            "id": 6274401337,
+            "name": "Under ",
+            "price": 6
+          },
+          "6274401338": {
+            "id": 6274401338,
+            "name": "Over ",
+            "price": 1.095
+          }
+        }
+      },
+      "2104875397": {
+        "id": 2104875397,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401339": {
+            "id": 6274401339,
+            "name": "Under ",
+            "price": 1.24
+          },
+          "6274401340": {
+            "id": 6274401340,
+            "name": "Over ",
+            "price": 3.65
+          }
+        }
+      },
+      "2104875401": {
+        "id": 2104875401,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401347": {
+            "id": 6274401347,
+            "name": "Ronnie O'Sullivan ",
+            "price": 2.37
+          },
+          "6274401348": {
+            "id": 6274401348,
+            "name": "Neil Robertson ",
+            "price": 1.52
+          }
+        }
+      },
+      "2104875403": {
+        "id": 2104875403,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401354": {
+            "id": 6274401354,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401353": {
+            "id": 6274401353,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2104875405": {
+        "id": 2104875405,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401357": {
+            "id": 6274401357,
+            "name": "W2",
+            "price": 1.85
+          },
+          "6274401358": {
+            "id": 6274401358,
+            "name": "W1",
+            "price": 1.85
+          }
+        }
+      },
+      "2104875982": {
+        "id": 2104875982,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274402887": {
+            "id": 6274402887,
+            "name": "Ronnie O'Sullivan ",
+            "price": 5.1
+          },
+          "6274402888": {
+            "id": 6274402888,
+            "name": "Neil Robertson ",
+            "price": 1.13
+          }
+        }
+      },
+      "2104875983": {
+        "id": 2104875983,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274402889": {
+            "id": 6274402889,
+            "name": "Under ",
+            "price": 2.35
+          },
+          "6274402890": {
+            "id": 6274402890,
+            "name": "Over ",
+            "price": 1.53
+          }
+        }
+      },
+      "2105063734": {
+        "id": 2105063734,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274928245": {
+            "id": 6274928245,
+            "name": "Neil Robertson ",
+            "price": 5.55
+          },
+          "6274928244": {
+            "id": 6274928244,
+            "name": "Ronnie O'Sullivan ",
+            "price": 1.11
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -154,18 +1722,242 @@
     "team1_name": "Kyren Wilson",
     "team2_name": "Si Jiahui",
     "start_ts": 1768309200,
-    "markets_count": 13,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104875326": {
+        "id": 2104875326,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401195": {
+            "id": 6274401195,
+            "name": "Si Jiahui ",
+            "price": 5.1
+          },
+          "6274401197": {
+            "id": 6274401197,
+            "name": "Kyren Wilson ",
+            "price": 1.13
+          }
+        }
+      },
+      "2104875330": {
+        "id": 2104875330,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401205": {
+            "id": 6274401205,
+            "name": "Si Jiahui ",
+            "price": 3.75
+          },
+          "6274401206": {
+            "id": 6274401206,
+            "name": "Kyren Wilson ",
+            "price": 1.23
+          }
+        }
+      },
+      "2104875336": {
+        "id": 2104875336,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401216": {
+            "id": 6274401216,
+            "name": "Under ",
+            "price": 5.55
+          },
+          "6274401218": {
+            "id": 6274401218,
+            "name": "Over ",
+            "price": 1.11
+          }
+        }
+      },
+      "2104875341": {
+        "id": 2104875341,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401226": {
+            "id": 6274401226,
+            "name": "Si Jiahui ",
+            "price": 1.54
+          },
+          "6274401228": {
+            "id": 6274401228,
+            "name": "Kyren Wilson ",
+            "price": 2.33
+          }
+        }
+      },
+      "2104875348": {
+        "id": 2104875348,
+        "name": "1st Frame Winner",
+        "type": "FrameWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6274401241": {
+            "id": 6274401241,
+            "name": "W2",
+            "price": 2.1
+          },
+          "6274401243": {
+            "id": 6274401243,
+            "name": "W1",
+            "price": 1.65
+          }
+        }
+      },
+      "2104875355": {
+        "id": 2104875355,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401255": {
+            "id": 6274401255,
+            "name": "Under ",
+            "price": 1.73
+          },
+          "6274401256": {
+            "id": 6274401256,
+            "name": "Over ",
+            "price": 1.97
+          }
+        }
+      },
+      "2104875362": {
+        "id": 2104875362,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401269": {
+            "id": 6274401269,
+            "name": "Under ",
+            "price": 2.8
+          },
+          "6274401270": {
+            "id": 6274401270,
+            "name": "Over ",
+            "price": 1.38
+          }
+        }
+      },
+      "2104875369": {
+        "id": 2104875369,
+        "name": "Total Frames",
+        "type": "TotalFramesOver/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401282": {
+            "id": 6274401282,
+            "name": "Under ",
+            "price": 1.22
+          },
+          "6274401284": {
+            "id": 6274401284,
+            "name": "Over ",
+            "price": 3.83
+          }
+        }
+      },
+      "2104875376": {
+        "id": 2104875376,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401297": {
+            "id": 6274401297,
+            "name": "Kyren Wilson ",
+            "price": 1.73
+          },
+          "6274401296": {
+            "id": 6274401296,
+            "name": "Si Jiahui ",
+            "price": 1.97
+          }
+        }
+      },
+      "2104875382": {
+        "id": 2104875382,
+        "name": "Frames Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274401309": {
+            "id": 6274401309,
+            "name": "Si Jiahui ",
+            "price": 1.25
+          },
+          "6274401310": {
+            "id": 6274401310,
+            "name": "Kyren Wilson ",
+            "price": 3.57
+          }
+        }
+      },
+      "2104875388": {
+        "id": 2104875388,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6274401321": {
+            "id": 6274401321,
+            "name": "W2",
+            "price": 2.65
+          },
+          "6274401322": {
+            "id": 6274401322,
+            "name": "W1",
+            "price": 1.42
+          }
+        }
+      },
+      "2104875394": {
+        "id": 2104875394,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401332": {
+            "id": 6274401332,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6274401334": {
+            "id": 6274401334,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2104875399": {
+        "id": 2104875399,
+        "name": "1st Frame Total Points",
+        "type": "FrameTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6274401344": {
+            "id": 6274401344,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6274401343": {
+            "id": 6274401343,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -174,18 +1966,809 @@
     "id": 27192768,
     "team1_name": "The Masters 2026",
     "start_ts": 1768039200,
-    "markets_count": 12,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1881170845": {
+        "id": 1881170845,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5626763219": {
+            "id": 5626763219,
+            "name": "Ronnie O'Sullivan",
+            "price": 8.5
+          },
+          "5626763221": {
+            "id": 5626763221,
+            "name": "Shaun Murphy",
+            "price": 12
+          },
+          "5626763220": {
+            "id": 5626763220,
+            "name": "Si Jiahui",
+            "price": 41
+          },
+          "5626763223": {
+            "id": 5626763223,
+            "name": "Mark Williams",
+            "price": 21
+          },
+          "5626763222": {
+            "id": 5626763222,
+            "name": "Neil Robertson",
+            "price": 9
+          },
+          "5626763230": {
+            "id": 5626763230,
+            "name": "Zhao Xintong",
+            "price": 5.5
+          },
+          "5626763233": {
+            "id": 5626763233,
+            "name": "Xiao Guodong",
+            "price": 41
+          },
+          "5626763235": {
+            "id": 5626763235,
+            "name": "Mark Selby",
+            "price": 5.5
+          },
+          "5626763234": {
+            "id": 5626763234,
+            "name": "Wu Yize",
+            "price": 19
+          },
+          "5626763236": {
+            "id": 5626763236,
+            "name": "Ding Junhui",
+            "price": 34
+          },
+          "5626763239": {
+            "id": 5626763239,
+            "name": "Gary Wilson",
+            "price": 41
+          },
+          "5626763243": {
+            "id": 5626763243,
+            "name": "Barry Hawkins",
+            "price": 29
+          },
+          "5626763247": {
+            "id": 5626763247,
+            "name": "Mark Allen",
+            "price": 21
+          },
+          "5626763246": {
+            "id": 5626763246,
+            "name": "Kyren Wilson",
+            "price": 11
+          },
+          "5626763251": {
+            "id": 5626763251,
+            "name": "Judd Trump",
+            "price": 5
+          },
+          "5626763252": {
+            "id": 5626763252,
+            "name": "John Higgins",
+            "price": 19
+          }
+        }
+      },
+      "2104377694": {
+        "id": 2104377694,
+        "name": "1st Quarter Winner",
+        "type": "1stQuarterWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273010159": {
+            "id": 6273010159,
+            "name": "Shaun Murphy",
+            "price": 3.25
+          },
+          "6273010158": {
+            "id": 6273010158,
+            "name": "Xiao Guodong",
+            "price": 8.5
+          },
+          "6273010161": {
+            "id": 6273010161,
+            "name": "Wu Yize",
+            "price": 5
+          },
+          "6273010160": {
+            "id": 6273010160,
+            "name": "Mark Selby",
+            "price": 2
+          }
+        }
+      },
+      "2104377696": {
+        "id": 2104377696,
+        "name": "To Reach The Final",
+        "type": "ToReachTheFinal",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273010167": {
+            "id": 6273010167,
+            "name": "Si Jiahui",
+            "price": 21
+          },
+          "6273010166": {
+            "id": 6273010166,
+            "name": "Shaun Murphy",
+            "price": 6.5
+          },
+          "6273010171": {
+            "id": 6273010171,
+            "name": "Ronnie O'Sullivan ",
+            "price": 5
+          },
+          "6273010170": {
+            "id": 6273010170,
+            "name": "Neil Robertson",
+            "price": 5.5
+          },
+          "6273010173": {
+            "id": 6273010173,
+            "name": "Mark Selby",
+            "price": 3.25
+          },
+          "6273010172": {
+            "id": 6273010172,
+            "name": "Zhao Xintong",
+            "price": 3.25
+          },
+          "6273010175": {
+            "id": 6273010175,
+            "name": "Xiao Guodong",
+            "price": 21
+          },
+          "6273010174": {
+            "id": 6273010174,
+            "name": "Wu Yize",
+            "price": 11
+          },
+          "6273010177": {
+            "id": 6273010177,
+            "name": "Judd Trump",
+            "price": 2.88
+          },
+          "6273010176": {
+            "id": 6273010176,
+            "name": "John Higgins",
+            "price": 8.5
+          },
+          "6273010179": {
+            "id": 6273010179,
+            "name": "Gary Wilson",
+            "price": 21
+          },
+          "6273010178": {
+            "id": 6273010178,
+            "name": "Ding Junhui",
+            "price": 15
+          },
+          "6273010181": {
+            "id": 6273010181,
+            "name": "Mark Williams",
+            "price": 10
+          },
+          "6273010180": {
+            "id": 6273010180,
+            "name": "Barry Hawkins",
+            "price": 13
+          },
+          "6273010183": {
+            "id": 6273010183,
+            "name": "Mark Allen",
+            "price": 10
+          },
+          "6273010182": {
+            "id": 6273010182,
+            "name": "Kyren Wilson",
+            "price": 6
+          }
+        }
+      },
+      "2104377699": {
+        "id": 2104377699,
+        "name": "3rd Quarter Winner",
+        "type": "3rdQuarterWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273010189": {
+            "id": 6273010189,
+            "name": "Mark Williams",
+            "price": 4.5
+          },
+          "6273010188": {
+            "id": 6273010188,
+            "name": "Mark Allen",
+            "price": 4.5
+          },
+          "6273010191": {
+            "id": 6273010191,
+            "name": "Judd Trump",
+            "price": 1.83
+          },
+          "6273010190": {
+            "id": 6273010190,
+            "name": "Ding Junhui",
+            "price": 7
+          }
+        }
+      },
+      "2104404961": {
+        "id": 2104404961,
+        "name": "4th Quarter Winner",
+        "type": "4thQuarterWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273086927": {
+            "id": 6273086927,
+            "name": "Zhao Xintong",
+            "price": 2
+          },
+          "6273086929": {
+            "id": 6273086929,
+            "name": "Gary Wilson",
+            "price": 7.5
+          },
+          "6273086928": {
+            "id": 6273086928,
+            "name": "Barry Hawkins",
+            "price": 5
+          },
+          "6273086930": {
+            "id": 6273086930,
+            "name": "John Higgins",
+            "price": 3.4
+          }
+        }
+      },
+      "2104404962": {
+        "id": 2104404962,
+        "name": "2nd Quarter Winner",
+        "type": "2ndQuarterWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273086931": {
+            "id": 6273086931,
+            "name": "Ronnie O'Sullivan",
+            "price": 3
+          },
+          "6273086933": {
+            "id": 6273086933,
+            "name": "Kyren Wilson",
+            "price": 2.88
+          },
+          "6273086932": {
+            "id": 6273086932,
+            "name": "Si Jiahui",
+            "price": 8
+          },
+          "6273086934": {
+            "id": 6273086934,
+            "name": "Neil Robertson",
+            "price": 3
+          }
+        }
+      },
+      "2104426995": {
+        "id": 2104426995,
+        "name": "Winner's Half",
+        "type": "Winner'sHalf",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150725": {
+            "id": 6273150725,
+            "name": "Bottom Half",
+            "price": 2.1
+          },
+          "6273150726": {
+            "id": 6273150726,
+            "name": "Top Half",
+            "price": 1.73
+          }
+        }
+      },
+      "2104426996": {
+        "id": 2104426996,
+        "name": "A Century Break to be Scored in Every Match",
+        "type": "ACenturyBreaktobeScoredinEveryMatch",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150727": {
+            "id": 6273150727,
+            "name": "No",
+            "price": 1.17
+          },
+          "6273150728": {
+            "id": 6273150728,
+            "name": "Yes",
+            "price": 5
+          }
+        }
+      },
+      "2104426997": {
+        "id": 2104426997,
+        "name": "Nationality of Winner",
+        "type": "NationalityofWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150729": {
+            "id": 6273150729,
+            "name": "Welsh%Win Only",
+            "price": 21
+          },
+          "6273150731": {
+            "id": 6273150731,
+            "name": "Scottish%Win Only",
+            "price": 19
+          },
+          "6273150730": {
+            "id": 6273150730,
+            "name": "Rest of World%Win Only",
+            "price": 7.5
+          },
+          "6273150733": {
+            "id": 6273150733,
+            "name": "Chinese%Win Only",
+            "price": 3.5
+          },
+          "6273150732": {
+            "id": 6273150732,
+            "name": "English%Win Only",
+            "price": 1.67
+          }
+        }
+      },
+      "2104426998": {
+        "id": 2104426998,
+        "name": "Winner's Quarter",
+        "type": "Winner'sQuarter",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150735": {
+            "id": 6273150735,
+            "name": "2nd Quarter",
+            "price": 3.4
+          },
+          "6273150734": {
+            "id": 6273150734,
+            "name": "4th Quarter",
+            "price": 4.33
+          },
+          "6273150737": {
+            "id": 6273150737,
+            "name": "3rd Quarter",
+            "price": 3.5
+          },
+          "6273150736": {
+            "id": 6273150736,
+            "name": "1st Quarter",
+            "price": 3.5
+          }
+        }
+      },
+      "2104426999": {
+        "id": 2104426999,
+        "name": "Forecast The Finalists",
+        "type": "ForecastTheFinalists",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150741": {
+            "id": 6273150741,
+            "name": "Si Jiahui and Gary Wilson",
+            "price": 401
+          },
+          "6273150740": {
+            "id": 6273150740,
+            "name": "Si Jiahui and John Higgins",
+            "price": 176
+          },
+          "6273150743": {
+            "id": 6273150743,
+            "name": "Si Jiahui and Judd Trump",
+            "price": 61
+          },
+          "6273150742": {
+            "id": 6273150742,
+            "name": "Si Jiahui and Ding Junhui",
+            "price": 301
+          },
+          "6273150745": {
+            "id": 6273150745,
+            "name": "Si Jiahui and Mark Williams",
+            "price": 201
+          },
+          "6273150744": {
+            "id": 6273150744,
+            "name": "Wu Yize and Barry Hawkins",
+            "price": 141
+          },
+          "6273150747": {
+            "id": 6273150747,
+            "name": "Si Jiahui and Barry Hawkins",
+            "price": 276
+          },
+          "6273150746": {
+            "id": 6273150746,
+            "name": "Si Jiahui and Mark Allen",
+            "price": 201
+          },
+          "6273150749": {
+            "id": 6273150749,
+            "name": "Shaun Murphy and Gary Wilson",
+            "price": 141
+          },
+          "6273150748": {
+            "id": 6273150748,
+            "name": "Shaun Murphy and John Higgins",
+            "price": 56
+          },
+          "6273150751": {
+            "id": 6273150751,
+            "name": "Shaun Murphy and Judd Trump",
+            "price": 19
+          },
+          "6273150750": {
+            "id": 6273150750,
+            "name": "Shaun Murphy and Ding Junhui",
+            "price": 96
+          },
+          "6273150753": {
+            "id": 6273150753,
+            "name": "Shaun Murphy and Mark Williams",
+            "price": 61
+          },
+          "6273150752": {
+            "id": 6273150752,
+            "name": "Shaun Murphy and Zhao Xintong",
+            "price": 21
+          },
+          "6273150755": {
+            "id": 6273150755,
+            "name": "Wu Yize and Ding Junhui",
+            "price": 151
+          },
+          "6273150754": {
+            "id": 6273150754,
+            "name": "Shaun Murphy and Mark Allen",
+            "price": 61
+          },
+          "6273150757": {
+            "id": 6273150757,
+            "name": "Xiao Guodong and John Higgins",
+            "price": 176
+          },
+          "6273150756": {
+            "id": 6273150756,
+            "name": "Xiao Guodong and Judd Trump",
+            "price": 61
+          },
+          "6273150759": {
+            "id": 6273150759,
+            "name": "Xiao Guodong and Mark Allen",
+            "price": 201
+          },
+          "6273150758": {
+            "id": 6273150758,
+            "name": "Xiao Guodong and Gary Wilson",
+            "price": 401
+          },
+          "6273150761": {
+            "id": 6273150761,
+            "name": "Xiao Guodong and Zhao Xintong",
+            "price": 67
+          },
+          "6273150760": {
+            "id": 6273150760,
+            "name": "Ronnie O'Sullivan and Zhao Xintong",
+            "price": 17
+          },
+          "6273150763": {
+            "id": 6273150763,
+            "name": "Xiao Guodong and Ding Junhui",
+            "price": 301
+          },
+          "6273150762": {
+            "id": 6273150762,
+            "name": "Xiao Guodong and Mark Williams",
+            "price": 201
+          },
+          "6273150765": {
+            "id": 6273150765,
+            "name": "Wu Yize and John Higgins",
+            "price": 91
+          },
+          "6273150764": {
+            "id": 6273150764,
+            "name": "Wu Yize and Judd Trump",
+            "price": 31
+          },
+          "6273150767": {
+            "id": 6273150767,
+            "name": "Wu Yize and Mark Allen",
+            "price": 101
+          },
+          "6273150766": {
+            "id": 6273150766,
+            "name": "Wu Yize and Gary Wilson",
+            "price": 226
+          },
+          "6273150769": {
+            "id": 6273150769,
+            "name": "Wu Yize and Zhao Xintong",
+            "price": 34
+          },
+          "6273150768": {
+            "id": 6273150768,
+            "name": "Xiao Guodong and Barry Hawkins",
+            "price": 276
+          },
+          "6273150771": {
+            "id": 6273150771,
+            "name": "Shaun Murphy and Barry Hawkins",
+            "price": 81
+          },
+          "6273150770": {
+            "id": 6273150770,
+            "name": "Wu Yize and Mark Williams",
+            "price": 101
+          },
+          "6273150773": {
+            "id": 6273150773,
+            "name": "Mark Selby and Judd Trump",
+            "price": 9
+          },
+          "6273150772": {
+            "id": 6273150772,
+            "name": "Mark Selby and John Higgins",
+            "price": 26
+          },
+          "6273150775": {
+            "id": 6273150775,
+            "name": "Mark Selby and Gary Wilson",
+            "price": 67
+          },
+          "6273150774": {
+            "id": 6273150774,
+            "name": "Mark Selby and Ding Junhui",
+            "price": 46
+          },
+          "6273150777": {
+            "id": 6273150777,
+            "name": "Neil Robertson and Barry Hawkins",
+            "price": 71
+          },
+          "6273150776": {
+            "id": 6273150776,
+            "name": "Mark Selby and Zhao Xintong",
+            "price": 10
+          },
+          "6273150779": {
+            "id": 6273150779,
+            "name": "Mark Selby and Mark Williams",
+            "price": 31
+          },
+          "6273150778": {
+            "id": 6273150778,
+            "name": "Mark Selby and Mark Allen",
+            "price": 31
+          },
+          "6273150781": {
+            "id": 6273150781,
+            "name": "Kyren Wilson and Judd Trump",
+            "price": 17
+          },
+          "6273150780": {
+            "id": 6273150780,
+            "name": "Kyren Wilson and John Higgins",
+            "price": 51
+          },
+          "6273150783": {
+            "id": 6273150783,
+            "name": "Kyren Wilson and Gary Wilson",
+            "price": 126
+          },
+          "6273150782": {
+            "id": 6273150782,
+            "name": "Kyren Wilson and Ding Junhui",
+            "price": 86
+          },
+          "6273150785": {
+            "id": 6273150785,
+            "name": "Mark Selby and Barry Hawkins",
+            "price": 41
+          },
+          "6273150784": {
+            "id": 6273150784,
+            "name": "Kyren Wilson and Zhao Xintong",
+            "price": 19
+          },
+          "6273150787": {
+            "id": 6273150787,
+            "name": "Kyren Wilson and Mark Williams",
+            "price": 61
+          },
+          "6273150786": {
+            "id": 6273150786,
+            "name": "Kyren Wilson and Mark Allen",
+            "price": 61
+          },
+          "6273150789": {
+            "id": 6273150789,
+            "name": "Ronnie O'Sullivan and John Higgins",
+            "price": 41
+          },
+          "6273150788": {
+            "id": 6273150788,
+            "name": "Ronnie O'Sullivan and Gary Wilson",
+            "price": 101
+          },
+          "6273150791": {
+            "id": 6273150791,
+            "name": "Ronnie O'Sullivan and Ding Junhui",
+            "price": 76
+          },
+          "6273150790": {
+            "id": 6273150790,
+            "name": "Ronnie O'Sullivan and Barry Hawkins",
+            "price": 67
+          },
+          "6273150793": {
+            "id": 6273150793,
+            "name": "Kyren Wilson and Barry Hawkins",
+            "price": 76
+          },
+          "6273150792": {
+            "id": 6273150792,
+            "name": "Ronnie O'Sullivan and Mark Williams",
+            "price": 51
+          },
+          "6273150795": {
+            "id": 6273150795,
+            "name": "Ronnie O'Sullivan and Mark Allen",
+            "price": 51
+          },
+          "6273150794": {
+            "id": 6273150794,
+            "name": "Ronnie O'Sullivan and Judd Trump",
+            "price": 14
+          },
+          "6273150797": {
+            "id": 6273150797,
+            "name": "Neil Robertson and Gary Wilson",
+            "price": 111
+          },
+          "6273150796": {
+            "id": 6273150796,
+            "name": "Neil Robertson and John Higgins",
+            "price": 46
+          },
+          "6273150799": {
+            "id": 6273150799,
+            "name": "Neil Robertson and Judd Trump",
+            "price": 15
+          },
+          "6273150798": {
+            "id": 6273150798,
+            "name": "Neil Robertson and Ding Junhui",
+            "price": 81
+          },
+          "6273150801": {
+            "id": 6273150801,
+            "name": "Neil Robertson and Mark Williams",
+            "price": 56
+          },
+          "6273150800": {
+            "id": 6273150800,
+            "name": "Neil Robertson and Zhao Xintong",
+            "price": 17
+          },
+          "6273150803": {
+            "id": 6273150803,
+            "name": "Si Jiahui and Zhao Xintong",
+            "price": 67
+          },
+          "6273150802": {
+            "id": 6273150802,
+            "name": "Neil Robertson and Mark Allen",
+            "price": 56
+          }
+        }
+      },
+      "2104427001": {
+        "id": 2104427001,
+        "name": "Highest Break",
+        "type": "HighestBreak",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273150805": {
+            "id": 6273150805,
+            "name": "Shaun Murphy",
+            "price": 9
+          },
+          "6273150804": {
+            "id": 6273150804,
+            "name": "Ronnie O'Sullivan",
+            "price": 9
+          },
+          "6273150807": {
+            "id": 6273150807,
+            "name": "Neil Robertson",
+            "price": 8.5
+          },
+          "6273150806": {
+            "id": 6273150806,
+            "name": "Mark Williams",
+            "price": 17
+          },
+          "6273150809": {
+            "id": 6273150809,
+            "name": "Zhao Xintong",
+            "price": 7.5
+          },
+          "6273150808": {
+            "id": 6273150808,
+            "name": "Xiao Guodong",
+            "price": 23
+          },
+          "6273150811": {
+            "id": 6273150811,
+            "name": "Wu Yize",
+            "price": 15
+          },
+          "6273150810": {
+            "id": 6273150810,
+            "name": "Si Jiahui",
+            "price": 26
+          },
+          "6273150813": {
+            "id": 6273150813,
+            "name": "John Higgins",
+            "price": 17
+          },
+          "6273150812": {
+            "id": 6273150812,
+            "name": "Gary Wilson",
+            "price": 23
+          },
+          "6273150815": {
+            "id": 6273150815,
+            "name": "Ding Junhui",
+            "price": 17
+          },
+          "6273150814": {
+            "id": 6273150814,
+            "name": "Barry Hawkins",
+            "price": 19
+          },
+          "6273150817": {
+            "id": 6273150817,
+            "name": "Mark Selby",
+            "price": 8
+          },
+          "6273150816": {
+            "id": 6273150816,
+            "name": "Mark Allen",
+            "price": 17
+          },
+          "6273150819": {
+            "id": 6273150819,
+            "name": "Kyren Wilson",
+            "price": 9
+          },
+          "6273150818": {
+            "id": 6273150818,
+            "name": "Judd Trump",
+            "price": 7.5
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Snooker",
@@ -194,17 +2777,325 @@
     "id": 27183945,
     "team1_name": "World Championship 2026",
     "start_ts": 1775034000,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1880056365": {
+        "id": 1880056365,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5623568642": {
+            "id": 5623568642,
+            "name": "Neil Robertson",
+            "price": 10
+          },
+          "5623568652": {
+            "id": 5623568652,
+            "name": "Ricky Walden",
+            "price": 101
+          },
+          "5623568671": {
+            "id": 5623568671,
+            "name": "Mark Selby",
+            "price": 6
+          },
+          "5623568679": {
+            "id": 5623568679,
+            "name": "Wu Yize",
+            "price": 13
+          },
+          "5623568685": {
+            "id": 5623568685,
+            "name": "Thepchaiya Un-Nooh",
+            "price": 67
+          },
+          "5623568687": {
+            "id": 5623568687,
+            "name": "Zhang Anda",
+            "price": 34
+          },
+          "5623568686": {
+            "id": 5623568686,
+            "name": "Zhao Xintong",
+            "price": 5.5
+          },
+          "5623568688": {
+            "id": 5623568688,
+            "name": "Zhou Yuelong",
+            "price": 29
+          },
+          "5623568693": {
+            "id": 5623568693,
+            "name": "Yuan Sijun",
+            "price": 81
+          },
+          "5623568692": {
+            "id": 5623568692,
+            "name": "Xiao Guodong",
+            "price": 29
+          },
+          "5623568694": {
+            "id": 5623568694,
+            "name": "Xu Si",
+            "price": 151
+          },
+          "5623568699": {
+            "id": 5623568699,
+            "name": "Ryan Day",
+            "price": 101
+          },
+          "5623568700": {
+            "id": 5623568700,
+            "name": "Ronnie O'Sullivan",
+            "price": 6.5
+          },
+          "5623568705": {
+            "id": 5623568705,
+            "name": "Stephen Maguire",
+            "price": 41
+          },
+          "5623568704": {
+            "id": 5623568704,
+            "name": "Steven Hallworth",
+            "price": 751
+          },
+          "5623568707": {
+            "id": 5623568707,
+            "name": "Stuart Bingham",
+            "price": 51
+          },
+          "5623568709": {
+            "id": 5623568709,
+            "name": "Shaun Murphy",
+            "price": 11
+          },
+          "5623568708": {
+            "id": 5623568708,
+            "name": "Stan Moody",
+            "price": 41
+          },
+          "5623568711": {
+            "id": 5623568711,
+            "name": "Simon Blackwell",
+            "price": 1501
+          },
+          "5623568710": {
+            "id": 5623568710,
+            "name": "Sean O'Sullivan",
+            "price": 1501
+          },
+          "5623568713": {
+            "id": 5623568713,
+            "name": "David Lilley",
+            "price": 501
+          },
+          "5623568712": {
+            "id": 5623568712,
+            "name": "Si Jiahui",
+            "price": 29
+          },
+          "5623568715": {
+            "id": 5623568715,
+            "name": "Ding Junhui",
+            "price": 23
+          },
+          "5623568716": {
+            "id": 5623568716,
+            "name": "Dean Young",
+            "price": 1501
+          },
+          "5623568719": {
+            "id": 5623568719,
+            "name": "Chris Wakelin",
+            "price": 34
+          },
+          "5623568720": {
+            "id": 5623568720,
+            "name": "Daniel Womersley  ",
+            "price": 2001
+          },
+          "5623568723": {
+            "id": 5623568723,
+            "name": "Fergal Quinn",
+            "price": 2001
+          },
+          "5623568722": {
+            "id": 5623568722,
+            "name": "Florian Nuessle",
+            "price": 1001
+          },
+          "5623568725": {
+            "id": 5623568725,
+            "name": "Gao Yang",
+            "price": 301
+          },
+          "5623568724": {
+            "id": 5623568724,
+            "name": "Gary Wilson",
+            "price": 29
+          },
+          "5623568727": {
+            "id": 5623568727,
+            "name": "Dylan Emery",
+            "price": 201
+          },
+          "5623568726": {
+            "id": 5623568726,
+            "name": "Farakh Ajaib",
+            "price": 1001
+          },
+          "5623568729": {
+            "id": 5623568729,
+            "name": "Fan Zhengyi",
+            "price": 151
+          },
+          "5623568728": {
+            "id": 5623568728,
+            "name": "Duane Jones",
+            "price": 751
+          },
+          "5623568730": {
+            "id": 5623568730,
+            "name": "Elliot Slessor",
+            "price": 51
+          },
+          "5623568732": {
+            "id": 5623568732,
+            "name": "Amir Sarkhosh",
+            "price": 1001
+          },
+          "5623568734": {
+            "id": 5623568734,
+            "name": "Andrew Pagett",
+            "price": 2001
+          },
+          "5623568737": {
+            "id": 5623568737,
+            "name": "Aaron Hill",
+            "price": 51
+          },
+          "5623568736": {
+            "id": 5623568736,
+            "name": "Alexander Ursenbacher",
+            "price": 301
+          },
+          "5623568740": {
+            "id": 5623568740,
+            "name": "Ben Mertens",
+            "price": 301
+          },
+          "5623568742": {
+            "id": 5623568742,
+            "name": "Bulcsu Revesz",
+            "price": 751
+          },
+          "5623568745": {
+            "id": 5623568745,
+            "name": "Artemijs Zizins",
+            "price": 301
+          },
+          "5623568744": {
+            "id": 5623568744,
+            "name": "Bai Yulu",
+            "price": 2001
+          },
+          "5623568747": {
+            "id": 5623568747,
+            "name": "Ashley Hugill",
+            "price": 751
+          },
+          "5623568749": {
+            "id": 5623568749,
+            "name": "Gong Chenzhi",
+            "price": 301
+          },
+          "5623568748": {
+            "id": 5623568748,
+            "name": "Ashley Carty",
+            "price": 501
+          },
+          "5623568750": {
+            "id": 5623568750,
+            "name": "Judd Trump",
+            "price": 4.5
+          },
+          "5623568753": {
+            "id": 5623568753,
+            "name": "Julien Leclercq",
+            "price": 301
+          },
+          "5623568752": {
+            "id": 5623568752,
+            "name": "Ka Wai Cheung",
+            "price": 751
+          },
+          "5623568755": {
+            "id": 5623568755,
+            "name": "Joe O'Connor",
+            "price": 41
+          },
+          "5623568757": {
+            "id": 5623568757,
+            "name": "John Higgins",
+            "price": 17
+          },
+          "5623568758": {
+            "id": 5623568758,
+            "name": "John Astley",
+            "price": 1001
+          },
+          "5623568760": {
+            "id": 5623568760,
+            "name": "Lewis Ullah",
+            "price": 2001
+          },
+          "5623568763": {
+            "id": 5623568763,
+            "name": "Leone Crowley",
+            "price": 2001
+          },
+          "5623568762": {
+            "id": 5623568762,
+            "name": "Liam Graham",
+            "price": 1501
+          },
+          "5623568764": {
+            "id": 5623568764,
+            "name": "Kreishh Gurbaxani",
+            "price": 2001
+          },
+          "5623568767": {
+            "id": 5623568767,
+            "name": "Kyren Wilson",
+            "price": 10
+          },
+          "5623568766": {
+            "id": 5623568766,
+            "name": "Lei Peifan",
+            "price": 81
+          },
+          "5623568769": {
+            "id": 5623568769,
+            "name": "Hossein Vafaei",
+            "price": 51
+          },
+          "5623568782": {
+            "id": 5623568782,
+            "name": "Jack Lisowski",
+            "price": 21
+          },
+          "5623568784": {
+            "id": 5623568784,
+            "name": "Jak Jones  ",
+            "price": 41
+          },
+          "6252958415": {
+            "id": 6252958415,
+            "name": "Lan Yuhao",
+            "price": 201
+          }
+        }
+      }
+    }
   }
 ]

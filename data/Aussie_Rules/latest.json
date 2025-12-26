@@ -7,19 +7,26 @@
     "team1_name": "Sydney Swans",
     "team2_name": "Carlton Blues",
     "start_ts": 1772699400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103292976": {
+        "id": 2103292976,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6269919375": {
+            "id": 6269919375,
+            "name": "W1",
+            "price": 1.33
+          },
+          "6269919374": {
+            "id": 6269919374,
+            "name": "W2",
+            "price": 3.05
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Aussie Rules",
@@ -29,19 +36,44 @@
     "team1_name": "Gold Coast Suns",
     "team2_name": "Geelong Cats",
     "start_ts": 1772787900,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103292978": {
+        "id": 2103292978,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6269919379": {
+            "id": 6269919379,
+            "name": "W1",
+            "price": 1.63
+          },
+          "6269919378": {
+            "id": 6269919378,
+            "name": "W2",
+            "price": 2.13
+          }
+        }
+      },
+      "2103293553": {
+        "id": 2103293553,
+        "name": "Points Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6269920871": {
+            "id": 6269920871,
+            "name": "Geelong Cats ",
+            "price": 1.85
+          },
+          "6269920872": {
+            "id": 6269920872,
+            "name": "Gold Coast Suns ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Aussie Rules",
@@ -51,19 +83,26 @@
     "team1_name": "GWS Giants",
     "team2_name": "Hawthorn Hawks",
     "start_ts": 1772860500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103292974": {
+        "id": 2103292974,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6269919371": {
+            "id": 6269919371,
+            "name": "W1",
+            "price": 1.9
+          },
+          "6269919370": {
+            "id": 6269919370,
+            "name": "W2",
+            "price": 1.8
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Aussie Rules",
@@ -73,19 +112,44 @@
     "team1_name": "St. Kilda Saints",
     "team2_name": "Collingwood Magpies",
     "start_ts": 1772958000,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103292975": {
+        "id": 2103292975,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6269919373": {
+            "id": 6269919373,
+            "name": "W1",
+            "price": 2.17
+          },
+          "6269919372": {
+            "id": 6269919372,
+            "name": "W2",
+            "price": 1.61
+          }
+        }
+      },
+      "2103293552": {
+        "id": 2103293552,
+        "name": "Points Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6269920870": {
+            "id": 6269920870,
+            "name": "St. Kilda Saints ",
+            "price": 1.85
+          },
+          "6269920869": {
+            "id": 6269920869,
+            "name": "Collingwood Magpies ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Aussie Rules",
@@ -95,19 +159,26 @@
     "team1_name": "Brisbane Lions",
     "team2_name": "Western Bulldogs",
     "start_ts": 1772872500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103292979": {
+        "id": 2103292979,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6269919381": {
+            "id": 6269919381,
+            "name": "W1",
+            "price": 1.35
+          },
+          "6269919380": {
+            "id": 6269919380,
+            "name": "W2",
+            "price": 2.95
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Aussie Rules",
@@ -116,18 +187,105 @@
     "id": 28698636,
     "team1_name": "AFL 2026",
     "start_ts": 1772699400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103287765": {
+        "id": 2103287765,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6269910237": {
+            "id": 6269910237,
+            "name": "Hawthorn Hawks",
+            "price": 7.5
+          },
+          "6269910236": {
+            "id": 6269910236,
+            "name": "Brisbane Lions",
+            "price": 5
+          },
+          "6269910239": {
+            "id": 6269910239,
+            "name": "Geelong Cats",
+            "price": 8
+          },
+          "6269910238": {
+            "id": 6269910238,
+            "name": "Gold Coast Suns",
+            "price": 8
+          },
+          "6269910241": {
+            "id": 6269910241,
+            "name": "Sydney Swans",
+            "price": 11
+          },
+          "6269910240": {
+            "id": 6269910240,
+            "name": "Adelaide Crows",
+            "price": 10
+          },
+          "6269910243": {
+            "id": 6269910243,
+            "name": "Collingwood Magpies",
+            "price": 13
+          },
+          "6269910242": {
+            "id": 6269910242,
+            "name": "GWS Giants",
+            "price": 13
+          },
+          "6269910245": {
+            "id": 6269910245,
+            "name": "Fremantle Dockers",
+            "price": 15
+          },
+          "6269910244": {
+            "id": 6269910244,
+            "name": "Western Bulldogs",
+            "price": 15
+          },
+          "6269910247": {
+            "id": 6269910247,
+            "name": "Carlton Blues",
+            "price": 50
+          },
+          "6269910246": {
+            "id": 6269910246,
+            "name": "St. Kilda Saints",
+            "price": 20
+          },
+          "6269910249": {
+            "id": 6269910249,
+            "name": "North Melbourne Kangaroos",
+            "price": 80
+          },
+          "6269910248": {
+            "id": 6269910248,
+            "name": "Port Adelaide Power",
+            "price": 65
+          },
+          "6269910251": {
+            "id": 6269910251,
+            "name": "Essendon Bombers",
+            "price": 150
+          },
+          "6269910250": {
+            "id": 6269910250,
+            "name": "Melbourne Demons",
+            "price": 80
+          },
+          "6269910253": {
+            "id": 6269910253,
+            "name": "West Coast Eagles",
+            "price": 200
+          },
+          "6269910252": {
+            "id": 6269910252,
+            "name": "Richmond Tigers",
+            "price": 150
+          }
+        }
+      }
+    }
   }
 ]

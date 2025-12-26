@@ -6,10 +6,216 @@
     "id": 28705934,
     "team1_name": "4 Hills Tournament 2025/2026. Overall",
     "start_ts": 1766923200,
-    "markets_count": 3,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104859682": {
+        "id": 2104859682,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6274653373": {
+            "id": 6274653373,
+            "name": "Naoki Nakamura",
+            "price": 251
+          },
+          "6274653381": {
+            "id": 6274653381,
+            "name": "Valentin Foubert",
+            "price": 151
+          },
+          "6274653380": {
+            "id": 6274653380,
+            "name": "Stephan Embacher",
+            "price": 41
+          },
+          "6274653383": {
+            "id": 6274653383,
+            "name": "Jonas Schuster",
+            "price": 81
+          },
+          "6274653382": {
+            "id": 6274653382,
+            "name": "Felix Hoffmann",
+            "price": 12
+          },
+          "6274653384": {
+            "id": 6274653384,
+            "name": "Kacper Tomasiak",
+            "price": 151
+          },
+          "6274355237": {
+            "id": 6274355237,
+            "name": "Pawel Wasek",
+            "price": 501
+          },
+          "6274355239": {
+            "id": 6274355239,
+            "name": "Piotr Zyla",
+            "price": 401
+          },
+          "6274355238": {
+            "id": 6274355238,
+            "name": "Philipp Raimund",
+            "price": 12
+          },
+          "6274355240": {
+            "id": 6274355240,
+            "name": "Manuel Fettner",
+            "price": 201
+          },
+          "6274355242": {
+            "id": 6274355242,
+            "name": "Marius Lindvik",
+            "price": 126
+          },
+          "6274355245": {
+            "id": 6274355245,
+            "name": "Stefan Kraft ",
+            "price": 9
+          },
+          "6274355244": {
+            "id": 6274355244,
+            "name": "Maximilian Ortner",
+            "price": 351
+          },
+          "6274355247": {
+            "id": 6274355247,
+            "name": "Timi Zajc",
+            "price": 101
+          },
+          "6274355246": {
+            "id": 6274355246,
+            "name": "Tate Frantz",
+            "price": 1501
+          },
+          "6274355249": {
+            "id": 6274355249,
+            "name": "Ren Nikaido",
+            "price": 19
+          },
+          "6274355248": {
+            "id": 6274355248,
+            "name": "Pius Paschke",
+            "price": 351
+          },
+          "6274355251": {
+            "id": 6274355251,
+            "name": "Domen Prevc ",
+            "price": 1.8
+          },
+          "6274355250": {
+            "id": 6274355250,
+            "name": "Ryoyu Kobayashi",
+            "price": 4.33
+          },
+          "6274355253": {
+            "id": 6274355253,
+            "name": "Halvor Egner Granerud ",
+            "price": 301
+          },
+          "6274355252": {
+            "id": 6274355252,
+            "name": "Gregor Deschwanden",
+            "price": 351
+          },
+          "6274355255": {
+            "id": 6274355255,
+            "name": "Anze Lanisek",
+            "price": 19
+          },
+          "6274355254": {
+            "id": 6274355254,
+            "name": "Andreas Wellinger",
+            "price": 501
+          },
+          "6274355259": {
+            "id": 6274355259,
+            "name": "Karl Geiger",
+            "price": 751
+          },
+          "6274355258": {
+            "id": 6274355258,
+            "name": "Daniel Tschofenig",
+            "price": 21
+          },
+          "6274355260": {
+            "id": 6274355260,
+            "name": "Kristoffer Eriksen Sundal",
+            "price": 81
+          },
+          "6274355263": {
+            "id": 6274355263,
+            "name": "Johann Andre Forfang",
+            "price": 101
+          },
+          "6274355262": {
+            "id": 6274355262,
+            "name": "Jan Hoerl",
+            "price": 17
+          },
+          "6274355264": {
+            "id": 6274355264,
+            "name": "Kamil Stoch ",
+            "price": 401
+          }
+        }
+      },
+      "2105206223": {
+        "id": 2105206223,
+        "name": "One Skier to Win all 4 Events",
+        "type": "OneSkiertoWinall4Events",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6275332622": {
+            "id": 6275332622,
+            "name": "No",
+            "price": 1.17
+          },
+          "6275332626": {
+            "id": 6275332626,
+            "name": "Yes",
+            "price": 4.5
+          }
+        }
+      },
+      "2105206225": {
+        "id": 2105206225,
+        "name": "Winning Margin (Points)",
+        "type": "WinningMargin(Points)",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6275332627": {
+            "id": 6275332627,
+            "name": "30-39.9",
+            "price": 4.5
+          },
+          "6275332629": {
+            "id": 6275332629,
+            "name": "by 50 or more",
+            "price": 5.5
+          },
+          "6275332628": {
+            "id": 6275332628,
+            "name": "40-49.9",
+            "price": 8.5
+          },
+          "6275332631": {
+            "id": 6275332631,
+            "name": "10-19.9",
+            "price": 4.5
+          },
+          "6275332630": {
+            "id": 6275332630,
+            "name": "0-9.9",
+            "price": 6.5
+          },
+          "6275332632": {
+            "id": 6275332632,
+            "name": "20-29.9",
+            "price": 4.5
+          }
+        }
+      }
+    }
   }
 ]

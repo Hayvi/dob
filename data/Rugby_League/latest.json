@@ -6,18 +6,66 @@
     "id": 28703429,
     "team1_name": "World Cup 2026",
     "start_ts": 1794715500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104071781": {
+        "id": 2104071781,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6272143991": {
+            "id": 6272143991,
+            "name": "Lebanon",
+            "price": 501
+          },
+          "6272143990": {
+            "id": 6272143990,
+            "name": "New Zealand",
+            "price": 5
+          },
+          "6272143993": {
+            "id": 6272143993,
+            "name": "Tonga",
+            "price": 15
+          },
+          "6272143992": {
+            "id": 6272143992,
+            "name": "Papua New Guinea",
+            "price": 201
+          },
+          "6272143995": {
+            "id": 6272143995,
+            "name": "Cook Islands",
+            "price": 1001
+          },
+          "6272143994": {
+            "id": 6272143994,
+            "name": "Samoa",
+            "price": 9.5
+          },
+          "6272143997": {
+            "id": 6272143997,
+            "name": "England",
+            "price": 15
+          },
+          "6272143996": {
+            "id": 6272143996,
+            "name": "Australia",
+            "price": 1.4
+          },
+          "6272143999": {
+            "id": 6272143999,
+            "name": "Fiji",
+            "price": 501
+          },
+          "6272143998": {
+            "id": 6272143998,
+            "name": "France",
+            "price": 1001
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Rugby League",
@@ -26,18 +74,310 @@
     "id": 28192437,
     "team1_name": "National Rugby League 2026",
     "start_ts": 1770314400,
-    "markets_count": 4,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2025260184": {
+        "id": 2025260184,
+        "name": "Grand Final Winner",
+        "type": "GrandFinalWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6043522255": {
+            "id": 6043522255,
+            "name": "Parramatta Eels",
+            "price": 17
+          },
+          "6043522257": {
+            "id": 6043522257,
+            "name": "Newcastle Knights",
+            "price": 67
+          },
+          "6043522256": {
+            "id": 6043522256,
+            "name": "Penrith Panthers",
+            "price": 7
+          },
+          "6043522259": {
+            "id": 6043522259,
+            "name": "Sydney Roosters",
+            "price": 10
+          },
+          "6043522258": {
+            "id": 6043522258,
+            "name": "North Queensland Cowboys",
+            "price": 34
+          },
+          "6043522261": {
+            "id": 6043522261,
+            "name": "South Sydney Rabbitohs",
+            "price": 23
+          },
+          "6043522260": {
+            "id": 6043522260,
+            "name": "Wests Tigers",
+            "price": 51
+          },
+          "6043522263": {
+            "id": 6043522263,
+            "name": "New Zealand Warriors",
+            "price": 26
+          },
+          "6043522262": {
+            "id": 6043522262,
+            "name": "St George/Illawarra Dragons",
+            "price": 51
+          },
+          "6043522265": {
+            "id": 6043522265,
+            "name": "Cronulla Sharks",
+            "price": 17
+          },
+          "6043522264": {
+            "id": 6043522264,
+            "name": "Canterbury Bulldogs",
+            "price": 11
+          },
+          "6043522267": {
+            "id": 6043522267,
+            "name": "Canberra Raiders",
+            "price": 13
+          },
+          "6043522266": {
+            "id": 6043522266,
+            "name": "Brisbane Broncos",
+            "price": 4.75
+          },
+          "6043522269": {
+            "id": 6043522269,
+            "name": "Melbourne Storm",
+            "price": 5
+          },
+          "6043522268": {
+            "id": 6043522268,
+            "name": "Manly Sea Eagles",
+            "price": 41
+          },
+          "6043522271": {
+            "id": 6043522271,
+            "name": "Gold Coast Titans",
+            "price": 61
+          },
+          "6043522270": {
+            "id": 6043522270,
+            "name": "Dolphins",
+            "price": 26
+          }
+        }
+      },
+      "2100548206": {
+        "id": 2100548206,
+        "name": "Grand Final Winning Region",
+        "type": "GrandFinalWinningRegion",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6262064423": {
+            "id": 6262064423,
+            "name": "New South Wales",
+            "price": 1.8
+          },
+          "6262064425": {
+            "id": 6262064425,
+            "name": "Any other",
+            "price": 4.33
+          },
+          "6262064424": {
+            "id": 6262064424,
+            "name": "Queensland",
+            "price": 3.75
+          }
+        }
+      },
+      "2100548207": {
+        "id": 2100548207,
+        "name": "Regular Season Winner",
+        "type": "RegularSeasonWinner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6262064431": {
+            "id": 6262064431,
+            "name": "South Sydney Rabbitohs",
+            "price": 21
+          },
+          "6262064430": {
+            "id": 6262064430,
+            "name": "Penrith Panthers",
+            "price": 5.5
+          },
+          "6262064433": {
+            "id": 6262064433,
+            "name": "Parramatta Eels",
+            "price": 21
+          },
+          "6262064432": {
+            "id": 6262064432,
+            "name": "North Queensland Cowboys",
+            "price": 41
+          },
+          "6262064435": {
+            "id": 6262064435,
+            "name": "New Zealand Warriors",
+            "price": 29
+          },
+          "6262064434": {
+            "id": 6262064434,
+            "name": "Wests Tigers",
+            "price": 67
+          },
+          "6262064437": {
+            "id": 6262064437,
+            "name": "Sydney Roosters",
+            "price": 7.5
+          },
+          "6262064436": {
+            "id": 6262064436,
+            "name": "St George/Illawarra Dragons",
+            "price": 81
+          },
+          "6262064439": {
+            "id": 6262064439,
+            "name": "Cronulla Sharks",
+            "price": 17
+          },
+          "6262064438": {
+            "id": 6262064438,
+            "name": "Newcastle Knights",
+            "price": 81
+          },
+          "6262064441": {
+            "id": 6262064441,
+            "name": "Canberra Raiders",
+            "price": 13
+          },
+          "6262064440": {
+            "id": 6262064440,
+            "name": "Dolphins",
+            "price": 21
+          },
+          "6262064443": {
+            "id": 6262064443,
+            "name": "Melbourne Storm",
+            "price": 6.5
+          },
+          "6262064442": {
+            "id": 6262064442,
+            "name": "Canterbury Bulldogs",
+            "price": 11
+          },
+          "6262064445": {
+            "id": 6262064445,
+            "name": "Gold Coast Titans",
+            "price": 81
+          },
+          "6262064444": {
+            "id": 6262064444,
+            "name": "Brisbane Broncos",
+            "price": 4.5
+          },
+          "6262064446": {
+            "id": 6262064446,
+            "name": "Manly Sea Eagles",
+            "price": 41
+          }
+        }
+      },
+      "2100548210": {
+        "id": 2100548210,
+        "name": "To Reach the Grand Final",
+        "type": "ToReachtheGrandFinal",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6262064447": {
+            "id": 6262064447,
+            "name": "Parramatta Eels",
+            "price": 10
+          },
+          "6262064449": {
+            "id": 6262064449,
+            "name": "Newcastle Knights",
+            "price": 29
+          },
+          "6262064448": {
+            "id": 6262064448,
+            "name": "Penrith Panthers",
+            "price": 3.2
+          },
+          "6262064451": {
+            "id": 6262064451,
+            "name": "Sydney Roosters",
+            "price": 4
+          },
+          "6262064450": {
+            "id": 6262064450,
+            "name": "North Queensland Cowboys",
+            "price": 17
+          },
+          "6262064453": {
+            "id": 6262064453,
+            "name": "South Sydney Rabbitohs",
+            "price": 10
+          },
+          "6262064452": {
+            "id": 6262064452,
+            "name": "Wests Tigers",
+            "price": 19
+          },
+          "6262064455": {
+            "id": 6262064455,
+            "name": "New Zealand Warriors",
+            "price": 13
+          },
+          "6262064454": {
+            "id": 6262064454,
+            "name": "St George/Illawarra Dragons",
+            "price": 29
+          },
+          "6262064457": {
+            "id": 6262064457,
+            "name": "Cronulla Sharks",
+            "price": 8.5
+          },
+          "6262064456": {
+            "id": 6262064456,
+            "name": "Canterbury Bulldogs",
+            "price": 6.5
+          },
+          "6262064459": {
+            "id": 6262064459,
+            "name": "Canberra Raiders",
+            "price": 7.5
+          },
+          "6262064458": {
+            "id": 6262064458,
+            "name": "Brisbane Broncos",
+            "price": 2.75
+          },
+          "6262064461": {
+            "id": 6262064461,
+            "name": "Melbourne Storm",
+            "price": 3.75
+          },
+          "6262064460": {
+            "id": 6262064460,
+            "name": "Manly Sea Eagles",
+            "price": 17
+          },
+          "6262064463": {
+            "id": 6262064463,
+            "name": "Gold Coast Titans",
+            "price": 29
+          },
+          "6262064462": {
+            "id": 6262064462,
+            "name": "Dolphins",
+            "price": 10
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Rugby League",
@@ -46,18 +386,26 @@
     "id": 27563374,
     "team1_name": "State of Origin 2026",
     "start_ts": 1783501200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1934560335": {
+        "id": 1934560335,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5777530587": {
+            "id": 5777530587,
+            "name": "New South Wales",
+            "price": 1.8
+          },
+          "5777530586": {
+            "id": 5777530586,
+            "name": "Queensland",
+            "price": 2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Rugby League",
@@ -66,17 +414,163 @@
     "id": 28703413,
     "team1_name": "Super League XXXI",
     "start_ts": 1770926400,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104068898": {
+        "id": 2104068898,
+        "name": "League Leaders’ Shield",
+        "type": "LeagueLeadersShield",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6272135531": {
+            "id": 6272135531,
+            "name": "St Helens",
+            "price": 7.5
+          },
+          "6272135530": {
+            "id": 6272135530,
+            "name": "Toulouse Olympique",
+            "price": 251
+          },
+          "6272135533": {
+            "id": 6272135533,
+            "name": "York Knights",
+            "price": 251
+          },
+          "6272135532": {
+            "id": 6272135532,
+            "name": "Leeds Rhinos",
+            "price": 6.5
+          },
+          "6272135535": {
+            "id": 6272135535,
+            "name": "Warrington Wolves",
+            "price": 15
+          },
+          "6272135534": {
+            "id": 6272135534,
+            "name": "Wigan Warriors",
+            "price": 2.9
+          },
+          "6272135537": {
+            "id": 6272135537,
+            "name": "Huddersfield Giants",
+            "price": 81
+          },
+          "6272135536": {
+            "id": 6272135536,
+            "name": "Castleford Tigers",
+            "price": 126
+          },
+          "6272135539": {
+            "id": 6272135539,
+            "name": "Bradford Bulls",
+            "price": 201
+          },
+          "6272135538": {
+            "id": 6272135538,
+            "name": "Catalan Dragons",
+            "price": 34
+          },
+          "6272135541": {
+            "id": 6272135541,
+            "name": "Hull FC",
+            "price": 15
+          },
+          "6272135540": {
+            "id": 6272135540,
+            "name": "Hull KR",
+            "price": 2.9
+          },
+          "6272135543": {
+            "id": 6272135543,
+            "name": "Leigh Leopards",
+            "price": 11
+          },
+          "6272135542": {
+            "id": 6272135542,
+            "name": "Wakefield Trinity",
+            "price": 41
+          }
+        }
+      },
+      "2104068905": {
+        "id": 2104068905,
+        "name": "To Finish Bottom",
+        "type": "ToFinishBottom",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6272135545": {
+            "id": 6272135545,
+            "name": "St Helens",
+            "price": 81
+          },
+          "6272135544": {
+            "id": 6272135544,
+            "name": "Toulouse Olympique",
+            "price": 3.25
+          },
+          "6272135547": {
+            "id": 6272135547,
+            "name": "Wakefield Trinity",
+            "price": 15
+          },
+          "6272135546": {
+            "id": 6272135546,
+            "name": "Leigh Leopards",
+            "price": 51
+          },
+          "6272135549": {
+            "id": 6272135549,
+            "name": "Wigan Warriors",
+            "price": 251
+          },
+          "6272135548": {
+            "id": 6272135548,
+            "name": "York Knights",
+            "price": 3.25
+          },
+          "6272135551": {
+            "id": 6272135551,
+            "name": "Catalan Dragons",
+            "price": 17
+          },
+          "6272135550": {
+            "id": 6272135550,
+            "name": "Warrington Wolves",
+            "price": 29
+          },
+          "6272135553": {
+            "id": 6272135553,
+            "name": "Bradford Bulls",
+            "price": 3.5
+          },
+          "6272135552": {
+            "id": 6272135552,
+            "name": "Castleford Tigers",
+            "price": 7
+          },
+          "6272135555": {
+            "id": 6272135555,
+            "name": "Leeds Rhinos",
+            "price": 101
+          },
+          "6272135554": {
+            "id": 6272135554,
+            "name": "Huddersfield Giants",
+            "price": 9
+          },
+          "6272135557": {
+            "id": 6272135557,
+            "name": "Hull FC",
+            "price": 29
+          },
+          "6272135556": {
+            "id": 6272135556,
+            "name": "Hull KR",
+            "price": 201
+          }
+        }
+      }
+    }
   }
 ]

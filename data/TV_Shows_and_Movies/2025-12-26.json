@@ -6,10 +6,165 @@
     "id": 28713806,
     "team1_name": "Melodifestivalen 2026",
     "start_ts": 1769886000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105723233": {
+        "id": 2105723233,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6276813061": {
+            "id": 6276813061,
+            "name": "Greczula",
+            "price": 7
+          },
+          "6276813060": {
+            "id": 6276813060,
+            "name": "Smash Into Pieces",
+            "price": 7
+          },
+          "6276813063": {
+            "id": 6276813063,
+            "name": "Alexa",
+            "price": 8
+          },
+          "6276813062": {
+            "id": 6276813062,
+            "name": "Felicia",
+            "price": 8
+          },
+          "6276813065": {
+            "id": 6276813065,
+            "name": "Patrik Jean",
+            "price": 10
+          },
+          "6276813064": {
+            "id": 6276813064,
+            "name": "Medina",
+            "price": 9
+          },
+          "6276813067": {
+            "id": 6276813067,
+            "name": "A-Teens",
+            "price": 13
+          },
+          "6276813066": {
+            "id": 6276813066,
+            "name": "Robin Bengtsson",
+            "price": 13
+          },
+          "6276813069": {
+            "id": 6276813069,
+            "name": "Jacqline",
+            "price": 17
+          },
+          "6276813068": {
+            "id": 6276813068,
+            "name": "Sanna Nielsen",
+            "price": 16
+          },
+          "6276813071": {
+            "id": 6276813071,
+            "name": "Vilhelm Buchaus",
+            "price": 26
+          },
+          "6276813070": {
+            "id": 6276813070,
+            "name": "Cimberly",
+            "price": 17
+          },
+          "6276813073": {
+            "id": 6276813073,
+            "name": "Arwin",
+            "price": 26
+          },
+          "6276813072": {
+            "id": 6276813072,
+            "name": "Meira Omar",
+            "price": 26
+          },
+          "6276813075": {
+            "id": 6276813075,
+            "name": "Saga Ludvigsson",
+            "price": 31
+          },
+          "6276813074": {
+            "id": 6276813074,
+            "name": "Korslagda",
+            "price": 26
+          },
+          "6276813077": {
+            "id": 6276813077,
+            "name": "Eva Jumatate",
+            "price": 31
+          },
+          "6276813076": {
+            "id": 6276813076,
+            "name": "Timo Raisanen",
+            "price": 31
+          },
+          "6276813079": {
+            "id": 6276813079,
+            "name": "Blade",
+            "price": 36
+          },
+          "6276813078": {
+            "id": 6276813078,
+            "name": "Emilia Pantic",
+            "price": 31
+          },
+          "6276813081": {
+            "id": 6276813081,
+            "name": "Klara Almstrom",
+            "price": 46
+          },
+          "6276813080": {
+            "id": 6276813080,
+            "name": "JULIETT",
+            "price": 36
+          },
+          "6276813083": {
+            "id": 6276813083,
+            "name": "Laila Adele",
+            "price": 67
+          },
+          "6276813082": {
+            "id": 6276813082,
+            "name": "Lilla Al-Fadji5",
+            "price": 56
+          },
+          "6276813085": {
+            "id": 6276813085,
+            "name": "Noll2",
+            "price": 67
+          },
+          "6276813084": {
+            "id": 6276813084,
+            "name": "Junior Lerin",
+            "price": 67
+          },
+          "6276813087": {
+            "id": 6276813087,
+            "name": "Erika Jonsson",
+            "price": 76
+          },
+          "6276813086": {
+            "id": 6276813086,
+            "name": "Brandsta City Slackers",
+            "price": 76
+          },
+          "6276813089": {
+            "id": 6276813089,
+            "name": "Felix Manu",
+            "price": 101
+          },
+          "6276813088": {
+            "id": 6276813088,
+            "name": "Indra",
+            "price": 81
+          }
+        }
+      }
+    }
   }
 ]

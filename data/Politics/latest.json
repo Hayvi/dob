@@ -6,11 +6,66 @@
     "id": 28325813,
     "team1_name": "Irish General Election",
     "start_ts": 1892575800,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2045421647": {
+        "id": 2045421647,
+        "name": "Most Seats",
+        "type": "MostSeatsAtNextGeneralElection",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6102463031": {
+            "id": 6102463031,
+            "name": "Labour",
+            "price": 126
+          },
+          "6102463033": {
+            "id": 6102463033,
+            "name": "Social Democrats",
+            "price": 51
+          },
+          "6102463032": {
+            "id": 6102463032,
+            "name": "Independent Ireland",
+            "price": 126
+          },
+          "6102463035": {
+            "id": 6102463035,
+            "name": "Fianna Fail",
+            "price": 3.25
+          },
+          "6102463034": {
+            "id": 6102463034,
+            "name": "Sinn Fein",
+            "price": 1.53
+          },
+          "6102463037": {
+            "id": 6102463037,
+            "name": "Fine Gael",
+            "price": 8
+          },
+          "6102463036": {
+            "id": 6102463036,
+            "name": "Aontu",
+            "price": 151
+          },
+          "6102463039": {
+            "id": 6102463039,
+            "name": "People Before Profit",
+            "price": 501
+          },
+          "6102463038": {
+            "id": 6102463038,
+            "name": "Green Party",
+            "price": 501
+          },
+          "6102463040": {
+            "id": 6102463040,
+            "name": "Irish Freedom Party",
+            "price": 501
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Politics",
@@ -19,11 +74,41 @@
     "id": 26238233,
     "team1_name": "UK General Election",
     "start_ts": 1881813000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1744832156": {
+        "id": 1744832156,
+        "name": "Most Seats",
+        "type": "MostSeatsAtNextGeneralElection",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5233506005": {
+            "id": 5233506005,
+            "name": "Reform UK",
+            "price": 1.83
+          },
+          "5233506006": {
+            "id": 5233506006,
+            "name": "Labour",
+            "price": 3.5
+          },
+          "5233506007": {
+            "id": 5233506007,
+            "name": "Conservatives",
+            "price": 4.5
+          },
+          "6020557012": {
+            "id": 6020557012,
+            "name": "Green",
+            "price": 19
+          },
+          "5233506004": {
+            "id": 5233506004,
+            "name": "Liberal Democrats",
+            "price": 51
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Politics",
@@ -32,12 +117,216 @@
     "id": 28326079,
     "team1_name": "Next Prime Minister",
     "start_ts": 1881853200,
-    "markets_count": 1,
-    "info": {
-      "add_info": "Next Prime Minister after Keir Starmer",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2045452327": {
+        "id": 2045452327,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6102551083": {
+            "id": 6102551083,
+            "name": "Peter Kyle",
+            "price": 51
+          },
+          "6102551085": {
+            "id": 6102551085,
+            "name": "Rachel Reeves",
+            "price": 101
+          },
+          "6102551084": {
+            "id": 6102551084,
+            "name": "Penny Mordaunt",
+            "price": 67
+          },
+          "6102551087": {
+            "id": 6102551087,
+            "name": "Laura Trott ",
+            "price": 201
+          },
+          "6102551086": {
+            "id": 6102551086,
+            "name": "Priti Patel",
+            "price": 151
+          },
+          "6102551089": {
+            "id": 6102551089,
+            "name": "Nigel Farage",
+            "price": 5.5
+          },
+          "6102551088": {
+            "id": 6102551088,
+            "name": "Kemi Badenoch",
+            "price": 13
+          },
+          "6102551091": {
+            "id": 6102551091,
+            "name": "Wes Streeting",
+            "price": 4.5
+          },
+          "6102551090": {
+            "id": 6102551090,
+            "name": "Lisa Nandy",
+            "price": 51
+          },
+          "6102551093": {
+            "id": 6102551093,
+            "name": "Zarah Sultana",
+            "price": 51
+          },
+          "6102551092": {
+            "id": 6102551092,
+            "name": "Tom Tugendhat",
+            "price": 51
+          },
+          "6102551095": {
+            "id": 6102551095,
+            "name": "Sadiq Khan",
+            "price": 41
+          },
+          "6102551094": {
+            "id": 6102551094,
+            "name": "Yvette Cooper",
+            "price": 17
+          },
+          "6102551097": {
+            "id": 6102551097,
+            "name": "Suella Braverman",
+            "price": 126
+          },
+          "6102551096": {
+            "id": 6102551096,
+            "name": "Robert Jenrick",
+            "price": 41
+          },
+          "6102551099": {
+            "id": 6102551099,
+            "name": "Jeremy Hunt",
+            "price": 101
+          },
+          "6102551098": {
+            "id": 6102551098,
+            "name": "Shabana Mahmood",
+            "price": 11
+          },
+          "6102551101": {
+            "id": 6102551101,
+            "name": "Darren Jones",
+            "price": 23
+          },
+          "6102551100": {
+            "id": 6102551100,
+            "name": "Daisy Cooper",
+            "price": 81
+          },
+          "6102551103": {
+            "id": 6102551103,
+            "name": "Andy Burnham",
+            "price": 8
+          },
+          "6102551102": {
+            "id": 6102551102,
+            "name": "David Lammy",
+            "price": 67
+          },
+          "6102551105": {
+            "id": 6102551105,
+            "name": "Bridget Phillipson",
+            "price": 41
+          },
+          "6102551104": {
+            "id": 6102551104,
+            "name": "Boris Johnson",
+            "price": 41
+          },
+          "6102551107": {
+            "id": 6102551107,
+            "name": "Ed Miliband",
+            "price": 13
+          },
+          "6102551106": {
+            "id": 6102551106,
+            "name": "Ed Davey",
+            "price": 67
+          },
+          "6102551109": {
+            "id": 6102551109,
+            "name": "Jacob Rees-Mogg",
+            "price": 151
+          },
+          "6102551108": {
+            "id": 6102551108,
+            "name": "James Cleverly",
+            "price": 34
+          },
+          "6102551111": {
+            "id": 6102551111,
+            "name": "Max Wilkinson",
+            "price": 201
+          },
+          "6102551110": {
+            "id": 6102551110,
+            "name": "Jeremy Corbyn",
+            "price": 51
+          },
+          "6102551113": {
+            "id": 6102551113,
+            "name": "Zach Polanski",
+            "price": 34
+          },
+          "6102551112": {
+            "id": 6102551112,
+            "name": "David Bull",
+            "price": 81
+          },
+          "6102551115": {
+            "id": 6102551115,
+            "name": "Rupert Lowe",
+            "price": 26
+          },
+          "6102551114": {
+            "id": 6102551114,
+            "name": "Sarah Pochin",
+            "price": 151
+          },
+          "6102551117": {
+            "id": 6102551117,
+            "name": "Pat McFadden",
+            "price": 41
+          },
+          "6102551116": {
+            "id": 6102551116,
+            "name": "Richard Tice",
+            "price": 51
+          },
+          "6102551119": {
+            "id": 6102551119,
+            "name": "Ben Habib",
+            "price": 41
+          },
+          "6102551118": {
+            "id": 6102551118,
+            "name": "Zia Yusuf",
+            "price": 51
+          },
+          "6102551121": {
+            "id": 6102551121,
+            "name": "Brian Leishman",
+            "price": 126
+          },
+          "6102551120": {
+            "id": 6102551120,
+            "name": "Andy Street",
+            "price": 51
+          },
+          "6102551122": {
+            "id": 6102551122,
+            "name": "Carla Denyer",
+            "price": 151
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Politics",
@@ -46,10 +335,378 @@
     "id": 28139017,
     "team1_name": "US Presidential Election 2028",
     "start_ts": 1858059000,
-    "markets_count": 2,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2017431211": {
+        "id": 2017431211,
+        "name": "Winning Party",
+        "type": "WinningParty",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6020587695": {
+            "id": 6020587695,
+            "name": "Republican Party",
+            "price": 2.2
+          },
+          "6020587694": {
+            "id": 6020587694,
+            "name": "Democratic Party",
+            "price": 1.73
+          },
+          "6020587696": {
+            "id": 6020587696,
+            "name": "Any other",
+            "price": 34
+          }
+        }
+      },
+      "2017431212": {
+        "id": 2017431212,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6020587701": {
+            "id": 6020587701,
+            "name": "Mark Cuban",
+            "price": 101
+          },
+          "6020587703": {
+            "id": 6020587703,
+            "name": "Leonardo DiCaprio",
+            "price": 501
+          },
+          "6020587702": {
+            "id": 6020587702,
+            "name": "Liz Cheney",
+            "price": 151
+          },
+          "6020587705": {
+            "id": 6020587705,
+            "name": "Mike Pence",
+            "price": 126
+          },
+          "6020587704": {
+            "id": 6020587704,
+            "name": "Mark Kelly",
+            "price": 51
+          },
+          "6020587707": {
+            "id": 6020587707,
+            "name": "Michael Bloomberg",
+            "price": 67
+          },
+          "6020587706": {
+            "id": 6020587706,
+            "name": "Michelle Obama",
+            "price": 51
+          },
+          "6020587709": {
+            "id": 6020587709,
+            "name": "Josh Hawley",
+            "price": 176
+          },
+          "6020587708": {
+            "id": 6020587708,
+            "name": "Josh Shapiro",
+            "price": 23
+          },
+          "6020587711": {
+            "id": 6020587711,
+            "name": "Kamala Harris",
+            "price": 26
+          },
+          "6020587710": {
+            "id": 6020587710,
+            "name": "Jon Ossoff",
+            "price": 67
+          },
+          "6020587713": {
+            "id": 6020587713,
+            "name": "Kristi Noem",
+            "price": 51
+          },
+          "6020587712": {
+            "id": 6020587712,
+            "name": "LeBron James",
+            "price": 226
+          },
+          "6020587715": {
+            "id": 6020587715,
+            "name": "Nikki Haley",
+            "price": 41
+          },
+          "6020587714": {
+            "id": 6020587714,
+            "name": "Kanye West",
+            "price": 276
+          },
+          "6020587717": {
+            "id": 6020587717,
+            "name": "Tom Brady",
+            "price": 226
+          },
+          "6020587716": {
+            "id": 6020587716,
+            "name": "Tom Cotton",
+            "price": 81
+          },
+          "6020587719": {
+            "id": 6020587719,
+            "name": "Tucker Carlson",
+            "price": 81
+          },
+          "6020587718": {
+            "id": 6020587718,
+            "name": "Tim Walz",
+            "price": 101
+          },
+          "6020587721": {
+            "id": 6020587721,
+            "name": "Vince McMahon",
+            "price": 501
+          },
+          "6020587720": {
+            "id": 6020587720,
+            "name": "Vivek Ramaswamy",
+            "price": 101
+          },
+          "6020587723": {
+            "id": 6020587723,
+            "name": "Pete Buttigieg",
+            "price": 26
+          },
+          "6020587722": {
+            "id": 6020587722,
+            "name": "Tulsi Gabbard",
+            "price": 51
+          },
+          "6020587725": {
+            "id": 6020587725,
+            "name": "Oprah Winfrey",
+            "price": 41
+          },
+          "6020587724": {
+            "id": 6020587724,
+            "name": "Paul Ryan",
+            "price": 67
+          },
+          "6020587727": {
+            "id": 6020587727,
+            "name": "Ted Cruz",
+            "price": 51
+          },
+          "6020587726": {
+            "id": 6020587726,
+            "name": "Ron DeSantis",
+            "price": 29
+          },
+          "6020587729": {
+            "id": 6020587729,
+            "name": "Steve Bannon",
+            "price": 51
+          },
+          "6020587728": {
+            "id": 6020587728,
+            "name": "Taylor Swift",
+            "price": 501
+          },
+          "6020587731": {
+            "id": 6020587731,
+            "name": "Chris Murphy",
+            "price": 67
+          },
+          "6020587730": {
+            "id": 6020587730,
+            "name": "Cory Booker",
+            "price": 81
+          },
+          "6020587733": {
+            "id": 6020587733,
+            "name": "Andrew Cuomo",
+            "price": 81
+          },
+          "6020587732": {
+            "id": 6020587732,
+            "name": "Andrew Yang",
+            "price": 351
+          },
+          "6020587735": {
+            "id": 6020587735,
+            "name": "Candace Owens",
+            "price": 151
+          },
+          "6020587734": {
+            "id": 6020587734,
+            "name": "Donald Trump Jr.",
+            "price": 26
+          },
+          "6020587737": {
+            "id": 6020587737,
+            "name": "Caitlyn Jenner",
+            "price": 401
+          },
+          "6020587736": {
+            "id": 6020587736,
+            "name": "Bill Gates",
+            "price": 501
+          },
+          "6020587739": {
+            "id": 6020587739,
+            "name": "Andy Beshear",
+            "price": 41
+          },
+          "6020587738": {
+            "id": 6020587738,
+            "name": "Bernie Sanders ",
+            "price": 226
+          },
+          "6020587741": {
+            "id": 6020587741,
+            "name": "George Clooney",
+            "price": 251
+          },
+          "6020587740": {
+            "id": 6020587740,
+            "name": "Ben Shapiro",
+            "price": 126
+          },
+          "6020587743": {
+            "id": 6020587743,
+            "name": "Alexandria Ocasio-Cortez",
+            "price": 12
+          },
+          "6020587742": {
+            "id": 6020587742,
+            "name": "Jamie Dimon",
+            "price": 51
+          },
+          "6020587745": {
+            "id": 6020587745,
+            "name": "Joe Rogan",
+            "price": 501
+          },
+          "6020587744": {
+            "id": 6020587744,
+            "name": "Alex Jones",
+            "price": 501
+          },
+          "6020587747": {
+            "id": 6020587747,
+            "name": "Gavin Newsom",
+            "price": 4.5
+          },
+          "6020587746": {
+            "id": 6020587746,
+            "name": "Aaron Rodgers",
+            "price": 401
+          },
+          "6020587749": {
+            "id": 6020587749,
+            "name": "Ivanka Trump",
+            "price": 51
+          },
+          "6020587748": {
+            "id": 6020587748,
+            "name": "Glenn Youngkin",
+            "price": 101
+          },
+          "6020587751": {
+            "id": 6020587751,
+            "name": "Amy Klobuchar",
+            "price": 151
+          },
+          "6020587750": {
+            "id": 6020587750,
+            "name": "Gretchen Whitmer",
+            "price": 29
+          },
+          "6020587753": {
+            "id": 6020587753,
+            "name": "John Fetterman",
+            "price": 126
+          },
+          "6020587752": {
+            "id": 6020587752,
+            "name": "Hillary Clinton",
+            "price": 226
+          },
+          "6020587755": {
+            "id": 6020587755,
+            "name": "Jill Biden",
+            "price": 201
+          },
+          "6020587754": {
+            "id": 6020587754,
+            "name": "Rahm Emanuel",
+            "price": 101
+          },
+          "6020587757": {
+            "id": 6020587757,
+            "name": "Ruben Gallego",
+            "price": 101
+          },
+          "6020587756": {
+            "id": 6020587756,
+            "name": "Rudy Giuliani",
+            "price": 201
+          },
+          "6020587759": {
+            "id": 6020587759,
+            "name": "Robert F. Kennedy Jr.",
+            "price": 67
+          },
+          "6020587758": {
+            "id": 6020587758,
+            "name": "Roger Goodell",
+            "price": 151
+          },
+          "6020587761": {
+            "id": 6020587761,
+            "name": "Ro Khanna",
+            "price": 201
+          },
+          "6020587760": {
+            "id": 6020587760,
+            "name": "Raphael Warnock",
+            "price": 151
+          },
+          "6020587763": {
+            "id": 6020587763,
+            "name": "Hunter Biden",
+            "price": 501
+          },
+          "6020587762": {
+            "id": 6020587762,
+            "name": "Elissa Slotkin",
+            "price": 176
+          },
+          "6020587765": {
+            "id": 6020587765,
+            "name": "J.B Pritzker",
+            "price": 34
+          },
+          "6020587764": {
+            "id": 6020587764,
+            "name": "Wes Moore",
+            "price": 41
+          },
+          "6020587767": {
+            "id": 6020587767,
+            "name": "Dana White",
+            "price": 226
+          },
+          "6020587766": {
+            "id": 6020587766,
+            "name": "JD Vance",
+            "price": 3.25
+          },
+          "6020587768": {
+            "id": 6020587768,
+            "name": "Stephen A.Smith",
+            "price": 51
+          }
+        }
+      }
+    }
   }
 ]

@@ -7,19 +7,277 @@
     "team1_name": "Kuzbass Kemerovo",
     "team2_name": "Volga Ulyanovsk",
     "start_ts": 1766815200,
-    "markets_count": 15,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106520986": {
+        "id": 2106520986,
+        "name": "1st Half Result",
+        "type": "HalfResult",
+        "display_key": "WINNER",
+        "event": {
+          "6279038423": {
+            "id": 6279038423,
+            "name": "W2",
+            "price": 21
+          },
+          "6279038425": {
+            "id": 6279038425,
+            "name": "W1",
+            "price": 1.015
+          },
+          "6279038424": {
+            "id": 6279038424,
+            "name": "X",
+            "price": 13
+          }
+        }
+      },
+      "2106521290": {
+        "id": 2106521290,
+        "name": "1st Half Team 1 Total Goals",
+        "type": "HalfTeam1TotalGoals",
+        "event": {
+          "6279039195": {
+            "id": 6279039195,
+            "name": "Over ",
+            "price": 2.02
+          },
+          "6279039194": {
+            "id": 6279039194,
+            "name": "Under ",
+            "price": 1.7
+          }
+        }
+      },
+      "2106521291": {
+        "id": 2106521291,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279039197": {
+            "id": 6279039197,
+            "name": "Over ",
+            "price": 1.5
+          },
+          "6279039196": {
+            "id": 6279039196,
+            "name": "Under ",
+            "price": 2.4
+          }
+        }
+      },
+      "2106521292": {
+        "id": 2106521292,
+        "name": "1st Half Team 2 Total Goals",
+        "type": "HalfTeam2TotalGoals",
+        "event": {
+          "6279039199": {
+            "id": 6279039199,
+            "name": "Over ",
+            "price": 2.5
+          },
+          "6279039198": {
+            "id": 6279039198,
+            "name": "Under ",
+            "price": 1.47
+          }
+        }
+      },
+      "2106521293": {
+        "id": 2106521293,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279039201": {
+            "id": 6279039201,
+            "name": "Kuzbass Kemerovo ",
+            "price": 1.55
+          },
+          "6279039200": {
+            "id": 6279039200,
+            "name": "Volga Ulyanovsk ",
+            "price": 2.3
+          }
+        }
+      },
+      "2106521294": {
+        "id": 2106521294,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279039203": {
+            "id": 6279039203,
+            "name": "Over ",
+            "price": 1.67
+          },
+          "6279039202": {
+            "id": 6279039202,
+            "name": "Under ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106521296": {
+        "id": 2106521296,
+        "name": "1st Half Total Goals",
+        "type": "HalfTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279039207": {
+            "id": 6279039207,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6279039206": {
+            "id": 6279039206,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106521297": {
+        "id": 2106521297,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279039209": {
+            "id": 6279039209,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6279039208": {
+            "id": 6279039208,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106532553": {
+        "id": 2106532553,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279071659": {
+            "id": 6279071659,
+            "name": "Under ",
+            "price": 1.9
+          },
+          "6279071660": {
+            "id": 6279071660,
+            "name": "Over ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106534907": {
+        "id": 2106534907,
+        "name": "1st Half Goals Handicap",
+        "type": "HalfHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279078093": {
+            "id": 6279078093,
+            "name": "Volga Ulyanovsk ",
+            "price": 1.63
+          },
+          "6279078094": {
+            "id": 6279078094,
+            "name": "Kuzbass Kemerovo ",
+            "price": 2.13
+          }
+        }
+      },
+      "2106534948": {
+        "id": 2106534948,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279078193": {
+            "id": 6279078193,
+            "name": "Odd",
+            "price": 1.85
+          },
+          "6279078194": {
+            "id": 6279078194,
+            "name": "Even",
+            "price": 1.85
+          }
+        }
+      },
+      "2106562209": {
+        "id": 2106562209,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279152989": {
+            "id": 6279152989,
+            "name": "Under ",
+            "price": 1.56
+          },
+          "6279152990": {
+            "id": 6279152990,
+            "name": "Over ",
+            "price": 2.27
+          }
+        }
+      },
+      "2106587266": {
+        "id": 2106587266,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279222636": {
+            "id": 6279222636,
+            "name": "Over ",
+            "price": 2.95
+          },
+          "6279222635": {
+            "id": 6279222635,
+            "name": "Under ",
+            "price": 1.35
+          }
+        }
+      },
+      "2106587267": {
+        "id": 2106587267,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279222638": {
+            "id": 6279222638,
+            "name": "Over ",
+            "price": 2.95
+          },
+          "6279222637": {
+            "id": 6279222637,
+            "name": "Under ",
+            "price": 1.35
+          }
+        }
+      },
+      "2106587268": {
+        "id": 2106587268,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279222639": {
+            "id": 6279222639,
+            "name": "Under ",
+            "price": 1.61
+          },
+          "6279222640": {
+            "id": 6279222640,
+            "name": "Over ",
+            "price": 2.17
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Bandy",
@@ -29,19 +287,365 @@
     "team1_name": "Sibselmash Novosibirsk",
     "team2_name": "AK Bars-Dynamo",
     "start_ts": 1766826000,
-    "markets_count": 19,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106522331": {
+        "id": 2106522331,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279042063": {
+            "id": 6279042063,
+            "name": "X2",
+            "price": 2.28
+          },
+          "6279042065": {
+            "id": 6279042065,
+            "name": "1X",
+            "price": 1.28
+          },
+          "6279042064": {
+            "id": 6279042064,
+            "name": "12",
+            "price": 1.13
+          }
+        }
+      },
+      "2106522332": {
+        "id": 2106522332,
+        "name": "1st Half Double Chance",
+        "type": "HalfGoalsDoubleChance",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279042067": {
+            "id": 6279042067,
+            "name": "12",
+            "price": 1.2
+          },
+          "6279042066": {
+            "id": 6279042066,
+            "name": "X2",
+            "price": 1.92
+          },
+          "6279042068": {
+            "id": 6279042068,
+            "name": "1X",
+            "price": 1.31
+          }
+        }
+      },
+      "2106522333": {
+        "id": 2106522333,
+        "name": "1st Half Result",
+        "type": "HalfResult",
+        "display_key": "WINNER",
+        "event": {
+          "6279042069": {
+            "id": 6279042069,
+            "name": "W2",
+            "price": 3.26
+          },
+          "6279042071": {
+            "id": 6279042071,
+            "name": "W1",
+            "price": 1.74
+          },
+          "6279042070": {
+            "id": 6279042070,
+            "name": "X",
+            "price": 4.4
+          }
+        }
+      },
+      "2106522337": {
+        "id": 2106522337,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279042073": {
+            "id": 6279042073,
+            "name": "X",
+            "price": 6.3
+          },
+          "6279042072": {
+            "id": 6279042072,
+            "name": "W2",
+            "price": 3.52
+          },
+          "6279042074": {
+            "id": 6279042074,
+            "name": "W1",
+            "price": 1.5
+          }
+        }
+      },
+      "2106522758": {
+        "id": 2106522758,
+        "name": "1st Half Goals Handicap",
+        "type": "HalfHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279043185": {
+            "id": 6279043185,
+            "name": "Sibselmash Novosibirsk ",
+            "price": 1.44
+          },
+          "6279043184": {
+            "id": 6279043184,
+            "name": "AK Bars-Dynamo ",
+            "price": 2.59
+          }
+        }
+      },
+      "2106522759": {
+        "id": 2106522759,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279043187": {
+            "id": 6279043187,
+            "name": "Sibselmash Novosibirsk ",
+            "price": 2.27
+          },
+          "6279043186": {
+            "id": 6279043186,
+            "name": "AK Bars-Dynamo ",
+            "price": 1.56
+          }
+        }
+      },
+      "2106522760": {
+        "id": 2106522760,
+        "name": "1st Half Total Goals",
+        "type": "HalfTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279043189": {
+            "id": 6279043189,
+            "name": "Over ",
+            "price": 1.72
+          },
+          "6279043188": {
+            "id": 6279043188,
+            "name": "Under ",
+            "price": 2
+          }
+        }
+      },
+      "2106522761": {
+        "id": 2106522761,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279043191": {
+            "id": 6279043191,
+            "name": "Over ",
+            "price": 2.13
+          },
+          "6279043190": {
+            "id": 6279043190,
+            "name": "Under ",
+            "price": 1.63
+          }
+        }
+      },
+      "2106522762": {
+        "id": 2106522762,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279043193": {
+            "id": 6279043193,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6279043192": {
+            "id": 6279043192,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106522763": {
+        "id": 2106522763,
+        "name": "1st Half Team 1 Total Goals",
+        "type": "HalfTeam1TotalGoals",
+        "event": {
+          "6279043195": {
+            "id": 6279043195,
+            "name": "Over ",
+            "price": 2.39
+          },
+          "6279043194": {
+            "id": 6279043194,
+            "name": "Under ",
+            "price": 1.51
+          }
+        }
+      },
+      "2106522764": {
+        "id": 2106522764,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279043197": {
+            "id": 6279043197,
+            "name": "Over ",
+            "price": 1.73
+          },
+          "6279043196": {
+            "id": 6279043196,
+            "name": "Under ",
+            "price": 1.97
+          }
+        }
+      },
+      "2106556901": {
+        "id": 2106556901,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279138350": {
+            "id": 6279138350,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6279138349": {
+            "id": 6279138349,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106564797": {
+        "id": 2106564797,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279160225": {
+            "id": 6279160225,
+            "name": "Over ",
+            "price": 2.23
+          },
+          "6279160224": {
+            "id": 6279160224,
+            "name": "Under ",
+            "price": 1.58
+          }
+        }
+      },
+      "2106564799": {
+        "id": 2106564799,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279160229": {
+            "id": 6279160229,
+            "name": "Over ",
+            "price": 1.39
+          },
+          "6279160228": {
+            "id": 6279160228,
+            "name": "Under ",
+            "price": 2.75
+          }
+        }
+      },
+      "2106564800": {
+        "id": 2106564800,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279160231": {
+            "id": 6279160231,
+            "name": "Sibselmash Novosibirsk ",
+            "price": 2.7
+          },
+          "6279160230": {
+            "id": 6279160230,
+            "name": "AK Bars-Dynamo ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106564801": {
+        "id": 2106564801,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279160233": {
+            "id": 6279160233,
+            "name": "Sibselmash Novosibirsk ",
+            "price": 1.79
+          },
+          "6279160232": {
+            "id": 6279160232,
+            "name": "AK Bars-Dynamo ",
+            "price": 1.91
+          }
+        }
+      },
+      "2106587270": {
+        "id": 2106587270,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279222644": {
+            "id": 6279222644,
+            "name": "Over ",
+            "price": 2.59
+          },
+          "6279222643": {
+            "id": 6279222643,
+            "name": "Under ",
+            "price": 1.44
+          }
+        }
+      },
+      "2106587271": {
+        "id": 2106587271,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279222646": {
+            "id": 6279222646,
+            "name": "Over ",
+            "price": 1.41
+          },
+          "6279222645": {
+            "id": 6279222645,
+            "name": "Under ",
+            "price": 2.68
+          }
+        }
+      },
+      "2106587272": {
+        "id": 2106587272,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279222648": {
+            "id": 6279222648,
+            "name": "Over ",
+            "price": 3.1
+          },
+          "6279222647": {
+            "id": 6279222647,
+            "name": "Under ",
+            "price": 1.32
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Bandy",
@@ -51,19 +655,401 @@
     "team1_name": "Dynamo Moscow",
     "team2_name": "Vodnik",
     "start_ts": 1766830500,
-    "markets_count": 21,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106527841": {
+        "id": 2106527841,
+        "name": "1st Half Double Chance",
+        "type": "HalfGoalsDoubleChance",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279057173": {
+            "id": 6279057173,
+            "name": "12",
+            "price": 1.12
+          },
+          "6279057172": {
+            "id": 6279057172,
+            "name": "X2",
+            "price": 3.1
+          },
+          "6279057174": {
+            "id": 6279057174,
+            "name": "1X",
+            "price": 1.12
+          }
+        }
+      },
+      "2106527843": {
+        "id": 2106527843,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279057177": {
+            "id": 6279057177,
+            "name": "X2",
+            "price": 4.75
+          },
+          "6279057179": {
+            "id": 6279057179,
+            "name": "1X",
+            "price": 1.06
+          },
+          "6279057178": {
+            "id": 6279057178,
+            "name": "12",
+            "price": 1.06
+          }
+        }
+      },
+      "2106527845": {
+        "id": 2106527845,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279057183": {
+            "id": 6279057183,
+            "name": "X",
+            "price": 10
+          },
+          "6279057182": {
+            "id": 6279057182,
+            "name": "W2",
+            "price": 9.4
+          },
+          "6279057184": {
+            "id": 6279057184,
+            "name": "W1",
+            "price": 1.1
+          }
+        }
+      },
+      "2106527847": {
+        "id": 2106527847,
+        "name": "1st Half Result",
+        "type": "HalfResult",
+        "display_key": "WINNER",
+        "event": {
+          "6279057187": {
+            "id": 6279057187,
+            "name": "W2",
+            "price": 6.2
+          },
+          "6279057189": {
+            "id": 6279057189,
+            "name": "W1",
+            "price": 1.27
+          },
+          "6279057188": {
+            "id": 6279057188,
+            "name": "X",
+            "price": 6.2
+          }
+        }
+      },
+      "2106528978": {
+        "id": 2106528978,
+        "name": "1st Half Goals Handicap",
+        "type": "HalfHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279060740": {
+            "id": 6279060740,
+            "name": "Dynamo Moscow ",
+            "price": 1.73
+          },
+          "6279060739": {
+            "id": 6279060739,
+            "name": "Vodnik ",
+            "price": 1.97
+          }
+        }
+      },
+      "2106528980": {
+        "id": 2106528980,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279060743": {
+            "id": 6279060743,
+            "name": "Under ",
+            "price": 2.08
+          },
+          "6279060744": {
+            "id": 6279060744,
+            "name": "Over ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106528981": {
+        "id": 2106528981,
+        "name": "1st Half Total Goals",
+        "type": "HalfTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279060745": {
+            "id": 6279060745,
+            "name": "Under ",
+            "price": 2.04
+          },
+          "6279060746": {
+            "id": 6279060746,
+            "name": "Over ",
+            "price": 1.69
+          }
+        }
+      },
+      "2106528982": {
+        "id": 2106528982,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279060747": {
+            "id": 6279060747,
+            "name": "Vodnik ",
+            "price": 1.76
+          },
+          "6279060748": {
+            "id": 6279060748,
+            "name": "Dynamo Moscow ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106528983": {
+        "id": 2106528983,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279060749": {
+            "id": 6279060749,
+            "name": "Under ",
+            "price": 1.92
+          },
+          "6279060750": {
+            "id": 6279060750,
+            "name": "Over ",
+            "price": 1.78
+          }
+        }
+      },
+      "2106528984": {
+        "id": 2106528984,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279060751": {
+            "id": 6279060751,
+            "name": "Under ",
+            "price": 1.63
+          },
+          "6279060752": {
+            "id": 6279060752,
+            "name": "Over ",
+            "price": 2.13
+          }
+        }
+      },
+      "2106528985": {
+        "id": 2106528985,
+        "name": "1st Half Team 1 Total Goals",
+        "type": "HalfTeam1TotalGoals",
+        "event": {
+          "6279060754": {
+            "id": 6279060754,
+            "name": "Over ",
+            "price": 2.13
+          },
+          "6279060753": {
+            "id": 6279060753,
+            "name": "Under ",
+            "price": 1.63
+          }
+        }
+      },
+      "2106555449": {
+        "id": 2106555449,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279134467": {
+            "id": 6279134467,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6279134466": {
+            "id": 6279134466,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106567094": {
+        "id": 2106567094,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279166625": {
+            "id": 6279166625,
+            "name": "Over ",
+            "price": 1.41
+          },
+          "6279166624": {
+            "id": 6279166624,
+            "name": "Under ",
+            "price": 2.68
+          }
+        }
+      },
+      "2106567095": {
+        "id": 2106567095,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279166627": {
+            "id": 6279166627,
+            "name": "Dynamo Moscow ",
+            "price": 1.7
+          },
+          "6279166626": {
+            "id": 6279166626,
+            "name": "Vodnik ",
+            "price": 2.02
+          }
+        }
+      },
+      "2106567097": {
+        "id": 2106567097,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279166631": {
+            "id": 6279166631,
+            "name": "Over ",
+            "price": 2.02
+          },
+          "6279166630": {
+            "id": 6279166630,
+            "name": "Under ",
+            "price": 1.7
+          }
+        }
+      },
+      "2106567098": {
+        "id": 2106567098,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279166633": {
+            "id": 6279166633,
+            "name": "Dynamo Moscow ",
+            "price": 2.3
+          },
+          "6279166632": {
+            "id": 6279166632,
+            "name": "Vodnik ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106567100": {
+        "id": 2106567100,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279166637": {
+            "id": 6279166637,
+            "name": "Dynamo Moscow ",
+            "price": 2.7
+          },
+          "6279166636": {
+            "id": 6279166636,
+            "name": "Vodnik ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106568618": {
+        "id": 2106568618,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279170513": {
+            "id": 6279170513,
+            "name": "Dynamo Moscow ",
+            "price": 1.52
+          },
+          "6279170512": {
+            "id": 6279170512,
+            "name": "Vodnik ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106591739": {
+        "id": 2106591739,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279234415": {
+            "id": 6279234415,
+            "name": "Over ",
+            "price": 2.4
+          },
+          "6279234414": {
+            "id": 6279234414,
+            "name": "Under ",
+            "price": 1.5
+          }
+        }
+      },
+      "2106591740": {
+        "id": 2106591740,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279234417": {
+            "id": 6279234417,
+            "name": "Over ",
+            "price": 1.44
+          },
+          "6279234416": {
+            "id": 6279234416,
+            "name": "Under ",
+            "price": 2.59
+          }
+        }
+      },
+      "2106591741": {
+        "id": 2106591741,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279234419": {
+            "id": 6279234419,
+            "name": "Over ",
+            "price": 2.7
+          },
+          "6279234418": {
+            "id": 6279234418,
+            "name": "Under ",
+            "price": 1.4
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Bandy",
@@ -73,19 +1059,378 @@
     "team1_name": "Rodina",
     "team2_name": "SKA Neftyanik",
     "start_ts": 1766829600,
-    "markets_count": 20,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106526737": {
+        "id": 2106526737,
+        "name": "1st Half Double Chance",
+        "type": "HalfGoalsDoubleChance",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279054128": {
+            "id": 6279054128,
+            "name": "1X",
+            "price": 4.9
+          },
+          "6279054127": {
+            "id": 6279054127,
+            "name": "12",
+            "price": 1.06
+          },
+          "6279054126": {
+            "id": 6279054126,
+            "name": "X2",
+            "price": 1.05
+          }
+        }
+      },
+      "2106526738": {
+        "id": 2106526738,
+        "name": "1st Half Result",
+        "type": "HalfResult",
+        "display_key": "WINNER",
+        "event": {
+          "6279054129": {
+            "id": 6279054129,
+            "name": "W2",
+            "price": 1.09
+          },
+          "6279054131": {
+            "id": 6279054131,
+            "name": "W1",
+            "price": 11
+          },
+          "6279054130": {
+            "id": 6279054130,
+            "name": "X",
+            "price": 9.4
+          }
+        }
+      },
+      "2106526739": {
+        "id": 2106526739,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279054133": {
+            "id": 6279054133,
+            "name": "X",
+            "price": 12
+          },
+          "6279054132": {
+            "id": 6279054132,
+            "name": "W2",
+            "price": 1.04
+          },
+          "6279054134": {
+            "id": 6279054134,
+            "name": "W1",
+            "price": 15
+          }
+        }
+      },
+      "2106527839": {
+        "id": 2106527839,
+        "name": "1st Half Goals Handicap",
+        "type": "HalfHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279057169": {
+            "id": 6279057169,
+            "name": "Rodina ",
+            "price": 1.73
+          },
+          "6279057168": {
+            "id": 6279057168,
+            "name": "SKA Neftyanik ",
+            "price": 1.97
+          }
+        }
+      },
+      "2106527840": {
+        "id": 2106527840,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279057171": {
+            "id": 6279057171,
+            "name": "Over ",
+            "price": 1.78
+          },
+          "6279057170": {
+            "id": 6279057170,
+            "name": "Under ",
+            "price": 1.92
+          }
+        }
+      },
+      "2106527842": {
+        "id": 2106527842,
+        "name": "1st Half Team 2 Total Goals",
+        "type": "HalfTeam2TotalGoals",
+        "event": {
+          "6279057176": {
+            "id": 6279057176,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6279057175": {
+            "id": 6279057175,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106527846": {
+        "id": 2106527846,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279057185": {
+            "id": 6279057185,
+            "name": "SKA Neftyanik ",
+            "price": 2.21
+          },
+          "6279057186": {
+            "id": 6279057186,
+            "name": "Rodina ",
+            "price": 1.59
+          }
+        }
+      },
+      "2106527848": {
+        "id": 2106527848,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279057191": {
+            "id": 6279057191,
+            "name": "Over ",
+            "price": 2.15
+          },
+          "6279057190": {
+            "id": 6279057190,
+            "name": "Under ",
+            "price": 1.62
+          }
+        }
+      },
+      "2106527862": {
+        "id": 2106527862,
+        "name": "1st Half Total Goals",
+        "type": "HalfTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279057208": {
+            "id": 6279057208,
+            "name": "Under ",
+            "price": 1.94
+          },
+          "6279057210": {
+            "id": 6279057210,
+            "name": "Over ",
+            "price": 1.76
+          }
+        }
+      },
+      "2106527863": {
+        "id": 2106527863,
+        "name": "1st Half Team 1 Total Goals",
+        "type": "HalfTeam1TotalGoals",
+        "event": {
+          "6279057232": {
+            "id": 6279057232,
+            "name": "Over ",
+            "price": 2.68
+          },
+          "6279057230": {
+            "id": 6279057230,
+            "name": "Under ",
+            "price": 1.41
+          }
+        }
+      },
+      "2106555644": {
+        "id": 2106555644,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279134996": {
+            "id": 6279134996,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6279134995": {
+            "id": 6279134995,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106562213": {
+        "id": 2106562213,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279152994": {
+            "id": 6279152994,
+            "name": "Rodina ",
+            "price": 2.05
+          },
+          "6279152993": {
+            "id": 6279152993,
+            "name": "SKA Neftyanik ",
+            "price": 1.68
+          }
+        }
+      },
+      "2106562215": {
+        "id": 2106562215,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279152996": {
+            "id": 6279152996,
+            "name": "Over ",
+            "price": 1.46
+          },
+          "6279152995": {
+            "id": 6279152995,
+            "name": "Under ",
+            "price": 2.52
+          }
+        }
+      },
+      "2106562217": {
+        "id": 2106562217,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279153001": {
+            "id": 6279153001,
+            "name": "Rodina ",
+            "price": 2.5
+          },
+          "6279153000": {
+            "id": 6279153000,
+            "name": "SKA Neftyanik ",
+            "price": 1.47
+          }
+        }
+      },
+      "2106562219": {
+        "id": 2106562219,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279153011": {
+            "id": 6279153011,
+            "name": "Rodina ",
+            "price": 1.8
+          },
+          "6279153009": {
+            "id": 6279153009,
+            "name": "SKA Neftyanik ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106562220": {
+        "id": 2106562220,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279153013": {
+            "id": 6279153013,
+            "name": "Over ",
+            "price": 2.3
+          },
+          "6279153012": {
+            "id": 6279153012,
+            "name": "Under ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106566395": {
+        "id": 2106566395,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279164483": {
+            "id": 6279164483,
+            "name": "Rodina ",
+            "price": 1.39
+          },
+          "6279164482": {
+            "id": 6279164482,
+            "name": "SKA Neftyanik ",
+            "price": 2.75
+          }
+        }
+      },
+      "2106595931": {
+        "id": 2106595931,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279245778": {
+            "id": 6279245778,
+            "name": "Over ",
+            "price": 2.62
+          },
+          "6279245777": {
+            "id": 6279245777,
+            "name": "Under ",
+            "price": 1.43
+          }
+        }
+      },
+      "2106595936": {
+        "id": 2106595936,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279245788": {
+            "id": 6279245788,
+            "name": "Over ",
+            "price": 1.74
+          },
+          "6279245787": {
+            "id": 6279245787,
+            "name": "Under ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106960502": {
+        "id": 2106960502,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6280299087": {
+            "id": 6280299087,
+            "name": "Over ",
+            "price": 3.05
+          },
+          "6280299086": {
+            "id": 6280299086,
+            "name": "Under ",
+            "price": 1.33
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Bandy",
@@ -95,19 +1440,364 @@
     "team1_name": "Start",
     "team2_name": "Yenisei Krasnoyarsk",
     "start_ts": 1766829600,
-    "markets_count": 19,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106524240": {
+        "id": 2106524240,
+        "name": "1st Half Result",
+        "type": "HalfResult",
+        "display_key": "WINNER",
+        "event": {
+          "6279047068": {
+            "id": 6279047068,
+            "name": "W2",
+            "price": 2.44
+          },
+          "6279047070": {
+            "id": 6279047070,
+            "name": "X",
+            "price": 4.33
+          },
+          "6279047072": {
+            "id": 6279047072,
+            "name": "W1",
+            "price": 2.12
+          }
+        }
+      },
+      "2106524241": {
+        "id": 2106524241,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279047085": {
+            "id": 6279047085,
+            "name": "X",
+            "price": 6.3
+          },
+          "6279047084": {
+            "id": 6279047084,
+            "name": "W2",
+            "price": 2.34
+          },
+          "6279047086": {
+            "id": 6279047086,
+            "name": "W1",
+            "price": 1.91
+          }
+        }
+      },
+      "2106524242": {
+        "id": 2106524242,
+        "name": "1st Half Double Chance",
+        "type": "HalfGoalsDoubleChance",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279047087": {
+            "id": 6279047087,
+            "name": "X2",
+            "price": 1.62
+          },
+          "6279047089": {
+            "id": 6279047089,
+            "name": "1X",
+            "price": 1.49
+          },
+          "6279047088": {
+            "id": 6279047088,
+            "name": "12",
+            "price": 1.2
+          }
+        }
+      },
+      "2106524243": {
+        "id": 2106524243,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279047091": {
+            "id": 6279047091,
+            "name": "12",
+            "price": 1.12
+          },
+          "6279047090": {
+            "id": 6279047090,
+            "name": "X2",
+            "price": 1.75
+          },
+          "6279047092": {
+            "id": 6279047092,
+            "name": "1X",
+            "price": 1.52
+          }
+        }
+      },
+      "2106524948": {
+        "id": 2106524948,
+        "name": "1st Half Team 1 Total Goals",
+        "type": "HalfTeam1TotalGoals",
+        "event": {
+          "6279049109": {
+            "id": 6279049109,
+            "name": "Over ",
+            "price": 2.45
+          },
+          "6279049108": {
+            "id": 6279049108,
+            "name": "Under ",
+            "price": 1.48
+          }
+        }
+      },
+      "2106524949": {
+        "id": 2106524949,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279049111": {
+            "id": 6279049111,
+            "name": "Over ",
+            "price": 1.57
+          },
+          "6279049110": {
+            "id": 6279049110,
+            "name": "Under ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106524950": {
+        "id": 2106524950,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279049113": {
+            "id": 6279049113,
+            "name": "Start ",
+            "price": 1.67
+          },
+          "6279049112": {
+            "id": 6279049112,
+            "name": "Yenisei Krasnoyarsk ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106524952": {
+        "id": 2106524952,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279049117": {
+            "id": 6279049117,
+            "name": "Over ",
+            "price": 1.96
+          },
+          "6279049116": {
+            "id": 6279049116,
+            "name": "Under ",
+            "price": 1.74
+          }
+        }
+      },
+      "2106524953": {
+        "id": 2106524953,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279049121": {
+            "id": 6279049121,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6279049120": {
+            "id": 6279049120,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106524954": {
+        "id": 2106524954,
+        "name": "1st Half Goals Handicap",
+        "type": "HalfHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279049123": {
+            "id": 6279049123,
+            "name": "Start ",
+            "price": 1.73
+          },
+          "6279049122": {
+            "id": 6279049122,
+            "name": "Yenisei Krasnoyarsk ",
+            "price": 1.97
+          }
+        }
+      },
+      "2106554231": {
+        "id": 2106554231,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279131127": {
+            "id": 6279131127,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6279131126": {
+            "id": 6279131126,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106557325": {
+        "id": 2106557325,
+        "name": "1st Half Team 2 Total Goals",
+        "type": "HalfTeam2TotalGoals",
+        "event": {
+          "6279139365": {
+            "id": 6279139365,
+            "name": "Under ",
+            "price": 1.39
+          },
+          "6279139366": {
+            "id": 6279139366,
+            "name": "Over ",
+            "price": 2.75
+          }
+        }
+      },
+      "2106562222": {
+        "id": 2106562222,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279153020": {
+            "id": 6279153020,
+            "name": "Start ",
+            "price": 2.7
+          },
+          "6279153019": {
+            "id": 6279153019,
+            "name": "Yenisei Krasnoyarsk ",
+            "price": 1.4
+          }
+        }
+      },
+      "2106562224": {
+        "id": 2106562224,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279153024": {
+            "id": 6279153024,
+            "name": "Over ",
+            "price": 2.37
+          },
+          "6279153023": {
+            "id": 6279153023,
+            "name": "Under ",
+            "price": 1.52
+          }
+        }
+      },
+      "2106562227": {
+        "id": 2106562227,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279153030": {
+            "id": 6279153030,
+            "name": "Over ",
+            "price": 1.46
+          },
+          "6279153029": {
+            "id": 6279153029,
+            "name": "Under ",
+            "price": 2.52
+          }
+        }
+      },
+      "2106562229": {
+        "id": 2106562229,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279153041": {
+            "id": 6279153041,
+            "name": "Start ",
+            "price": 2.35
+          },
+          "6279153040": {
+            "id": 6279153040,
+            "name": "Yenisei Krasnoyarsk ",
+            "price": 1.53
+          }
+        }
+      },
+      "2106585758": {
+        "id": 2106585758,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279217830": {
+            "id": 6279217830,
+            "name": "Over ",
+            "price": 2.25
+          },
+          "6279217829": {
+            "id": 6279217829,
+            "name": "Under ",
+            "price": 1.57
+          }
+        }
+      },
+      "2107033504": {
+        "id": 2107033504,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6280502507": {
+            "id": 6280502507,
+            "name": "Over ",
+            "price": 1.44
+          },
+          "6280502506": {
+            "id": 6280502506,
+            "name": "Under ",
+            "price": 2.59
+          }
+        }
+      },
+      "2107036577": {
+        "id": 2107036577,
+        "name": "1st Half Total Goals",
+        "type": "HalfTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280511326": {
+            "id": 6280511326,
+            "name": "Over ",
+            "price": 2.17
+          },
+          "6280511325": {
+            "id": 6280511325,
+            "name": "Under ",
+            "price": 1.61
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Bandy",
@@ -116,18 +1806,85 @@
     "id": 28138308,
     "team1_name": "Elitserien 2025/2026",
     "start_ts": 1773507600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "00:45",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2017346135": {
+        "id": 2017346135,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6020355319": {
+            "id": 6020355319,
+            "name": "Villa Lidköping BK",
+            "price": 1.75
+          },
+          "6020355321": {
+            "id": 6020355321,
+            "name": "Edsbyns IF",
+            "price": 7.5
+          },
+          "6020355320": {
+            "id": 6020355320,
+            "name": "Bollnäs GIF",
+            "price": 6.5
+          },
+          "6020355323": {
+            "id": 6020355323,
+            "name": "Västerås SK",
+            "price": 9
+          },
+          "6020355322": {
+            "id": 6020355322,
+            "name": "Vetlanda BK",
+            "price": 8.5
+          },
+          "6020355325": {
+            "id": 6020355325,
+            "name": "Hammarby IF",
+            "price": 31
+          },
+          "6020355324": {
+            "id": 6020355324,
+            "name": "IK Sirius",
+            "price": 26
+          },
+          "6020355327": {
+            "id": 6020355327,
+            "name": "Broberg/Söderhamn IF",
+            "price": 51
+          },
+          "6020355326": {
+            "id": 6020355326,
+            "name": "Gripen Trollhattan BK",
+            "price": 41
+          },
+          "6020355329": {
+            "id": 6020355329,
+            "name": "Sandvikens AIK",
+            "price": 81
+          },
+          "6020355328": {
+            "id": 6020355328,
+            "name": "IFK Vänersborg",
+            "price": 61
+          },
+          "6020355331": {
+            "id": 6020355331,
+            "name": "Åby/Tjureda IF",
+            "price": 151
+          },
+          "6020355330": {
+            "id": 6020355330,
+            "name": "Frillesås BK",
+            "price": 151
+          },
+          "6020355332": {
+            "id": 6020355332,
+            "name": "IF Boltic",
+            "price": 201
+          }
+        }
+      }
+    }
   }
 ]

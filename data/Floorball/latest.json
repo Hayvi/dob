@@ -7,19 +7,354 @@
     "team1_name": "UKS Nowa Lodz",
     "team2_name": "KS Olimpia Osowa Gdansk",
     "start_ts": 1767528000,
-    "markets_count": 19,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105039313": {
+        "id": 2105039313,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6274859987": {
+            "id": 6274859987,
+            "name": "Under ",
+            "price": 1.64
+          },
+          "6274859988": {
+            "id": 6274859988,
+            "name": "Over ",
+            "price": 2.12
+          }
+        }
+      },
+      "2105039314": {
+        "id": 2105039314,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6274859993": {
+            "id": 6274859993,
+            "name": "Over ",
+            "price": 1.55
+          },
+          "6274859992": {
+            "id": 6274859992,
+            "name": "Under ",
+            "price": 2.3
+          }
+        }
+      },
+      "2105039315": {
+        "id": 2105039315,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6274859997": {
+            "id": 6274859997,
+            "name": "Under ",
+            "price": 1.5
+          },
+          "6274859998": {
+            "id": 6274859998,
+            "name": "Over ",
+            "price": 2.4
+          }
+        }
+      },
+      "2105039316": {
+        "id": 2105039316,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6274860002": {
+            "id": 6274860002,
+            "name": "Under ",
+            "price": 2.02
+          },
+          "6274860004": {
+            "id": 6274860004,
+            "name": "Over ",
+            "price": 1.7
+          }
+        }
+      },
+      "2105039318": {
+        "id": 2105039318,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274860007": {
+            "id": 6274860007,
+            "name": "KS Olimpia Osowa Gdansk ",
+            "price": 2.5
+          },
+          "6274860008": {
+            "id": 6274860008,
+            "name": "UKS Nowa Lodz ",
+            "price": 1.47
+          }
+        }
+      },
+      "2105039319": {
+        "id": 2105039319,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274860009": {
+            "id": 6274860009,
+            "name": "KS Olimpia Osowa Gdansk ",
+            "price": 2.23
+          },
+          "6274860010": {
+            "id": 6274860010,
+            "name": "UKS Nowa Lodz ",
+            "price": 1.58
+          }
+        }
+      },
+      "2105039320": {
+        "id": 2105039320,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274860011": {
+            "id": 6274860011,
+            "name": "KS Olimpia Osowa Gdansk ",
+            "price": 1.91
+          },
+          "6274860012": {
+            "id": 6274860012,
+            "name": "UKS Nowa Lodz ",
+            "price": 1.79
+          }
+        }
+      },
+      "2105039321": {
+        "id": 2105039321,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274860013": {
+            "id": 6274860013,
+            "name": "KS Olimpia Osowa Gdansk ",
+            "price": 1.56
+          },
+          "6274860014": {
+            "id": 6274860014,
+            "name": "UKS Nowa Lodz ",
+            "price": 2.27
+          }
+        }
+      },
+      "2105039322": {
+        "id": 2105039322,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274860015": {
+            "id": 6274860015,
+            "name": "Under ",
+            "price": 1.49
+          },
+          "6274860016": {
+            "id": 6274860016,
+            "name": "Over ",
+            "price": 2.44
+          }
+        }
+      },
+      "2105039323": {
+        "id": 2105039323,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274860017": {
+            "id": 6274860017,
+            "name": "Under ",
+            "price": 1.87
+          },
+          "6274860018": {
+            "id": 6274860018,
+            "name": "Over ",
+            "price": 1.83
+          }
+        }
+      },
+      "2105039324": {
+        "id": 2105039324,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274860019": {
+            "id": 6274860019,
+            "name": "Under ",
+            "price": 2.52
+          },
+          "6274860020": {
+            "id": 6274860020,
+            "name": "Over ",
+            "price": 1.46
+          }
+        }
+      },
+      "2105039326": {
+        "id": 2105039326,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6274860023": {
+            "id": 6274860023,
+            "name": "X2",
+            "price": 1.54
+          },
+          "6274860025": {
+            "id": 6274860025,
+            "name": "1X",
+            "price": 1.75
+          },
+          "6274860024": {
+            "id": 6274860024,
+            "name": "12",
+            "price": 1.1
+          }
+        }
+      },
+      "2105039327": {
+        "id": 2105039327,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6274860027": {
+            "id": 6274860027,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6274860026": {
+            "id": 6274860026,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2105039328": {
+        "id": 2105039328,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6274860029": {
+            "id": 6274860029,
+            "name": "Over ",
+            "price": 1.77
+          },
+          "6274860028": {
+            "id": 6274860028,
+            "name": "Under ",
+            "price": 1.93
+          }
+        }
+      },
+      "2105039331": {
+        "id": 2105039331,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6274860031": {
+            "id": 6274860031,
+            "name": "Over ",
+            "price": 2.02
+          },
+          "6274860030": {
+            "id": 6274860030,
+            "name": "Under ",
+            "price": 1.7
+          }
+        }
+      },
+      "2105039332": {
+        "id": 2105039332,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274860033": {
+            "id": 6274860033,
+            "name": "Over ",
+            "price": 1.64
+          },
+          "6274860032": {
+            "id": 6274860032,
+            "name": "Under ",
+            "price": 2.12
+          }
+        }
+      },
+      "2105039334": {
+        "id": 2105039334,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6274860034": {
+            "id": 6274860034,
+            "name": "W2",
+            "price": 1.88
+          },
+          "6274860036": {
+            "id": 6274860036,
+            "name": "X",
+            "price": 7
+          },
+          "6274860038": {
+            "id": 6274860038,
+            "name": "W1",
+            "price": 2.24
+          }
+        }
+      },
+      "2105039338": {
+        "id": 2105039338,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6274860053": {
+            "id": 6274860053,
+            "name": "UKS Nowa Lodz ",
+            "price": 2.02
+          },
+          "6274860052": {
+            "id": 6274860052,
+            "name": "KS Olimpia Osowa Gdansk ",
+            "price": 1.7
+          }
+        }
+      },
+      "2105039339": {
+        "id": 2105039339,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6274860055": {
+            "id": 6274860055,
+            "name": "Over ",
+            "price": 2.07
+          },
+          "6274860054": {
+            "id": 6274860054,
+            "name": "Under ",
+            "price": 1.67
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -29,19 +364,67 @@
     "team1_name": "UKS Bankowka Zielonka",
     "team2_name": "Smoki Krakow",
     "start_ts": 1767441600,
-    "markets_count": 3,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2105518103": {
+        "id": 2105518103,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6276212807": {
+            "id": 6276212807,
+            "name": "Under ",
+            "price": 1.82
+          },
+          "6276212808": {
+            "id": 6276212808,
+            "name": "Over ",
+            "price": 1.88
+          }
+        }
+      },
+      "2105518105": {
+        "id": 2105518105,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6276212811": {
+            "id": 6276212811,
+            "name": "Under ",
+            "price": 2.35
+          },
+          "6276212812": {
+            "id": 6276212812,
+            "name": "Over ",
+            "price": 1.53
+          }
+        }
+      },
+      "2105518107": {
+        "id": 2105518107,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6276212815": {
+            "id": 6276212815,
+            "name": "W2",
+            "price": 3.32
+          },
+          "6276212817": {
+            "id": 6276212817,
+            "name": "W1",
+            "price": 1.42
+          },
+          "6276212816": {
+            "id": 6276212816,
+            "name": "X",
+            "price": 8.7
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -51,19 +434,442 @@
     "team1_name": "Warbergs IC",
     "team2_name": "IBF Falun",
     "start_ts": 1766844000,
-    "markets_count": 24,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103468205": {
+        "id": 2103468205,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6270418021": {
+            "id": 6270418021,
+            "name": "W2",
+            "price": 1.34
+          },
+          "6270418023": {
+            "id": 6270418023,
+            "name": "W1",
+            "price": 4.5
+          },
+          "6270418022": {
+            "id": 6270418022,
+            "name": "X",
+            "price": 6.4
+          }
+        }
+      },
+      "2103552237": {
+        "id": 2103552237,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6270670591": {
+            "id": 6270670591,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6270670590": {
+            "id": 6270670590,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2103552238": {
+        "id": 2103552238,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270670593": {
+            "id": 6270670593,
+            "name": "Over ",
+            "price": 2.39
+          },
+          "6270670592": {
+            "id": 6270670592,
+            "name": "Under ",
+            "price": 1.51
+          }
+        }
+      },
+      "2103552239": {
+        "id": 2103552239,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270670595": {
+            "id": 6270670595,
+            "name": "Over ",
+            "price": 2.05
+          },
+          "6270670594": {
+            "id": 6270670594,
+            "name": "Under ",
+            "price": 1.68
+          }
+        }
+      },
+      "2103552240": {
+        "id": 2103552240,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270670597": {
+            "id": 6270670597,
+            "name": "Over ",
+            "price": 1.76
+          },
+          "6270670596": {
+            "id": 6270670596,
+            "name": "Under ",
+            "price": 1.94
+          }
+        }
+      },
+      "2103552242": {
+        "id": 2103552242,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270670601": {
+            "id": 6270670601,
+            "name": "Over ",
+            "price": 1.51
+          },
+          "6270670600": {
+            "id": 6270670600,
+            "name": "Under ",
+            "price": 2.39
+          }
+        }
+      },
+      "2103552243": {
+        "id": 2103552243,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270670603": {
+            "id": 6270670603,
+            "name": "Over ",
+            "price": 2.52
+          },
+          "6270670602": {
+            "id": 6270670602,
+            "name": "Under ",
+            "price": 1.46
+          }
+        }
+      },
+      "2103552244": {
+        "id": 2103552244,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270670605": {
+            "id": 6270670605,
+            "name": "Over ",
+            "price": 1.96
+          },
+          "6270670604": {
+            "id": 6270670604,
+            "name": "Under ",
+            "price": 1.74
+          }
+        }
+      },
+      "2103552245": {
+        "id": 2103552245,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270670607": {
+            "id": 6270670607,
+            "name": "Over ",
+            "price": 1.62
+          },
+          "6270670606": {
+            "id": 6270670606,
+            "name": "Under ",
+            "price": 2.15
+          }
+        }
+      },
+      "2103552247": {
+        "id": 2103552247,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270670611": {
+            "id": 6270670611,
+            "name": "Over ",
+            "price": 1.44
+          },
+          "6270670610": {
+            "id": 6270670610,
+            "name": "Under ",
+            "price": 2.59
+          }
+        }
+      },
+      "2103552248": {
+        "id": 2103552248,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270670613": {
+            "id": 6270670613,
+            "name": "Warbergs IC ",
+            "price": 1.47
+          },
+          "6270670612": {
+            "id": 6270670612,
+            "name": "IBF Falun ",
+            "price": 2.5
+          }
+        }
+      },
+      "2103552249": {
+        "id": 2103552249,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270670615": {
+            "id": 6270670615,
+            "name": "Warbergs IC ",
+            "price": 1.58
+          },
+          "6270670614": {
+            "id": 6270670614,
+            "name": "IBF Falun ",
+            "price": 2.23
+          }
+        }
+      },
+      "2103552250": {
+        "id": 2103552250,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270670617": {
+            "id": 6270670617,
+            "name": "Warbergs IC ",
+            "price": 1.96
+          },
+          "6270670616": {
+            "id": 6270670616,
+            "name": "IBF Falun ",
+            "price": 1.74
+          }
+        }
+      },
+      "2103552252": {
+        "id": 2103552252,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270670621": {
+            "id": 6270670621,
+            "name": "Warbergs IC ",
+            "price": 2.2
+          },
+          "6270670620": {
+            "id": 6270670620,
+            "name": "IBF Falun ",
+            "price": 1.6
+          }
+        }
+      },
+      "2103552253": {
+        "id": 2103552253,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670623": {
+            "id": 6270670623,
+            "name": "Over ",
+            "price": 2.55
+          },
+          "6270670622": {
+            "id": 6270670622,
+            "name": "Under ",
+            "price": 1.45
+          }
+        }
+      },
+      "2103552254": {
+        "id": 2103552254,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670625": {
+            "id": 6270670625,
+            "name": "Over ",
+            "price": 2.3
+          },
+          "6270670624": {
+            "id": 6270670624,
+            "name": "Under ",
+            "price": 1.55
+          }
+        }
+      },
+      "2103552256": {
+        "id": 2103552256,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670629": {
+            "id": 6270670629,
+            "name": "Over ",
+            "price": 1.77
+          },
+          "6270670628": {
+            "id": 6270670628,
+            "name": "Under ",
+            "price": 1.93
+          }
+        }
+      },
+      "2103552257": {
+        "id": 2103552257,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670631": {
+            "id": 6270670631,
+            "name": "Over ",
+            "price": 1.61
+          },
+          "6270670630": {
+            "id": 6270670630,
+            "name": "Under ",
+            "price": 2.17
+          }
+        }
+      },
+      "2103552258": {
+        "id": 2103552258,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670633": {
+            "id": 6270670633,
+            "name": "Over ",
+            "price": 1.44
+          },
+          "6270670632": {
+            "id": 6270670632,
+            "name": "Under ",
+            "price": 2.59
+          }
+        }
+      },
+      "2103552265": {
+        "id": 2103552265,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6270670637": {
+            "id": 6270670637,
+            "name": "W1",
+            "price": 3.9
+          },
+          "6270670636": {
+            "id": 6270670636,
+            "name": "W2",
+            "price": 1.21
+          }
+        }
+      },
+      "2103552266": {
+        "id": 2103552266,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6270670639": {
+            "id": 6270670639,
+            "name": "X2",
+            "price": 1.17
+          },
+          "6270670640": {
+            "id": 6270670640,
+            "name": "12",
+            "price": 1.1
+          },
+          "6270670642": {
+            "id": 6270670642,
+            "name": "1X",
+            "price": 2.8
+          }
+        }
+      },
+      "2103552267": {
+        "id": 2103552267,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270670656": {
+            "id": 6270670656,
+            "name": "Under ",
+            "price": 1.73
+          },
+          "6270670658": {
+            "id": 6270670658,
+            "name": "Over ",
+            "price": 1.97
+          }
+        }
+      },
+      "2103552269": {
+        "id": 2103552269,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270670659": {
+            "id": 6270670659,
+            "name": "IBF Falun ",
+            "price": 1.85
+          },
+          "6270670660": {
+            "id": 6270670660,
+            "name": "Warbergs IC ",
+            "price": 1.85
+          }
+        }
+      },
+      "2103791258": {
+        "id": 2103791258,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6271351392": {
+            "id": 6271351392,
+            "name": "Warbergs IC ",
+            "price": 2.59
+          },
+          "6271351391": {
+            "id": 6271351391,
+            "name": "IBF Falun ",
+            "price": 1.44
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -73,19 +879,144 @@
     "team1_name": "FBC Kalmarsund",
     "team2_name": "Pixbo Wallenstam IBK",
     "start_ts": 1766847600,
-    "markets_count": 7,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103470232": {
+        "id": 2103470232,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6270423543": {
+            "id": 6270423543,
+            "name": "W2",
+            "price": 2.61
+          },
+          "6270423545": {
+            "id": 6270423545,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6270423544": {
+            "id": 6270423544,
+            "name": "X",
+            "price": 5.1
+          }
+        }
+      },
+      "2103781052": {
+        "id": 2103781052,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6271323794": {
+            "id": 6271323794,
+            "name": "FBC Kalmarsund ",
+            "price": 2.45
+          },
+          "6271323793": {
+            "id": 6271323793,
+            "name": "Pixbo Wallenstam IBK ",
+            "price": 1.48
+          }
+        }
+      },
+      "2104370264": {
+        "id": 2104370264,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6272989567": {
+            "id": 6272989567,
+            "name": "W2",
+            "price": 2.15
+          },
+          "6272989568": {
+            "id": 6272989568,
+            "name": "W1",
+            "price": 1.62
+          }
+        }
+      },
+      "2105955245": {
+        "id": 2105955245,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277437153": {
+            "id": 6277437153,
+            "name": "FBC Kalmarsund ",
+            "price": 1.59
+          },
+          "6277437152": {
+            "id": 6277437152,
+            "name": "Pixbo Wallenstam IBK ",
+            "price": 2.21
+          }
+        }
+      },
+      "2105956301": {
+        "id": 2105956301,
+        "name": "1st Period Goals Handicap",
+        "type": "PeriodHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277440338": {
+            "id": 6277440338,
+            "name": "FBC Kalmarsund ",
+            "price": 1.67
+          },
+          "6277440337": {
+            "id": 6277440337,
+            "name": "Pixbo Wallenstam IBK ",
+            "price": 2.07
+          }
+        }
+      },
+      "2105956302": {
+        "id": 2105956302,
+        "name": "1st Period Total Goals",
+        "type": "PeriodOverUnder",
+        "display_key": "TOTALS",
+        "event": {
+          "6277440340": {
+            "id": 6277440340,
+            "name": "Over ",
+            "price": 1.77
+          },
+          "6277440339": {
+            "id": 6277440339,
+            "name": "Under ",
+            "price": 1.93
+          }
+        }
+      },
+      "2105956303": {
+        "id": 2105956303,
+        "name": "1st Period Result",
+        "type": "PeriodWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6277440343": {
+            "id": 6277440343,
+            "name": "W1",
+            "price": 2.14
+          },
+          "6277440342": {
+            "id": 6277440342,
+            "name": "X",
+            "price": 3.64
+          },
+          "6277440341": {
+            "id": 6277440341,
+            "name": "W2",
+            "price": 2.64
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -95,19 +1026,406 @@
     "team1_name": "Jonkopings IK",
     "team2_name": "Linkoping IBK",
     "start_ts": 1766851200,
-    "markets_count": 22,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103470650": {
+        "id": 2103470650,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6270424743": {
+            "id": 6270424743,
+            "name": "W2",
+            "price": 1.72
+          },
+          "6270424745": {
+            "id": 6270424745,
+            "name": "X",
+            "price": 6
+          },
+          "6270424747": {
+            "id": 6270424747,
+            "name": "W1",
+            "price": 2.69
+          }
+        }
+      },
+      "2103537048": {
+        "id": 2103537048,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6270624369": {
+            "id": 6270624369,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6270624368": {
+            "id": 6270624368,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2103537049": {
+        "id": 2103537049,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270624371": {
+            "id": 6270624371,
+            "name": "Over ",
+            "price": 2.55
+          },
+          "6270624370": {
+            "id": 6270624370,
+            "name": "Under ",
+            "price": 1.45
+          }
+        }
+      },
+      "2103537050": {
+        "id": 2103537050,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270624373": {
+            "id": 6270624373,
+            "name": "Over ",
+            "price": 2.2
+          },
+          "6270624372": {
+            "id": 6270624372,
+            "name": "Under ",
+            "price": 1.6
+          }
+        }
+      },
+      "2103537051": {
+        "id": 2103537051,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270624375": {
+            "id": 6270624375,
+            "name": "Over ",
+            "price": 1.82
+          },
+          "6270624374": {
+            "id": 6270624374,
+            "name": "Under ",
+            "price": 1.88
+          }
+        }
+      },
+      "2103537053": {
+        "id": 2103537053,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6270624377": {
+            "id": 6270624377,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6270624376": {
+            "id": 6270624376,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2103537054": {
+        "id": 2103537054,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270624379": {
+            "id": 6270624379,
+            "name": "Over ",
+            "price": 2.52
+          },
+          "6270624378": {
+            "id": 6270624378,
+            "name": "Under ",
+            "price": 1.46
+          }
+        }
+      },
+      "2103537055": {
+        "id": 2103537055,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270624381": {
+            "id": 6270624381,
+            "name": "Over ",
+            "price": 2.13
+          },
+          "6270624380": {
+            "id": 6270624380,
+            "name": "Under ",
+            "price": 1.63
+          }
+        }
+      },
+      "2103537056": {
+        "id": 2103537056,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270624385": {
+            "id": 6270624385,
+            "name": "Over ",
+            "price": 1.76
+          },
+          "6270624384": {
+            "id": 6270624384,
+            "name": "Under ",
+            "price": 1.94
+          }
+        }
+      },
+      "2103537057": {
+        "id": 2103537057,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6270624387": {
+            "id": 6270624387,
+            "name": "Over ",
+            "price": 1.46
+          },
+          "6270624386": {
+            "id": 6270624386,
+            "name": "Under ",
+            "price": 2.52
+          }
+        }
+      },
+      "2103537058": {
+        "id": 2103537058,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270624389": {
+            "id": 6270624389,
+            "name": "Jonkopings IK ",
+            "price": 1.59
+          },
+          "6270624388": {
+            "id": 6270624388,
+            "name": "Linkoping IBK ",
+            "price": 2.21
+          }
+        }
+      },
+      "2103537059": {
+        "id": 2103537059,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270624391": {
+            "id": 6270624391,
+            "name": "Jonkopings IK ",
+            "price": 1.75
+          },
+          "6270624390": {
+            "id": 6270624390,
+            "name": "Linkoping IBK ",
+            "price": 1.95
+          }
+        }
+      },
+      "2103537060": {
+        "id": 2103537060,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270624393": {
+            "id": 6270624393,
+            "name": "Over ",
+            "price": 2.44
+          },
+          "6270624392": {
+            "id": 6270624392,
+            "name": "Under ",
+            "price": 1.49
+          }
+        }
+      },
+      "2103537061": {
+        "id": 2103537061,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270624395": {
+            "id": 6270624395,
+            "name": "Over ",
+            "price": 2.2
+          },
+          "6270624394": {
+            "id": 6270624394,
+            "name": "Under ",
+            "price": 1.6
+          }
+        }
+      },
+      "2103537062": {
+        "id": 2103537062,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270624397": {
+            "id": 6270624397,
+            "name": "Over ",
+            "price": 1.68
+          },
+          "6270624396": {
+            "id": 6270624396,
+            "name": "Under ",
+            "price": 2.05
+          }
+        }
+      },
+      "2103537063": {
+        "id": 2103537063,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270624399": {
+            "id": 6270624399,
+            "name": "Over ",
+            "price": 1.54
+          },
+          "6270624398": {
+            "id": 6270624398,
+            "name": "Under ",
+            "price": 2.33
+          }
+        }
+      },
+      "2103537064": {
+        "id": 2103537064,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6270624401": {
+            "id": 6270624401,
+            "name": "W1",
+            "price": 2.59
+          },
+          "6270624400": {
+            "id": 6270624400,
+            "name": "W2",
+            "price": 1.44
+          }
+        }
+      },
+      "2103537065": {
+        "id": 2103537065,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6270624403": {
+            "id": 6270624403,
+            "name": "12",
+            "price": 1.12
+          },
+          "6270624402": {
+            "id": 6270624402,
+            "name": "X2",
+            "price": 1.39
+          },
+          "6270624404": {
+            "id": 6270624404,
+            "name": "1X",
+            "price": 1.92
+          }
+        }
+      },
+      "2103537066": {
+        "id": 2103537066,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6270624405": {
+            "id": 6270624405,
+            "name": "Under ",
+            "price": 1.8
+          },
+          "6270624406": {
+            "id": 6270624406,
+            "name": "Over ",
+            "price": 1.9
+          }
+        }
+      },
+      "2103537067": {
+        "id": 2103537067,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6270624407": {
+            "id": 6270624407,
+            "name": "Linkoping IBK ",
+            "price": 1.75
+          },
+          "6270624408": {
+            "id": 6270624408,
+            "name": "Jonkopings IK ",
+            "price": 1.95
+          }
+        }
+      },
+      "2105658406": {
+        "id": 2105658406,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6276613009": {
+            "id": 6276613009,
+            "name": "Jonkopings IK ",
+            "price": 2.52
+          },
+          "6276613008": {
+            "id": 6276613008,
+            "name": "Linkoping IBK ",
+            "price": 1.46
+          }
+        }
+      },
+      "2105662484": {
+        "id": 2105662484,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6276624217": {
+            "id": 6276624217,
+            "name": "Linkoping IBK ",
+            "price": 2.59
+          },
+          "6276624218": {
+            "id": 6276624218,
+            "name": "Jonkopings IK ",
+            "price": 1.44
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -117,19 +1435,406 @@
     "team1_name": "Visby IBK",
     "team2_name": "Nykvarns IBF Ungdom",
     "start_ts": 1766851200,
-    "markets_count": 22,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2103470651": {
+        "id": 2103470651,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6270424742": {
+            "id": 6270424742,
+            "name": "W2",
+            "price": 2.25
+          },
+          "6270424744": {
+            "id": 6270424744,
+            "name": "X",
+            "price": 5.3
+          },
+          "6270424746": {
+            "id": 6270424746,
+            "name": "W1",
+            "price": 2.05
+          }
+        }
+      },
+      "2103778725": {
+        "id": 2103778725,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6271316741": {
+            "id": 6271316741,
+            "name": "Under ",
+            "price": 2.59
+          },
+          "6271316742": {
+            "id": 6271316742,
+            "name": "Over ",
+            "price": 1.44
+          }
+        }
+      },
+      "2103778726": {
+        "id": 2103778726,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6271316743": {
+            "id": 6271316743,
+            "name": "Under ",
+            "price": 1.6
+          },
+          "6271316744": {
+            "id": 6271316744,
+            "name": "Over ",
+            "price": 2.2
+          }
+        }
+      },
+      "2103778727": {
+        "id": 2103778727,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6271316745": {
+            "id": 6271316745,
+            "name": "Under ",
+            "price": 1.96
+          },
+          "6271316746": {
+            "id": 6271316746,
+            "name": "Over ",
+            "price": 1.74
+          }
+        }
+      },
+      "2104415954": {
+        "id": 2104415954,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6273119123": {
+            "id": 6273119123,
+            "name": "Over ",
+            "price": 2.59
+          },
+          "6273119122": {
+            "id": 6273119122,
+            "name": "Under ",
+            "price": 1.44
+          }
+        }
+      },
+      "2104415955": {
+        "id": 2104415955,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6273119125": {
+            "id": 6273119125,
+            "name": "Over ",
+            "price": 1.71
+          },
+          "6273119124": {
+            "id": 6273119124,
+            "name": "Under ",
+            "price": 2.01
+          }
+        }
+      },
+      "2104415956": {
+        "id": 2104415956,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6273119127": {
+            "id": 6273119127,
+            "name": "Over ",
+            "price": 1.5
+          },
+          "6273119126": {
+            "id": 6273119126,
+            "name": "Under ",
+            "price": 2.4
+          }
+        }
+      },
+      "2104415957": {
+        "id": 2104415957,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6273119129": {
+            "id": 6273119129,
+            "name": "Over ",
+            "price": 2.35
+          },
+          "6273119128": {
+            "id": 6273119128,
+            "name": "Under ",
+            "price": 1.53
+          }
+        }
+      },
+      "2104415958": {
+        "id": 2104415958,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6273119131": {
+            "id": 6273119131,
+            "name": "Over ",
+            "price": 1.6
+          },
+          "6273119130": {
+            "id": 6273119130,
+            "name": "Under ",
+            "price": 2.2
+          }
+        }
+      },
+      "2104415959": {
+        "id": 2104415959,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6273119133": {
+            "id": 6273119133,
+            "name": "Over ",
+            "price": 1.44
+          },
+          "6273119132": {
+            "id": 6273119132,
+            "name": "Under ",
+            "price": 2.59
+          }
+        }
+      },
+      "2104415960": {
+        "id": 2104415960,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273119135": {
+            "id": 6273119135,
+            "name": "Visby IBK ",
+            "price": 1.56
+          },
+          "6273119134": {
+            "id": 6273119134,
+            "name": "Nykvarns IBF Ungdom ",
+            "price": 2.27
+          }
+        }
+      },
+      "2104415961": {
+        "id": 2104415961,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273119137": {
+            "id": 6273119137,
+            "name": "Visby IBK ",
+            "price": 2.44
+          },
+          "6273119136": {
+            "id": 6273119136,
+            "name": "Nykvarns IBF Ungdom ",
+            "price": 1.49
+          }
+        }
+      },
+      "2104415962": {
+        "id": 2104415962,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273119139": {
+            "id": 6273119139,
+            "name": "Over ",
+            "price": 2.59
+          },
+          "6273119138": {
+            "id": 6273119138,
+            "name": "Under ",
+            "price": 1.44
+          }
+        }
+      },
+      "2104415964": {
+        "id": 2104415964,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273119143": {
+            "id": 6273119143,
+            "name": "Over ",
+            "price": 1.94
+          },
+          "6273119142": {
+            "id": 6273119142,
+            "name": "Under ",
+            "price": 1.76
+          }
+        }
+      },
+      "2104415965": {
+        "id": 2104415965,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273119145": {
+            "id": 6273119145,
+            "name": "Over ",
+            "price": 1.55
+          },
+          "6273119144": {
+            "id": 6273119144,
+            "name": "Under ",
+            "price": 2.3
+          }
+        }
+      },
+      "2104415966": {
+        "id": 2104415966,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6273119147": {
+            "id": 6273119147,
+            "name": "Over ",
+            "price": 2.02
+          },
+          "6273119146": {
+            "id": 6273119146,
+            "name": "Under ",
+            "price": 1.7
+          }
+        }
+      },
+      "2104415967": {
+        "id": 2104415967,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6273119149": {
+            "id": 6273119149,
+            "name": "Over ",
+            "price": 1.89
+          },
+          "6273119148": {
+            "id": 6273119148,
+            "name": "Under ",
+            "price": 1.81
+          }
+        }
+      },
+      "2104415968": {
+        "id": 2104415968,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6273119151": {
+            "id": 6273119151,
+            "name": "W1",
+            "price": 1.7
+          },
+          "6273119150": {
+            "id": 6273119150,
+            "name": "W2",
+            "price": 2.02
+          }
+        }
+      },
+      "2104415969": {
+        "id": 2104415969,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273119153": {
+            "id": 6273119153,
+            "name": "Visby IBK ",
+            "price": 2.08
+          },
+          "6273119152": {
+            "id": 6273119152,
+            "name": "Nykvarns IBF Ungdom ",
+            "price": 1.66
+          }
+        }
+      },
+      "2104415970": {
+        "id": 2104415970,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273119155": {
+            "id": 6273119155,
+            "name": "Visby IBK ",
+            "price": 1.68
+          },
+          "6273119154": {
+            "id": 6273119154,
+            "name": "Nykvarns IBF Ungdom ",
+            "price": 2.05
+          }
+        }
+      },
+      "2104415971": {
+        "id": 2104415971,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6273119157": {
+            "id": 6273119157,
+            "name": "12",
+            "price": 1.14
+          },
+          "6273119156": {
+            "id": 6273119156,
+            "name": "X2",
+            "price": 1.64
+          },
+          "6273119158": {
+            "id": 6273119158,
+            "name": "1X",
+            "price": 1.54
+          }
+        }
+      },
+      "2104415972": {
+        "id": 2104415972,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6273119159": {
+            "id": 6273119159,
+            "name": "Odd",
+            "price": 1.85
+          },
+          "6273119160": {
+            "id": 6273119160,
+            "name": "Even",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -139,19 +1844,413 @@
     "team1_name": "Karlstad IBF (Wom)",
     "team2_name": "Warbergs IC (Wom)",
     "start_ts": 1766840400,
-    "markets_count": 22,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106730631": {
+        "id": 2106730631,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279632046": {
+            "id": 6279632046,
+            "name": "Odd",
+            "price": 1.85
+          },
+          "6279632049": {
+            "id": 6279632049,
+            "name": "Even",
+            "price": 1.85
+          }
+        }
+      },
+      "2106730633": {
+        "id": 2106730633,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632050": {
+            "id": 6279632050,
+            "name": "Under ",
+            "price": 1.53
+          },
+          "6279632052": {
+            "id": 6279632052,
+            "name": "Over ",
+            "price": 2.35
+          }
+        }
+      },
+      "2106730635": {
+        "id": 2106730635,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632054": {
+            "id": 6279632054,
+            "name": "Under ",
+            "price": 1.8
+          },
+          "6279632056": {
+            "id": 6279632056,
+            "name": "Over ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106730638": {
+        "id": 2106730638,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632059": {
+            "id": 6279632059,
+            "name": "Under ",
+            "price": 2.21
+          },
+          "6279632061": {
+            "id": 6279632061,
+            "name": "Over ",
+            "price": 1.59
+          }
+        }
+      },
+      "2106730640": {
+        "id": 2106730640,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632063": {
+            "id": 6279632063,
+            "name": "Under ",
+            "price": 1.55
+          },
+          "6279632064": {
+            "id": 6279632064,
+            "name": "Over ",
+            "price": 2.3
+          }
+        }
+      },
+      "2106730643": {
+        "id": 2106730643,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632071": {
+            "id": 6279632071,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6279632070": {
+            "id": 6279632070,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106730645": {
+        "id": 2106730645,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632075": {
+            "id": 6279632075,
+            "name": "Over ",
+            "price": 1.52
+          },
+          "6279632074": {
+            "id": 6279632074,
+            "name": "Under ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106730648": {
+        "id": 2106730648,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632081": {
+            "id": 6279632081,
+            "name": "Karlstad IBF (Wom) ",
+            "price": 1.87
+          },
+          "6279632080": {
+            "id": 6279632080,
+            "name": "Warbergs IC (Wom) ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106730652": {
+        "id": 2106730652,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632087": {
+            "id": 6279632087,
+            "name": "Warbergs IC (Wom) ",
+            "price": 1.6
+          },
+          "6279632089": {
+            "id": 6279632089,
+            "name": "Karlstad IBF (Wom) ",
+            "price": 2.2
+          }
+        }
+      },
+      "2106730656": {
+        "id": 2106730656,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632097": {
+            "id": 6279632097,
+            "name": "Over ",
+            "price": 2.37
+          },
+          "6279632096": {
+            "id": 6279632096,
+            "name": "Under ",
+            "price": 1.52
+          }
+        }
+      },
+      "2106730660": {
+        "id": 2106730660,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632105": {
+            "id": 6279632105,
+            "name": "Over ",
+            "price": 2.07
+          },
+          "6279632104": {
+            "id": 6279632104,
+            "name": "Under ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106730663": {
+        "id": 2106730663,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632111": {
+            "id": 6279632111,
+            "name": "Over ",
+            "price": 1.57
+          },
+          "6279632110": {
+            "id": 6279632110,
+            "name": "Under ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106730665": {
+        "id": 2106730665,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632115": {
+            "id": 6279632115,
+            "name": "Over ",
+            "price": 1.46
+          },
+          "6279632114": {
+            "id": 6279632114,
+            "name": "Under ",
+            "price": 2.52
+          }
+        }
+      },
+      "2106730668": {
+        "id": 2106730668,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632119": {
+            "id": 6279632119,
+            "name": "Warbergs IC (Wom) ",
+            "price": 1.51
+          },
+          "6279632121": {
+            "id": 6279632121,
+            "name": "Karlstad IBF (Wom) ",
+            "price": 2.39
+          }
+        }
+      },
+      "2106730670": {
+        "id": 2106730670,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279632125": {
+            "id": 6279632125,
+            "name": "X2",
+            "price": 1.8
+          },
+          "6279632127": {
+            "id": 6279632127,
+            "name": "1X",
+            "price": 1.41
+          },
+          "6279632126": {
+            "id": 6279632126,
+            "name": "12",
+            "price": 1.15
+          }
+        }
+      },
+      "2106730673": {
+        "id": 2106730673,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632137": {
+            "id": 6279632137,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6279632136": {
+            "id": 6279632136,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106730676": {
+        "id": 2106730676,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279632143": {
+            "id": 6279632143,
+            "name": "W2",
+            "price": 2.63
+          },
+          "6279632145": {
+            "id": 6279632145,
+            "name": "W1",
+            "price": 1.84
+          },
+          "6279632144": {
+            "id": 6279632144,
+            "name": "X",
+            "price": 5.1
+          }
+        }
+      },
+      "2106730679": {
+        "id": 2106730679,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632151": {
+            "id": 6279632151,
+            "name": "Karlstad IBF (Wom) ",
+            "price": 1.59
+          },
+          "6279632150": {
+            "id": 6279632150,
+            "name": "Warbergs IC (Wom) ",
+            "price": 2.21
+          }
+        }
+      },
+      "2107003658": {
+        "id": 2107003658,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280419034": {
+            "id": 6280419034,
+            "name": "W1",
+            "price": 1.62
+          },
+          "6280419033": {
+            "id": 6280419033,
+            "name": "W2",
+            "price": 2.15
+          }
+        }
+      },
+      "2107004167": {
+        "id": 2107004167,
+        "name": "1st Period Total Goals",
+        "type": "PeriodOverUnder",
+        "display_key": "TOTALS",
+        "event": {
+          "6280420473": {
+            "id": 6280420473,
+            "name": "Over ",
+            "price": 1.87
+          },
+          "6280420472": {
+            "id": 6280420472,
+            "name": "Under ",
+            "price": 1.83
+          }
+        }
+      },
+      "2107004168": {
+        "id": 2107004168,
+        "name": "1st Period Result",
+        "type": "PeriodWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6280420476": {
+            "id": 6280420476,
+            "name": "W1",
+            "price": 2.2
+          },
+          "6280420475": {
+            "id": 6280420475,
+            "name": "X",
+            "price": 3.4
+          },
+          "6280420474": {
+            "id": 6280420474,
+            "name": "W2",
+            "price": 2.7
+          }
+        }
+      },
+      "2107004169": {
+        "id": 2107004169,
+        "name": "1st Period Goals Handicap",
+        "type": "PeriodHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280420478": {
+            "id": 6280420478,
+            "name": "Karlstad IBF (Wom) ",
+            "price": 1.67
+          },
+          "6280420477": {
+            "id": 6280420477,
+            "name": "Warbergs IC (Wom) ",
+            "price": 2.07
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Floorball",
@@ -161,18 +2260,394 @@
     "team1_name": "Partille (Wom)",
     "team2_name": "Storvreta IBK (Wom)",
     "start_ts": 1766840400,
-    "markets_count": 22,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "20:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106730632": {
+        "id": 2106730632,
+        "name": "Total Goals Odd/Even",
+        "type": "OddEvenTotal",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279632047": {
+            "id": 6279632047,
+            "name": "Odd",
+            "price": 1.85
+          },
+          "6279632048": {
+            "id": 6279632048,
+            "name": "Even",
+            "price": 1.85
+          }
+        }
+      },
+      "2106730634": {
+        "id": 2106730634,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632051": {
+            "id": 6279632051,
+            "name": "Under ",
+            "price": 1.52
+          },
+          "6279632053": {
+            "id": 6279632053,
+            "name": "Over ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106730636": {
+        "id": 2106730636,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632055": {
+            "id": 6279632055,
+            "name": "Under ",
+            "price": 1.83
+          },
+          "6279632057": {
+            "id": 6279632057,
+            "name": "Over ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106730637": {
+        "id": 2106730637,
+        "name": "Team 2 Total Goals",
+        "type": "Team2Total",
+        "event": {
+          "6279632058": {
+            "id": 6279632058,
+            "name": "Under ",
+            "price": 2.33
+          },
+          "6279632060": {
+            "id": 6279632060,
+            "name": "Over ",
+            "price": 1.54
+          }
+        }
+      },
+      "2106730639": {
+        "id": 2106730639,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632062": {
+            "id": 6279632062,
+            "name": "Under ",
+            "price": 1.63
+          },
+          "6279632065": {
+            "id": 6279632065,
+            "name": "Over ",
+            "price": 2.13
+          }
+        }
+      },
+      "2106730642": {
+        "id": 2106730642,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632069": {
+            "id": 6279632069,
+            "name": "Over ",
+            "price": 1.74
+          },
+          "6279632068": {
+            "id": 6279632068,
+            "name": "Under ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106730646": {
+        "id": 2106730646,
+        "name": "Team 1 Total Goals",
+        "type": "Team1Total",
+        "event": {
+          "6279632077": {
+            "id": 6279632077,
+            "name": "Over ",
+            "price": 1.5
+          },
+          "6279632076": {
+            "id": 6279632076,
+            "name": "Under ",
+            "price": 2.4
+          }
+        }
+      },
+      "2106730649": {
+        "id": 2106730649,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632083": {
+            "id": 6279632083,
+            "name": "Partille (Wom) ",
+            "price": 1.51
+          },
+          "6279632082": {
+            "id": 6279632082,
+            "name": "Storvreta IBK (Wom) ",
+            "price": 2.39
+          }
+        }
+      },
+      "2106730651": {
+        "id": 2106730651,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632086": {
+            "id": 6279632086,
+            "name": "Storvreta IBK (Wom) ",
+            "price": 2
+          },
+          "6279632088": {
+            "id": 6279632088,
+            "name": "Partille (Wom) ",
+            "price": 1.72
+          }
+        }
+      },
+      "2106730655": {
+        "id": 2106730655,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632095": {
+            "id": 6279632095,
+            "name": "Partille (Wom) ",
+            "price": 2.44
+          },
+          "6279632094": {
+            "id": 6279632094,
+            "name": "Storvreta IBK (Wom) ",
+            "price": 1.49
+          }
+        }
+      },
+      "2106730659": {
+        "id": 2106730659,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632103": {
+            "id": 6279632103,
+            "name": "Over ",
+            "price": 2.25
+          },
+          "6279632102": {
+            "id": 6279632102,
+            "name": "Under ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106730662": {
+        "id": 2106730662,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632109": {
+            "id": 6279632109,
+            "name": "Over ",
+            "price": 1.97
+          },
+          "6279632108": {
+            "id": 6279632108,
+            "name": "Under ",
+            "price": 1.73
+          }
+        }
+      },
+      "2106730664": {
+        "id": 2106730664,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632113": {
+            "id": 6279632113,
+            "name": "Over ",
+            "price": 1.53
+          },
+          "6279632112": {
+            "id": 6279632112,
+            "name": "Under ",
+            "price": 2.35
+          }
+        }
+      },
+      "2106730666": {
+        "id": 2106730666,
+        "name": "Goals Asian Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279632117": {
+            "id": 6279632117,
+            "name": "Partille (Wom) ",
+            "price": 1.44
+          },
+          "6279632116": {
+            "id": 6279632116,
+            "name": "Storvreta IBK (Wom) ",
+            "price": 2.59
+          }
+        }
+      },
+      "2106730669": {
+        "id": 2106730669,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6279632123": {
+            "id": 6279632123,
+            "name": "12",
+            "price": 1.16
+          },
+          "6279632122": {
+            "id": 6279632122,
+            "name": "X2",
+            "price": 1.47
+          },
+          "6279632124": {
+            "id": 6279632124,
+            "name": "1X",
+            "price": 1.69
+          }
+        }
+      },
+      "2106730672": {
+        "id": 2106730672,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6279632135": {
+            "id": 6279632135,
+            "name": "Over ",
+            "price": 1.73
+          },
+          "6279632134": {
+            "id": 6279632134,
+            "name": "Under ",
+            "price": 1.97
+          }
+        }
+      },
+      "2106730675": {
+        "id": 2106730675,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6279632141": {
+            "id": 6279632141,
+            "name": "X",
+            "price": 4.9
+          },
+          "6279632140": {
+            "id": 6279632140,
+            "name": "W2",
+            "price": 1.98
+          },
+          "6279632142": {
+            "id": 6279632142,
+            "name": "W1",
+            "price": 2.42
+          }
+        }
+      },
+      "2107003659": {
+        "id": 2107003659,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280419036": {
+            "id": 6280419036,
+            "name": "W1",
+            "price": 2.02
+          },
+          "6280419035": {
+            "id": 6280419035,
+            "name": "W2",
+            "price": 1.7
+          }
+        }
+      },
+      "2107004173": {
+        "id": 2107004173,
+        "name": "1st Period Result",
+        "type": "PeriodWinner",
+        "display_key": "WINNER",
+        "event": {
+          "6280420481": {
+            "id": 6280420481,
+            "name": "W1",
+            "price": 2.57
+          },
+          "6280420480": {
+            "id": 6280420480,
+            "name": "X",
+            "price": 3.41
+          },
+          "6280420479": {
+            "id": 6280420479,
+            "name": "W2",
+            "price": 2.28
+          }
+        }
+      },
+      "2107004175": {
+        "id": 2107004175,
+        "name": "1st Period Goals Handicap",
+        "type": "PeriodHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280420483": {
+            "id": 6280420483,
+            "name": "Partille (Wom) ",
+            "price": 1.97
+          },
+          "6280420482": {
+            "id": 6280420482,
+            "name": "Storvreta IBK (Wom) ",
+            "price": 1.73
+          }
+        }
+      },
+      "2107004176": {
+        "id": 2107004176,
+        "name": "1st Period Total Goals",
+        "type": "PeriodOverUnder",
+        "display_key": "TOTALS",
+        "event": {
+          "6280420485": {
+            "id": 6280420485,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6280420484": {
+            "id": 6280420484,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      }
+    }
   }
 ]

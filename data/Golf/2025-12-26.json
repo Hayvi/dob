@@ -6,11 +6,49 @@
     "id": 28187231,
     "team1_name": "Ryder Cup 2027",
     "start_ts": 1821135600,
-    "markets_count": 2,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2044355085": {
+        "id": 2044355085,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6099309417": {
+            "id": 6099309417,
+            "name": "Tie",
+            "price": 12
+          },
+          "6099309416": {
+            "id": 6099309416,
+            "name": "USA ",
+            "price": 2.66
+          },
+          "6099309418": {
+            "id": 6099309418,
+            "name": "Europe",
+            "price": 1.66
+          }
+        }
+      },
+      "2091110522": {
+        "id": 2091110522,
+        "name": "To Lift Trophy",
+        "type": "ToLiftTrophy",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235055843": {
+            "id": 6235055843,
+            "name": "Europe",
+            "price": 1.57
+          },
+          "6235055842": {
+            "id": 6235055842,
+            "name": "USA ",
+            "price": 2.25
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -19,11 +57,306 @@
     "id": 27000580,
     "team1_name": "The Masters 2026",
     "start_ts": 1775732400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1853483723": {
+        "id": 1853483723,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5546212007": {
+            "id": 5546212007,
+            "name": "Russell Henley",
+            "price": 56
+          },
+          "5546212009": {
+            "id": 5546212009,
+            "name": "Robert Macintyre ",
+            "price": 41
+          },
+          "5546212008": {
+            "id": 5546212008,
+            "name": "Rory McIlroy",
+            "price": 8
+          },
+          "5546212011": {
+            "id": 5546212011,
+            "name": "Sepp Straka",
+            "price": 76
+          },
+          "5546212010": {
+            "id": 5546212010,
+            "name": "Sahith Theegala",
+            "price": 81
+          },
+          "5546212013": {
+            "id": 5546212013,
+            "name": "Sam Burns",
+            "price": 111
+          },
+          "5546212012": {
+            "id": 5546212012,
+            "name": "Scottie Scheffler",
+            "price": 4.2
+          },
+          "5546212015": {
+            "id": 5546212015,
+            "name": "Maverick McNealy",
+            "price": 126
+          },
+          "5546212014": {
+            "id": 5546212014,
+            "name": "Michael Kim",
+            "price": 141
+          },
+          "5546212017": {
+            "id": 5546212017,
+            "name": "Min Woo Lee ",
+            "price": 51
+          },
+          "5546212016": {
+            "id": 5546212016,
+            "name": "Matt Fitzpatrick",
+            "price": 71
+          },
+          "5546212019": {
+            "id": 5546212019,
+            "name": "Patrick Reed",
+            "price": 51
+          },
+          "5546212018": {
+            "id": 5546212018,
+            "name": "Phil Mickelson",
+            "price": 151
+          },
+          "5546212021": {
+            "id": 5546212021,
+            "name": "Viktor Hovland",
+            "price": 31
+          },
+          "5546212020": {
+            "id": 5546212020,
+            "name": "Patrick Cantlay",
+            "price": 41
+          },
+          "5546212023": {
+            "id": 5546212023,
+            "name": "Tony Finau ",
+            "price": 76
+          },
+          "5546212022": {
+            "id": 5546212022,
+            "name": "Tyrrell Hatton ",
+            "price": 41
+          },
+          "5546212025": {
+            "id": 5546212025,
+            "name": "Zach Johnson",
+            "price": 401
+          },
+          "5546212024": {
+            "id": 5546212024,
+            "name": "Will Zalatoris",
+            "price": 46
+          },
+          "5546212027": {
+            "id": 5546212027,
+            "name": "Wyndham Clark",
+            "price": 81
+          },
+          "5546212026": {
+            "id": 5546212026,
+            "name": "Xander Schauffele ",
+            "price": 17
+          },
+          "5546212029": {
+            "id": 5546212029,
+            "name": "Shane Lowry",
+            "price": 46
+          },
+          "5546212028": {
+            "id": 5546212028,
+            "name": "Sungjae Im",
+            "price": 61
+          },
+          "5546212031": {
+            "id": 5546212031,
+            "name": "Taylor Pendrith  ",
+            "price": 176
+          },
+          "5546212030": {
+            "id": 5546212030,
+            "name": "Sergio Garcia ",
+            "price": 111
+          },
+          "5546212033": {
+            "id": 5546212033,
+            "name": "Tom Kim",
+            "price": 91
+          },
+          "5546212032": {
+            "id": 5546212032,
+            "name": "Tommy Fleetwood ",
+            "price": 19
+          },
+          "5546212035": {
+            "id": 5546212035,
+            "name": "Cameron Smith",
+            "price": 51
+          },
+          "5546212034": {
+            "id": 5546212034,
+            "name": "Tiger Woods",
+            "price": 176
+          },
+          "5546212037": {
+            "id": 5546212037,
+            "name": "Bubba Watson",
+            "price": 351
+          },
+          "5546212036": {
+            "id": 5546212036,
+            "name": "Byeong-Hun An ",
+            "price": 151
+          },
+          "5546212039": {
+            "id": 5546212039,
+            "name": "Daniel Berger",
+            "price": 111
+          },
+          "5546212038": {
+            "id": 5546212038,
+            "name": "Charl Schwartzel",
+            "price": 351
+          },
+          "5546212041": {
+            "id": 5546212041,
+            "name": "Collin Morikawa",
+            "price": 26
+          },
+          "5546212040": {
+            "id": 5546212040,
+            "name": "Corey Conners",
+            "price": 51
+          },
+          "5546212043": {
+            "id": 5546212043,
+            "name": "Adam Scott ",
+            "price": 141
+          },
+          "5546212042": {
+            "id": 5546212042,
+            "name": "Akshay Bhatia",
+            "price": 67
+          },
+          "5546212045": {
+            "id": 5546212045,
+            "name": "Billy Horschel",
+            "price": 141
+          },
+          "5546212044": {
+            "id": 5546212044,
+            "name": "Aaron Rai ",
+            "price": 141
+          },
+          "5546212047": {
+            "id": 5546212047,
+            "name": "Brooks Koepka ",
+            "price": 36
+          },
+          "5546212046": {
+            "id": 5546212046,
+            "name": "Bryson DeChambeau",
+            "price": 17
+          },
+          "5546212049": {
+            "id": 5546212049,
+            "name": "Jordan Spieth",
+            "price": 41
+          },
+          "5546212048": {
+            "id": 5546212048,
+            "name": "Brian Harman",
+            "price": 176
+          },
+          "5546212051": {
+            "id": 5546212051,
+            "name": "Joaquin Niemann",
+            "price": 41
+          },
+          "5546212050": {
+            "id": 5546212050,
+            "name": "Jon Rahm",
+            "price": 17
+          },
+          "5546212053": {
+            "id": 5546212053,
+            "name": "Ludvig Aberg",
+            "price": 15
+          },
+          "5546212052": {
+            "id": 5546212052,
+            "name": "Justin Rose",
+            "price": 46
+          },
+          "5546212055": {
+            "id": 5546212055,
+            "name": "Justin Thomas",
+            "price": 26
+          },
+          "5546212054": {
+            "id": 5546212054,
+            "name": "Keegan Bradley",
+            "price": 126
+          },
+          "5546212057": {
+            "id": 5546212057,
+            "name": "Davis Thompson",
+            "price": 126
+          },
+          "5546212056": {
+            "id": 5546212056,
+            "name": "Denny McCarthy",
+            "price": 176
+          },
+          "5546212059": {
+            "id": 5546212059,
+            "name": "Dustin Johnson",
+            "price": 86
+          },
+          "5546212058": {
+            "id": 5546212058,
+            "name": "Danny Willett",
+            "price": 351
+          },
+          "5546212061": {
+            "id": 5546212061,
+            "name": "Jason Day",
+            "price": 61
+          },
+          "5546212060": {
+            "id": 5546212060,
+            "name": "JJ Spaun",
+            "price": 101
+          },
+          "5546212062": {
+            "id": 5546212062,
+            "name": "Hideki Matsuyama",
+            "price": 34
+          },
+          "6039414366": {
+            "id": 6039414366,
+            "name": "Cameron Young",
+            "price": 41
+          },
+          "6058297593": {
+            "id": 6058297593,
+            "name": "Marco Penge",
+            "price": 76
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -32,11 +365,376 @@
     "id": 27631229,
     "team1_name": "The Open Championship 2026",
     "start_ts": 1784178000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1944579954": {
+        "id": 1944579954,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6054715715": {
+            "id": 6054715715,
+            "name": "Marco Penge",
+            "price": 71
+          },
+          "6235055895": {
+            "id": 6235055895,
+            "name": "Matthew Jordan",
+            "price": 151
+          },
+          "5806148321": {
+            "id": 5806148321,
+            "name": "Rasmus Neergaard-Petersen",
+            "price": 126
+          },
+          "5806148323": {
+            "id": 5806148323,
+            "name": "Patrick Reed",
+            "price": 91
+          },
+          "5806148322": {
+            "id": 5806148322,
+            "name": "Rickie Fowler",
+            "price": 96
+          },
+          "5806148325": {
+            "id": 5806148325,
+            "name": "Russell Henley",
+            "price": 51
+          },
+          "5806148324": {
+            "id": 5806148324,
+            "name": "Rasmus Hojgaard",
+            "price": 111
+          },
+          "5806148327": {
+            "id": 5806148327,
+            "name": "Robert Macintyre ",
+            "price": 31
+          },
+          "5806148326": {
+            "id": 5806148326,
+            "name": "Ryan Fox",
+            "price": 126
+          },
+          "5806148329": {
+            "id": 5806148329,
+            "name": "Patrick Cantlay",
+            "price": 56
+          },
+          "5806148328": {
+            "id": 5806148328,
+            "name": "Rory McIlroy",
+            "price": 8
+          },
+          "5806148331": {
+            "id": 5806148331,
+            "name": "Matt Wallace ",
+            "price": 151
+          },
+          "5806148330": {
+            "id": 5806148330,
+            "name": "Matt Fitzpatrick",
+            "price": 46
+          },
+          "5806148333": {
+            "id": 5806148333,
+            "name": "Ludvig Aberg",
+            "price": 26
+          },
+          "5806148332": {
+            "id": 5806148332,
+            "name": "Lucas Glover",
+            "price": 226
+          },
+          "5806148335": {
+            "id": 5806148335,
+            "name": "Nicolai Hojgaard",
+            "price": 86
+          },
+          "5806148334": {
+            "id": 5806148334,
+            "name": "Min Woo Lee ",
+            "price": 101
+          },
+          "5806148337": {
+            "id": 5806148337,
+            "name": "Max Homa  ",
+            "price": 111
+          },
+          "5806148336": {
+            "id": 5806148336,
+            "name": "Maverick McNealy",
+            "price": 67
+          },
+          "5806148339": {
+            "id": 5806148339,
+            "name": "Tony Finau ",
+            "price": 86
+          },
+          "5806148338": {
+            "id": 5806148338,
+            "name": "Sahith Theegala",
+            "price": 141
+          },
+          "5806148341": {
+            "id": 5806148341,
+            "name": "Tom McKibbin",
+            "price": 126
+          },
+          "5806148340": {
+            "id": 5806148340,
+            "name": "Tyrrell Hatton ",
+            "price": 31
+          },
+          "5806148343": {
+            "id": 5806148343,
+            "name": "Wyndham Clark",
+            "price": 86
+          },
+          "5806148342": {
+            "id": 5806148342,
+            "name": "Tommy Fleetwood ",
+            "price": 19
+          },
+          "5806148345": {
+            "id": 5806148345,
+            "name": "Viktor Hovland",
+            "price": 34
+          },
+          "5806148344": {
+            "id": 5806148344,
+            "name": "Xander Schauffele ",
+            "price": 15
+          },
+          "5806148347": {
+            "id": 5806148347,
+            "name": "Tom Hoge",
+            "price": 226
+          },
+          "5806148346": {
+            "id": 5806148346,
+            "name": "Will Zalatoris",
+            "price": 91
+          },
+          "5806148349": {
+            "id": 5806148349,
+            "name": "Shane Lowry",
+            "price": 31
+          },
+          "5806148348": {
+            "id": 5806148348,
+            "name": "Sepp Straka",
+            "price": 61
+          },
+          "5806148351": {
+            "id": 5806148351,
+            "name": "Scottie Scheffler",
+            "price": 5
+          },
+          "5806148350": {
+            "id": 5806148350,
+            "name": "Sam Burns",
+            "price": 61
+          },
+          "5806148353": {
+            "id": 5806148353,
+            "name": "Thomas Detry  ",
+            "price": 176
+          },
+          "5806148352": {
+            "id": 5806148352,
+            "name": "Taylor Pendrith  ",
+            "price": 141
+          },
+          "5806148355": {
+            "id": 5806148355,
+            "name": "Sungjae Im",
+            "price": 101
+          },
+          "5806148354": {
+            "id": 5806148354,
+            "name": "Si Woo Kim",
+            "price": 101
+          },
+          "5806148357": {
+            "id": 5806148357,
+            "name": "Carlos Ortiz",
+            "price": 151
+          },
+          "5806148356": {
+            "id": 5806148356,
+            "name": "Cameron Young",
+            "price": 76
+          },
+          "5806148359": {
+            "id": 5806148359,
+            "name": "Cameron Smith",
+            "price": 76
+          },
+          "5806148358": {
+            "id": 5806148358,
+            "name": "Byeong-Hun An ",
+            "price": 176
+          },
+          "5806148361": {
+            "id": 5806148361,
+            "name": "Daniel Berger",
+            "price": 111
+          },
+          "5806148360": {
+            "id": 5806148360,
+            "name": "Corey Conners",
+            "price": 56
+          },
+          "5806148363": {
+            "id": 5806148363,
+            "name": "Collin Morikawa",
+            "price": 31
+          },
+          "5806148362": {
+            "id": 5806148362,
+            "name": "Chris Gotterup",
+            "price": 51
+          },
+          "5806148365": {
+            "id": 5806148365,
+            "name": "Akshay Bhatia",
+            "price": 111
+          },
+          "5806148364": {
+            "id": 5806148364,
+            "name": "Bryson DeChambeau",
+            "price": 19
+          },
+          "5806148367": {
+            "id": 5806148367,
+            "name": "Aaron Rai ",
+            "price": 91
+          },
+          "5806148366": {
+            "id": 5806148366,
+            "name": "Alex Noren",
+            "price": 126
+          },
+          "5806148369": {
+            "id": 5806148369,
+            "name": "Brian Harman",
+            "price": 76
+          },
+          "5806148368": {
+            "id": 5806148368,
+            "name": "Adam Scott ",
+            "price": 111
+          },
+          "5806148371": {
+            "id": 5806148371,
+            "name": "Andrew Novak",
+            "price": 176
+          },
+          "5806148370": {
+            "id": 5806148370,
+            "name": "Brooks Koepka ",
+            "price": 56
+          },
+          "5806148373": {
+            "id": 5806148373,
+            "name": "Davis Riley",
+            "price": 251
+          },
+          "5806148372": {
+            "id": 5806148372,
+            "name": "Ben Griffin",
+            "price": 81
+          },
+          "5806148375": {
+            "id": 5806148375,
+            "name": "JT Poston",
+            "price": 201
+          },
+          "5806148374": {
+            "id": 5806148374,
+            "name": "Jordan Spieth",
+            "price": 56
+          },
+          "5806148377": {
+            "id": 5806148377,
+            "name": "Jon Rahm",
+            "price": 13
+          },
+          "5806148376": {
+            "id": 5806148376,
+            "name": "Joaquin Niemann",
+            "price": 56
+          },
+          "5806148379": {
+            "id": 5806148379,
+            "name": "Keith Mitchell ",
+            "price": 176
+          },
+          "5806148378": {
+            "id": 5806148378,
+            "name": "Keegan Bradley",
+            "price": 86
+          },
+          "5806148381": {
+            "id": 5806148381,
+            "name": "Justin Thomas",
+            "price": 41
+          },
+          "5806148380": {
+            "id": 5806148380,
+            "name": "Justin Rose",
+            "price": 51
+          },
+          "5806148383": {
+            "id": 5806148383,
+            "name": "Haotong Li",
+            "price": 126
+          },
+          "5806148382": {
+            "id": 5806148382,
+            "name": "JJ Spaun",
+            "price": 126
+          },
+          "5806148385": {
+            "id": 5806148385,
+            "name": "Denny McCarthy",
+            "price": 151
+          },
+          "5806148384": {
+            "id": 5806148384,
+            "name": "Harris English",
+            "price": 61
+          },
+          "5806148387": {
+            "id": 5806148387,
+            "name": "Jake Knapp",
+            "price": 201
+          },
+          "5806148386": {
+            "id": 5806148386,
+            "name": "Dustin Johnson",
+            "price": 101
+          },
+          "5806148389": {
+            "id": 5806148389,
+            "name": "Harry Hall",
+            "price": 81
+          },
+          "5806148388": {
+            "id": 5806148388,
+            "name": "Jason Day",
+            "price": 86
+          },
+          "5806148390": {
+            "id": 5806148390,
+            "name": "Hideki Matsuyama",
+            "price": 51
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -45,11 +743,341 @@
     "id": 27416193,
     "team1_name": "US Open 2026",
     "start_ts": 1781694000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1933591552": {
+        "id": 1933591552,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5774796901": {
+            "id": 5774796901,
+            "name": "Rory McIlroy",
+            "price": 9
+          },
+          "5774796903": {
+            "id": 5774796903,
+            "name": "Rickie Fowler",
+            "price": 141
+          },
+          "5774796902": {
+            "id": 5774796902,
+            "name": "Russell Henley",
+            "price": 51
+          },
+          "5774796905": {
+            "id": 5774796905,
+            "name": "Sam Burns",
+            "price": 51
+          },
+          "5774796904": {
+            "id": 5774796904,
+            "name": "Robert Macintyre ",
+            "price": 41
+          },
+          "5774796907": {
+            "id": 5774796907,
+            "name": "Ryan Fox",
+            "price": 111
+          },
+          "5774796906": {
+            "id": 5774796906,
+            "name": "Scottie Scheffler",
+            "price": 4.9
+          },
+          "5774796909": {
+            "id": 5774796909,
+            "name": "Max Homa",
+            "price": 126
+          },
+          "5774796908": {
+            "id": 5774796908,
+            "name": "Sahith Theegala",
+            "price": 126
+          },
+          "5774796911": {
+            "id": 5774796911,
+            "name": "Matt Fitzpatrick",
+            "price": 76
+          },
+          "5774796910": {
+            "id": 5774796910,
+            "name": "Min Woo Lee ",
+            "price": 86
+          },
+          "5774796913": {
+            "id": 5774796913,
+            "name": "Rasmus Hojgaard",
+            "price": 176
+          },
+          "5774796912": {
+            "id": 5774796912,
+            "name": "Maverick McNealy",
+            "price": 81
+          },
+          "5774796915": {
+            "id": 5774796915,
+            "name": "Patrick Cantlay",
+            "price": 46
+          },
+          "5774796914": {
+            "id": 5774796914,
+            "name": "Rasmus Neergaard-Petersen",
+            "price": 81
+          },
+          "5774796917": {
+            "id": 5774796917,
+            "name": "Tyrrell Hatton ",
+            "price": 34
+          },
+          "5774796916": {
+            "id": 5774796916,
+            "name": "Patrick Reed",
+            "price": 111
+          },
+          "5774796919": {
+            "id": 5774796919,
+            "name": "Tommy Fleetwood ",
+            "price": 26
+          },
+          "5774796918": {
+            "id": 5774796918,
+            "name": "Viktor Hovland",
+            "price": 34
+          },
+          "5774796921": {
+            "id": 5774796921,
+            "name": "Xander Schauffele ",
+            "price": 21
+          },
+          "5774796920": {
+            "id": 5774796920,
+            "name": "Tony Finau ",
+            "price": 81
+          },
+          "5774796923": {
+            "id": 5774796923,
+            "name": "Lucas Glover",
+            "price": 226
+          },
+          "5774796925": {
+            "id": 5774796925,
+            "name": "Will Zalatoris",
+            "price": 86
+          },
+          "5774796927": {
+            "id": 5774796927,
+            "name": "Si Woo Kim",
+            "price": 126
+          },
+          "5774796926": {
+            "id": 5774796926,
+            "name": "Wyndham Clark",
+            "price": 111
+          },
+          "5774796929": {
+            "id": 5774796929,
+            "name": "Sepp Straka",
+            "price": 51
+          },
+          "5774796928": {
+            "id": 5774796928,
+            "name": "Sungjae Im",
+            "price": 111
+          },
+          "5774796930": {
+            "id": 5774796930,
+            "name": "Shane Lowry",
+            "price": 46
+          },
+          "5774796933": {
+            "id": 5774796933,
+            "name": "Tom Hoge",
+            "price": 251
+          },
+          "5774796935": {
+            "id": 5774796935,
+            "name": "Taylor Pendrith  ",
+            "price": 111
+          },
+          "5774796934": {
+            "id": 5774796934,
+            "name": "Tom McKibbin",
+            "price": 251
+          },
+          "5774796937": {
+            "id": 5774796937,
+            "name": "Ludvig Aberg",
+            "price": 23
+          },
+          "5774796936": {
+            "id": 5774796936,
+            "name": "Thomas Detry  ",
+            "price": 176
+          },
+          "5774796939": {
+            "id": 5774796939,
+            "name": "Carlos Ortiz",
+            "price": 111
+          },
+          "5774796938": {
+            "id": 5774796938,
+            "name": "Cameron Young",
+            "price": 51
+          },
+          "5774796941": {
+            "id": 5774796941,
+            "name": "Cameron Smith",
+            "price": 111
+          },
+          "5774796940": {
+            "id": 5774796940,
+            "name": "Byeong-Hun An ",
+            "price": 226
+          },
+          "5774796943": {
+            "id": 5774796943,
+            "name": "Davis Riley",
+            "price": 251
+          },
+          "5774796942": {
+            "id": 5774796942,
+            "name": "Daniel Berger",
+            "price": 111
+          },
+          "5774796945": {
+            "id": 5774796945,
+            "name": "Corey Conners",
+            "price": 61
+          },
+          "5774796944": {
+            "id": 5774796944,
+            "name": "Collin Morikawa",
+            "price": 29
+          },
+          "5774796947": {
+            "id": 5774796947,
+            "name": "Andrew Novak",
+            "price": 176
+          },
+          "5774796946": {
+            "id": 5774796946,
+            "name": "Alex Noren",
+            "price": 126
+          },
+          "5774796949": {
+            "id": 5774796949,
+            "name": "Akshay Bhatia",
+            "price": 141
+          },
+          "5774796948": {
+            "id": 5774796948,
+            "name": "Adam Scott ",
+            "price": 86
+          },
+          "5774796951": {
+            "id": 5774796951,
+            "name": "Bryson DeChambeau",
+            "price": 9.8
+          },
+          "5774796950": {
+            "id": 5774796950,
+            "name": "Brooks Koepka ",
+            "price": 46
+          },
+          "5774796953": {
+            "id": 5774796953,
+            "name": "Brian Harman",
+            "price": 201
+          },
+          "5774796952": {
+            "id": 5774796952,
+            "name": "Ben Griffin",
+            "price": 51
+          },
+          "5774796955": {
+            "id": 5774796955,
+            "name": "Justin Rose",
+            "price": 111
+          },
+          "5774796954": {
+            "id": 5774796954,
+            "name": "Jordan Spieth",
+            "price": 51
+          },
+          "5774796957": {
+            "id": 5774796957,
+            "name": "Jon Rahm",
+            "price": 13
+          },
+          "5774796956": {
+            "id": 5774796956,
+            "name": "Joaquin Niemann",
+            "price": 46
+          },
+          "5774796959": {
+            "id": 5774796959,
+            "name": "Aaron Rai ",
+            "price": 141
+          },
+          "5774796958": {
+            "id": 5774796958,
+            "name": "Keith Mitchell ",
+            "price": 151
+          },
+          "5774796961": {
+            "id": 5774796961,
+            "name": "Keegan Bradley",
+            "price": 111
+          },
+          "5774796960": {
+            "id": 5774796960,
+            "name": "Justin Thomas",
+            "price": 34
+          },
+          "5774796963": {
+            "id": 5774796963,
+            "name": "Hideki Matsuyama",
+            "price": 51
+          },
+          "5774796962": {
+            "id": 5774796962,
+            "name": "Harris English",
+            "price": 101
+          },
+          "5774796965": {
+            "id": 5774796965,
+            "name": "Dustin Johnson",
+            "price": 141
+          },
+          "5774796964": {
+            "id": 5774796964,
+            "name": "Denny McCarthy",
+            "price": 176
+          },
+          "5774796967": {
+            "id": 5774796967,
+            "name": "JJ Spaun",
+            "price": 81
+          },
+          "5774796966": {
+            "id": 5774796966,
+            "name": "Jason Day",
+            "price": 86
+          },
+          "5774796969": {
+            "id": 5774796969,
+            "name": "Jake Knapp",
+            "price": 151
+          },
+          "5774796968": {
+            "id": 5774796968,
+            "name": "J.T. Poston",
+            "price": 141
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -58,11 +1086,326 @@
     "id": 27278742,
     "team1_name": "USPGA Championship 2026",
     "start_ts": 1779008400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1893345147": {
+        "id": 1893345147,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235055896": {
+            "id": 6235055896,
+            "name": "Ben Griffin",
+            "price": 56
+          },
+          "5661925771": {
+            "id": 5661925771,
+            "name": "Russell Henley",
+            "price": 67
+          },
+          "5661925773": {
+            "id": 5661925773,
+            "name": "Robert Macintyre ",
+            "price": 91
+          },
+          "5661925772": {
+            "id": 5661925772,
+            "name": "Rory McIlroy",
+            "price": 7
+          },
+          "5661925775": {
+            "id": 5661925775,
+            "name": "Sepp Straka",
+            "price": 67
+          },
+          "5661925774": {
+            "id": 5661925774,
+            "name": "Sahith Theegala",
+            "price": 126
+          },
+          "5661925777": {
+            "id": 5661925777,
+            "name": "Sam Burns",
+            "price": 76
+          },
+          "5661925776": {
+            "id": 5661925776,
+            "name": "Scottie Scheffler",
+            "price": 5
+          },
+          "5661925779": {
+            "id": 5661925779,
+            "name": "Max Homa",
+            "price": 81
+          },
+          "5661925778": {
+            "id": 5661925778,
+            "name": "Rickie Fowler",
+            "price": 176
+          },
+          "5661925781": {
+            "id": 5661925781,
+            "name": "Matt Fitzpatrick",
+            "price": 76
+          },
+          "5661925780": {
+            "id": 5661925780,
+            "name": "Maverick McNealy",
+            "price": 81
+          },
+          "5661925783": {
+            "id": 5661925783,
+            "name": "Rasmus Hojgaard",
+            "price": 176
+          },
+          "5661925782": {
+            "id": 5661925782,
+            "name": "Min Woo Lee ",
+            "price": 86
+          },
+          "5661925785": {
+            "id": 5661925785,
+            "name": "Patrick Cantlay",
+            "price": 36
+          },
+          "5661925784": {
+            "id": 5661925784,
+            "name": "Patrick Reed",
+            "price": 81
+          },
+          "5661925787": {
+            "id": 5661925787,
+            "name": "Tony Finau ",
+            "price": 76
+          },
+          "5661925786": {
+            "id": 5661925786,
+            "name": "Tyrrell Hatton",
+            "price": 41
+          },
+          "5661925789": {
+            "id": 5661925789,
+            "name": "Viktor Hovland",
+            "price": 34
+          },
+          "5661925788": {
+            "id": 5661925788,
+            "name": "Tommy Fleetwood",
+            "price": 29
+          },
+          "5661925791": {
+            "id": 5661925791,
+            "name": "Wyndham Clark",
+            "price": 86
+          },
+          "5661925790": {
+            "id": 5661925790,
+            "name": "Xander Schauffele ",
+            "price": 21
+          },
+          "5661925793": {
+            "id": 5661925793,
+            "name": "Tom McKibbin",
+            "price": 176
+          },
+          "5661925792": {
+            "id": 5661925792,
+            "name": "Will Zalatoris",
+            "price": 91
+          },
+          "5661925795": {
+            "id": 5661925795,
+            "name": "Si Woo Kim",
+            "price": 91
+          },
+          "5661925794": {
+            "id": 5661925794,
+            "name": "Sungjae Im",
+            "price": 81
+          },
+          "5661925797": {
+            "id": 5661925797,
+            "name": "Taylor Pendrith",
+            "price": 141
+          },
+          "5661925796": {
+            "id": 5661925796,
+            "name": "Shane Lowry",
+            "price": 51
+          },
+          "5661925799": {
+            "id": 5661925799,
+            "name": "Tom Hoge",
+            "price": 201
+          },
+          "5661925798": {
+            "id": 5661925798,
+            "name": "Tom Kim",
+            "price": 111
+          },
+          "5661925801": {
+            "id": 5661925801,
+            "name": "Ludvig Aberg",
+            "price": 25
+          },
+          "5661925800": {
+            "id": 5661925800,
+            "name": "Thomas Detry  ",
+            "price": 176
+          },
+          "5661925803": {
+            "id": 5661925803,
+            "name": "Cameron Smith",
+            "price": 91
+          },
+          "5661925802": {
+            "id": 5661925802,
+            "name": "Cameron Young",
+            "price": 71
+          },
+          "5661925805": {
+            "id": 5661925805,
+            "name": "Collin Morikawa",
+            "price": 26
+          },
+          "5661925804": {
+            "id": 5661925804,
+            "name": "Byeong-Hun An ",
+            "price": 126
+          },
+          "5661925807": {
+            "id": 5661925807,
+            "name": "Daniel Berger",
+            "price": 91
+          },
+          "5661925806": {
+            "id": 5661925806,
+            "name": "Davis Riley",
+            "price": 176
+          },
+          "5661925809": {
+            "id": 5661925809,
+            "name": "Bryson DeChambeau",
+            "price": 9.8
+          },
+          "5661925808": {
+            "id": 5661925808,
+            "name": "Corey Conners",
+            "price": 51
+          },
+          "5661925811": {
+            "id": 5661925811,
+            "name": "Adam Scott ",
+            "price": 126
+          },
+          "5661925810": {
+            "id": 5661925810,
+            "name": "Akshay Bhatia",
+            "price": 126
+          },
+          "5661925813": {
+            "id": 5661925813,
+            "name": "Alex Noren",
+            "price": 101
+          },
+          "5661925812": {
+            "id": 5661925812,
+            "name": "Aaron Rai ",
+            "price": 126
+          },
+          "5661925815": {
+            "id": 5661925815,
+            "name": "Brian Harman",
+            "price": 126
+          },
+          "5661925814": {
+            "id": 5661925814,
+            "name": "Brooks Koepka ",
+            "price": 51
+          },
+          "5661925817": {
+            "id": 5661925817,
+            "name": "Justin Rose",
+            "price": 81
+          },
+          "5661925816": {
+            "id": 5661925816,
+            "name": "Andrew Novak",
+            "price": 176
+          },
+          "5661925819": {
+            "id": 5661925819,
+            "name": "Jordan Spieth",
+            "price": 51
+          },
+          "5661925818": {
+            "id": 5661925818,
+            "name": "JT Poston ",
+            "price": 151
+          },
+          "5661925821": {
+            "id": 5661925821,
+            "name": "Lucas Glover",
+            "price": 176
+          },
+          "5661925820": {
+            "id": 5661925820,
+            "name": "Justin Thomas",
+            "price": 23
+          },
+          "5661925823": {
+            "id": 5661925823,
+            "name": "Keegan Bradley ",
+            "price": 101
+          },
+          "5661925822": {
+            "id": 5661925822,
+            "name": "Keith Mitchell ",
+            "price": 126
+          },
+          "5661925825": {
+            "id": 5661925825,
+            "name": "Harris English ",
+            "price": 101
+          },
+          "5661925824": {
+            "id": 5661925824,
+            "name": "Jon Rahm",
+            "price": 15
+          },
+          "5661925827": {
+            "id": 5661925827,
+            "name": "Denny McCarthy",
+            "price": 126
+          },
+          "5661925826": {
+            "id": 5661925826,
+            "name": "Dustin Johnson",
+            "price": 91
+          },
+          "5661925829": {
+            "id": 5661925829,
+            "name": "Joaquin Niemann",
+            "price": 36
+          },
+          "5661925828": {
+            "id": 5661925828,
+            "name": "Hideki Matsuyama",
+            "price": 46
+          },
+          "5661925831": {
+            "id": 5661925831,
+            "name": "Jake Knapp",
+            "price": 176
+          },
+          "5661925830": {
+            "id": 5661925830,
+            "name": "Jason Day",
+            "price": 81
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -71,11 +1414,31 @@
     "id": 25549992,
     "team1_name": "Solheim Cup",
     "start_ts": 1789920000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1651353192": {
+        "id": 1651353192,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "4963090543": {
+            "id": 4963090543,
+            "name": "Tie",
+            "price": 13
+          },
+          "4963090545": {
+            "id": 4963090545,
+            "name": "Europe",
+            "price": 2.08
+          },
+          "4963090544": {
+            "id": 4963090544,
+            "name": "USA ",
+            "price": 1.91
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -84,11 +1447,31 @@
     "id": 25644179,
     "team1_name": "Presidents Cup",
     "start_ts": 1789556400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1663900939": {
+        "id": 1663900939,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5000037695": {
+            "id": 5000037695,
+            "name": "USA ",
+            "price": 1.25
+          },
+          "5000037694": {
+            "id": 5000037694,
+            "name": "Tie",
+            "price": 15
+          },
+          "5000037696": {
+            "id": 5000037696,
+            "name": "Internationals",
+            "price": 4.5
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -97,11 +1480,79 @@
     "id": 28246847,
     "team1_name": "TGL",
     "start_ts": 1766952000,
-    "markets_count": 2,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2034297182": {
+        "id": 2034297182,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6069922655": {
+            "id": 6069922655,
+            "name": "Los Angeles Golf Club",
+            "price": 5.5
+          },
+          "6069922654": {
+            "id": 6069922654,
+            "name": "The Bay Golf Club",
+            "price": 5.8
+          },
+          "6069922657": {
+            "id": 6069922657,
+            "name": "Atlanta Drive GC",
+            "price": 4.33
+          },
+          "6069922656": {
+            "id": 6069922656,
+            "name": "New York Golf Club",
+            "price": 5
+          },
+          "6069922658": {
+            "id": 6069922658,
+            "name": "Boston Common Golf",
+            "price": 4.33
+          }
+        }
+      },
+      "2091155569": {
+        "id": 2091155569,
+        "name": "To Reach The Final",
+        "type": "ToReachTheFinal",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235185621": {
+            "id": 6235185621,
+            "name": "New York Golf Club",
+            "price": 2.25
+          },
+          "6235185620": {
+            "id": 6235185620,
+            "name": "Los Angeles Golf Club",
+            "price": 2.5
+          },
+          "6235185623": {
+            "id": 6235185623,
+            "name": "Atlanta Drive GC",
+            "price": 2.1
+          },
+          "6235185622": {
+            "id": 6235185622,
+            "name": "The Bay Golf Club",
+            "price": 2.63
+          },
+          "6235185625": {
+            "id": 6235185625,
+            "name": "Jupiter Links GC",
+            "price": 3.25
+          },
+          "6235185624": {
+            "id": 6235185624,
+            "name": "Boston Common Golf",
+            "price": 2.1
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -110,11 +1561,26 @@
     "id": 28624619,
     "team1_name": "TGL Match 1",
     "start_ts": 1766952000,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2091162902": {
+        "id": 2091162902,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235208060": {
+            "id": 6235208060,
+            "name": "New York Golf Club",
+            "price": 1.83
+          },
+          "6235208062": {
+            "id": 6235208062,
+            "name": "Atlanta Drive GC",
+            "price": 1.83
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Golf",
@@ -123,10 +1589,25 @@
     "id": 28624620,
     "team1_name": "TGL Match 2",
     "start_ts": 1767398400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2091162901": {
+        "id": 2091162901,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235208059": {
+            "id": 6235208059,
+            "name": "Los Angeles Golf Club",
+            "price": 1.91
+          },
+          "6235208061": {
+            "id": 6235208061,
+            "name": "Boston Common Golf",
+            "price": 1.8
+          }
+        }
+      }
+    }
   }
 ]

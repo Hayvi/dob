@@ -7,18 +7,386 @@
     "team1_name": "Team Omega",
     "team2_name": "Depo",
     "start_ts": 1767416400,
-    "markets_count": 21,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106571570": {
+        "id": 2106571570,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279178641": {
+            "id": 6279178641,
+            "name": "W2",
+            "price": 2.2
+          },
+          "6279178642": {
+            "id": 6279178642,
+            "name": "W1",
+            "price": 1.6
+          }
+        }
+      },
+      "2106571571": {
+        "id": 2106571571,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6279178643": {
+            "id": 6279178643,
+            "name": "W2",
+            "price": 2.37
+          },
+          "6279178644": {
+            "id": 6279178644,
+            "name": "W1",
+            "price": 1.52
+          }
+        }
+      },
+      "2106571572": {
+        "id": 2106571572,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279178645": {
+            "id": 6279178645,
+            "name": "W2",
+            "price": 2.2
+          },
+          "6279178646": {
+            "id": 6279178646,
+            "name": "W1",
+            "price": 1.6
+          }
+        }
+      },
+      "2106571573": {
+        "id": 2106571573,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178647": {
+            "id": 6279178647,
+            "name": "Depo ",
+            "price": 1.4
+          },
+          "6279178648": {
+            "id": 6279178648,
+            "name": "Team Omega ",
+            "price": 2.7
+          }
+        }
+      },
+      "2106571574": {
+        "id": 2106571574,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178649": {
+            "id": 6279178649,
+            "name": "Depo ",
+            "price": 1.8
+          },
+          "6279178650": {
+            "id": 6279178650,
+            "name": "Team Omega ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106571577": {
+        "id": 2106571577,
+        "name": "Rounds Total",
+        "type": "RoundsTotal",
+        "event": {
+          "6279178651": {
+            "id": 6279178651,
+            "name": "Under ",
+            "price": 1.85
+          },
+          "6279178652": {
+            "id": 6279178652,
+            "name": "Over ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571578": {
+        "id": 2106571578,
+        "name": "Depo Rounds Total",
+        "type": "Team2TotalRounds",
+        "event": {
+          "6279178654": {
+            "id": 6279178654,
+            "name": "Over ",
+            "price": 2.1
+          },
+          "6279178653": {
+            "id": 6279178653,
+            "name": "Under ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106571579": {
+        "id": 2106571579,
+        "name": "Map 1 Half 1 Rounds Handicap",
+        "type": "Map1HalfHandicap2Way",
+        "event": {
+          "6279178656": {
+            "id": 6279178656,
+            "name": "Team Omega ",
+            "price": 2
+          },
+          "6279178655": {
+            "id": 6279178655,
+            "name": "Depo ",
+            "price": 1.72
+          }
+        }
+      },
+      "2106571580": {
+        "id": 2106571580,
+        "name": "Map 1 Half 1 Winner",
+        "type": "Map1HalfResult2Way",
+        "event": {
+          "6279178658": {
+            "id": 6279178658,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6279178657": {
+            "id": 6279178657,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106571581": {
+        "id": 2106571581,
+        "name": "Team Omega Rounds Total",
+        "type": "Team1TotalRounds",
+        "event": {
+          "6279178664": {
+            "id": 6279178664,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6279178663": {
+            "id": 6279178663,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571582": {
+        "id": 2106571582,
+        "name": "Map 2 Half 1 Rounds Handicap",
+        "type": "Map2HalfHandicap2Way",
+        "event": {
+          "6279178666": {
+            "id": 6279178666,
+            "name": "Team Omega ",
+            "price": 2
+          },
+          "6279178665": {
+            "id": 6279178665,
+            "name": "Depo ",
+            "price": 1.72
+          }
+        }
+      },
+      "2106571583": {
+        "id": 2106571583,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178667": {
+            "id": 6279178667,
+            "name": "Depo ",
+            "price": 1.8
+          },
+          "6279178668": {
+            "id": 6279178668,
+            "name": "Team Omega ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106571584": {
+        "id": 2106571584,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279178669": {
+            "id": 6279178669,
+            "name": "Under ",
+            "price": 1.8
+          },
+          "6279178670": {
+            "id": 6279178670,
+            "name": "Over ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106571585": {
+        "id": 2106571585,
+        "name": "Correct Score",
+        "type": "CorrectScore3",
+        "display_key": "CORRECT SCORE",
+        "event": {
+          "6279178673": {
+            "id": 6279178673,
+            "name": "2-0",
+            "price": 2.55
+          },
+          "6279178674": {
+            "id": 6279178674,
+            "name": "2-1",
+            "price": 3.01
+          },
+          "6279178671": {
+            "id": 6279178671,
+            "name": "1-2",
+            "price": 4.2
+          },
+          "6279178672": {
+            "id": 6279178672,
+            "name": "0-2",
+            "price": 4.2
+          }
+        }
+      },
+      "2106571608": {
+        "id": 2106571608,
+        "name": "Map 2 Half 1 Winner",
+        "type": "Map2HalfResult2Way",
+        "event": {
+          "6279178676": {
+            "id": 6279178676,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6279178675": {
+            "id": 6279178675,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106571609": {
+        "id": 2106571609,
+        "name": "Rounds Handicap",
+        "type": "RoundsHandicap",
+        "event": {
+          "6279178700": {
+            "id": 6279178700,
+            "name": "Depo ",
+            "price": 1.85
+          },
+          "6279178702": {
+            "id": 6279178702,
+            "name": "Team Omega ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571610": {
+        "id": 2106571610,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279178737": {
+            "id": 6279178737,
+            "name": "Under ",
+            "price": 1.8
+          },
+          "6279178738": {
+            "id": 6279178738,
+            "name": "Over ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106574944": {
+        "id": 2106574944,
+        "name": "Map 1 Total Rounds Odd/Even",
+        "type": "Map1RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279187914": {
+            "id": 6279187914,
+            "name": "Even",
+            "price": 1.72
+          },
+          "6279187913": {
+            "id": 6279187913,
+            "name": "Odd",
+            "price": 2
+          }
+        }
+      },
+      "2106574945": {
+        "id": 2106574945,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279187926": {
+            "id": 6279187926,
+            "name": "Even",
+            "price": 1.72
+          },
+          "6279187925": {
+            "id": 6279187925,
+            "name": "Odd",
+            "price": 2
+          }
+        }
+      },
+      "2106574946": {
+        "id": 2106574946,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6279187928": {
+            "id": 6279187928,
+            "name": "Yes",
+            "price": 5.2
+          },
+          "6279187927": {
+            "id": 6279187927,
+            "name": "No",
+            "price": 1.08
+          }
+        }
+      },
+      "2106574947": {
+        "id": 2106574947,
+        "name": "Map 1 Overtime Will Be or Not",
+        "type": "Map1OvertimeWillBeorNot",
+        "event": {
+          "6279187930": {
+            "id": 6279187930,
+            "name": "Yes",
+            "price": 5.2
+          },
+          "6279187929": {
+            "id": 6279187929,
+            "name": "No",
+            "price": 1.08
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -28,18 +396,386 @@
     "team1_name": "Team Novaq",
     "team2_name": "ALLINNERS",
     "start_ts": 1767427200,
-    "markets_count": 21,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106571538": {
+        "id": 2106571538,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178565": {
+            "id": 6279178565,
+            "name": "Team Novaq ",
+            "price": 2.59
+          },
+          "6279178564": {
+            "id": 6279178564,
+            "name": "ALLINNERS ",
+            "price": 1.44
+          }
+        }
+      },
+      "2106571539": {
+        "id": 2106571539,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279178567": {
+            "id": 6279178567,
+            "name": "W1",
+            "price": 1.6
+          },
+          "6279178566": {
+            "id": 6279178566,
+            "name": "W2",
+            "price": 2.2
+          }
+        }
+      },
+      "2106571540": {
+        "id": 2106571540,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6279178569": {
+            "id": 6279178569,
+            "name": "W1",
+            "price": 1.48
+          },
+          "6279178568": {
+            "id": 6279178568,
+            "name": "W2",
+            "price": 2.45
+          }
+        }
+      },
+      "2106571541": {
+        "id": 2106571541,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279178571": {
+            "id": 6279178571,
+            "name": "W1",
+            "price": 1.6
+          },
+          "6279178570": {
+            "id": 6279178570,
+            "name": "W2",
+            "price": 2.2
+          }
+        }
+      },
+      "2106571542": {
+        "id": 2106571542,
+        "name": "Map 1 Half 1 Winner",
+        "type": "Map1HalfResult2Way",
+        "event": {
+          "6279178573": {
+            "id": 6279178573,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6279178572": {
+            "id": 6279178572,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106571543": {
+        "id": 2106571543,
+        "name": "Rounds Handicap",
+        "type": "RoundsHandicap",
+        "event": {
+          "6279178575": {
+            "id": 6279178575,
+            "name": "Team Novaq ",
+            "price": 1.8
+          },
+          "6279178574": {
+            "id": 6279178574,
+            "name": "ALLINNERS ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106571544": {
+        "id": 2106571544,
+        "name": "Map 2 Half 1 Winner",
+        "type": "Map2HalfResult2Way",
+        "event": {
+          "6279178577": {
+            "id": 6279178577,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6279178576": {
+            "id": 6279178576,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106571552": {
+        "id": 2106571552,
+        "name": "Rounds Total",
+        "type": "RoundsTotal",
+        "event": {
+          "6279178579": {
+            "id": 6279178579,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6279178578": {
+            "id": 6279178578,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571564": {
+        "id": 2106571564,
+        "name": "Map 1 Half 1 Rounds Handicap",
+        "type": "Map1HalfHandicap2Way",
+        "event": {
+          "6279178597": {
+            "id": 6279178597,
+            "name": "Team Novaq ",
+            "price": 1.9
+          },
+          "6279178593": {
+            "id": 6279178593,
+            "name": "ALLINNERS ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106571565": {
+        "id": 2106571565,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279178627": {
+            "id": 6279178627,
+            "name": "Under ",
+            "price": 1.72
+          },
+          "6279178629": {
+            "id": 6279178629,
+            "name": "Over ",
+            "price": 2
+          }
+        }
+      },
+      "2106571566": {
+        "id": 2106571566,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178633": {
+            "id": 6279178633,
+            "name": "ALLINNERS ",
+            "price": 1.85
+          },
+          "6279178634": {
+            "id": 6279178634,
+            "name": "Team Novaq ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571567": {
+        "id": 2106571567,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279178635": {
+            "id": 6279178635,
+            "name": "ALLINNERS ",
+            "price": 1.85
+          },
+          "6279178636": {
+            "id": 6279178636,
+            "name": "Team Novaq ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106571568": {
+        "id": 2106571568,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6279178637": {
+            "id": 6279178637,
+            "name": "Under ",
+            "price": 1.72
+          },
+          "6279178638": {
+            "id": 6279178638,
+            "name": "Over ",
+            "price": 2
+          }
+        }
+      },
+      "2106571569": {
+        "id": 2106571569,
+        "name": "Map 2 Half 1 Rounds Handicap",
+        "type": "Map2HalfHandicap2Way",
+        "event": {
+          "6279178640": {
+            "id": 6279178640,
+            "name": "Team Novaq ",
+            "price": 1.9
+          },
+          "6279178639": {
+            "id": 6279178639,
+            "name": "ALLINNERS ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106577773": {
+        "id": 2106577773,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279195684": {
+            "id": 6279195684,
+            "name": "Even",
+            "price": 1.72
+          },
+          "6279195683": {
+            "id": 6279195683,
+            "name": "Odd",
+            "price": 2
+          }
+        }
+      },
+      "2106577775": {
+        "id": 2106577775,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6279195689": {
+            "id": 6279195689,
+            "name": "Yes",
+            "price": 5.2
+          },
+          "6279195688": {
+            "id": 6279195688,
+            "name": "No",
+            "price": 1.08
+          }
+        }
+      },
+      "2106580184": {
+        "id": 2106580184,
+        "name": "Map 1 Total Rounds Odd/Even",
+        "type": "Map1RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279202711": {
+            "id": 6279202711,
+            "name": "Even",
+            "price": 1.72
+          },
+          "6279202710": {
+            "id": 6279202710,
+            "name": "Odd",
+            "price": 2
+          }
+        }
+      },
+      "2106580186": {
+        "id": 2106580186,
+        "name": "Map 1 Overtime Will Be or Not",
+        "type": "Map1OvertimeWillBeorNot",
+        "event": {
+          "6279202715": {
+            "id": 6279202715,
+            "name": "Yes",
+            "price": 5.2
+          },
+          "6279202714": {
+            "id": 6279202714,
+            "name": "No",
+            "price": 1.08
+          }
+        }
+      },
+      "2106584483": {
+        "id": 2106584483,
+        "name": "ALLINNERS Rounds Total",
+        "type": "Team2TotalRounds",
+        "event": {
+          "6279214342": {
+            "id": 6279214342,
+            "name": "Over ",
+            "price": 2.1
+          },
+          "6279214341": {
+            "id": 6279214341,
+            "name": "Under ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106584484": {
+        "id": 2106584484,
+        "name": "Correct Score",
+        "type": "CorrectScore3",
+        "display_key": "CORRECT SCORE",
+        "event": {
+          "6279214345": {
+            "id": 6279214345,
+            "name": "2-0",
+            "price": 2.46
+          },
+          "6279214346": {
+            "id": 6279214346,
+            "name": "2-1",
+            "price": 3.06
+          },
+          "6279214343": {
+            "id": 6279214343,
+            "name": "1-2",
+            "price": 4.3
+          },
+          "6279214344": {
+            "id": 6279214344,
+            "name": "0-2",
+            "price": 4.3
+          }
+        }
+      },
+      "2106584485": {
+        "id": 2106584485,
+        "name": "Team Novaq Rounds Total",
+        "type": "Team1TotalRounds",
+        "event": {
+          "6279214348": {
+            "id": 6279214348,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6279214347": {
+            "id": 6279214347,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -49,18 +785,254 @@
     "team1_name": "BetBoom Team",
     "team2_name": "Winners Esports",
     "start_ts": 1767416400,
-    "markets_count": 14,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106849348": {
+        "id": 2106849348,
+        "name": "Map 1 Overtime Will Be or Not",
+        "type": "Map1OvertimeWillBeorNot",
+        "event": {
+          "6279980062": {
+            "id": 6279980062,
+            "name": "Yes",
+            "price": 6.8
+          },
+          "6279980061": {
+            "id": 6279980061,
+            "name": "No",
+            "price": 1.03
+          }
+        }
+      },
+      "2106849349": {
+        "id": 2106849349,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6279980064": {
+            "id": 6279980064,
+            "name": "Yes",
+            "price": 6.8
+          },
+          "6279980063": {
+            "id": 6279980063,
+            "name": "No",
+            "price": 1.03
+          }
+        }
+      },
+      "2106850946": {
+        "id": 2106850946,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279984241": {
+            "id": 6279984241,
+            "name": "BetBoom Team ",
+            "price": 1.9
+          },
+          "6279984239": {
+            "id": 6279984239,
+            "name": "Winners Esports ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106850948": {
+        "id": 2106850948,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279984253": {
+            "id": 6279984253,
+            "name": "BetBoom Team ",
+            "price": 1.9
+          },
+          "6279984252": {
+            "id": 6279984252,
+            "name": "Winners Esports ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106850949": {
+        "id": 2106850949,
+        "name": "Map 1 Total Rounds Odd/Even",
+        "type": "Map1RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279984268": {
+            "id": 6279984268,
+            "name": "Even",
+            "price": 1.8
+          },
+          "6279984267": {
+            "id": 6279984267,
+            "name": "Odd",
+            "price": 1.9
+          }
+        }
+      },
+      "2106850951": {
+        "id": 2106850951,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279984292": {
+            "id": 6279984292,
+            "name": "W1",
+            "price": 1.09
+          },
+          "6279984291": {
+            "id": 6279984291,
+            "name": "W2",
+            "price": 6.15
+          }
+        }
+      },
+      "2106850952": {
+        "id": 2106850952,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6279984314": {
+            "id": 6279984314,
+            "name": "W1",
+            "price": 1.02
+          },
+          "6279984313": {
+            "id": 6279984313,
+            "name": "W2",
+            "price": 10
+          }
+        }
+      },
+      "2106850954": {
+        "id": 2106850954,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279984339": {
+            "id": 6279984339,
+            "name": "W1",
+            "price": 1.09
+          },
+          "6279984338": {
+            "id": 6279984338,
+            "name": "W2",
+            "price": 6.15
+          }
+        }
+      },
+      "2106850955": {
+        "id": 2106850955,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279984361": {
+            "id": 6279984361,
+            "name": "BetBoom Team ",
+            "price": 1.21
+          },
+          "6279984359": {
+            "id": 6279984359,
+            "name": "Winners Esports ",
+            "price": 3.9
+          }
+        }
+      },
+      "2106850957": {
+        "id": 2106850957,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279984385": {
+            "id": 6279984385,
+            "name": "Even",
+            "price": 1.8
+          },
+          "6279984383": {
+            "id": 6279984383,
+            "name": "Odd",
+            "price": 1.9
+          }
+        }
+      },
+      "2106850962": {
+        "id": 2106850962,
+        "name": "Map 2 Half 1 Rounds Handicap",
+        "type": "Map2HalfHandicap2Way",
+        "event": {
+          "6279984412": {
+            "id": 6279984412,
+            "name": "BetBoom Team ",
+            "price": 1.65
+          },
+          "6279984411": {
+            "id": 6279984411,
+            "name": "Winners Esports ",
+            "price": 2.1
+          }
+        }
+      },
+      "2106850963": {
+        "id": 2106850963,
+        "name": "Map 1 Half 1 Winner",
+        "type": "Map1HalfResult2Way",
+        "event": {
+          "6279984414": {
+            "id": 6279984414,
+            "name": "W1",
+            "price": 1.16
+          },
+          "6279984413": {
+            "id": 6279984413,
+            "name": "W2",
+            "price": 4.57
+          }
+        }
+      },
+      "2106850965": {
+        "id": 2106850965,
+        "name": "Map 2 Half 1 Winner",
+        "type": "Map2HalfResult2Way",
+        "event": {
+          "6279984418": {
+            "id": 6279984418,
+            "name": "W1",
+            "price": 1.16
+          },
+          "6279984417": {
+            "id": 6279984417,
+            "name": "W2",
+            "price": 4.57
+          }
+        }
+      },
+      "2106850967": {
+        "id": 2106850967,
+        "name": "Map 1 Half 1 Rounds Handicap",
+        "type": "Map1HalfHandicap2Way",
+        "event": {
+          "6279984422": {
+            "id": 6279984422,
+            "name": "BetBoom Team ",
+            "price": 1.65
+          },
+          "6279984421": {
+            "id": 6279984421,
+            "name": "Winners Esports ",
+            "price": 2.1
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -70,18 +1042,254 @@
     "team1_name": "HOTU",
     "team2_name": "Altay Esports",
     "start_ts": 1767427200,
-    "markets_count": 14,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106832947": {
+        "id": 2106832947,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279932153": {
+            "id": 6279932153,
+            "name": "HOTU ",
+            "price": 1.21
+          },
+          "6279932152": {
+            "id": 6279932152,
+            "name": "Altay Esports ",
+            "price": 3.9
+          }
+        }
+      },
+      "2106832949": {
+        "id": 2106832949,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279932155": {
+            "id": 6279932155,
+            "name": "W1",
+            "price": 1.09
+          },
+          "6279932154": {
+            "id": 6279932154,
+            "name": "W2",
+            "price": 6.15
+          }
+        }
+      },
+      "2106832950": {
+        "id": 2106832950,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6279932157": {
+            "id": 6279932157,
+            "name": "W1",
+            "price": 1.02
+          },
+          "6279932156": {
+            "id": 6279932156,
+            "name": "W2",
+            "price": 10
+          }
+        }
+      },
+      "2106832951": {
+        "id": 2106832951,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6279932159": {
+            "id": 6279932159,
+            "name": "W1",
+            "price": 1.09
+          },
+          "6279932158": {
+            "id": 6279932158,
+            "name": "W2",
+            "price": 6.15
+          }
+        }
+      },
+      "2106832952": {
+        "id": 2106832952,
+        "name": "Map 2 Half 1 Rounds Handicap",
+        "type": "Map2HalfHandicap2Way",
+        "event": {
+          "6279932161": {
+            "id": 6279932161,
+            "name": "HOTU ",
+            "price": 1.65
+          },
+          "6279932160": {
+            "id": 6279932160,
+            "name": "Altay Esports ",
+            "price": 2.1
+          }
+        }
+      },
+      "2106832953": {
+        "id": 2106832953,
+        "name": "Map 2 Half 1 Winner",
+        "type": "Map2HalfResult2Way",
+        "event": {
+          "6279932163": {
+            "id": 6279932163,
+            "name": "W1",
+            "price": 1.16
+          },
+          "6279932162": {
+            "id": 6279932162,
+            "name": "W2",
+            "price": 4.57
+          }
+        }
+      },
+      "2106832954": {
+        "id": 2106832954,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279932165": {
+            "id": 6279932165,
+            "name": "HOTU ",
+            "price": 1.9
+          },
+          "6279932164": {
+            "id": 6279932164,
+            "name": "Altay Esports ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106832955": {
+        "id": 2106832955,
+        "name": "Map 1 Half 1 Rounds Handicap",
+        "type": "Map1HalfHandicap2Way",
+        "event": {
+          "6279932167": {
+            "id": 6279932167,
+            "name": "HOTU ",
+            "price": 1.65
+          },
+          "6279932166": {
+            "id": 6279932166,
+            "name": "Altay Esports ",
+            "price": 2.1
+          }
+        }
+      },
+      "2106832957": {
+        "id": 2106832957,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279932172": {
+            "id": 6279932172,
+            "name": "HOTU ",
+            "price": 1.9
+          },
+          "6279932170": {
+            "id": 6279932170,
+            "name": "Altay Esports ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106832958": {
+        "id": 2106832958,
+        "name": "Map 1 Half 1 Winner",
+        "type": "Map1HalfResult2Way",
+        "event": {
+          "6279932175": {
+            "id": 6279932175,
+            "name": "W1",
+            "price": 1.16
+          },
+          "6279932174": {
+            "id": 6279932174,
+            "name": "W2",
+            "price": 4.57
+          }
+        }
+      },
+      "2106836631": {
+        "id": 2106836631,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279943405": {
+            "id": 6279943405,
+            "name": "Even",
+            "price": 1.8
+          },
+          "6279943404": {
+            "id": 6279943404,
+            "name": "Odd",
+            "price": 1.9
+          }
+        }
+      },
+      "2106836645": {
+        "id": 2106836645,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6279943407": {
+            "id": 6279943407,
+            "name": "Yes",
+            "price": 6.8
+          },
+          "6279943406": {
+            "id": 6279943406,
+            "name": "No",
+            "price": 1.03
+          }
+        }
+      },
+      "2106844952": {
+        "id": 2106844952,
+        "name": "Map 1 Total Rounds Odd/Even",
+        "type": "Map1RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6279967365": {
+            "id": 6279967365,
+            "name": "Even",
+            "price": 1.8
+          },
+          "6279967364": {
+            "id": 6279967364,
+            "name": "Odd",
+            "price": 1.9
+          }
+        }
+      },
+      "2106844953": {
+        "id": 2106844953,
+        "name": "Map 1 Overtime Will Be or Not",
+        "type": "Map1OvertimeWillBeorNot",
+        "event": {
+          "6279967367": {
+            "id": 6279967367,
+            "name": "Yes",
+            "price": 6.8
+          },
+          "6279967366": {
+            "id": 6279967366,
+            "name": "No",
+            "price": 1.03
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -91,18 +1299,1056 @@
     "team1_name": "Preasy Mix",
     "team2_name": "CSDIILIT",
     "start_ts": 1766826000,
-    "markets_count": 59,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106039368": {
+        "id": 2106039368,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6277694069": {
+            "id": 6277694069,
+            "name": "W1",
+            "price": 1.67
+          },
+          "6277694068": {
+            "id": 6277694068,
+            "name": "W2",
+            "price": 2.07
+          }
+        }
+      },
+      "2106039369": {
+        "id": 2106039369,
+        "name": "Map 1 Total Rounds Odd/Even",
+        "type": "Map1RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6277694071": {
+            "id": 6277694071,
+            "name": "Even",
+            "price": 1.69
+          },
+          "6277694070": {
+            "id": 6277694070,
+            "name": "Odd",
+            "price": 2.04
+          }
+        }
+      },
+      "2106039370": {
+        "id": 2106039370,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6277694073": {
+            "id": 6277694073,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6277694072": {
+            "id": 6277694072,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106039371": {
+        "id": 2106039371,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694075": {
+            "id": 6277694075,
+            "name": "Preasy Mix ",
+            "price": 2.75
+          },
+          "6277694074": {
+            "id": 6277694074,
+            "name": "CSDIILIT ",
+            "price": 1.39
+          }
+        }
+      },
+      "2106039372": {
+        "id": 2106039372,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694077": {
+            "id": 6277694077,
+            "name": "Preasy Mix ",
+            "price": 1.22
+          },
+          "6277694076": {
+            "id": 6277694076,
+            "name": "CSDIILIT ",
+            "price": 3.83
+          }
+        }
+      },
+      "2106039373": {
+        "id": 2106039373,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694079": {
+            "id": 6277694079,
+            "name": "Over ",
+            "price": 1.52
+          },
+          "6277694078": {
+            "id": 6277694078,
+            "name": "Under ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106039375": {
+        "id": 2106039375,
+        "name": "Map 1 CSDIILIT Total Rounds",
+        "type": "Map1Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694081": {
+            "id": 6277694081,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6277694080": {
+            "id": 6277694080,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106039376": {
+        "id": 2106039376,
+        "name": "Maps Total",
+        "type": "MapsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694085": {
+            "id": 6277694085,
+            "name": "Over ",
+            "price": 1.96
+          },
+          "6277694084": {
+            "id": 6277694084,
+            "name": "Under ",
+            "price": 1.74
+          }
+        }
+      },
+      "2106039377": {
+        "id": 2106039377,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694087": {
+            "id": 6277694087,
+            "name": "Over ",
+            "price": 2.35
+          },
+          "6277694086": {
+            "id": 6277694086,
+            "name": "Under ",
+            "price": 1.53
+          }
+        }
+      },
+      "2106039379": {
+        "id": 2106039379,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6277694089": {
+            "id": 6277694089,
+            "name": "Yes",
+            "price": 4.75
+          },
+          "6277694088": {
+            "id": 6277694088,
+            "name": "No",
+            "price": 1.1
+          }
+        }
+      },
+      "2106039380": {
+        "id": 2106039380,
+        "name": "Map 3 Winner",
+        "type": "Map3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6277694093": {
+            "id": 6277694093,
+            "name": "W1",
+            "price": 1.73
+          },
+          "6277694092": {
+            "id": 6277694092,
+            "name": "W2",
+            "price": 1.97
+          }
+        }
+      },
+      "2106039382": {
+        "id": 2106039382,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694097": {
+            "id": 6277694097,
+            "name": "Preasy Mix ",
+            "price": 1.47
+          },
+          "6277694096": {
+            "id": 6277694096,
+            "name": "CSDIILIT ",
+            "price": 2.5
+          }
+        }
+      },
+      "2106039383": {
+        "id": 2106039383,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6277694099": {
+            "id": 6277694099,
+            "name": "W1",
+            "price": 1.7
+          },
+          "6277694098": {
+            "id": 6277694098,
+            "name": "W2",
+            "price": 2.02
+          }
+        }
+      },
+      "2106039385": {
+        "id": 2106039385,
+        "name": "Map 3 Total Rounds",
+        "type": "Map3RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694103": {
+            "id": 6277694103,
+            "name": "Over ",
+            "price": 2.35
+          },
+          "6277694102": {
+            "id": 6277694102,
+            "name": "Under ",
+            "price": 1.53
+          }
+        }
+      },
+      "2106039387": {
+        "id": 2106039387,
+        "name": "Map 1 Preasy Mix Total Rounds",
+        "type": "Map1Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694107": {
+            "id": 6277694107,
+            "name": "Over ",
+            "price": 1.52
+          },
+          "6277694106": {
+            "id": 6277694106,
+            "name": "Under ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106039388": {
+        "id": 2106039388,
+        "name": "Map 2 CSDIILIT Total Rounds",
+        "type": "Map2Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694109": {
+            "id": 6277694109,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6277694108": {
+            "id": 6277694108,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106039390": {
+        "id": 2106039390,
+        "name": "Map 3 CSDIILIT Total Rounds",
+        "type": "Map3Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694113": {
+            "id": 6277694113,
+            "name": "Over ",
+            "price": 1.77
+          },
+          "6277694112": {
+            "id": 6277694112,
+            "name": "Under ",
+            "price": 1.93
+          }
+        }
+      },
+      "2106039392": {
+        "id": 2106039392,
+        "name": "Map 2 Preasy Mix Total Rounds",
+        "type": "Map2Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694117": {
+            "id": 6277694117,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694116": {
+            "id": 6277694116,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039394": {
+        "id": 2106039394,
+        "name": "Map 3 Total Rounds Odd/Even",
+        "type": "Map3RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6277694121": {
+            "id": 6277694121,
+            "name": "Even",
+            "price": 1.69
+          },
+          "6277694120": {
+            "id": 6277694120,
+            "name": "Odd",
+            "price": 2.04
+          }
+        }
+      },
+      "2106039396": {
+        "id": 2106039396,
+        "name": "Map 2 CSDIILIT Total Rounds",
+        "type": "Map2Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694125": {
+            "id": 6277694125,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694124": {
+            "id": 6277694124,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039398": {
+        "id": 2106039398,
+        "name": "Team 2 To Win At Least 1 Map",
+        "type": "AwayTeamToWinAtLeast1Map",
+        "event": {
+          "6277694129": {
+            "id": 6277694129,
+            "name": "Yes",
+            "price": 1.4
+          },
+          "6277694128": {
+            "id": 6277694128,
+            "name": "No",
+            "price": 2.7
+          }
+        }
+      },
+      "2106039400": {
+        "id": 2106039400,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6277694133": {
+            "id": 6277694133,
+            "name": "Even",
+            "price": 1.69
+          },
+          "6277694132": {
+            "id": 6277694132,
+            "name": "Odd",
+            "price": 2.04
+          }
+        }
+      },
+      "2106039402": {
+        "id": 2106039402,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694137": {
+            "id": 6277694137,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6277694136": {
+            "id": 6277694136,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106039403": {
+        "id": 2106039403,
+        "name": "Map 2 CSDIILIT Total Rounds",
+        "type": "Map2Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694138": {
+            "id": 6277694138,
+            "name": "Under ",
+            "price": 1.92
+          },
+          "6277694140": {
+            "id": 6277694140,
+            "name": "Over ",
+            "price": 1.78
+          }
+        }
+      },
+      "2106039405": {
+        "id": 2106039405,
+        "name": "Map 1 CSDIILIT Total Rounds",
+        "type": "Map1Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694143": {
+            "id": 6277694143,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694142": {
+            "id": 6277694142,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039407": {
+        "id": 2106039407,
+        "name": "Map 3 Preasy Mix Total Rounds",
+        "type": "Map3Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694147": {
+            "id": 6277694147,
+            "name": "Over ",
+            "price": 1.59
+          },
+          "6277694146": {
+            "id": 6277694146,
+            "name": "Under ",
+            "price": 2.21
+          }
+        }
+      },
+      "2106039409": {
+        "id": 2106039409,
+        "name": "Map 3 CSDIILIT Total Rounds",
+        "type": "Map3Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694151": {
+            "id": 6277694151,
+            "name": "Over ",
+            "price": 1.75
+          },
+          "6277694150": {
+            "id": 6277694150,
+            "name": "Under ",
+            "price": 1.95
+          }
+        }
+      },
+      "2106039411": {
+        "id": 2106039411,
+        "name": "Map 3 Rounds Handicap",
+        "type": "Map3RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694155": {
+            "id": 6277694155,
+            "name": "Preasy Mix ",
+            "price": 2.08
+          },
+          "6277694154": {
+            "id": 6277694154,
+            "name": "CSDIILIT ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106039413": {
+        "id": 2106039413,
+        "name": "Map 1 Overtime Will Be or Not",
+        "type": "Map1OvertimeWillBeorNot",
+        "event": {
+          "6277694159": {
+            "id": 6277694159,
+            "name": "Yes",
+            "price": 4.75
+          },
+          "6277694158": {
+            "id": 6277694158,
+            "name": "No",
+            "price": 1.1
+          }
+        }
+      },
+      "2106039414": {
+        "id": 2106039414,
+        "name": "Map 3 Total Rounds",
+        "type": "Map3RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694161": {
+            "id": 6277694161,
+            "name": "Over ",
+            "price": 1.52
+          },
+          "6277694160": {
+            "id": 6277694160,
+            "name": "Under ",
+            "price": 2.37
+          }
+        }
+      },
+      "2106039416": {
+        "id": 2106039416,
+        "name": "Map 1 Preasy Mix Total Rounds",
+        "type": "Map1Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694165": {
+            "id": 6277694165,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694164": {
+            "id": 6277694164,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039418": {
+        "id": 2106039418,
+        "name": "Map 1 Preasy Mix Total Rounds",
+        "type": "Map1Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694169": {
+            "id": 6277694169,
+            "name": "Over ",
+            "price": 1.54
+          },
+          "6277694168": {
+            "id": 6277694168,
+            "name": "Under ",
+            "price": 2.33
+          }
+        }
+      },
+      "2106039420": {
+        "id": 2106039420,
+        "name": "Map 3 CSDIILIT Total Rounds",
+        "type": "Map3Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694173": {
+            "id": 6277694173,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694172": {
+            "id": 6277694172,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039422": {
+        "id": 2106039422,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694177": {
+            "id": 6277694177,
+            "name": "Preasy Mix ",
+            "price": 2.52
+          },
+          "6277694176": {
+            "id": 6277694176,
+            "name": "CSDIILIT ",
+            "price": 1.46
+          }
+        }
+      },
+      "2106039424": {
+        "id": 2106039424,
+        "name": "Map 3 Preasy Mix Total Rounds",
+        "type": "Map3Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694181": {
+            "id": 6277694181,
+            "name": "Over ",
+            "price": 6.3
+          },
+          "6277694180": {
+            "id": 6277694180,
+            "name": "Under ",
+            "price": 1.085
+          }
+        }
+      },
+      "2106039426": {
+        "id": 2106039426,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694185": {
+            "id": 6277694185,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6277694184": {
+            "id": 6277694184,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106039428": {
+        "id": 2106039428,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694189": {
+            "id": 6277694189,
+            "name": "Over ",
+            "price": 2.35
+          },
+          "6277694188": {
+            "id": 6277694188,
+            "name": "Under ",
+            "price": 1.53
+          }
+        }
+      },
+      "2106039430": {
+        "id": 2106039430,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694193": {
+            "id": 6277694193,
+            "name": "Preasy Mix ",
+            "price": 2
+          },
+          "6277694192": {
+            "id": 6277694192,
+            "name": "CSDIILIT ",
+            "price": 1.72
+          }
+        }
+      },
+      "2106039432": {
+        "id": 2106039432,
+        "name": "Map 3 Rounds Handicap",
+        "type": "Map3RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694195": {
+            "id": 6277694195,
+            "name": "Preasy Mix ",
+            "price": 1.5
+          },
+          "6277694194": {
+            "id": 6277694194,
+            "name": "CSDIILIT ",
+            "price": 2.4
+          }
+        }
+      },
+      "2106039433": {
+        "id": 2106039433,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694199": {
+            "id": 6277694199,
+            "name": "Preasy Mix ",
+            "price": 2.04
+          },
+          "6277694198": {
+            "id": 6277694198,
+            "name": "CSDIILIT ",
+            "price": 1.69
+          }
+        }
+      },
+      "2106039435": {
+        "id": 2106039435,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694203": {
+            "id": 6277694203,
+            "name": "Preasy Mix ",
+            "price": 1.48
+          },
+          "6277694202": {
+            "id": 6277694202,
+            "name": "CSDIILIT ",
+            "price": 2.45
+          }
+        }
+      },
+      "2106039437": {
+        "id": 2106039437,
+        "name": "Map 3 Total Rounds",
+        "type": "Map3RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694205": {
+            "id": 6277694205,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6277694204": {
+            "id": 6277694204,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106039439": {
+        "id": 2106039439,
+        "name": "Map 1 CSDIILIT Total Rounds",
+        "type": "Map1Team2RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694209": {
+            "id": 6277694209,
+            "name": "Under ",
+            "price": 1.9
+          },
+          "6277694211": {
+            "id": 6277694211,
+            "name": "Over ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106039440": {
+        "id": 2106039440,
+        "name": "Map 2 Preasy Mix Total Rounds",
+        "type": "Map2Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694213": {
+            "id": 6277694213,
+            "name": "Over ",
+            "price": 1.56
+          },
+          "6277694212": {
+            "id": 6277694212,
+            "name": "Under ",
+            "price": 2.27
+          }
+        }
+      },
+      "2106039442": {
+        "id": 2106039442,
+        "name": "Map 3 Overtime Will Be or Not",
+        "type": "Map3OvertimeWillBeorNot",
+        "event": {
+          "6277694217": {
+            "id": 6277694217,
+            "name": "Yes",
+            "price": 4.75
+          },
+          "6277694216": {
+            "id": 6277694216,
+            "name": "No",
+            "price": 1.1
+          }
+        }
+      },
+      "2106039444": {
+        "id": 2106039444,
+        "name": "Map 3 Preasy Mix Total Rounds",
+        "type": "Map3Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694221": {
+            "id": 6277694221,
+            "name": "Over ",
+            "price": 1.57
+          },
+          "6277694220": {
+            "id": 6277694220,
+            "name": "Under ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106039446": {
+        "id": 2106039446,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6277694225": {
+            "id": 6277694225,
+            "name": "Preasy Mix ",
+            "price": 2.45
+          },
+          "6277694224": {
+            "id": 6277694224,
+            "name": "CSDIILIT ",
+            "price": 1.48
+          }
+        }
+      },
+      "2106039448": {
+        "id": 2106039448,
+        "name": "Map 2 Preasy Mix Total Rounds",
+        "type": "Map2Team1RoundsTotal",
+        "display_key": "TEAM_TOTALS",
+        "event": {
+          "6277694229": {
+            "id": 6277694229,
+            "name": "Over ",
+            "price": 1.54
+          },
+          "6277694228": {
+            "id": 6277694228,
+            "name": "Under ",
+            "price": 2.33
+          }
+        }
+      },
+      "2106039450": {
+        "id": 2106039450,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6277694231": {
+            "id": 6277694231,
+            "name": "Under ",
+            "price": 2.37
+          },
+          "6277694232": {
+            "id": 6277694232,
+            "name": "Over ",
+            "price": 1.52
+          }
+        }
+      },
+      "2106063696": {
+        "id": 2106063696,
+        "name": "Map 1 Pistol Round Winner (Round 1)",
+        "type": "Map1PistolRoundWinner(Round1)",
+        "event": {
+          "6277760097": {
+            "id": 6277760097,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6277760096": {
+            "id": 6277760096,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106357957": {
+        "id": 2106357957,
+        "name": "Map 2 Pistol Round Winner (Round 1)",
+        "type": "Map2PistolRoundWinner(Round1)",
+        "event": {
+          "6278575953": {
+            "id": 6278575953,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6278575952": {
+            "id": 6278575952,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106357958": {
+        "id": 2106357958,
+        "name": "Map 1 Pistol Round Winner (Round 13)",
+        "type": "Map1PistolRoundWinner(Round13)",
+        "event": {
+          "6278575955": {
+            "id": 6278575955,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6278575954": {
+            "id": 6278575954,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106357959": {
+        "id": 2106357959,
+        "name": "Map 2 Pistol Round Winner (Round 13)",
+        "type": "Map2PistolRoundWinner(Round13)",
+        "event": {
+          "6278575957": {
+            "id": 6278575957,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6278575956": {
+            "id": 6278575956,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106357960": {
+        "id": 2106357960,
+        "name": "Map 1 Half 1 Winner",
+        "type": "Map1HalfResult2Way",
+        "event": {
+          "6278575959": {
+            "id": 6278575959,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6278575958": {
+            "id": 6278575958,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106357962": {
+        "id": 2106357962,
+        "name": "Map 1: 13th Round Total Kills",
+        "type": "Map1RoundKillsTotal",
+        "event": {
+          "6278575963": {
+            "id": 6278575963,
+            "name": "Over ",
+            "price": 2.1
+          },
+          "6278575962": {
+            "id": 6278575962,
+            "name": "Under ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106357963": {
+        "id": 2106357963,
+        "name": "Map 1: 1st Round Total Kills",
+        "type": "Map1RoundKillsTotal",
+        "event": {
+          "6278575965": {
+            "id": 6278575965,
+            "name": "Over ",
+            "price": 2.1
+          },
+          "6278575964": {
+            "id": 6278575964,
+            "name": "Under ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106357964": {
+        "id": 2106357964,
+        "name": "Map 1 Half 1 Rounds Handicap",
+        "type": "Map1HalfHandicap2Way",
+        "event": {
+          "6278575967": {
+            "id": 6278575967,
+            "name": "Preasy Mix ",
+            "price": 2.1
+          },
+          "6278575966": {
+            "id": 6278575966,
+            "name": "CSDIILIT ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106357965": {
+        "id": 2106357965,
+        "name": "Map 2 Half 1 Winner",
+        "type": "Map2HalfResult2Way",
+        "event": {
+          "6278575970": {
+            "id": 6278575970,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6278575968": {
+            "id": 6278575968,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106357967": {
+        "id": 2106357967,
+        "name": "Map 2 Half 1 Rounds Handicap",
+        "type": "Map2HalfHandicap2Way",
+        "event": {
+          "6278575973": {
+            "id": 6278575973,
+            "name": "Preasy Mix ",
+            "price": 2.1
+          },
+          "6278575972": {
+            "id": 6278575972,
+            "name": "CSDIILIT ",
+            "price": 1.65
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -112,18 +2358,80 @@
     "team1_name": "Misa Esports",
     "team2_name": "Fokus",
     "start_ts": 1767007800,
-    "markets_count": 4,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106889149": {
+        "id": 2106889149,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280093646": {
+            "id": 6280093646,
+            "name": "W1",
+            "price": 1.48
+          },
+          "6280093645": {
+            "id": 6280093645,
+            "name": "W2",
+            "price": 2.45
+          }
+        }
+      },
+      "2106889150": {
+        "id": 2106889150,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280093650": {
+            "id": 6280093650,
+            "name": "W1",
+            "price": 1.59
+          },
+          "6280093649": {
+            "id": 6280093649,
+            "name": "W2",
+            "price": 2.21
+          }
+        }
+      },
+      "2106889151": {
+        "id": 2106889151,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280093652": {
+            "id": 6280093652,
+            "name": "W1",
+            "price": 1.59
+          },
+          "6280093651": {
+            "id": 6280093651,
+            "name": "W2",
+            "price": 2.21
+          }
+        }
+      },
+      "2106889153": {
+        "id": 2106889153,
+        "name": "Map 3 Winner",
+        "type": "Map3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280093654": {
+            "id": 6280093654,
+            "name": "W1",
+            "price": 1.59
+          },
+          "6280093653": {
+            "id": 6280093653,
+            "name": "W2",
+            "price": 2.21
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Counter-Strike 2",
@@ -133,17 +2441,221 @@
     "team1_name": "Sangal Alters",
     "team2_name": "Eternal Fire Academy",
     "start_ts": 1766930400,
-    "markets_count": 12,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106873602": {
+        "id": 2106873602,
+        "name": "Map 2 Overtime Will Be or Not",
+        "type": "Map2OvertimeWillBeorNot",
+        "event": {
+          "6280049714": {
+            "id": 6280049714,
+            "name": "Yes",
+            "price": 5.2
+          },
+          "6280049713": {
+            "id": 6280049713,
+            "name": "No",
+            "price": 1.08
+          }
+        }
+      },
+      "2106873604": {
+        "id": 2106873604,
+        "name": "Map 1: 13th Round Total Kills",
+        "type": "Map1RoundKillsTotal",
+        "event": {
+          "6280049718": {
+            "id": 6280049718,
+            "name": "Over ",
+            "price": 2.1
+          },
+          "6280049717": {
+            "id": 6280049717,
+            "name": "Under ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106873605": {
+        "id": 2106873605,
+        "name": "Map 2 Total Rounds Odd/Even",
+        "type": "Map2RoundsEvenorOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280049720": {
+            "id": 6280049720,
+            "name": "Even",
+            "price": 1.72
+          },
+          "6280049719": {
+            "id": 6280049719,
+            "name": "Odd",
+            "price": 2
+          }
+        }
+      },
+      "2106887477": {
+        "id": 2106887477,
+        "name": "Map 2 Winner",
+        "type": "Map2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280089145": {
+            "id": 6280089145,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6280089144": {
+            "id": 6280089144,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106887478": {
+        "id": 2106887478,
+        "name": "Map 1 Winner",
+        "type": "Map1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280089147": {
+            "id": 6280089147,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6280089146": {
+            "id": 6280089146,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106887479": {
+        "id": 2106887479,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280089149": {
+            "id": 6280089149,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6280089148": {
+            "id": 6280089148,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106887480": {
+        "id": 2106887480,
+        "name": "Map 3 Winner",
+        "type": "Map3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280089151": {
+            "id": 6280089151,
+            "name": "W1",
+            "price": 1.63
+          },
+          "6280089150": {
+            "id": 6280089150,
+            "name": "W2",
+            "price": 2.13
+          }
+        }
+      },
+      "2107014540": {
+        "id": 2107014540,
+        "name": "Map 1 Rounds Handicap",
+        "type": "Map1RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280449177": {
+            "id": 6280449177,
+            "name": "Sangal Alters ",
+            "price": 2
+          },
+          "6280449176": {
+            "id": 6280449176,
+            "name": "Eternal Fire Academy ",
+            "price": 1.72
+          }
+        }
+      },
+      "2107014541": {
+        "id": 2107014541,
+        "name": "Map 1 Total Rounds",
+        "type": "Map1RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280449179": {
+            "id": 6280449179,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6280449178": {
+            "id": 6280449178,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      },
+      "2107014542": {
+        "id": 2107014542,
+        "name": "Maps Handicap",
+        "type": "MapsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280449181": {
+            "id": 6280449181,
+            "name": "Sangal Alters ",
+            "price": 3.15
+          },
+          "6280449180": {
+            "id": 6280449180,
+            "name": "Eternal Fire Academy ",
+            "price": 1.31
+          }
+        }
+      },
+      "2107014543": {
+        "id": 2107014543,
+        "name": "Map 2 Rounds Handicap",
+        "type": "Map2RoundsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280449183": {
+            "id": 6280449183,
+            "name": "Sangal Alters ",
+            "price": 2
+          },
+          "6280449182": {
+            "id": 6280449182,
+            "name": "Eternal Fire Academy ",
+            "price": 1.72
+          }
+        }
+      },
+      "2107014545": {
+        "id": 2107014545,
+        "name": "Map 2 Total Rounds",
+        "type": "Map2RoundsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280449187": {
+            "id": 6280449187,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6280449186": {
+            "id": 6280449186,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      }
+    }
   }
 ]

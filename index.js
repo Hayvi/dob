@@ -165,6 +165,58 @@ app.get('/api/football-games-count', async (req, res) => {
     }
 });
 
+app.get('/api/sport-games-count', async (req, res) => {
+    const { sportName } = req.query;
+    if (!sportName) return res.status(400).json({ error: 'sportName is required' });
+
+    try {
+        if (!scraper.sessionId) await scraper.init();
+
+        // We first need the ID if it's name-based, or we can try to find it in hierarchy
+        // But Swarm allows searching by name in some cases, or we just fetch hierarchy first.
+        // Let's use the hierarchy to find the ID and then get count.
+        const rawHierarchy = await scraper.getHierarchy();
+        const hierarchy = rawHierarchy.data || rawHierarchy;
+        const sports = hierarchy.sport || (hierarchy.data ? hierarchy.data.sport : null);
+
+        let sportId = null;
+        if (sports) {
+            for (const id in sports) {
+                if (sports[id].name.toLowerCase() === sportName.toLowerCase()) {
+                    sportId = id;
+                    break;
+                }
+            }
+        }
+
+        if (!sportId) {
+            return res.status(404).json({ error: `Sport ${sportName} not found in hierarchy.` });
+        }
+
+        const rawData = await scraper.sendRequest('get', {
+            source: 'betting',
+            what: { sport: ['id', 'name'], game: ['id'] },
+            where: { sport: { id: parseInt(sportId) } }
+        });
+
+        const data = rawData.data && rawData.data.data ? rawData.data.data : (rawData.data || rawData);
+        let count = 0;
+        let foundName = sportName;
+
+        if (data && data.sport) {
+            const sportsData = Object.values(data.sport);
+            if (sportsData.length > 0) {
+                foundName = sportsData[0].name || foundName;
+                if (sportsData[0].game) count = Object.keys(sportsData[0].game).length;
+            }
+        }
+
+        res.json({ sport: foundName, count: count, timestamp: new Date().toISOString() });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
 app.get('/api/sport-games', (req, res) => {
     const { sportName } = req.query;
     if (!sportName) return res.status(400).json({ error: 'sportName is required' });

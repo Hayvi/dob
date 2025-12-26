@@ -6,11 +6,126 @@
     "id": 28052332,
     "team1_name": "Drivers Championship 2026",
     "start_ts": 1772773200,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2004821584": {
+        "id": 2004821584,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235109575": {
+            "id": 6235109575,
+            "name": "Lewis Hamilton",
+            "price": 41
+          },
+          "6235109577": {
+            "id": 6235109577,
+            "name": "Lando Norris",
+            "price": 3.75
+          },
+          "6235109576": {
+            "id": 6235109576,
+            "name": "Liam Lawson",
+            "price": 201
+          },
+          "6235109579": {
+            "id": 6235109579,
+            "name": "Lance Stroll",
+            "price": 101
+          },
+          "6235109578": {
+            "id": 6235109578,
+            "name": "Kimi Antonelli",
+            "price": 12
+          },
+          "6235109581": {
+            "id": 6235109581,
+            "name": "Pierre Gasly",
+            "price": 101
+          },
+          "6235109580": {
+            "id": 6235109580,
+            "name": "Oscar Piastri",
+            "price": 6.5
+          },
+          "6235109583": {
+            "id": 6235109583,
+            "name": "Max Verstappen",
+            "price": 3.5
+          },
+          "6235109582": {
+            "id": 6235109582,
+            "name": "Oliver Bearman",
+            "price": 101
+          },
+          "6235109585": {
+            "id": 6235109585,
+            "name": "Charles Leclerc",
+            "price": 23
+          },
+          "6235109584": {
+            "id": 6235109584,
+            "name": "Nico Hulkenberg",
+            "price": 151
+          },
+          "6235109587": {
+            "id": 6235109587,
+            "name": "Carlos Sainz",
+            "price": 101
+          },
+          "6235109586": {
+            "id": 6235109586,
+            "name": "Esteban Ocon",
+            "price": 201
+          },
+          "6235109589": {
+            "id": 6235109589,
+            "name": "Arvid Lindblad",
+            "price": 201
+          },
+          "6235109588": {
+            "id": 6235109588,
+            "name": "Alex Albon",
+            "price": 101
+          },
+          "6235109591": {
+            "id": 6235109591,
+            "name": "Isack Hadjar",
+            "price": 101
+          },
+          "6235109590": {
+            "id": 6235109590,
+            "name": "George Russell",
+            "price": 4.33
+          },
+          "6235109593": {
+            "id": 6235109593,
+            "name": "Fernando Alonso",
+            "price": 13
+          },
+          "6235109592": {
+            "id": 6235109592,
+            "name": "Gabriel Bortoleto",
+            "price": 201
+          },
+          "6235109594": {
+            "id": 6235109594,
+            "name": "Franco Colapinto",
+            "price": 201
+          },
+          "5983024069": {
+            "id": 5983024069,
+            "name": "Sergio Perez",
+            "price": 201
+          },
+          "5983024072": {
+            "id": 5983024072,
+            "name": "Valtteri Bottas",
+            "price": 201
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Formula 1",
@@ -19,10 +134,70 @@
     "id": 28572547,
     "team1_name": "Constructors Championship 2026",
     "start_ts": 1772773200,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2091129876": {
+        "id": 2091129876,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6235111669": {
+            "id": 6235111669,
+            "name": "Mercedes",
+            "price": 2.38
+          },
+          "6235111671": {
+            "id": 6235111671,
+            "name": "Racing Bulls",
+            "price": 101
+          },
+          "6235111670": {
+            "id": 6235111670,
+            "name": "McLaren",
+            "price": 2.38
+          },
+          "6235111673": {
+            "id": 6235111673,
+            "name": "Red Bull",
+            "price": 11
+          },
+          "6235111672": {
+            "id": 6235111672,
+            "name": "Williams",
+            "price": 41
+          },
+          "6235111675": {
+            "id": 6235111675,
+            "name": "Aston Martin",
+            "price": 15
+          },
+          "6235111674": {
+            "id": 6235111674,
+            "name": "Haas",
+            "price": 101
+          },
+          "6235111677": {
+            "id": 6235111677,
+            "name": "Audi",
+            "price": 21
+          },
+          "6235111676": {
+            "id": 6235111676,
+            "name": "Alpine",
+            "price": 41
+          },
+          "6235111679": {
+            "id": 6235111679,
+            "name": "Cadillac",
+            "price": 201
+          },
+          "6235111678": {
+            "id": 6235111678,
+            "name": "Ferrari",
+            "price": 7
+          }
+        }
+      }
+    }
   }
 ]

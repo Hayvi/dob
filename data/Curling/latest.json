@@ -6,18 +6,66 @@
     "id": 28632142,
     "team1_name": "Winter Olympics 2026",
     "start_ts": 1770833100,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2092357069": {
+        "id": 2092357069,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6238633579": {
+            "id": 6238633579,
+            "name": "Great Britain",
+            "price": 2
+          },
+          "6238633581": {
+            "id": 6238633581,
+            "name": "Switzerland",
+            "price": 7
+          },
+          "6238633580": {
+            "id": 6238633580,
+            "name": "Canada",
+            "price": 2.7
+          },
+          "6238633583": {
+            "id": 6238633583,
+            "name": "Sweden",
+            "price": 21
+          },
+          "6238633582": {
+            "id": 6238633582,
+            "name": "Germany",
+            "price": 23
+          },
+          "6238633585": {
+            "id": 6238633585,
+            "name": "China",
+            "price": 27
+          },
+          "6238633584": {
+            "id": 6238633584,
+            "name": "Italy",
+            "price": 41
+          },
+          "6238633587": {
+            "id": 6238633587,
+            "name": "USA ",
+            "price": 101
+          },
+          "6238633586": {
+            "id": 6238633586,
+            "name": "Norway",
+            "price": 27
+          },
+          "6238633593": {
+            "id": 6238633593,
+            "name": "Czechia",
+            "price": 251
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Curling",
@@ -26,17 +74,65 @@
     "id": 28632143,
     "team1_name": "Winter Olympics 2026 - Women",
     "start_ts": 1770883500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2092363789": {
+        "id": 2092363789,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6274516144": {
+            "id": 6274516144,
+            "name": "Great Britain",
+            "price": 81
+          },
+          "6238654203": {
+            "id": 6238654203,
+            "name": "Canada",
+            "price": 1.5
+          },
+          "6238654205": {
+            "id": 6238654205,
+            "name": "Sweden",
+            "price": 9
+          },
+          "6238654204": {
+            "id": 6238654204,
+            "name": "Switzerland",
+            "price": 3.75
+          },
+          "6238654207": {
+            "id": 6238654207,
+            "name": "Japan",
+            "price": 31
+          },
+          "6238654206": {
+            "id": 6238654206,
+            "name": "Republic of Korea",
+            "price": 21
+          },
+          "6238654209": {
+            "id": 6238654209,
+            "name": "China",
+            "price": 41
+          },
+          "6238654208": {
+            "id": 6238654208,
+            "name": "Denmark",
+            "price": 81
+          },
+          "6238654211": {
+            "id": 6238654211,
+            "name": "Italy",
+            "price": 67
+          },
+          "6238654215": {
+            "id": 6238654215,
+            "name": "USA ",
+            "price": 101
+          }
+        }
+      }
+    }
   }
 ]

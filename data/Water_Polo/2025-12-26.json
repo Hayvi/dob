@@ -7,19 +7,62 @@
     "team1_name": "Slovenia",
     "team2_name": "Croatia",
     "start_ts": 1768150800,
-    "markets_count": 3,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104441699": {
+        "id": 2104441699,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273191871": {
+            "id": 6273191871,
+            "name": "Under ",
+            "price": 1.85
+          },
+          "6273191872": {
+            "id": 6273191872,
+            "name": "Over ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104441704": {
+        "id": 2104441704,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273191881": {
+            "id": 6273191881,
+            "name": "Croatia ",
+            "price": 1.85
+          },
+          "6273191882": {
+            "id": 6273191882,
+            "name": "Slovenia ",
+            "price": 1.85
+          }
+        }
+      },
+      "2105026940": {
+        "id": 2105026940,
+        "name": "Total Goals Odd/Even",
+        "type": "Totalofthematch:Even/Odd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6274825441": {
+            "id": 6274825441,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6274825440": {
+            "id": 6274825440,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -29,19 +72,67 @@
     "team1_name": "Greece",
     "team2_name": "Georgia",
     "start_ts": 1768159800,
-    "markets_count": 3,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104441708": {
+        "id": 2104441708,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273191891": {
+            "id": 6273191891,
+            "name": "Greece ",
+            "price": 1.85
+          },
+          "6273191890": {
+            "id": 6273191890,
+            "name": "Georgia ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104441711": {
+        "id": 2104441711,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273191897": {
+            "id": 6273191897,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6273191896": {
+            "id": 6273191896,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104441714": {
+        "id": 2104441714,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6273191903": {
+            "id": 6273191903,
+            "name": "X",
+            "price": 17
+          },
+          "6273191902": {
+            "id": 6273191902,
+            "name": "W2",
+            "price": 19
+          },
+          "6273191904": {
+            "id": 6273191904,
+            "name": "W1",
+            "price": 1.005
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -51,41 +142,31 @@
     "team1_name": "Netherlands",
     "team2_name": "Serbia",
     "start_ts": 1768073400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
-  },
-  {
-    "sport": "Water Polo",
-    "region": "Europe",
-    "competition": "European Championship",
-    "id": 28704518,
-    "team1_name": "Malta",
-    "team2_name": "Montenegro",
-    "start_ts": 1768064400,
-    "markets_count": 0,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104441707": {
+        "id": 2104441707,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6273191887": {
+            "id": 6273191887,
+            "name": "W2",
+            "price": 1.015
+          },
+          "6273191889": {
+            "id": 6273191889,
+            "name": "W1",
+            "price": 17
+          },
+          "6273191888": {
+            "id": 6273191888,
+            "name": "X",
+            "price": 17
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -95,19 +176,96 @@
     "team1_name": "Turkiye",
     "team2_name": "Italy",
     "start_ts": 1768131900,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104441697": {
+        "id": 2104441697,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273191868": {
+            "id": 6273191868,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6273191867": {
+            "id": 6273191867,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104441701": {
+        "id": 2104441701,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273191876": {
+            "id": 6273191876,
+            "name": "Turkiye ",
+            "price": 1.86
+          },
+          "6273191875": {
+            "id": 6273191875,
+            "name": "Italy ",
+            "price": 1.84
+          }
+        }
+      },
+      "2105026941": {
+        "id": 2105026941,
+        "name": "Team 2 Total Goals",
+        "type": "AwayTeamOver/Under",
+        "event": {
+          "6274825443": {
+            "id": 6274825443,
+            "name": "Over ",
+            "price": 1.72
+          },
+          "6274825442": {
+            "id": 6274825442,
+            "name": "Under ",
+            "price": 2
+          }
+        }
+      },
+      "2105026942": {
+        "id": 2105026942,
+        "name": "Total Goals Odd/Even",
+        "type": "Totalofthematch:Even/Odd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6274825445": {
+            "id": 6274825445,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6274825444": {
+            "id": 6274825444,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2105026943": {
+        "id": 2105026943,
+        "name": "Team 1 Total Goals",
+        "type": "HomeTeamOver/Under",
+        "event": {
+          "6274825447": {
+            "id": 6274825447,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6274825446": {
+            "id": 6274825446,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -117,19 +275,90 @@
     "team1_name": "France",
     "team2_name": "Hungary",
     "start_ts": 1768054500,
-    "markets_count": 4,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104221654": {
+        "id": 2104221654,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6272569123": {
+            "id": 6272569123,
+            "name": "X",
+            "price": 11
+          },
+          "6272569122": {
+            "id": 6272569122,
+            "name": "W2",
+            "price": 1.15
+          },
+          "6272569124": {
+            "id": 6272569124,
+            "name": "W1",
+            "price": 6.6
+          }
+        }
+      },
+      "2104221655": {
+        "id": 2104221655,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6272569125": {
+            "id": 6272569125,
+            "name": "X2",
+            "price": 1.07
+          },
+          "6272569127": {
+            "id": 6272569127,
+            "name": "1X",
+            "price": 3.45
+          },
+          "6272569126": {
+            "id": 6272569126,
+            "name": "12",
+            "price": 1.01
+          }
+        }
+      },
+      "2104441709": {
+        "id": 2104441709,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6273191893": {
+            "id": 6273191893,
+            "name": "France ",
+            "price": 1.85
+          },
+          "6273191892": {
+            "id": 6273191892,
+            "name": "Hungary ",
+            "price": 1.85
+          }
+        }
+      },
+      "2104441712": {
+        "id": 2104441712,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273191899": {
+            "id": 6273191899,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6273191898": {
+            "id": 6273191898,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -139,19 +368,54 @@
     "team1_name": "Romania",
     "team2_name": "Slovakia",
     "start_ts": 1768140900,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104221656": {
+        "id": 2104221656,
+        "name": "Match Result",
+        "type": "P1XP2",
+        "display_key": "WINNER",
+        "event": {
+          "6272569129": {
+            "id": 6272569129,
+            "name": "X",
+            "price": 7
+          },
+          "6272569128": {
+            "id": 6272569128,
+            "name": "W2",
+            "price": 4.1
+          },
+          "6272569130": {
+            "id": 6272569130,
+            "name": "W1",
+            "price": 1.38
+          }
+        }
+      },
+      "2104221657": {
+        "id": 2104221657,
+        "name": "Double Chance",
+        "type": "1X12X2",
+        "display_key": "DOUBLE CHANCE",
+        "event": {
+          "6272569131": {
+            "id": 6272569131,
+            "name": "X2",
+            "price": 2.76
+          },
+          "6272569133": {
+            "id": 6272569133,
+            "name": "1X",
+            "price": 1.18
+          },
+          "6272569132": {
+            "id": 6272569132,
+            "name": "12",
+            "price": 1.06
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -161,19 +425,44 @@
     "team1_name": "Israel",
     "team2_name": "Spain",
     "start_ts": 1768045500,
-    "markets_count": 2,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104441702": {
+        "id": 2104441702,
+        "name": "Total Goals",
+        "type": "Over/Under",
+        "display_key": "TOTALS",
+        "event": {
+          "6273191878": {
+            "id": 6273191878,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6273191877": {
+            "id": 6273191877,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2105424992": {
+        "id": 2105424992,
+        "name": "Goals Handicap",
+        "type": "Handicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6275951966": {
+            "id": 6275951966,
+            "name": "Israel ",
+            "price": 1.85
+          },
+          "6275951965": {
+            "id": 6275951965,
+            "name": "Spain ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -182,19 +471,96 @@
     "id": 27889291,
     "team1_name": "Champions League 2025/2026",
     "start_ts": 1767589200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1981799076": {
+        "id": 1981799076,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5914989273": {
+            "id": 5914989273,
+            "name": "Ferencvaros",
+            "price": 1.85
+          },
+          "5914989275": {
+            "id": 5914989275,
+            "name": "Olympiacos",
+            "price": 5.75
+          },
+          "5914989277": {
+            "id": 5914989277,
+            "name": "Radnicki",
+            "price": 67
+          },
+          "5914989276": {
+            "id": 5914989276,
+            "name": "CN Barceloneta",
+            "price": 11
+          },
+          "5914989279": {
+            "id": 5914989279,
+            "name": "VK Novi Beograd",
+            "price": 56
+          },
+          "5914989278": {
+            "id": 5914989278,
+            "name": "CN Marseille",
+            "price": 18
+          },
+          "5914989282": {
+            "id": 5914989282,
+            "name": "Sabadell",
+            "price": 501
+          },
+          "5914989285": {
+            "id": 5914989285,
+            "name": "Brescia",
+            "price": 41
+          },
+          "5914989287": {
+            "id": 5914989287,
+            "name": "Jadran Split",
+            "price": 501
+          },
+          "5914989286": {
+            "id": 5914989286,
+            "name": "Mladost Zagreb",
+            "price": 41
+          },
+          "5914989289": {
+            "id": 5914989289,
+            "name": "Primorac Kotor",
+            "price": 501
+          },
+          "5914989288": {
+            "id": 5914989288,
+            "name": "Jadran Herceg Nov",
+            "price": 56
+          },
+          "5914989290": {
+            "id": 5914989290,
+            "name": "Vasas Budapestf",
+            "price": 501
+          },
+          "5914989295": {
+            "id": 5914989295,
+            "name": "Waspo Hannover",
+            "price": 276
+          },
+          "5914989294": {
+            "id": 5914989294,
+            "name": "Oradea",
+            "price": 501
+          },
+          "6144706224": {
+            "id": 6144706224,
+            "name": "Recco Waterpolo",
+            "price": 2.05
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -203,19 +569,96 @@
     "id": 28687364,
     "team1_name": "European Championship 2026",
     "start_ts": 1766980800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101124905": {
+        "id": 2101124905,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6263740173": {
+            "id": 6263740173,
+            "name": "Spain",
+            "price": 2.6
+          },
+          "6263740172": {
+            "id": 6263740172,
+            "name": "Serbia",
+            "price": 2.6
+          },
+          "6263740174": {
+            "id": 6263740174,
+            "name": "Greece",
+            "price": 5.25
+          },
+          "6263740177": {
+            "id": 6263740177,
+            "name": "Hungary",
+            "price": 10.5
+          },
+          "6263740176": {
+            "id": 6263740176,
+            "name": "Croatia",
+            "price": 7.5
+          },
+          "6263740179": {
+            "id": 6263740179,
+            "name": "Italy",
+            "price": 17
+          },
+          "6263740178": {
+            "id": 6263740178,
+            "name": "Montenegro",
+            "price": 10.5
+          },
+          "6263740182": {
+            "id": 6263740182,
+            "name": "France",
+            "price": 101
+          },
+          "6263740185": {
+            "id": 6263740185,
+            "name": "Romania",
+            "price": 426
+          },
+          "6263740184": {
+            "id": 6263740184,
+            "name": "Netherlands",
+            "price": 326
+          },
+          "6263740187": {
+            "id": 6263740187,
+            "name": "Slovakia",
+            "price": 501
+          },
+          "6263740186": {
+            "id": 6263740186,
+            "name": "Turkiye",
+            "price": 501
+          },
+          "6263740188": {
+            "id": 6263740188,
+            "name": "Slovenia",
+            "price": 501
+          },
+          "6263740195": {
+            "id": 6263740195,
+            "name": "Georgia",
+            "price": 501
+          },
+          "6263740194": {
+            "id": 6263740194,
+            "name": "Israel",
+            "price": 501
+          },
+          "6263740196": {
+            "id": 6263740196,
+            "name": "Malta",
+            "price": 501
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -224,19 +667,96 @@
     "id": 28705173,
     "team1_name": "European Championship Women 2026",
     "start_ts": 1767589200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2104379734": {
+        "id": 2104379734,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6273030845": {
+            "id": 6273030845,
+            "name": "Greece Women",
+            "price": 2.75
+          },
+          "6273030844": {
+            "id": 6273030844,
+            "name": "Spain Women",
+            "price": 2.2
+          },
+          "6273030847": {
+            "id": 6273030847,
+            "name": "Netherlands Women",
+            "price": 4
+          },
+          "6273030846": {
+            "id": 6273030846,
+            "name": "Hungary Women",
+            "price": 4
+          },
+          "6273030851": {
+            "id": 6273030851,
+            "name": "Romania Women",
+            "price": 501
+          },
+          "6273030850": {
+            "id": 6273030850,
+            "name": "Italy Women",
+            "price": 16
+          },
+          "6273030853": {
+            "id": 6273030853,
+            "name": "Serbia Women",
+            "price": 501
+          },
+          "6273030852": {
+            "id": 6273030852,
+            "name": "Germany Women",
+            "price": 501
+          },
+          "6273030855": {
+            "id": 6273030855,
+            "name": "France Women",
+            "price": 501
+          },
+          "6273030854": {
+            "id": 6273030854,
+            "name": "Croatia Women",
+            "price": 501
+          },
+          "6273030859": {
+            "id": 6273030859,
+            "name": "Great Britain Women",
+            "price": 501
+          },
+          "6273030858": {
+            "id": 6273030858,
+            "name": "Switzerland Women",
+            "price": 501
+          },
+          "6273030861": {
+            "id": 6273030861,
+            "name": "Slovakia Women",
+            "price": 501
+          },
+          "6273030860": {
+            "id": 6273030860,
+            "name": "Portugal Women",
+            "price": 501
+          },
+          "6273030863": {
+            "id": 6273030863,
+            "name": "Turkiye Women",
+            "price": 501
+          },
+          "6273030865": {
+            "id": 6273030865,
+            "name": "Israel Women",
+            "price": 501
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -245,19 +765,96 @@
     "id": 28246858,
     "team1_name": "Champions League - Women 2025/2026",
     "start_ts": 1771693200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2033178942": {
+        "id": 2033178942,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6066587159": {
+            "id": 6066587159,
+            "name": "Mataro (W)",
+            "price": 3.5
+          },
+          "6066587158": {
+            "id": 6066587158,
+            "name": "FTC (W)",
+            "price": 5
+          },
+          "6066587161": {
+            "id": 6066587161,
+            "name": "Olympiacos (W)",
+            "price": 4
+          },
+          "6066587160": {
+            "id": 6066587160,
+            "name": "CN Sant Andreu (W)",
+            "price": 3.5
+          },
+          "6066587163": {
+            "id": 6066587163,
+            "name": "Orizzonte Catania (W)",
+            "price": 501
+          },
+          "6066587162": {
+            "id": 6066587162,
+            "name": "Sabadell (W)",
+            "price": 3.5
+          },
+          "6066587165": {
+            "id": 6066587165,
+            "name": "UVSE (W)",
+            "price": 19
+          },
+          "6066587164": {
+            "id": 6066587164,
+            "name": "CN Terrassa (W)",
+            "price": 501
+          },
+          "6066587167": {
+            "id": 6066587167,
+            "name": "Dunaujvaros (W)",
+            "price": 301
+          },
+          "6066587166": {
+            "id": 6066587166,
+            "name": "Rapallo (W)",
+            "price": 401
+          },
+          "6066587169": {
+            "id": 6066587169,
+            "name": "Vouliagmeni (W)",
+            "price": 29
+          },
+          "6066587168": {
+            "id": 6066587168,
+            "name": "Roma (W)",
+            "price": 46
+          },
+          "6066587171": {
+            "id": 6066587171,
+            "name": "Alimos NAS (W)",
+            "price": 501
+          },
+          "6066587170": {
+            "id": 6066587170,
+            "name": "ZV De Zaan (W)",
+            "price": 501
+          },
+          "6066587173": {
+            "id": 6066587173,
+            "name": "Spandau Berlin (W)",
+            "price": 501
+          },
+          "6066587172": {
+            "id": 6066587172,
+            "name": "Eger (W)",
+            "price": 501
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -266,19 +863,61 @@
     "id": 28267329,
     "team1_name": "LEN Euro Cup 2025/2026",
     "start_ts": 1769403600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2036579942": {
+        "id": 2036579942,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6076686891": {
+            "id": 6076686891,
+            "name": "VK Jug",
+            "price": 1.65
+          },
+          "6076686890": {
+            "id": 6076686890,
+            "name": "Savona",
+            "price": 7
+          },
+          "6076686892": {
+            "id": 6076686892,
+            "name": "BVSC Manna",
+            "price": 5
+          },
+          "6076686895": {
+            "id": 6076686895,
+            "name": "Vouliagmeni",
+            "price": 18
+          },
+          "6076686894": {
+            "id": 6076686894,
+            "name": "Panathinaikos",
+            "price": 26
+          },
+          "6076686896": {
+            "id": 6076686896,
+            "name": "VK Sabac",
+            "price": 26
+          },
+          "6076686899": {
+            "id": 6076686899,
+            "name": "CN Barcelona",
+            "price": 18
+          },
+          "6076686898": {
+            "id": 6076686898,
+            "name": "Szolnoki Dozsa",
+            "price": 31
+          },
+          "6076686900": {
+            "id": 6076686900,
+            "name": "CN Terrasa",
+            "price": 18
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -287,19 +926,76 @@
     "id": 28397022,
     "team1_name": "LEN Euro Cup - Women 2025/2026",
     "start_ts": 1771430400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2055502099": {
+        "id": 2055502099,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6132115543": {
+            "id": 6132115543,
+            "name": "Pallanuoto Trieste",
+            "price": 5
+          },
+          "6132115542": {
+            "id": 6132115542,
+            "name": "Bvsc Zuglo",
+            "price": 4
+          },
+          "6132115545": {
+            "id": 6132115545,
+            "name": "Cs Plebiscito Padova",
+            "price": 5
+          },
+          "6132115544": {
+            "id": 6132115544,
+            "name": "Zodiac Cnab",
+            "price": 5
+          },
+          "6132115547": {
+            "id": 6132115547,
+            "name": "Ano Glyfada",
+            "price": 9
+          },
+          "6132115546": {
+            "id": 6132115546,
+            "name": "Ethnikos Piraeus",
+            "price": 5
+          },
+          "6132115548": {
+            "id": 6132115548,
+            "name": "Cn Catalunya",
+            "price": 9
+          },
+          "6132115551": {
+            "id": 6132115551,
+            "name": "Iii. Keruleti Tve",
+            "price": 251
+          },
+          "6132115553": {
+            "id": 6132115553,
+            "name": "Polar Bears",
+            "price": 151
+          },
+          "6132115552": {
+            "id": 6132115552,
+            "name": "Hapoel Yoqneam",
+            "price": 251
+          },
+          "6132115555": {
+            "id": 6132115555,
+            "name": "Lille Uc",
+            "price": 251
+          },
+          "6132115554": {
+            "id": 6132115554,
+            "name": "Grand Nancy Aquatic Club",
+            "price": 251
+          }
+        }
+      }
+    }
   },
   {
     "sport": "Water Polo",
@@ -308,18 +1004,85 @@
     "id": 27889154,
     "team1_name": "Serie A1 2025/2026",
     "start_ts": 1769869800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "current_game_time": "08:00",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1981780625": {
+        "id": 1981780625,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5914902855": {
+            "id": 5914902855,
+            "name": "Trieste",
+            "price": 201
+          },
+          "5914902854": {
+            "id": 5914902854,
+            "name": "Pro Recco",
+            "price": 1.04
+          },
+          "5914902856": {
+            "id": 5914902856,
+            "name": "AN Brescia",
+            "price": 19
+          },
+          "5914902859": {
+            "id": 5914902859,
+            "name": "CN Posillipo",
+            "price": 201
+          },
+          "5914902865": {
+            "id": 5914902865,
+            "name": "CC Ortigia",
+            "price": 501
+          },
+          "5914902864": {
+            "id": 5914902864,
+            "name": "RN Savona",
+            "price": 26
+          },
+          "5914902867": {
+            "id": 5914902867,
+            "name": "Telimar",
+            "price": 501
+          },
+          "5914902866": {
+            "id": 5914902866,
+            "name": "De Akker Bologna",
+            "price": 501
+          },
+          "5914902869": {
+            "id": 5914902869,
+            "name": "R.N. Salerno",
+            "price": 501
+          },
+          "5914902868": {
+            "id": 5914902868,
+            "name": "Roma Vis Nova",
+            "price": 501
+          },
+          "5914902871": {
+            "id": 5914902871,
+            "name": "RN Florentia",
+            "price": 501
+          },
+          "5914902870": {
+            "id": 5914902870,
+            "name": "Olympic Roma",
+            "price": 501
+          },
+          "5914902875": {
+            "id": 5914902875,
+            "name": "SC Quinto",
+            "price": 501
+          },
+          "5914902874": {
+            "id": 5914902874,
+            "name": "CC Napoli",
+            "price": 501
+          }
+        }
+      }
+    }
   }
 ]

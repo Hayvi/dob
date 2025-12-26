@@ -74,7 +74,21 @@ This document lists all available HTTP endpoints for the Forzza Scraper API.
 }
 ```
 
-### 6. Sport Full Scrape (Fresh)
+### 6. Sport Games Count
+**Endpoint:** `GET /api/sport-games-count?sportName={NAME}`
+**Description:** Returns the real-time match count for any specific sport.
+**Parameters:**
+- `sportName` (Required): The name of the sport (e.g., `Basketball`, `Tennis`).
+**Response:**
+```json
+{
+  "sport": "Basketball",
+  "count": 142,
+  "timestamp": "2025-12-26T21:05:01.123Z"
+}
+```
+
+### 7. Sport Full Scrape (Fresh)
 **Endpoint:** `GET /api/sport-full-scrape?sportId={ID}&sportName={NAME}`
 **Description:** Triggers a fresh bulk fetch for a specific sport. Includes **Winner (1X2 or 1-2)** odds.
 **Parameters:**

@@ -7,17 +7,1054 @@
     "team1_name": "L1ga Team",
     "team2_name": "Team Lynx",
     "start_ts": 1766829600,
-    "markets_count": 58,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106950193": {
+        "id": 2106950193,
+        "name": "Game 1 Total Kills Odd/Even",
+        "type": "Game1KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280268196": {
+            "id": 6280268196,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280268195": {
+            "id": 6280268195,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106950194": {
+        "id": 2106950194,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268198": {
+            "id": 6280268198,
+            "name": "Over ",
+            "price": 1.75
+          },
+          "6280268197": {
+            "id": 6280268197,
+            "name": "Under ",
+            "price": 1.95
+          }
+        }
+      },
+      "2106950195": {
+        "id": 2106950195,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268200": {
+            "id": 6280268200,
+            "name": "L1ga Team ",
+            "price": 1.97
+          },
+          "6280268199": {
+            "id": 6280268199,
+            "name": "Team Lynx ",
+            "price": 1.73
+          }
+        }
+      },
+      "2106950196": {
+        "id": 2106950196,
+        "name": "Game 1 Team 2 Total Kills",
+        "type": "Game1Team2KillsTotal",
+        "event": {
+          "6280268202": {
+            "id": 6280268202,
+            "name": "Over ",
+            "price": 1.87
+          },
+          "6280268201": {
+            "id": 6280268201,
+            "name": "Under ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106950197": {
+        "id": 2106950197,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268204": {
+            "id": 6280268204,
+            "name": "L1ga Team ",
+            "price": 1.15
+          },
+          "6280268203": {
+            "id": 6280268203,
+            "name": "Team Lynx ",
+            "price": 4.75
+          }
+        }
+      },
+      "2106950198": {
+        "id": 2106950198,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268206": {
+            "id": 6280268206,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6280268205": {
+            "id": 6280268205,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106950199": {
+        "id": 2106950199,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268208": {
+            "id": 6280268208,
+            "name": "L1ga Team ",
+            "price": 1.95
+          },
+          "6280268207": {
+            "id": 6280268207,
+            "name": "Team Lynx ",
+            "price": 1.75
+          }
+        }
+      },
+      "2106950200": {
+        "id": 2106950200,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268210": {
+            "id": 6280268210,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6280268209": {
+            "id": 6280268209,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106950203": {
+        "id": 2106950203,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268212": {
+            "id": 6280268212,
+            "name": "L1ga Team ",
+            "price": 1.87
+          },
+          "6280268211": {
+            "id": 6280268211,
+            "name": "Team Lynx ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106950204": {
+        "id": 2106950204,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268214": {
+            "id": 6280268214,
+            "name": "Over ",
+            "price": 2.08
+          },
+          "6280268213": {
+            "id": 6280268213,
+            "name": "Under ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106950205": {
+        "id": 2106950205,
+        "name": "Game 3 Winner",
+        "type": "Game3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280268216": {
+            "id": 6280268216,
+            "name": "W1",
+            "price": 1.58
+          },
+          "6280268215": {
+            "id": 6280268215,
+            "name": "W2",
+            "price": 2.23
+          }
+        }
+      },
+      "2106950206": {
+        "id": 2106950206,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268219": {
+            "id": 6280268219,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6280268218": {
+            "id": 6280268218,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106950207": {
+        "id": 2106950207,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268224": {
+            "id": 6280268224,
+            "name": "Over ",
+            "price": 1.94
+          },
+          "6280268223": {
+            "id": 6280268223,
+            "name": "Under ",
+            "price": 1.76
+          }
+        }
+      },
+      "2106950208": {
+        "id": 2106950208,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268226": {
+            "id": 6280268226,
+            "name": "Over ",
+            "price": 1.76
+          },
+          "6280268225": {
+            "id": 6280268225,
+            "name": "Under ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106950209": {
+        "id": 2106950209,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268228": {
+            "id": 6280268228,
+            "name": "L1ga Team ",
+            "price": 2.07
+          },
+          "6280268227": {
+            "id": 6280268227,
+            "name": "Team Lynx ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106950210": {
+        "id": 2106950210,
+        "name": "Game 1 Winner",
+        "type": "Game1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280268230": {
+            "id": 6280268230,
+            "name": "W1",
+            "price": 1.55
+          },
+          "6280268229": {
+            "id": 6280268229,
+            "name": "W2",
+            "price": 2.3
+          }
+        }
+      },
+      "2106950211": {
+        "id": 2106950211,
+        "name": "Game 3 Team 2 Total Kills",
+        "type": "Game3Team2KillsTotal",
+        "event": {
+          "6280268232": {
+            "id": 6280268232,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6280268231": {
+            "id": 6280268231,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106950212": {
+        "id": 2106950212,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268234": {
+            "id": 6280268234,
+            "name": "L1ga Team ",
+            "price": 2.08
+          },
+          "6280268233": {
+            "id": 6280268233,
+            "name": "Team Lynx ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106950213": {
+        "id": 2106950213,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268236": {
+            "id": 6280268236,
+            "name": "L1ga Team ",
+            "price": 1.87
+          },
+          "6280268235": {
+            "id": 6280268235,
+            "name": "Team Lynx ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106950214": {
+        "id": 2106950214,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268238": {
+            "id": 6280268238,
+            "name": "L1ga Team ",
+            "price": 2.07
+          },
+          "6280268237": {
+            "id": 6280268237,
+            "name": "Team Lynx ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106950215": {
+        "id": 2106950215,
+        "name": "Game 2 Winner",
+        "type": "Game2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280268240": {
+            "id": 6280268240,
+            "name": "W1",
+            "price": 1.55
+          },
+          "6280268239": {
+            "id": 6280268239,
+            "name": "W2",
+            "price": 2.3
+          }
+        }
+      },
+      "2106950216": {
+        "id": 2106950216,
+        "name": "Game 2 Total Kills Odd/Even",
+        "type": "Game2KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280268242": {
+            "id": 6280268242,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280268241": {
+            "id": 6280268241,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106950217": {
+        "id": 2106950217,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268244": {
+            "id": 6280268244,
+            "name": "Over ",
+            "price": 1.95
+          },
+          "6280268243": {
+            "id": 6280268243,
+            "name": "Under ",
+            "price": 1.75
+          }
+        }
+      },
+      "2106950218": {
+        "id": 2106950218,
+        "name": "Total Games",
+        "type": "GamesTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268246": {
+            "id": 6280268246,
+            "name": "Over ",
+            "price": 1.93
+          },
+          "6280268245": {
+            "id": 6280268245,
+            "name": "Under ",
+            "price": 1.77
+          }
+        }
+      },
+      "2106950219": {
+        "id": 2106950219,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268248": {
+            "id": 6280268248,
+            "name": "L1ga Team ",
+            "price": 2.44
+          },
+          "6280268247": {
+            "id": 6280268247,
+            "name": "Team Lynx ",
+            "price": 1.49
+          }
+        }
+      },
+      "2106950220": {
+        "id": 2106950220,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268250": {
+            "id": 6280268250,
+            "name": "L1ga Team ",
+            "price": 1.95
+          },
+          "6280268249": {
+            "id": 6280268249,
+            "name": "Team Lynx ",
+            "price": 1.75
+          }
+        }
+      },
+      "2106950226": {
+        "id": 2106950226,
+        "name": "Game 2 Team 2 Total Kills",
+        "type": "Game2Team2KillsTotal",
+        "event": {
+          "6280268252": {
+            "id": 6280268252,
+            "name": "Over ",
+            "price": 1.87
+          },
+          "6280268251": {
+            "id": 6280268251,
+            "name": "Under ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106950227": {
+        "id": 2106950227,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268264": {
+            "id": 6280268264,
+            "name": "Over ",
+            "price": 1.76
+          },
+          "6280268263": {
+            "id": 6280268263,
+            "name": "Under ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106950228": {
+        "id": 2106950228,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268266": {
+            "id": 6280268266,
+            "name": "L1ga Team ",
+            "price": 1.89
+          },
+          "6280268265": {
+            "id": 6280268265,
+            "name": "Team Lynx ",
+            "price": 1.81
+          }
+        }
+      },
+      "2106950229": {
+        "id": 2106950229,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280268268": {
+            "id": 6280268268,
+            "name": "W1",
+            "price": 1.46
+          },
+          "6280268267": {
+            "id": 6280268267,
+            "name": "W2",
+            "price": 2.52
+          }
+        }
+      },
+      "2106950230": {
+        "id": 2106950230,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268270": {
+            "id": 6280268270,
+            "name": "Over ",
+            "price": 1.95
+          },
+          "6280268269": {
+            "id": 6280268269,
+            "name": "Under ",
+            "price": 1.75
+          }
+        }
+      },
+      "2106950231": {
+        "id": 2106950231,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268272": {
+            "id": 6280268272,
+            "name": "Over ",
+            "price": 1.57
+          },
+          "6280268271": {
+            "id": 6280268271,
+            "name": "Under ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106950232": {
+        "id": 2106950232,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268274": {
+            "id": 6280268274,
+            "name": "L1ga Team ",
+            "price": 1.8
+          },
+          "6280268273": {
+            "id": 6280268273,
+            "name": "Team Lynx ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106950233": {
+        "id": 2106950233,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268276": {
+            "id": 6280268276,
+            "name": "Over ",
+            "price": 1.66
+          },
+          "6280268275": {
+            "id": 6280268275,
+            "name": "Under ",
+            "price": 2.08
+          }
+        }
+      },
+      "2106950234": {
+        "id": 2106950234,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268278": {
+            "id": 6280268278,
+            "name": "Over ",
+            "price": 2.08
+          },
+          "6280268277": {
+            "id": 6280268277,
+            "name": "Under ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106950235": {
+        "id": 2106950235,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268280": {
+            "id": 6280268280,
+            "name": "Over ",
+            "price": 2.23
+          },
+          "6280268279": {
+            "id": 6280268279,
+            "name": "Under ",
+            "price": 1.58
+          }
+        }
+      },
+      "2106950237": {
+        "id": 2106950237,
+        "name": "Game 1 Team 1 Total Kills",
+        "type": "Game1Team1KillsTotal",
+        "event": {
+          "6280268282": {
+            "id": 6280268282,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6280268281": {
+            "id": 6280268281,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106950239": {
+        "id": 2106950239,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268294": {
+            "id": 6280268294,
+            "name": "L1ga Team ",
+            "price": 1.71
+          },
+          "6280268293": {
+            "id": 6280268293,
+            "name": "Team Lynx ",
+            "price": 2.01
+          }
+        }
+      },
+      "2106950240": {
+        "id": 2106950240,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268296": {
+            "id": 6280268296,
+            "name": "L1ga Team ",
+            "price": 1.74
+          },
+          "6280268295": {
+            "id": 6280268295,
+            "name": "Team Lynx ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106950241": {
+        "id": 2106950241,
+        "name": "Game 2 Team 1 Total Kills",
+        "type": "Game2Team1KillsTotal",
+        "event": {
+          "6280268298": {
+            "id": 6280268298,
+            "name": "Over ",
+            "price": 1.83
+          },
+          "6280268297": {
+            "id": 6280268297,
+            "name": "Under ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106950243": {
+        "id": 2106950243,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268302": {
+            "id": 6280268302,
+            "name": "Over ",
+            "price": 2.21
+          },
+          "6280268301": {
+            "id": 6280268301,
+            "name": "Under ",
+            "price": 1.59
+          }
+        }
+      },
+      "2106950244": {
+        "id": 2106950244,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268304": {
+            "id": 6280268304,
+            "name": "Over ",
+            "price": 2.07
+          },
+          "6280268303": {
+            "id": 6280268303,
+            "name": "Under ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106950245": {
+        "id": 2106950245,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268306": {
+            "id": 6280268306,
+            "name": "L1ga Team ",
+            "price": 1.67
+          },
+          "6280268305": {
+            "id": 6280268305,
+            "name": "Team Lynx ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106950246": {
+        "id": 2106950246,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268308": {
+            "id": 6280268308,
+            "name": "L1ga Team ",
+            "price": 1.8
+          },
+          "6280268307": {
+            "id": 6280268307,
+            "name": "Team Lynx ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106950247": {
+        "id": 2106950247,
+        "name": "Game 3 Team 1 Total Kills",
+        "type": "Game3Team1KillsTotal",
+        "event": {
+          "6280268310": {
+            "id": 6280268310,
+            "name": "Over ",
+            "price": 1.84
+          },
+          "6280268309": {
+            "id": 6280268309,
+            "name": "Under ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106950249": {
+        "id": 2106950249,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268314": {
+            "id": 6280268314,
+            "name": "Over ",
+            "price": 1.65
+          },
+          "6280268313": {
+            "id": 6280268313,
+            "name": "Under ",
+            "price": 2.1
+          }
+        }
+      },
+      "2106950250": {
+        "id": 2106950250,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268316": {
+            "id": 6280268316,
+            "name": "L1ga Team ",
+            "price": 1.7
+          },
+          "6280268315": {
+            "id": 6280268315,
+            "name": "Team Lynx ",
+            "price": 2.02
+          }
+        }
+      },
+      "2106950251": {
+        "id": 2106950251,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268318": {
+            "id": 6280268318,
+            "name": "Over ",
+            "price": 1.66
+          },
+          "6280268317": {
+            "id": 6280268317,
+            "name": "Under ",
+            "price": 2.08
+          }
+        }
+      },
+      "2106950252": {
+        "id": 2106950252,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268320": {
+            "id": 6280268320,
+            "name": "Over ",
+            "price": 2.23
+          },
+          "6280268319": {
+            "id": 6280268319,
+            "name": "Under ",
+            "price": 1.58
+          }
+        }
+      },
+      "2106950253": {
+        "id": 2106950253,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268322": {
+            "id": 6280268322,
+            "name": "Over ",
+            "price": 1.58
+          },
+          "6280268321": {
+            "id": 6280268321,
+            "name": "Under ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106950254": {
+        "id": 2106950254,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268324": {
+            "id": 6280268324,
+            "name": "L1ga Team ",
+            "price": 1.7
+          },
+          "6280268323": {
+            "id": 6280268323,
+            "name": "Team Lynx ",
+            "price": 2.02
+          }
+        }
+      },
+      "2106950255": {
+        "id": 2106950255,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280268326": {
+            "id": 6280268326,
+            "name": "Over ",
+            "price": 1.58
+          },
+          "6280268325": {
+            "id": 6280268325,
+            "name": "Under ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106950256": {
+        "id": 2106950256,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268328": {
+            "id": 6280268328,
+            "name": "L1ga Team ",
+            "price": 1.74
+          },
+          "6280268327": {
+            "id": 6280268327,
+            "name": "Team Lynx ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106950257": {
+        "id": 2106950257,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268330": {
+            "id": 6280268330,
+            "name": "L1ga Team ",
+            "price": 1.76
+          },
+          "6280268329": {
+            "id": 6280268329,
+            "name": "Team Lynx ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106950258": {
+        "id": 2106950258,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280268332": {
+            "id": 6280268332,
+            "name": "L1ga Team ",
+            "price": 1.82
+          },
+          "6280268331": {
+            "id": 6280268331,
+            "name": "Team Lynx ",
+            "price": 1.88
+          }
+        }
+      },
+      "2106950259": {
+        "id": 2106950259,
+        "name": "Correct Score",
+        "type": "CorrectScore3",
+        "event": {
+          "6280268335": {
+            "id": 6280268335,
+            "name": "2-0",
+            "price": 2.38
+          },
+          "6280268336": {
+            "id": 6280268336,
+            "name": "2-1",
+            "price": 3.07
+          },
+          "6280268333": {
+            "id": 6280268333,
+            "name": "1-2",
+            "price": 4.6
+          },
+          "6280268334": {
+            "id": 6280268334,
+            "name": "0-2",
+            "price": 4.9
+          }
+        }
+      },
+      "2106965665": {
+        "id": 2106965665,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280313864": {
+            "id": 6280313864,
+            "name": "L1ga Team ",
+            "price": 2.2
+          },
+          "6280313863": {
+            "id": 6280313863,
+            "name": "Team Lynx ",
+            "price": 1.6
+          }
+        }
+      },
+      "2106965666": {
+        "id": 2106965666,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280313866": {
+            "id": 6280313866,
+            "name": "L1ga Team ",
+            "price": 2.2
+          },
+          "6280313865": {
+            "id": 6280313865,
+            "name": "Team Lynx ",
+            "price": 1.6
+          }
+        }
+      }
+    }
   }
 ]

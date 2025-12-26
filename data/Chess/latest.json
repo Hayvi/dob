@@ -6,10 +6,55 @@
     "id": 28668108,
     "team1_name": "Candidates Chess Tournament 2026",
     "start_ts": 1774688400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098232574": {
+        "id": 2098232574,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255376957": {
+            "id": 6255376957,
+            "name": "Hikaru Nakamura",
+            "price": 4.33
+          },
+          "6255376956": {
+            "id": 6255376956,
+            "name": "Fabiano Caruana",
+            "price": 3.5
+          },
+          "6255376959": {
+            "id": 6255376959,
+            "name": "Rameshbabu Praggnanandhaa",
+            "price": 6
+          },
+          "6255376958": {
+            "id": 6255376958,
+            "name": "Javokhir Sindarov",
+            "price": 5.5
+          },
+          "6255376961": {
+            "id": 6255376961,
+            "name": "Yi Wei",
+            "price": 9
+          },
+          "6255376960": {
+            "id": 6255376960,
+            "name": "Anish Giri",
+            "price": 7
+          },
+          "6255376963": {
+            "id": 6255376963,
+            "name": "Matthias Bluebaum",
+            "price": 51
+          },
+          "6255376962": {
+            "id": 6255376962,
+            "name": "Andrey Esipenko",
+            "price": 15
+          }
+        }
+      }
+    }
   }
 ]

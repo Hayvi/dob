@@ -6,11 +6,221 @@
     "id": 27607642,
     "team1_name": "Royal Rumble 2026",
     "start_ts": 1768694400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1940988439": {
+        "id": 1940988439,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5795841151": {
+            "id": 5795841151,
+            "name": "Sami Zayn",
+            "price": 2.5
+          },
+          "5795841153": {
+            "id": 5795841153,
+            "name": "Gunther",
+            "price": 7
+          },
+          "5795841152": {
+            "id": 5795841152,
+            "name": "CM Punk",
+            "price": 5
+          },
+          "5795841155": {
+            "id": 5795841155,
+            "name": "Roman Reigns",
+            "price": 8
+          },
+          "5795841154": {
+            "id": 5795841154,
+            "name": "Drew McIntyre",
+            "price": 8
+          },
+          "5795841157": {
+            "id": 5795841157,
+            "name": "Seth Rollins",
+            "price": 10
+          },
+          "5795841156": {
+            "id": 5795841156,
+            "name": "Jacob Fatu",
+            "price": 10
+          },
+          "5795841159": {
+            "id": 5795841159,
+            "name": "Logan Paul",
+            "price": 12
+          },
+          "5795841158": {
+            "id": 5795841158,
+            "name": "Bron Breakker",
+            "price": 2.75
+          },
+          "5795841161": {
+            "id": 5795841161,
+            "name": "Cody Rhodes",
+            "price": 15
+          },
+          "5795841160": {
+            "id": 5795841160,
+            "name": "The Rock",
+            "price": 12
+          },
+          "5795841163": {
+            "id": 5795841163,
+            "name": "Carmelo Hayes",
+            "price": 18
+          },
+          "5795841162": {
+            "id": 5795841162,
+            "name": "Randy Orton",
+            "price": 15
+          },
+          "5795841165": {
+            "id": 5795841165,
+            "name": "LA Knight ",
+            "price": 18
+          },
+          "5795841164": {
+            "id": 5795841164,
+            "name": "Damian Priest",
+            "price": 18
+          },
+          "5795841167": {
+            "id": 5795841167,
+            "name": "Oba Femi",
+            "price": 21
+          },
+          "5795841166": {
+            "id": 5795841166,
+            "name": "Dominik Mysterio",
+            "price": 21
+          },
+          "5795841169": {
+            "id": 5795841169,
+            "name": "Rusev",
+            "price": 21
+          },
+          "5795841168": {
+            "id": 5795841168,
+            "name": "Penta",
+            "price": 21
+          },
+          "5795841171": {
+            "id": 5795841171,
+            "name": "Jimmy Uso",
+            "price": 24
+          },
+          "5795841170": {
+            "id": 5795841170,
+            "name": "Aleister Black",
+            "price": 24
+          },
+          "5795841173": {
+            "id": 5795841173,
+            "name": "Karrion Kross",
+            "price": 31
+          },
+          "5795841172": {
+            "id": 5795841172,
+            "name": "Joe Hendry",
+            "price": 31
+          },
+          "5795841175": {
+            "id": 5795841175,
+            "name": "Chad Gable",
+            "price": 41
+          },
+          "5795841174": {
+            "id": 5795841174,
+            "name": "Omos",
+            "price": 31
+          },
+          "5795841177": {
+            "id": 5795841177,
+            "name": "Ilja Dragunov",
+            "price": 41
+          },
+          "5795841176": {
+            "id": 5795841176,
+            "name": "Finn Bálor",
+            "price": 41
+          },
+          "5795841179": {
+            "id": 5795841179,
+            "name": "AJ Styles",
+            "price": 51
+          },
+          "5795841178": {
+            "id": 5795841178,
+            "name": "Rey Fénix",
+            "price": 41
+          },
+          "5795841181": {
+            "id": 5795841181,
+            "name": "Ethan Page",
+            "price": 51
+          },
+          "5795841180": {
+            "id": 5795841180,
+            "name": "Austin Theory",
+            "price": 51
+          },
+          "5795841183": {
+            "id": 5795841183,
+            "name": "Ricky Saints",
+            "price": 51
+          },
+          "5795841182": {
+            "id": 5795841182,
+            "name": "JC Mateo",
+            "price": 51
+          },
+          "5795841185": {
+            "id": 5795841185,
+            "name": "Je'Von Evans",
+            "price": 61
+          },
+          "5795841184": {
+            "id": 5795841184,
+            "name": "Andrade El Idolo",
+            "price": 61
+          },
+          "5795841187": {
+            "id": 5795841187,
+            "name": "Uncle Howdy",
+            "price": 61
+          },
+          "5795841186": {
+            "id": 5795841186,
+            "name": "Trick Williams",
+            "price": 61
+          },
+          "5795841188": {
+            "id": 5795841188,
+            "name": "Grayson Waller",
+            "price": 81
+          },
+          "5795841191": {
+            "id": 5795841191,
+            "name": "Pat McAfee",
+            "price": 81
+          },
+          "5795841195": {
+            "id": 5795841195,
+            "name": "The Miz",
+            "price": 81
+          },
+          "5795841194": {
+            "id": 5795841194,
+            "name": "Sheamus",
+            "price": 81
+          }
+        }
+      }
+    }
   },
   {
     "sport": "WWE",
@@ -19,10 +229,195 @@
     "id": 27607643,
     "team1_name": "Royal Rumble - Women 2026",
     "start_ts": 1768694400,
-    "markets_count": 1,
-    "info": {
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "1940997592": {
+        "id": 1940997592,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "5795853247": {
+            "id": 5795853247,
+            "name": "Lyra Valkyria",
+            "price": 4
+          },
+          "5795853246": {
+            "id": 5795853246,
+            "name": "Bianca Belair",
+            "price": 3.5
+          },
+          "5795853249": {
+            "id": 5795853249,
+            "name": "Stephanie Vaquer",
+            "price": 5
+          },
+          "5795853248": {
+            "id": 5795853248,
+            "name": "Roxanne Perez",
+            "price": 4
+          },
+          "5795853251": {
+            "id": 5795853251,
+            "name": "Blake Monroe",
+            "price": 8
+          },
+          "5795853250": {
+            "id": 5795853250,
+            "name": "Jade Cargill",
+            "price": 7
+          },
+          "5795853253": {
+            "id": 5795853253,
+            "name": "Giulia",
+            "price": 10
+          },
+          "5795853252": {
+            "id": 5795853252,
+            "name": "Rhea Ripley",
+            "price": 8
+          },
+          "5795853255": {
+            "id": 5795853255,
+            "name": "Liv Morgan",
+            "price": 4
+          },
+          "5795853254": {
+            "id": 5795853254,
+            "name": "Becky Lynch",
+            "price": 12
+          },
+          "5795853257": {
+            "id": 5795853257,
+            "name": "Charlotte Flair",
+            "price": 15
+          },
+          "5795853256": {
+            "id": 5795853256,
+            "name": "Nia Jax",
+            "price": 12
+          },
+          "5795853259": {
+            "id": 5795853259,
+            "name": "Naomi",
+            "price": 15
+          },
+          "5795853258": {
+            "id": 5795853258,
+            "name": "Chelsea Green",
+            "price": 15
+          },
+          "5795853261": {
+            "id": 5795853261,
+            "name": "Iyo Sky",
+            "price": 18
+          },
+          "5795853260": {
+            "id": 5795853260,
+            "name": "Alexa Bliss",
+            "price": 18
+          },
+          "5795853263": {
+            "id": 5795853263,
+            "name": "Tiffany Stratton",
+            "price": 18
+          },
+          "5795853262": {
+            "id": 5795853262,
+            "name": "Jordynne Grace",
+            "price": 18
+          },
+          "5795853265": {
+            "id": 5795853265,
+            "name": "Asuka",
+            "price": 21
+          },
+          "5795853264": {
+            "id": 5795853264,
+            "name": "AJ Lee",
+            "price": 15
+          },
+          "5795853267": {
+            "id": 5795853267,
+            "name": "Kairi Sane",
+            "price": 24
+          },
+          "5795853266": {
+            "id": 5795853266,
+            "name": "Bayley",
+            "price": 24
+          },
+          "5795853269": {
+            "id": 5795853269,
+            "name": "Nikki Cross",
+            "price": 41
+          },
+          "5795853268": {
+            "id": 5795853268,
+            "name": "Ivy Nile",
+            "price": 41
+          },
+          "5795853271": {
+            "id": 5795853271,
+            "name": "Sol Ruca",
+            "price": 41
+          },
+          "5795853270": {
+            "id": 5795853270,
+            "name": "Raquel Rodriguez",
+            "price": 41
+          },
+          "5795853273": {
+            "id": 5795853273,
+            "name": "Alba Fyre",
+            "price": 51
+          },
+          "5795853272": {
+            "id": 5795853272,
+            "name": "Zelina Vega",
+            "price": 41
+          },
+          "5795853275": {
+            "id": 5795853275,
+            "name": "Michin",
+            "price": 51
+          },
+          "5795853274": {
+            "id": 5795853274,
+            "name": "Kiana James",
+            "price": 51
+          },
+          "5795853277": {
+            "id": 5795853277,
+            "name": "Piper Niven",
+            "price": 51
+          },
+          "5795853276": {
+            "id": 5795853276,
+            "name": "Natalya",
+            "price": 51
+          },
+          "5795853279": {
+            "id": 5795853279,
+            "name": "B-Fab",
+            "price": 61
+          },
+          "5795853278": {
+            "id": 5795853278,
+            "name": "Trish Stratus",
+            "price": 51
+          },
+          "5795853280": {
+            "id": 5795853280,
+            "name": "Maxxine Dupri",
+            "price": 61
+          },
+          "5795853776": {
+            "id": 5795853776,
+            "name": "Lash Legend",
+            "price": 81
+          }
+        }
+      }
+    }
   }
 ]

@@ -6,18 +6,76 @@
     "id": 28668888,
     "team1_name": "LoL European Championship Winter Versus 2026 (LEC) ",
     "start_ts": 1768669200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098383058": {
+        "id": 2098383058,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255813085": {
+            "id": 6255813085,
+            "name": "Karmine Corp",
+            "price": 4
+          },
+          "6255813084": {
+            "id": 6255813084,
+            "name": "G2 Esports",
+            "price": 3
+          },
+          "6255813087": {
+            "id": 6255813087,
+            "name": "Fnatic",
+            "price": 10
+          },
+          "6255813086": {
+            "id": 6255813086,
+            "name": "Movistar KOI",
+            "price": 5
+          },
+          "6255813089": {
+            "id": 6255813089,
+            "name": "Team Vitality",
+            "price": 15
+          },
+          "6255813088": {
+            "id": 6255813088,
+            "name": "GIANTX",
+            "price": 13
+          },
+          "6255813091": {
+            "id": 6255813091,
+            "name": "Natus Vincere",
+            "price": 24
+          },
+          "6255813090": {
+            "id": 6255813090,
+            "name": "Shifters",
+            "price": 17
+          },
+          "6255813093": {
+            "id": 6255813093,
+            "name": "Team Heretics",
+            "price": 29
+          },
+          "6255813092": {
+            "id": 6255813092,
+            "name": "Los Ratones",
+            "price": 26
+          },
+          "6255813095": {
+            "id": 6255813095,
+            "name": "Karmine Corp Blue",
+            "price": 51
+          },
+          "6255813094": {
+            "id": 6255813094,
+            "name": "SK Gaming",
+            "price": 34
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -27,18 +85,179 @@
     "team1_name": "Verdant",
     "team2_name": "mCon esports",
     "start_ts": 1766862000,
-    "markets_count": 9,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2107014544": {
+        "id": 2107014544,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6280449185": {
+            "id": 6280449185,
+            "name": "Verdant ",
+            "price": 2.37
+          },
+          "6280449184": {
+            "id": 6280449184,
+            "name": "mCon esports ",
+            "price": 1.52
+          }
+        }
+      },
+      "2107014546": {
+        "id": 2107014546,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280449189": {
+            "id": 6280449189,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6280449188": {
+            "id": 6280449188,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2107014547": {
+        "id": 2107014547,
+        "name": "Game 2 Winner",
+        "type": "Game2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280449191": {
+            "id": 6280449191,
+            "name": "W1",
+            "price": 1.52
+          },
+          "6280449190": {
+            "id": 6280449190,
+            "name": "W2",
+            "price": 2.37
+          }
+        }
+      },
+      "2107014548": {
+        "id": 2107014548,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6280449193": {
+            "id": 6280449193,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6280449192": {
+            "id": 6280449192,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      },
+      "2107014549": {
+        "id": 2107014549,
+        "name": "Correct Score",
+        "type": "CorrectScore3",
+        "event": {
+          "6280449196": {
+            "id": 6280449196,
+            "name": "2-0",
+            "price": 2.27
+          },
+          "6280449197": {
+            "id": 6280449197,
+            "name": "2-1",
+            "price": 3.1
+          },
+          "6280449194": {
+            "id": 6280449194,
+            "name": "1-2",
+            "price": 4.9
+          },
+          "6280449195": {
+            "id": 6280449195,
+            "name": "0-2",
+            "price": 4.9
+          }
+        }
+      },
+      "2107014550": {
+        "id": 2107014550,
+        "name": "Game 2 Total Kills Odd/Even",
+        "type": "Game2KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280449199": {
+            "id": 6280449199,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280449198": {
+            "id": 6280449198,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2107014551": {
+        "id": 2107014551,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6280449201": {
+            "id": 6280449201,
+            "name": "W1",
+            "price": 1.4
+          },
+          "6280449200": {
+            "id": 6280449200,
+            "name": "W2",
+            "price": 2.7
+          }
+        }
+      },
+      "2107014552": {
+        "id": 2107014552,
+        "name": "Game 1 Total Kills Odd/Even",
+        "type": "Game1KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280449203": {
+            "id": 6280449203,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280449202": {
+            "id": 6280449202,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2107014553": {
+        "id": 2107014553,
+        "name": "Game 1 Winner",
+        "type": "Game1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6280449205": {
+            "id": 6280449205,
+            "name": "W1",
+            "price": 1.52
+          },
+          "6280449204": {
+            "id": 6280449204,
+            "name": "W2",
+            "price": 2.37
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -48,18 +267,26 @@
     "team1_name": "Team Vitality",
     "team2_name": "Natus Vincere",
     "start_ts": 1768757400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996316": {
+        "id": 2101996316,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230479": {
+            "id": 6266230479,
+            "name": "W1",
+            "price": 1.48
+          },
+          "6266230478": {
+            "id": 6266230478,
+            "name": "W2",
+            "price": 2.45
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -69,18 +296,26 @@
     "team1_name": "G 2 Esports",
     "team2_name": "GIANTX",
     "start_ts": 1768762800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996309": {
+        "id": 2101996309,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230465": {
+            "id": 6266230465,
+            "name": "W1",
+            "price": 1.24
+          },
+          "6266230464": {
+            "id": 6266230464,
+            "name": "W2",
+            "price": 3.65
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -90,18 +325,26 @@
     "team1_name": "Movistar KOI",
     "team2_name": "G 2 Esports",
     "start_ts": 1768679100,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996311": {
+        "id": 2101996311,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230467": {
+            "id": 6266230467,
+            "name": "W2",
+            "price": 1.48
+          },
+          "6266230469": {
+            "id": 6266230469,
+            "name": "W1",
+            "price": 2.45
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -111,18 +354,26 @@
     "team1_name": "Los Ratones",
     "team2_name": "Fnatic",
     "start_ts": 1768665600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996315": {
+        "id": 2101996315,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230477": {
+            "id": 6266230477,
+            "name": "W1",
+            "price": 3.25
+          },
+          "6266230476": {
+            "id": 6266230476,
+            "name": "W2",
+            "price": 1.29
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -132,18 +383,26 @@
     "team1_name": "Team Heretics",
     "team2_name": "Natus Vincere",
     "start_ts": 1768671000,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996364": {
+        "id": 2101996364,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230616": {
+            "id": 6266230616,
+            "name": "W2",
+            "price": 1.6
+          },
+          "6266230623": {
+            "id": 6266230623,
+            "name": "W1",
+            "price": 2.2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -153,18 +412,26 @@
     "team1_name": "Team Vitality",
     "team2_name": "SK Gaming",
     "start_ts": 1768673700,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996310": {
+        "id": 2101996310,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230466": {
+            "id": 6266230466,
+            "name": "W2",
+            "price": 2.7
+          },
+          "6266230468": {
+            "id": 6266230468,
+            "name": "W1",
+            "price": 1.4
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -174,18 +441,26 @@
     "team1_name": "Shifters",
     "team2_name": "GIANTX",
     "start_ts": 1768668300,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996308": {
+        "id": 2101996308,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266230463": {
+            "id": 6266230463,
+            "name": "W1",
+            "price": 2.2
+          },
+          "6266230462": {
+            "id": 6266230462,
+            "name": "W2",
+            "price": 1.6
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -195,18 +470,26 @@
     "team1_name": "Team Heretics",
     "team2_name": "Shifters",
     "start_ts": 1768752000,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996807": {
+        "id": 2101996807,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266231827": {
+            "id": 6266231827,
+            "name": "W1",
+            "price": 2.59
+          },
+          "6266231826": {
+            "id": 6266231826,
+            "name": "W2",
+            "price": 1.44
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -216,18 +499,26 @@
     "team1_name": "SK Gaming",
     "team2_name": "Fnatic",
     "start_ts": 1768760100,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996808": {
+        "id": 2101996808,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266231829": {
+            "id": 6266231829,
+            "name": "W1",
+            "price": 3.65
+          },
+          "6266231828": {
+            "id": 6266231828,
+            "name": "W2",
+            "price": 1.24
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -237,18 +528,26 @@
     "team1_name": "Karmine Corp Blue",
     "team2_name": "Karmine Corp",
     "start_ts": 1768676400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996809": {
+        "id": 2101996809,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266231831": {
+            "id": 6266231831,
+            "name": "W1",
+            "price": 7.3
+          },
+          "6266231830": {
+            "id": 6266231830,
+            "name": "W2",
+            "price": 1.06
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -258,18 +557,26 @@
     "team1_name": "Los Ratones",
     "team2_name": "Karmine Corp Blue",
     "start_ts": 1768754700,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101996772": {
+        "id": 2101996772,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266231725": {
+            "id": 6266231725,
+            "name": "W1",
+            "price": 1.4
+          },
+          "6266231724": {
+            "id": 6266231724,
+            "name": "W2",
+            "price": 2.7
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -279,18 +586,26 @@
     "team1_name": "Team Vitality",
     "team2_name": "Karmine Corp Blue",
     "start_ts": 1768841100,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997220": {
+        "id": 2101997220,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232849": {
+            "id": 6266232849,
+            "name": "W1",
+            "price": 1.14
+          },
+          "6266232848": {
+            "id": 6266232848,
+            "name": "W2",
+            "price": 4.9
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -300,18 +615,26 @@
     "team1_name": "Movistar KOI",
     "team2_name": "Karmine Corp",
     "start_ts": 1768765500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997222": {
+        "id": 2101997222,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232853": {
+            "id": 6266232853,
+            "name": "W2",
+            "price": 1.6
+          },
+          "6266232854": {
+            "id": 6266232854,
+            "name": "W1",
+            "price": 2.2
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -321,18 +644,26 @@
     "team1_name": "SK Gaming",
     "team2_name": "G 2 Esports",
     "start_ts": 1768851900,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997227": {
+        "id": 2101997227,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232863": {
+            "id": 6266232863,
+            "name": "W2",
+            "price": 1.09
+          },
+          "6266232864": {
+            "id": 6266232864,
+            "name": "W1",
+            "price": 6.15
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -342,18 +673,26 @@
     "team1_name": "Los Ratones",
     "team2_name": "Karmine Corp",
     "start_ts": 1768849200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997226": {
+        "id": 2101997226,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232861": {
+            "id": 6266232861,
+            "name": "W2",
+            "price": 1.19
+          },
+          "6266232862": {
+            "id": 6266232862,
+            "name": "W1",
+            "price": 4.15
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -363,18 +702,26 @@
     "team1_name": "Team Heretics",
     "team2_name": "GIANTX",
     "start_ts": 1768843800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997225": {
+        "id": 2101997225,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232858": {
+            "id": 6266232858,
+            "name": "W2",
+            "price": 1.35
+          },
+          "6266232860": {
+            "id": 6266232860,
+            "name": "W1",
+            "price": 2.95
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -384,18 +731,26 @@
     "team1_name": "Shifters",
     "team2_name": "Movistar KOI",
     "start_ts": 1768846500,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2101997224": {
+        "id": 2101997224,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6266232857": {
+            "id": 6266232857,
+            "name": "W2",
+            "price": 1.4
+          },
+          "6266232859": {
+            "id": 6266232859,
+            "name": "W1",
+            "price": 2.7
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -404,18 +759,56 @@
     "id": 28718074,
     "team1_name": "LCS 2026. Lock-In",
     "start_ts": 1769230800,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106458662": {
+        "id": 2106458662,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6278865837": {
+            "id": 6278865837,
+            "name": "Cloud9",
+            "price": 4
+          },
+          "6278865839": {
+            "id": 6278865839,
+            "name": "Shopify Rebellion",
+            "price": 5
+          },
+          "6278865838": {
+            "id": 6278865838,
+            "name": "Lyon",
+            "price": 4.5
+          },
+          "6278865841": {
+            "id": 6278865841,
+            "name": "FlyQuest",
+            "price": 7
+          },
+          "6278865840": {
+            "id": 6278865840,
+            "name": "Team Liquid",
+            "price": 6
+          },
+          "6278865843": {
+            "id": 6278865843,
+            "name": "Dignitas",
+            "price": 17
+          },
+          "6278865842": {
+            "id": 6278865842,
+            "name": "Sentinels",
+            "price": 12
+          },
+          "6278865844": {
+            "id": 6278865844,
+            "name": "Disguised",
+            "price": 26
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -424,18 +817,56 @@
     "id": 28668852,
     "team1_name": "CBLOL Cup",
     "start_ts": 1768665600,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098372413": {
+        "id": 2098372413,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255781797": {
+            "id": 6255781797,
+            "name": "RED Canids",
+            "price": 4
+          },
+          "6255781796": {
+            "id": 6255781796,
+            "name": "Vivo Keyd Stars",
+            "price": 2.75
+          },
+          "6255781799": {
+            "id": 6255781799,
+            "name": "FURIA",
+            "price": 7
+          },
+          "6255781798": {
+            "id": 6255781798,
+            "name": "paiN Gaming",
+            "price": 6
+          },
+          "6255781801": {
+            "id": 6255781801,
+            "name": "Fluxo W7M",
+            "price": 19
+          },
+          "6255781800": {
+            "id": 6255781800,
+            "name": "Loud",
+            "price": 8
+          },
+          "6255781803": {
+            "id": 6255781803,
+            "name": "Leviatan",
+            "price": 41
+          },
+          "6255781802": {
+            "id": 6255781802,
+            "name": "Los Grandes",
+            "price": 24
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -445,18 +876,1571 @@
     "team1_name": "JingDong Gaming",
     "team2_name": "EDward Gaming",
     "start_ts": 1766826000,
-    "markets_count": 84,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106442002": {
+        "id": 2106442002,
+        "name": "Game 1 Total Kills Odd/Even",
+        "type": "Game1KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6278816706": {
+            "id": 6278816706,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6278816705": {
+            "id": 6278816705,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106442003": {
+        "id": 2106442003,
+        "name": "Game 3 First Blood",
+        "type": "Game3FirstBlood",
+        "event": {
+          "6278816707": {
+            "id": 6278816707,
+            "name": "W2",
+            "price": 1.9
+          },
+          "6278816708": {
+            "id": 6278816708,
+            "name": "W1",
+            "price": 1.8
+          }
+        }
+      },
+      "2106442005": {
+        "id": 2106442005,
+        "name": "Game 2 First Blood",
+        "type": "Game2FirstBlood",
+        "event": {
+          "6278816711": {
+            "id": 6278816711,
+            "name": "W2",
+            "price": 1.9
+          },
+          "6278816712": {
+            "id": 6278816712,
+            "name": "W1",
+            "price": 1.8
+          }
+        }
+      },
+      "2106442006": {
+        "id": 2106442006,
+        "name": "Game 1 First Blood",
+        "type": "Game1FirstBlood",
+        "event": {
+          "6278816713": {
+            "id": 6278816713,
+            "name": "W2",
+            "price": 1.9
+          },
+          "6278816714": {
+            "id": 6278816714,
+            "name": "W1",
+            "price": 1.8
+          }
+        }
+      },
+      "2106442007": {
+        "id": 2106442007,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278816715": {
+            "id": 6278816715,
+            "name": "Under ",
+            "price": 1.84
+          },
+          "6278816716": {
+            "id": 6278816716,
+            "name": "Over ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106442008": {
+        "id": 2106442008,
+        "name": "Total Games",
+        "type": "GamesTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278816717": {
+            "id": 6278816717,
+            "name": "Under ",
+            "price": 1.41
+          },
+          "6278816718": {
+            "id": 6278816718,
+            "name": "Over ",
+            "price": 2.68
+          }
+        }
+      },
+      "2106442010": {
+        "id": 2106442010,
+        "name": "Total Games",
+        "type": "GamesTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278816721": {
+            "id": 6278816721,
+            "name": "Under ",
+            "price": 3
+          },
+          "6278816722": {
+            "id": 6278816722,
+            "name": "Over ",
+            "price": 1.34
+          }
+        }
+      },
+      "2106442011": {
+        "id": 2106442011,
+        "name": "Game 3 Winner",
+        "type": "Game3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278816723": {
+            "id": 6278816723,
+            "name": "W2",
+            "price": 2.21
+          },
+          "6278816724": {
+            "id": 6278816724,
+            "name": "W1",
+            "price": 1.59
+          }
+        }
+      },
+      "2106442012": {
+        "id": 2106442012,
+        "name": "Game 2 Winner",
+        "type": "Game2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278816725": {
+            "id": 6278816725,
+            "name": "W2",
+            "price": 2.25
+          },
+          "6278816726": {
+            "id": 6278816726,
+            "name": "W1",
+            "price": 1.57
+          }
+        }
+      },
+      "2106442014": {
+        "id": 2106442014,
+        "name": "Game 1 Winner",
+        "type": "Game1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278816729": {
+            "id": 6278816729,
+            "name": "W2",
+            "price": 2.25
+          },
+          "6278816730": {
+            "id": 6278816730,
+            "name": "W1",
+            "price": 1.57
+          }
+        }
+      },
+      "2106442015": {
+        "id": 2106442015,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278816731": {
+            "id": 6278816731,
+            "name": "EDward Gaming ",
+            "price": 4.15
+          },
+          "6278816732": {
+            "id": 6278816732,
+            "name": "JingDong Gaming ",
+            "price": 1.19
+          }
+        }
+      },
+      "2106442016": {
+        "id": 2106442016,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278816733": {
+            "id": 6278816733,
+            "name": "EDward Gaming ",
+            "price": 1.22
+          },
+          "6278816734": {
+            "id": 6278816734,
+            "name": "JingDong Gaming ",
+            "price": 3.83
+          }
+        }
+      },
+      "2106442018": {
+        "id": 2106442018,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278816737": {
+            "id": 6278816737,
+            "name": "EDward Gaming ",
+            "price": 1.74
+          },
+          "6278816738": {
+            "id": 6278816738,
+            "name": "JingDong Gaming ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106442019": {
+        "id": 2106442019,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6278816739": {
+            "id": 6278816739,
+            "name": "W2",
+            "price": 2.52
+          },
+          "6278816740": {
+            "id": 6278816740,
+            "name": "W1",
+            "price": 1.46
+          }
+        }
+      },
+      "2106442020": {
+        "id": 2106442020,
+        "name": "Game 3 First Dragon Type",
+        "type": "Game3FirstDragonType",
+        "event": {
+          "6278816744": {
+            "id": 6278816744,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6278816745": {
+            "id": 6278816745,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6278816746": {
+            "id": 6278816746,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6278816741": {
+            "id": 6278816741,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6278816742": {
+            "id": 6278816742,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6278816743": {
+            "id": 6278816743,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106442022": {
+        "id": 2106442022,
+        "name": "Correct Score",
+        "type": "CorrectScore5",
+        "event": {
+          "6278816752": {
+            "id": 6278816752,
+            "name": "3-0",
+            "price": 3.79
+          },
+          "6278816753": {
+            "id": 6278816753,
+            "name": "3-1",
+            "price": 3.28
+          },
+          "6278816754": {
+            "id": 6278816754,
+            "name": "3-2",
+            "price": 4.3
+          },
+          "6278816749": {
+            "id": 6278816749,
+            "name": "2-3",
+            "price": 6.4
+          },
+          "6278816750": {
+            "id": 6278816750,
+            "name": "1-3",
+            "price": 7
+          },
+          "6278816751": {
+            "id": 6278816751,
+            "name": "0-3",
+            "price": 8.6
+          }
+        }
+      },
+      "2106442025": {
+        "id": 2106442025,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816760": {
+            "id": 6278816760,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816759": {
+            "id": 6278816759,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442027": {
+        "id": 2106442027,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816764": {
+            "id": 6278816764,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6278816763": {
+            "id": 6278816763,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106442028": {
+        "id": 2106442028,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816766": {
+            "id": 6278816766,
+            "name": "W1",
+            "price": 1.6
+          },
+          "6278816765": {
+            "id": 6278816765,
+            "name": "W2",
+            "price": 2.2
+          }
+        }
+      },
+      "2106442029": {
+        "id": 2106442029,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816769": {
+            "id": 6278816769,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6278816767": {
+            "id": 6278816767,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106442031": {
+        "id": 2106442031,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816772": {
+            "id": 6278816772,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816771": {
+            "id": 6278816771,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442033": {
+        "id": 2106442033,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6278816776": {
+            "id": 6278816776,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816775": {
+            "id": 6278816775,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442035": {
+        "id": 2106442035,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816780": {
+            "id": 6278816780,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816779": {
+            "id": 6278816779,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442036": {
+        "id": 2106442036,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816782": {
+            "id": 6278816782,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816781": {
+            "id": 6278816781,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442038": {
+        "id": 2106442038,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816786": {
+            "id": 6278816786,
+            "name": "W1",
+            "price": 1.6
+          },
+          "6278816785": {
+            "id": 6278816785,
+            "name": "W2",
+            "price": 2.2
+          }
+        }
+      },
+      "2106442039": {
+        "id": 2106442039,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816788": {
+            "id": 6278816788,
+            "name": "W1",
+            "price": 1.72
+          },
+          "6278816787": {
+            "id": 6278816787,
+            "name": "W2",
+            "price": 2
+          }
+        }
+      },
+      "2106442041": {
+        "id": 2106442041,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816792": {
+            "id": 6278816792,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278816791": {
+            "id": 6278816791,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106442042": {
+        "id": 2106442042,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6278816794": {
+            "id": 6278816794,
+            "name": "W1",
+            "price": 1.65
+          },
+          "6278816793": {
+            "id": 6278816793,
+            "name": "W2",
+            "price": 2.1
+          }
+        }
+      },
+      "2106442044": {
+        "id": 2106442044,
+        "name": "Game 2 First Dragon Type",
+        "type": "Game2FirstDragonType",
+        "event": {
+          "6278816800": {
+            "id": 6278816800,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6278816801": {
+            "id": 6278816801,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6278816802": {
+            "id": 6278816802,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6278816797": {
+            "id": 6278816797,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6278816798": {
+            "id": 6278816798,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6278816799": {
+            "id": 6278816799,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106442045": {
+        "id": 2106442045,
+        "name": "Game 1 First Dragon Type",
+        "type": "Game1FirstDragonType",
+        "event": {
+          "6278816808": {
+            "id": 6278816808,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6278816809": {
+            "id": 6278816809,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6278816810": {
+            "id": 6278816810,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6278816804": {
+            "id": 6278816804,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6278816806": {
+            "id": 6278816806,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6278816807": {
+            "id": 6278816807,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106442047": {
+        "id": 2106442047,
+        "name": "Game 3 Total Kills Odd/Even",
+        "type": "Game3KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6278816812": {
+            "id": 6278816812,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6278816811": {
+            "id": 6278816811,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106442049": {
+        "id": 2106442049,
+        "name": "Game 2 Total Kills Odd/Even",
+        "type": "Game2KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6278816816": {
+            "id": 6278816816,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6278816815": {
+            "id": 6278816815,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106442050": {
+        "id": 2106442050,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278816817": {
+            "id": 6278816817,
+            "name": "Under ",
+            "price": 1.85
+          },
+          "6278816818": {
+            "id": 6278816818,
+            "name": "Over ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106442052": {
+        "id": 2106442052,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278816821": {
+            "id": 6278816821,
+            "name": "Under ",
+            "price": 1.85
+          },
+          "6278816822": {
+            "id": 6278816822,
+            "name": "Over ",
+            "price": 1.85
+          }
+        }
+      },
+      "2106468572": {
+        "id": 2106468572,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890363": {
+            "id": 6278890363,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6278890364": {
+            "id": 6278890364,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106468573": {
+        "id": 2106468573,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890366": {
+            "id": 6278890366,
+            "name": "JingDong Gaming ",
+            "price": 2.08
+          },
+          "6278890365": {
+            "id": 6278890365,
+            "name": "EDward Gaming ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106468574": {
+        "id": 2106468574,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890368": {
+            "id": 6278890368,
+            "name": "JingDong Gaming ",
+            "price": 1.93
+          },
+          "6278890367": {
+            "id": 6278890367,
+            "name": "EDward Gaming ",
+            "price": 1.77
+          }
+        }
+      },
+      "2106468575": {
+        "id": 2106468575,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890369": {
+            "id": 6278890369,
+            "name": "Under ",
+            "price": 2.01
+          },
+          "6278890370": {
+            "id": 6278890370,
+            "name": "Over ",
+            "price": 1.71
+          }
+        }
+      },
+      "2106468576": {
+        "id": 2106468576,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890372": {
+            "id": 6278890372,
+            "name": "JingDong Gaming ",
+            "price": 1.82
+          },
+          "6278890371": {
+            "id": 6278890371,
+            "name": "EDward Gaming ",
+            "price": 1.88
+          }
+        }
+      },
+      "2106468577": {
+        "id": 2106468577,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890373": {
+            "id": 6278890373,
+            "name": "Under ",
+            "price": 2.02
+          },
+          "6278890374": {
+            "id": 6278890374,
+            "name": "Over ",
+            "price": 1.7
+          }
+        }
+      },
+      "2106468578": {
+        "id": 2106468578,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890375": {
+            "id": 6278890375,
+            "name": "Under ",
+            "price": 1.56
+          },
+          "6278890376": {
+            "id": 6278890376,
+            "name": "Over ",
+            "price": 2.27
+          }
+        }
+      },
+      "2106468579": {
+        "id": 2106468579,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890378": {
+            "id": 6278890378,
+            "name": "JingDong Gaming ",
+            "price": 1.86
+          },
+          "6278890377": {
+            "id": 6278890377,
+            "name": "EDward Gaming ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106468580": {
+        "id": 2106468580,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890380": {
+            "id": 6278890380,
+            "name": "JingDong Gaming ",
+            "price": 1.78
+          },
+          "6278890379": {
+            "id": 6278890379,
+            "name": "EDward Gaming ",
+            "price": 1.92
+          }
+        }
+      },
+      "2106468583": {
+        "id": 2106468583,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890386": {
+            "id": 6278890386,
+            "name": "JingDong Gaming ",
+            "price": 2.15
+          },
+          "6278890385": {
+            "id": 6278890385,
+            "name": "EDward Gaming ",
+            "price": 1.62
+          }
+        }
+      },
+      "2106468585": {
+        "id": 2106468585,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890397": {
+            "id": 6278890397,
+            "name": "JingDong Gaming ",
+            "price": 1.75
+          },
+          "6278890396": {
+            "id": 6278890396,
+            "name": "EDward Gaming ",
+            "price": 1.95
+          }
+        }
+      },
+      "2106468586": {
+        "id": 2106468586,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890399": {
+            "id": 6278890399,
+            "name": "Over ",
+            "price": 1.46
+          },
+          "6278890398": {
+            "id": 6278890398,
+            "name": "Under ",
+            "price": 2.52
+          }
+        }
+      },
+      "2106468590": {
+        "id": 2106468590,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890419": {
+            "id": 6278890419,
+            "name": "Under ",
+            "price": 1.47
+          },
+          "6278890420": {
+            "id": 6278890420,
+            "name": "Over ",
+            "price": 2.5
+          }
+        }
+      },
+      "2106468595": {
+        "id": 2106468595,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890429": {
+            "id": 6278890429,
+            "name": "Under ",
+            "price": 1.7
+          },
+          "6278890430": {
+            "id": 6278890430,
+            "name": "Over ",
+            "price": 2.02
+          }
+        }
+      },
+      "2106468596": {
+        "id": 2106468596,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890431": {
+            "id": 6278890431,
+            "name": "Under ",
+            "price": 1.69
+          },
+          "6278890432": {
+            "id": 6278890432,
+            "name": "Over ",
+            "price": 2.04
+          }
+        }
+      },
+      "2106468597": {
+        "id": 2106468597,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890433": {
+            "id": 6278890433,
+            "name": "Under ",
+            "price": 2.5
+          },
+          "6278890434": {
+            "id": 6278890434,
+            "name": "Over ",
+            "price": 1.47
+          }
+        }
+      },
+      "2106468598": {
+        "id": 2106468598,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890436": {
+            "id": 6278890436,
+            "name": "JingDong Gaming ",
+            "price": 2.37
+          },
+          "6278890435": {
+            "id": 6278890435,
+            "name": "EDward Gaming ",
+            "price": 1.52
+          }
+        }
+      },
+      "2106468599": {
+        "id": 2106468599,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890438": {
+            "id": 6278890438,
+            "name": "JingDong Gaming ",
+            "price": 1.71
+          },
+          "6278890437": {
+            "id": 6278890437,
+            "name": "EDward Gaming ",
+            "price": 2.01
+          }
+        }
+      },
+      "2106468600": {
+        "id": 2106468600,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890440": {
+            "id": 6278890440,
+            "name": "JingDong Gaming ",
+            "price": 1.74
+          },
+          "6278890439": {
+            "id": 6278890439,
+            "name": "EDward Gaming ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106468601": {
+        "id": 2106468601,
+        "name": "Game 3 Team 1 Total Kills",
+        "type": "Game3Team1KillsTotal",
+        "event": {
+          "6278890441": {
+            "id": 6278890441,
+            "name": "Under ",
+            "price": 1.79
+          },
+          "6278890442": {
+            "id": 6278890442,
+            "name": "Over ",
+            "price": 1.91
+          }
+        }
+      },
+      "2106468603": {
+        "id": 2106468603,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890445": {
+            "id": 6278890445,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6278890446": {
+            "id": 6278890446,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106468605": {
+        "id": 2106468605,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890449": {
+            "id": 6278890449,
+            "name": "Under ",
+            "price": 1.57
+          },
+          "6278890450": {
+            "id": 6278890450,
+            "name": "Over ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106468606": {
+        "id": 2106468606,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890452": {
+            "id": 6278890452,
+            "name": "JingDong Gaming ",
+            "price": 1.83
+          },
+          "6278890451": {
+            "id": 6278890451,
+            "name": "EDward Gaming ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106468607": {
+        "id": 2106468607,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890453": {
+            "id": 6278890453,
+            "name": "Under ",
+            "price": 1.47
+          },
+          "6278890454": {
+            "id": 6278890454,
+            "name": "Over ",
+            "price": 2.5
+          }
+        }
+      },
+      "2106468608": {
+        "id": 2106468608,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890455": {
+            "id": 6278890455,
+            "name": "Under ",
+            "price": 1.69
+          },
+          "6278890456": {
+            "id": 6278890456,
+            "name": "Over ",
+            "price": 2.04
+          }
+        }
+      },
+      "2106468609": {
+        "id": 2106468609,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890458": {
+            "id": 6278890458,
+            "name": "JingDong Gaming ",
+            "price": 1.94
+          },
+          "6278890457": {
+            "id": 6278890457,
+            "name": "EDward Gaming ",
+            "price": 1.76
+          }
+        }
+      },
+      "2106468610": {
+        "id": 2106468610,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890460": {
+            "id": 6278890460,
+            "name": "JingDong Gaming ",
+            "price": 2.1
+          },
+          "6278890459": {
+            "id": 6278890459,
+            "name": "EDward Gaming ",
+            "price": 1.65
+          }
+        }
+      },
+      "2106468611": {
+        "id": 2106468611,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890461": {
+            "id": 6278890461,
+            "name": "Under ",
+            "price": 2.25
+          },
+          "6278890462": {
+            "id": 6278890462,
+            "name": "Over ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106468612": {
+        "id": 2106468612,
+        "name": "Game 2 Team 1 Total Kills",
+        "type": "Game2Team1KillsTotal",
+        "event": {
+          "6278890463": {
+            "id": 6278890463,
+            "name": "Under ",
+            "price": 1.82
+          },
+          "6278890464": {
+            "id": 6278890464,
+            "name": "Over ",
+            "price": 1.88
+          }
+        }
+      },
+      "2106468613": {
+        "id": 2106468613,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890465": {
+            "id": 6278890465,
+            "name": "Under ",
+            "price": 2.01
+          },
+          "6278890466": {
+            "id": 6278890466,
+            "name": "Over ",
+            "price": 1.71
+          }
+        }
+      },
+      "2106468614": {
+        "id": 2106468614,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890467": {
+            "id": 6278890467,
+            "name": "Under ",
+            "price": 1.46
+          },
+          "6278890468": {
+            "id": 6278890468,
+            "name": "Over ",
+            "price": 2.52
+          }
+        }
+      },
+      "2106468615": {
+        "id": 2106468615,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890470": {
+            "id": 6278890470,
+            "name": "JingDong Gaming ",
+            "price": 1.67
+          },
+          "6278890469": {
+            "id": 6278890469,
+            "name": "EDward Gaming ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106468618": {
+        "id": 2106468618,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890472": {
+            "id": 6278890472,
+            "name": "JingDong Gaming ",
+            "price": 2.3
+          },
+          "6278890471": {
+            "id": 6278890471,
+            "name": "EDward Gaming ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106468619": {
+        "id": 2106468619,
+        "name": "Game 1 Most Kills",
+        "type": "Game1MostKills",
+        "event": {
+          "6278890474": {
+            "id": 6278890474,
+            "name": "W1",
+            "price": 1.56
+          },
+          "6278890473": {
+            "id": 6278890473,
+            "name": "W2",
+            "price": 2.27
+          }
+        }
+      },
+      "2106468620": {
+        "id": 2106468620,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890480": {
+            "id": 6278890480,
+            "name": "JingDong Gaming ",
+            "price": 2.3
+          },
+          "6278890479": {
+            "id": 6278890479,
+            "name": "EDward Gaming ",
+            "price": 1.55
+          }
+        }
+      },
+      "2106468621": {
+        "id": 2106468621,
+        "name": "Game 3 Most Kills",
+        "type": "Game3MostKills",
+        "event": {
+          "6278890482": {
+            "id": 6278890482,
+            "name": "W1",
+            "price": 1.6
+          },
+          "6278890481": {
+            "id": 6278890481,
+            "name": "W2",
+            "price": 2.2
+          }
+        }
+      },
+      "2106468622": {
+        "id": 2106468622,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890484": {
+            "id": 6278890484,
+            "name": "JingDong Gaming ",
+            "price": 1.67
+          },
+          "6278890483": {
+            "id": 6278890483,
+            "name": "EDward Gaming ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106468623": {
+        "id": 2106468623,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890486": {
+            "id": 6278890486,
+            "name": "JingDong Gaming ",
+            "price": 1.69
+          },
+          "6278890485": {
+            "id": 6278890485,
+            "name": "EDward Gaming ",
+            "price": 2.04
+          }
+        }
+      },
+      "2106468624": {
+        "id": 2106468624,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890487": {
+            "id": 6278890487,
+            "name": "Under ",
+            "price": 2.5
+          },
+          "6278890488": {
+            "id": 6278890488,
+            "name": "Over ",
+            "price": 1.47
+          }
+        }
+      },
+      "2106468625": {
+        "id": 2106468625,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278890489": {
+            "id": 6278890489,
+            "name": "Under ",
+            "price": 1.57
+          },
+          "6278890490": {
+            "id": 6278890490,
+            "name": "Over ",
+            "price": 2.25
+          }
+        }
+      },
+      "2106468626": {
+        "id": 2106468626,
+        "name": "Game 3 Team 2 Total Kills",
+        "type": "Game3Team2KillsTotal",
+        "event": {
+          "6278890491": {
+            "id": 6278890491,
+            "name": "Under ",
+            "price": 1.87
+          },
+          "6278890492": {
+            "id": 6278890492,
+            "name": "Over ",
+            "price": 1.83
+          }
+        }
+      },
+      "2106468627": {
+        "id": 2106468627,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278890494": {
+            "id": 6278890494,
+            "name": "JingDong Gaming ",
+            "price": 1.97
+          },
+          "6278890493": {
+            "id": 6278890493,
+            "name": "EDward Gaming ",
+            "price": 1.73
+          }
+        }
+      },
+      "2106468628": {
+        "id": 2106468628,
+        "name": "Game 2 Most Kills",
+        "type": "Game2MostKills",
+        "event": {
+          "6278890496": {
+            "id": 6278890496,
+            "name": "W1",
+            "price": 1.57
+          },
+          "6278890495": {
+            "id": 6278890495,
+            "name": "W2",
+            "price": 2.25
+          }
+        }
+      },
+      "2106517421": {
+        "id": 2106517421,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279028081": {
+            "id": 6279028081,
+            "name": "JingDong Gaming ",
+            "price": 1.045
+          },
+          "6279028080": {
+            "id": 6279028080,
+            "name": "EDward Gaming ",
+            "price": 8.2
+          }
+        }
+      },
+      "2106689907": {
+        "id": 2106689907,
+        "name": "Game 2 Team 2 Total Kills",
+        "type": "Game2Team2KillsTotal",
+        "event": {
+          "6279514245": {
+            "id": 6279514245,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6279514244": {
+            "id": 6279514244,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106695523": {
+        "id": 2106695523,
+        "name": "Game 1 Team 2 Total Kills",
+        "type": "Game1Team2KillsTotal",
+        "event": {
+          "6279530459": {
+            "id": 6279530459,
+            "name": "Under ",
+            "price": 1.83
+          },
+          "6279530460": {
+            "id": 6279530460,
+            "name": "Over ",
+            "price": 1.87
+          }
+        }
+      },
+      "2106700529": {
+        "id": 2106700529,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279544226": {
+            "id": 6279544226,
+            "name": "JingDong Gaming ",
+            "price": 1.64
+          },
+          "6279544225": {
+            "id": 6279544225,
+            "name": "EDward Gaming ",
+            "price": 2.12
+          }
+        }
+      },
+      "2106700530": {
+        "id": 2106700530,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279544237": {
+            "id": 6279544237,
+            "name": "JingDong Gaming ",
+            "price": 1.63
+          },
+          "6279544235": {
+            "id": 6279544235,
+            "name": "EDward Gaming ",
+            "price": 2.13
+          }
+        }
+      },
+      "2106771614": {
+        "id": 2106771614,
+        "name": "Game 1 Team 1 Total Kills",
+        "type": "Game1Team1KillsTotal",
+        "event": {
+          "6279749223": {
+            "id": 6279749223,
+            "name": "Over ",
+            "price": 1.92
+          },
+          "6279749222": {
+            "id": 6279749222,
+            "name": "Under ",
+            "price": 1.78
+          }
+        }
+      },
+      "2106862586": {
+        "id": 2106862586,
+        "name": "Total Kills",
+        "type": "TotalKills",
+        "event": {
+          "6280017601": {
+            "id": 6280017601,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6280017600": {
+            "id": 6280017600,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -466,18 +2450,1571 @@
     "team1_name": "Oh My God",
     "team2_name": "Lining Gaming",
     "start_ts": 1766912400,
-    "markets_count": 84,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2106474402": {
+        "id": 2106474402,
+        "name": "Game 1 First Blood",
+        "type": "Game1FirstBlood",
+        "event": {
+          "6278906369": {
+            "id": 6278906369,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6278906368": {
+            "id": 6278906368,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106474403": {
+        "id": 2106474403,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906371": {
+            "id": 6278906371,
+            "name": "Over ",
+            "price": 1.74
+          },
+          "6278906370": {
+            "id": 6278906370,
+            "name": "Under ",
+            "price": 1.96
+          }
+        }
+      },
+      "2106474405": {
+        "id": 2106474405,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906375": {
+            "id": 6278906375,
+            "name": "Over ",
+            "price": 1.61
+          },
+          "6278906374": {
+            "id": 6278906374,
+            "name": "Under ",
+            "price": 2.17
+          }
+        }
+      },
+      "2106474406": {
+        "id": 2106474406,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906377": {
+            "id": 6278906377,
+            "name": "Over ",
+            "price": 1.89
+          },
+          "6278906376": {
+            "id": 6278906376,
+            "name": "Under ",
+            "price": 1.81
+          }
+        }
+      },
+      "2106474407": {
+        "id": 2106474407,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906379": {
+            "id": 6278906379,
+            "name": "Oh My God ",
+            "price": 1.89
+          },
+          "6278906378": {
+            "id": 6278906378,
+            "name": "Lining Gaming ",
+            "price": 1.81
+          }
+        }
+      },
+      "2106474408": {
+        "id": 2106474408,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906381": {
+            "id": 6278906381,
+            "name": "Oh My God ",
+            "price": 1.84
+          },
+          "6278906380": {
+            "id": 6278906380,
+            "name": "Lining Gaming ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106474410": {
+        "id": 2106474410,
+        "name": "Total Games",
+        "type": "GamesTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906385": {
+            "id": 6278906385,
+            "name": "Over ",
+            "price": 2.55
+          },
+          "6278906384": {
+            "id": 6278906384,
+            "name": "Under ",
+            "price": 1.45
+          }
+        }
+      },
+      "2106474411": {
+        "id": 2106474411,
+        "name": "Total Games",
+        "type": "GamesTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906387": {
+            "id": 6278906387,
+            "name": "Over ",
+            "price": 1.31
+          },
+          "6278906386": {
+            "id": 6278906386,
+            "name": "Under ",
+            "price": 3.15
+          }
+        }
+      },
+      "2106474412": {
+        "id": 2106474412,
+        "name": "Game 3 Winner",
+        "type": "Game3Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278906389": {
+            "id": 6278906389,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906388": {
+            "id": 6278906388,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474413": {
+        "id": 2106474413,
+        "name": "Game 2 Winner",
+        "type": "Game2Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278906391": {
+            "id": 6278906391,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906390": {
+            "id": 6278906390,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474415": {
+        "id": 2106474415,
+        "name": "Game 1 Winner",
+        "type": "Game1Winner",
+        "display_key": "WINNER",
+        "event": {
+          "6278906395": {
+            "id": 6278906395,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906394": {
+            "id": 6278906394,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474416": {
+        "id": 2106474416,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906397": {
+            "id": 6278906397,
+            "name": "Oh My God ",
+            "price": 3.25
+          },
+          "6278906396": {
+            "id": 6278906396,
+            "name": "Lining Gaming ",
+            "price": 1.29
+          }
+        }
+      },
+      "2106474417": {
+        "id": 2106474417,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906399": {
+            "id": 6278906399,
+            "name": "Oh My God ",
+            "price": 6.7
+          },
+          "6278906398": {
+            "id": 6278906398,
+            "name": "Lining Gaming ",
+            "price": 1.075
+          }
+        }
+      },
+      "2106474419": {
+        "id": 2106474419,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906403": {
+            "id": 6278906403,
+            "name": "Oh My God ",
+            "price": 1.53
+          },
+          "6278906402": {
+            "id": 6278906402,
+            "name": "Lining Gaming ",
+            "price": 2.35
+          }
+        }
+      },
+      "2106474420": {
+        "id": 2106474420,
+        "name": "Games Handicap",
+        "type": "GamesHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906405": {
+            "id": 6278906405,
+            "name": "Oh My God ",
+            "price": 1.15
+          },
+          "6278906404": {
+            "id": 6278906404,
+            "name": "Lining Gaming ",
+            "price": 4.75
+          }
+        }
+      },
+      "2106474421": {
+        "id": 2106474421,
+        "name": "Match Winner",
+        "type": "P1P2",
+        "display_key": "WINNER",
+        "event": {
+          "6278906407": {
+            "id": 6278906407,
+            "name": "W1",
+            "price": 2.17
+          },
+          "6278906406": {
+            "id": 6278906406,
+            "name": "W2",
+            "price": 1.61
+          }
+        }
+      },
+      "2106474423": {
+        "id": 2106474423,
+        "name": "Game 3 Most Kills",
+        "type": "Game3MostKills",
+        "event": {
+          "6278906411": {
+            "id": 6278906411,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906410": {
+            "id": 6278906410,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474424": {
+        "id": 2106474424,
+        "name": "Game 2 Most Kills",
+        "type": "Game2MostKills",
+        "event": {
+          "6278906413": {
+            "id": 6278906413,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906412": {
+            "id": 6278906412,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474425": {
+        "id": 2106474425,
+        "name": "Game 1 Most Kills",
+        "type": "Game1MostKills",
+        "event": {
+          "6278906415": {
+            "id": 6278906415,
+            "name": "W1",
+            "price": 2.01
+          },
+          "6278906414": {
+            "id": 6278906414,
+            "name": "W2",
+            "price": 1.71
+          }
+        }
+      },
+      "2106474427": {
+        "id": 2106474427,
+        "name": "Game 3 Team 2 Total Kills",
+        "type": "Game3Team2KillsTotal",
+        "event": {
+          "6278906419": {
+            "id": 6278906419,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6278906418": {
+            "id": 6278906418,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106474430": {
+        "id": 2106474430,
+        "name": "Game 2 Team 2 Total Kills",
+        "type": "Game2Team2KillsTotal",
+        "event": {
+          "6278906425": {
+            "id": 6278906425,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6278906424": {
+            "id": 6278906424,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106474432": {
+        "id": 2106474432,
+        "name": "Game 1 Team 2 Total Kills",
+        "type": "Game1Team2KillsTotal",
+        "event": {
+          "6278906429": {
+            "id": 6278906429,
+            "name": "Over ",
+            "price": 1.86
+          },
+          "6278906428": {
+            "id": 6278906428,
+            "name": "Under ",
+            "price": 1.84
+          }
+        }
+      },
+      "2106474435": {
+        "id": 2106474435,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906435": {
+            "id": 6278906435,
+            "name": "Over ",
+            "price": 2.45
+          },
+          "6278906434": {
+            "id": 6278906434,
+            "name": "Under ",
+            "price": 1.48
+          }
+        }
+      },
+      "2106474437": {
+        "id": 2106474437,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906439": {
+            "id": 6278906439,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6278906438": {
+            "id": 6278906438,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106474438": {
+        "id": 2106474438,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906441": {
+            "id": 6278906441,
+            "name": "Over ",
+            "price": 2.07
+          },
+          "6278906440": {
+            "id": 6278906440,
+            "name": "Under ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106474440": {
+        "id": 2106474440,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906445": {
+            "id": 6278906445,
+            "name": "Over ",
+            "price": 2.25
+          },
+          "6278906444": {
+            "id": 6278906444,
+            "name": "Under ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106474441": {
+        "id": 2106474441,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906447": {
+            "id": 6278906447,
+            "name": "Over ",
+            "price": 1.75
+          },
+          "6278906446": {
+            "id": 6278906446,
+            "name": "Under ",
+            "price": 1.95
+          }
+        }
+      },
+      "2106474443": {
+        "id": 2106474443,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906451": {
+            "id": 6278906451,
+            "name": "Over ",
+            "price": 1.51
+          },
+          "6278906450": {
+            "id": 6278906450,
+            "name": "Under ",
+            "price": 2.39
+          }
+        }
+      },
+      "2106474444": {
+        "id": 2106474444,
+        "name": "Game 3 Total Kills",
+        "type": "Game3KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906453": {
+            "id": 6278906453,
+            "name": "Over ",
+            "price": 1.62
+          },
+          "6278906452": {
+            "id": 6278906452,
+            "name": "Under ",
+            "price": 2.15
+          }
+        }
+      },
+      "2106474446": {
+        "id": 2106474446,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906457": {
+            "id": 6278906457,
+            "name": "Oh My God ",
+            "price": 1.89
+          },
+          "6278906456": {
+            "id": 6278906456,
+            "name": "Lining Gaming ",
+            "price": 1.81
+          }
+        }
+      },
+      "2106474447": {
+        "id": 2106474447,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906459": {
+            "id": 6278906459,
+            "name": "Oh My God ",
+            "price": 1.96
+          },
+          "6278906458": {
+            "id": 6278906458,
+            "name": "Lining Gaming ",
+            "price": 1.74
+          }
+        }
+      },
+      "2106474449": {
+        "id": 2106474449,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906463": {
+            "id": 6278906463,
+            "name": "Oh My God ",
+            "price": 1.76
+          },
+          "6278906462": {
+            "id": 6278906462,
+            "name": "Lining Gaming ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106474450": {
+        "id": 2106474450,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906465": {
+            "id": 6278906465,
+            "name": "Oh My God ",
+            "price": 1.93
+          },
+          "6278906464": {
+            "id": 6278906464,
+            "name": "Lining Gaming ",
+            "price": 1.77
+          }
+        }
+      },
+      "2106474452": {
+        "id": 2106474452,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906469": {
+            "id": 6278906469,
+            "name": "Oh My God ",
+            "price": 1.84
+          },
+          "6278906468": {
+            "id": 6278906468,
+            "name": "Lining Gaming ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106474456": {
+        "id": 2106474456,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906471": {
+            "id": 6278906471,
+            "name": "Oh My God ",
+            "price": 1.93
+          },
+          "6278906470": {
+            "id": 6278906470,
+            "name": "Lining Gaming ",
+            "price": 1.77
+          }
+        }
+      },
+      "2106474458": {
+        "id": 2106474458,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906481": {
+            "id": 6278906481,
+            "name": "Oh My God ",
+            "price": 1.84
+          },
+          "6278906480": {
+            "id": 6278906480,
+            "name": "Lining Gaming ",
+            "price": 1.86
+          }
+        }
+      },
+      "2106474459": {
+        "id": 2106474459,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906483": {
+            "id": 6278906483,
+            "name": "Oh My God ",
+            "price": 1.96
+          },
+          "6278906482": {
+            "id": 6278906482,
+            "name": "Lining Gaming ",
+            "price": 1.74
+          }
+        }
+      },
+      "2106474461": {
+        "id": 2106474461,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906487": {
+            "id": 6278906487,
+            "name": "Oh My God ",
+            "price": 1.76
+          },
+          "6278906486": {
+            "id": 6278906486,
+            "name": "Lining Gaming ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106474462": {
+        "id": 2106474462,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906488": {
+            "id": 6278906488,
+            "name": "Lining Gaming ",
+            "price": 1.81
+          },
+          "6278906490": {
+            "id": 6278906490,
+            "name": "Oh My God ",
+            "price": 1.89
+          }
+        }
+      },
+      "2106474464": {
+        "id": 2106474464,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906493": {
+            "id": 6278906493,
+            "name": "Over ",
+            "price": 1.9
+          },
+          "6278906492": {
+            "id": 6278906492,
+            "name": "Under ",
+            "price": 1.8
+          }
+        }
+      },
+      "2106474466": {
+        "id": 2106474466,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906497": {
+            "id": 6278906497,
+            "name": "Over ",
+            "price": 1.75
+          },
+          "6278906496": {
+            "id": 6278906496,
+            "name": "Under ",
+            "price": 1.95
+          }
+        }
+      },
+      "2106474467": {
+        "id": 2106474467,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906499": {
+            "id": 6278906499,
+            "name": "Over ",
+            "price": 2.25
+          },
+          "6278906498": {
+            "id": 6278906498,
+            "name": "Under ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106474469": {
+        "id": 2106474469,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906503": {
+            "id": 6278906503,
+            "name": "Over ",
+            "price": 2.07
+          },
+          "6278906502": {
+            "id": 6278906502,
+            "name": "Under ",
+            "price": 1.67
+          }
+        }
+      },
+      "2106474470": {
+        "id": 2106474470,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906505": {
+            "id": 6278906505,
+            "name": "Over ",
+            "price": 2.45
+          },
+          "6278906504": {
+            "id": 6278906504,
+            "name": "Under ",
+            "price": 1.48
+          }
+        }
+      },
+      "2106474472": {
+        "id": 2106474472,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906509": {
+            "id": 6278906509,
+            "name": "Over ",
+            "price": 1.51
+          },
+          "6278906508": {
+            "id": 6278906508,
+            "name": "Under ",
+            "price": 2.39
+          }
+        }
+      },
+      "2106474473": {
+        "id": 2106474473,
+        "name": "Game 2 Total Kills",
+        "type": "Game2KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906511": {
+            "id": 6278906511,
+            "name": "Over ",
+            "price": 1.62
+          },
+          "6278906510": {
+            "id": 6278906510,
+            "name": "Under ",
+            "price": 2.15
+          }
+        }
+      },
+      "2106474475": {
+        "id": 2106474475,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906515": {
+            "id": 6278906515,
+            "name": "Over ",
+            "price": 1.51
+          },
+          "6278906514": {
+            "id": 6278906514,
+            "name": "Under ",
+            "price": 2.39
+          }
+        }
+      },
+      "2106474476": {
+        "id": 2106474476,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906517": {
+            "id": 6278906517,
+            "name": "Over ",
+            "price": 2.05
+          },
+          "6278906516": {
+            "id": 6278906516,
+            "name": "Under ",
+            "price": 1.68
+          }
+        }
+      },
+      "2106474478": {
+        "id": 2106474478,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906521": {
+            "id": 6278906521,
+            "name": "Over ",
+            "price": 2.25
+          },
+          "6278906520": {
+            "id": 6278906520,
+            "name": "Under ",
+            "price": 1.57
+          }
+        }
+      },
+      "2106474480": {
+        "id": 2106474480,
+        "name": "Game 1 Total Kills",
+        "type": "Game1KillsTotal",
+        "display_key": "TOTALS",
+        "event": {
+          "6278906522": {
+            "id": 6278906522,
+            "name": "Under ",
+            "price": 1.48
+          },
+          "6278906524": {
+            "id": 6278906524,
+            "name": "Over ",
+            "price": 2.45
+          }
+        }
+      },
+      "2106474481": {
+        "id": 2106474481,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906527": {
+            "id": 6278906527,
+            "name": "Oh My God ",
+            "price": 1.95
+          },
+          "6278906526": {
+            "id": 6278906526,
+            "name": "Lining Gaming ",
+            "price": 1.75
+          }
+        }
+      },
+      "2106474483": {
+        "id": 2106474483,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906531": {
+            "id": 6278906531,
+            "name": "Oh My God ",
+            "price": 1.76
+          },
+          "6278906530": {
+            "id": 6278906530,
+            "name": "Lining Gaming ",
+            "price": 1.94
+          }
+        }
+      },
+      "2106474484": {
+        "id": 2106474484,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6278906533": {
+            "id": 6278906533,
+            "name": "Oh My God ",
+            "price": 1.93
+          },
+          "6278906532": {
+            "id": 6278906532,
+            "name": "Lining Gaming ",
+            "price": 1.77
+          }
+        }
+      },
+      "2106592262": {
+        "id": 2106592262,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279235857": {
+            "id": 6279235857,
+            "name": "Oh My God ",
+            "price": 1.67
+          },
+          "6279235856": {
+            "id": 6279235856,
+            "name": "Lining Gaming ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106592263": {
+        "id": 2106592263,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279235859": {
+            "id": 6279235859,
+            "name": "Oh My God ",
+            "price": 1.67
+          },
+          "6279235858": {
+            "id": 6279235858,
+            "name": "Lining Gaming ",
+            "price": 2.07
+          }
+        }
+      },
+      "2106595927": {
+        "id": 2106595927,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279245773": {
+            "id": 6279245773,
+            "name": "Lining Gaming ",
+            "price": 2.08
+          },
+          "6279245774": {
+            "id": 6279245774,
+            "name": "Oh My God ",
+            "price": 1.66
+          }
+        }
+      },
+      "2106800436": {
+        "id": 2106800436,
+        "name": "Game 3 Kills Handicap",
+        "type": "Game3KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279831487": {
+            "id": 6279831487,
+            "name": "Oh My God ",
+            "price": 1.58
+          },
+          "6279831486": {
+            "id": 6279831486,
+            "name": "Lining Gaming ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106800437": {
+        "id": 2106800437,
+        "name": "Game 3 Team 1 Total Kills",
+        "type": "Game3Team1KillsTotal",
+        "event": {
+          "6279831489": {
+            "id": 6279831489,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6279831488": {
+            "id": 6279831488,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106800438": {
+        "id": 2106800438,
+        "name": "Game 2 Kills Handicap",
+        "type": "Game2KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279831491": {
+            "id": 6279831491,
+            "name": "Oh My God ",
+            "price": 1.58
+          },
+          "6279831490": {
+            "id": 6279831490,
+            "name": "Lining Gaming ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106800439": {
+        "id": 2106800439,
+        "name": "Game 1 Team 1 Total Kills",
+        "type": "Game1Team1KillsTotal",
+        "event": {
+          "6279831493": {
+            "id": 6279831493,
+            "name": "Over ",
+            "price": 1.79
+          },
+          "6279831492": {
+            "id": 6279831492,
+            "name": "Under ",
+            "price": 1.91
+          }
+        }
+      },
+      "2106800440": {
+        "id": 2106800440,
+        "name": "Game 1 Kills Handicap",
+        "type": "Game1KillsHandicap",
+        "display_key": "HANDICAP",
+        "event": {
+          "6279831495": {
+            "id": 6279831495,
+            "name": "Oh My God ",
+            "price": 1.58
+          },
+          "6279831494": {
+            "id": 6279831494,
+            "name": "Lining Gaming ",
+            "price": 2.23
+          }
+        }
+      },
+      "2106800441": {
+        "id": 2106800441,
+        "name": "Game 2 Team 1 Total Kills",
+        "type": "Game2Team1KillsTotal",
+        "event": {
+          "6279831497": {
+            "id": 6279831497,
+            "name": "Over ",
+            "price": 1.8
+          },
+          "6279831496": {
+            "id": 6279831496,
+            "name": "Under ",
+            "price": 1.9
+          }
+        }
+      },
+      "2106957086": {
+        "id": 2106957086,
+        "name": "Game 3 First Blood",
+        "type": "Game3FirstBlood",
+        "event": {
+          "6280288472": {
+            "id": 6280288472,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6280288471": {
+            "id": 6280288471,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106957087": {
+        "id": 2106957087,
+        "name": "Game 2 First Blood",
+        "type": "Game2FirstBlood",
+        "event": {
+          "6280288474": {
+            "id": 6280288474,
+            "name": "W1",
+            "price": 1.85
+          },
+          "6280288473": {
+            "id": 6280288473,
+            "name": "W2",
+            "price": 1.85
+          }
+        }
+      },
+      "2106962493": {
+        "id": 2106962493,
+        "name": "Game 1 Total Kills Odd/Even",
+        "type": "Game1KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280305218": {
+            "id": 6280305218,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280305217": {
+            "id": 6280305217,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106962494": {
+        "id": 2106962494,
+        "name": "Game 1 First Dragon Type",
+        "type": "Game1FirstDragonType",
+        "event": {
+          "6280305222": {
+            "id": 6280305222,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6280305223": {
+            "id": 6280305223,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6280305224": {
+            "id": 6280305224,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6280305219": {
+            "id": 6280305219,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6280305220": {
+            "id": 6280305220,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6280305221": {
+            "id": 6280305221,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106962504": {
+        "id": 2106962504,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305236": {
+            "id": 6280305236,
+            "name": "W1",
+            "price": 2.1
+          },
+          "6280305232": {
+            "id": 6280305232,
+            "name": "W2",
+            "price": 1.65
+          }
+        }
+      },
+      "2106962506": {
+        "id": 2106962506,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305252": {
+            "id": 6280305252,
+            "name": "W1",
+            "price": 2
+          },
+          "6280305251": {
+            "id": 6280305251,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106962509": {
+        "id": 2106962509,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305260": {
+            "id": 6280305260,
+            "name": "W1",
+            "price": 1.9
+          },
+          "6280305259": {
+            "id": 6280305259,
+            "name": "W2",
+            "price": 1.8
+          }
+        }
+      },
+      "2106962513": {
+        "id": 2106962513,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305266": {
+            "id": 6280305266,
+            "name": "W1",
+            "price": 2
+          },
+          "6280305265": {
+            "id": 6280305265,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106962515": {
+        "id": 2106962515,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305270": {
+            "id": 6280305270,
+            "name": "W1",
+            "price": 2.1
+          },
+          "6280305269": {
+            "id": 6280305269,
+            "name": "W2",
+            "price": 1.65
+          }
+        }
+      },
+      "2106962516": {
+        "id": 2106962516,
+        "name": "Correct Score",
+        "type": "CorrectScore5",
+        "event": {
+          "6280305274": {
+            "id": 6280305274,
+            "name": "3-0",
+            "price": 7.2
+          },
+          "6280305275": {
+            "id": 6280305275,
+            "name": "3-1",
+            "price": 5.7
+          },
+          "6280305276": {
+            "id": 6280305276,
+            "name": "3-2",
+            "price": 5.7
+          },
+          "6280305271": {
+            "id": 6280305271,
+            "name": "2-3",
+            "price": 4.5
+          },
+          "6280305272": {
+            "id": 6280305272,
+            "name": "1-3",
+            "price": 3.72
+          },
+          "6280305273": {
+            "id": 6280305273,
+            "name": "0-3",
+            "price": 4.2
+          }
+        }
+      },
+      "2106962517": {
+        "id": 2106962517,
+        "name": "Game 3 First Dragon Type",
+        "type": "Game3FirstDragonType",
+        "event": {
+          "6280305280": {
+            "id": 6280305280,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6280305281": {
+            "id": 6280305281,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6280305282": {
+            "id": 6280305282,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6280305277": {
+            "id": 6280305277,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6280305278": {
+            "id": 6280305278,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6280305279": {
+            "id": 6280305279,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106962518": {
+        "id": 2106962518,
+        "name": "Game 1 First To  Kills",
+        "type": "Game1FirstToKills",
+        "event": {
+          "6280305284": {
+            "id": 6280305284,
+            "name": "W1",
+            "price": 2
+          },
+          "6280305283": {
+            "id": 6280305283,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106962520": {
+        "id": 2106962520,
+        "name": "Game 3 Total Kills Odd/Even",
+        "type": "Game3KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280305288": {
+            "id": 6280305288,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280305287": {
+            "id": 6280305287,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106967897": {
+        "id": 2106967897,
+        "name": "Game 2 Total Kills Odd/Even",
+        "type": "Game2KillsEvenOrOdd",
+        "display_key": "ODD/EVEN",
+        "event": {
+          "6280320149": {
+            "id": 6280320149,
+            "name": "Even",
+            "price": 1.85
+          },
+          "6280320148": {
+            "id": 6280320148,
+            "name": "Odd",
+            "price": 1.85
+          }
+        }
+      },
+      "2106967898": {
+        "id": 2106967898,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320151": {
+            "id": 6280320151,
+            "name": "W1",
+            "price": 1.9
+          },
+          "6280320150": {
+            "id": 6280320150,
+            "name": "W2",
+            "price": 1.8
+          }
+        }
+      },
+      "2106967899": {
+        "id": 2106967899,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320153": {
+            "id": 6280320153,
+            "name": "W1",
+            "price": 2
+          },
+          "6280320152": {
+            "id": 6280320152,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106967901": {
+        "id": 2106967901,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320157": {
+            "id": 6280320157,
+            "name": "W1",
+            "price": 2.1
+          },
+          "6280320156": {
+            "id": 6280320156,
+            "name": "W2",
+            "price": 1.65
+          }
+        }
+      },
+      "2106967902": {
+        "id": 2106967902,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320159": {
+            "id": 6280320159,
+            "name": "W1",
+            "price": 2
+          },
+          "6280320158": {
+            "id": 6280320158,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106967903": {
+        "id": 2106967903,
+        "name": "Game 2 First Dragon Type",
+        "type": "Game2FirstDragonType",
+        "event": {
+          "6280320163": {
+            "id": 6280320163,
+            "name": "Infernal",
+            "price": 5.5
+          },
+          "6280320164": {
+            "id": 6280320164,
+            "name": "Mountain",
+            "price": 5.5
+          },
+          "6280320165": {
+            "id": 6280320165,
+            "name": "Ocean",
+            "price": 5.5
+          },
+          "6280320160": {
+            "id": 6280320160,
+            "name": "Cloud",
+            "price": 5.5
+          },
+          "6280320161": {
+            "id": 6280320161,
+            "name": "Hextech",
+            "price": 5.5
+          },
+          "6280320162": {
+            "id": 6280320162,
+            "name": "Chemtech",
+            "price": 5.5
+          }
+        }
+      },
+      "2106967906": {
+        "id": 2106967906,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320167": {
+            "id": 6280320167,
+            "name": "W1",
+            "price": 2
+          },
+          "6280320166": {
+            "id": 6280320166,
+            "name": "W2",
+            "price": 1.72
+          }
+        }
+      },
+      "2106967908": {
+        "id": 2106967908,
+        "name": "Game 2 First To  Kills",
+        "type": "Game2FirstToKills",
+        "event": {
+          "6280320173": {
+            "id": 6280320173,
+            "name": "W1",
+            "price": 2.1
+          },
+          "6280320172": {
+            "id": 6280320172,
+            "name": "W2",
+            "price": 1.65
+          }
+        }
+      },
+      "2106974170": {
+        "id": 2106974170,
+        "name": "Total Kills",
+        "type": "TotalKills",
+        "event": {
+          "6280337598": {
+            "id": 6280337598,
+            "name": "Over ",
+            "price": 1.85
+          },
+          "6280337597": {
+            "id": 6280337597,
+            "name": "Under ",
+            "price": 1.85
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -486,18 +4023,86 @@
     "id": 28668910,
     "team1_name": "LPL Split 1",
     "start_ts": 1768208400,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098389595": {
+        "id": 2098389595,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255837979": {
+            "id": 6255837979,
+            "name": "Anyone's Legend",
+            "price": 4.5
+          },
+          "6255837978": {
+            "id": 6255837978,
+            "name": "Bilibili Gaming",
+            "price": 2.75
+          },
+          "6255837981": {
+            "id": 6255837981,
+            "name": "Weibo Gaming",
+            "price": 7
+          },
+          "6255837980": {
+            "id": 6255837980,
+            "name": "JD Gaming",
+            "price": 5.5
+          },
+          "6255837983": {
+            "id": 6255837983,
+            "name": "Top Esports",
+            "price": 15
+          },
+          "6255837982": {
+            "id": 6255837982,
+            "name": "Invictus Gaming",
+            "price": 11
+          },
+          "6255837989": {
+            "id": 6255837989,
+            "name": "Team WE",
+            "price": 24
+          },
+          "6255837988": {
+            "id": 6255837988,
+            "name": "Edward Gaming",
+            "price": 21
+          },
+          "6255837991": {
+            "id": 6255837991,
+            "name": "Ninjas In Pyjamas",
+            "price": 31
+          },
+          "6255837990": {
+            "id": 6255837990,
+            "name": "LNG Esports",
+            "price": 26
+          },
+          "6255837993": {
+            "id": 6255837993,
+            "name": "Ultra Prime",
+            "price": 67
+          },
+          "6255837992": {
+            "id": 6255837992,
+            "name": "LGD Gaming",
+            "price": 41
+          },
+          "6255837995": {
+            "id": 6255837995,
+            "name": "ThunderTalk Gaming",
+            "price": 101
+          },
+          "6255837994": {
+            "id": 6255837994,
+            "name": "Oh My God",
+            "price": 81
+          }
+        }
+      }
+    }
   },
   {
     "sport": "League of legends",
@@ -506,17 +4111,65 @@
     "id": 28668860,
     "team1_name": "LoL Champions Korea Cup 2026 (LCK)",
     "start_ts": 1768381200,
-    "markets_count": 1,
-    "info": {
-      "current_game_state": "notstarted",
-      "score1": "0",
-      "score2": "0",
-      "shirt1_color": "000000",
-      "shirt2_color": "000000",
-      "short1_color": "000000",
-      "short2_color": "000000",
-      "field": 0
-    },
-    "market": {}
+    "market": {
+      "2098377936": {
+        "id": 2098377936,
+        "name": "Winner",
+        "type": "Winner",
+        "display_key": "OUTRIGHT",
+        "event": {
+          "6255797157": {
+            "id": 6255797157,
+            "name": "T1",
+            "price": 3.5
+          },
+          "6255797156": {
+            "id": 6255797156,
+            "name": "Gen.G",
+            "price": 3
+          },
+          "6255797159": {
+            "id": 6255797159,
+            "name": "KT Rolster",
+            "price": 9
+          },
+          "6255797158": {
+            "id": 6255797158,
+            "name": "Hanwha Life Esports",
+            "price": 5
+          },
+          "6255797161": {
+            "id": 6255797161,
+            "name": "BNK FearX",
+            "price": 15
+          },
+          "6255797160": {
+            "id": 6255797160,
+            "name": "Dplus KIA",
+            "price": 12
+          },
+          "6255797163": {
+            "id": 6255797163,
+            "name": "DRX",
+            "price": 31
+          },
+          "6255797162": {
+            "id": 6255797162,
+            "name": "Nongshim RedForce",
+            "price": 21
+          },
+          "6255797165": {
+            "id": 6255797165,
+            "name": "OKSavingsBank BRION",
+            "price": 51
+          },
+          "6255797164": {
+            "id": 6255797164,
+            "name": "DN Freecs",
+            "price": 41
+          }
+        }
+      }
+    }
   }
 ]
