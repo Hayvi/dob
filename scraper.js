@@ -81,7 +81,9 @@ class ForzzaScraper {
                 region: ['id', 'name', 'alias', 'order'],
                 competition: ['id', 'name', 'order']
             },
-            where: {}
+            where: {
+                game: { type: 0 } // Prematch only
+            }
         });
 
         return response.data;
