@@ -82,7 +82,7 @@ class ForzzaScraper {
                 competition: ['id', 'name', 'order']
             },
             where: {
-                game: { type: 0 } // Prematch only
+                game: { type: 0 }
             }
         });
 
