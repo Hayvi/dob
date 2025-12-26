@@ -1,0 +1,55 @@
+[
+  {
+    "sport": "Politics",
+    "region": "Republic of Ireland",
+    "competition": "General Election",
+    "id": 28325813,
+    "team1_name": "Irish General Election",
+    "start_ts": 1892575800,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Politics",
+    "region": "United Kingdom",
+    "competition": "General Election",
+    "id": 26238233,
+    "team1_name": "UK General Election",
+    "start_ts": 1881813000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Politics",
+    "region": "United Kingdom",
+    "competition": "Next Prime Minister",
+    "id": 28326079,
+    "team1_name": "Next Prime Minister",
+    "start_ts": 1881853200,
+    "markets_count": 1,
+    "info": {
+      "add_info": "Next Prime Minister after Keir Starmer",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Politics",
+    "region": "USA",
+    "competition": "Presidential Election",
+    "id": 28139017,
+    "team1_name": "US Presidential Election 2028",
+    "start_ts": 1858059000,
+    "markets_count": 2,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

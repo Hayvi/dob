@@ -1,0 +1,149 @@
+[
+  {
+    "sport": "Counter-Strike 2",
+    "region": "World",
+    "competition": "META Cup",
+    "id": 28717083,
+    "team1_name": "Team Omega",
+    "team2_name": "Depo",
+    "start_ts": 1767416400,
+    "markets_count": 21,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "World",
+    "competition": "META Cup",
+    "id": 28717084,
+    "team1_name": "Team Novaq",
+    "team2_name": "ALLINNERS",
+    "start_ts": 1767427200,
+    "markets_count": 21,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "World",
+    "competition": "META Cup",
+    "id": 28717147,
+    "team1_name": "BetBoom Team",
+    "team2_name": "Winners Esports",
+    "start_ts": 1767416400,
+    "markets_count": 14,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "World",
+    "competition": "META Cup",
+    "id": 28717148,
+    "team1_name": "HOTU",
+    "team2_name": "Altay Esports",
+    "start_ts": 1767427200,
+    "markets_count": 14,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "Europe",
+    "competition": "European Pro League",
+    "id": 28715330,
+    "team1_name": "Preasy Mix",
+    "team2_name": "CSDIILIT",
+    "start_ts": 1766826000,
+    "markets_count": 59,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "Europe",
+    "competition": "United21 Christmas Cup",
+    "id": 28720392,
+    "team1_name": "Misa Esports",
+    "team2_name": "Fokus",
+    "start_ts": 1767007800,
+    "markets_count": 4,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Counter-Strike 2",
+    "region": "Europe",
+    "competition": "United21 Christmas Cup",
+    "id": 28720393,
+    "team1_name": "Sangal Alters",
+    "team2_name": "Eternal Fire Academy",
+    "start_ts": 1766930400,
+    "markets_count": 12,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

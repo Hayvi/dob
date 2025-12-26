@@ -1,0 +1,132 @@
+[
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "Ryder Cup",
+    "id": 28187231,
+    "team1_name": "Ryder Cup 2027",
+    "start_ts": 1821135600,
+    "markets_count": 2,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 27000580,
+    "team1_name": "The Masters 2026",
+    "start_ts": 1775732400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "The Open Championship",
+    "id": 27631229,
+    "team1_name": "The Open Championship 2026",
+    "start_ts": 1784178000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "US Open",
+    "id": 27416193,
+    "team1_name": "US Open 2026",
+    "start_ts": 1781694000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "USPGA Championship",
+    "id": 27278742,
+    "team1_name": "USPGA Championship 2026",
+    "start_ts": 1779008400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "Solheim Cup",
+    "id": 25549992,
+    "team1_name": "Solheim Cup",
+    "start_ts": 1789920000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "Presidents Cup",
+    "id": 25644179,
+    "team1_name": "Presidents Cup",
+    "start_ts": 1789556400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "TGL",
+    "id": 28246847,
+    "team1_name": "TGL",
+    "start_ts": 1766952000,
+    "markets_count": 2,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "TGL. Matches",
+    "id": 28624619,
+    "team1_name": "TGL Match 1",
+    "start_ts": 1766952000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Golf",
+    "region": "World",
+    "competition": "TGL. Matches",
+    "id": 28624620,
+    "team1_name": "TGL Match 2",
+    "start_ts": 1767398400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

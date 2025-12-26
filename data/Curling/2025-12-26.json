@@ -1,0 +1,42 @@
+[
+  {
+    "sport": "Curling",
+    "region": "World",
+    "competition": "Olympic Games. Outright",
+    "id": 28632142,
+    "team1_name": "Winter Olympics 2026",
+    "start_ts": 1770833100,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Curling",
+    "region": "World",
+    "competition": "Olympic Games - Women. Outright",
+    "id": 28632143,
+    "team1_name": "Winter Olympics 2026 - Women",
+    "start_ts": 1770883500,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

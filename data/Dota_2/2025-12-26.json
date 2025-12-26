@@ -1,0 +1,23 @@
+[
+  {
+    "sport": "Dota 2",
+    "region": "Europe",
+    "competition": "European Pro League (EPL)",
+    "id": 28720454,
+    "team1_name": "L1ga Team",
+    "team2_name": "Team Lynx",
+    "start_ts": 1766829600,
+    "markets_count": 58,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

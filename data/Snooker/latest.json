@@ -1,0 +1,210 @@
+[
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708422,
+    "team1_name": "John Higgins",
+    "team2_name": "Barry Hawkins",
+    "start_ts": 1768330800,
+    "markets_count": 12,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708423,
+    "team1_name": "Zhao Xintong",
+    "team2_name": "Gary Wilson",
+    "start_ts": 1768244400,
+    "markets_count": 12,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708424,
+    "team1_name": "Judd Trump",
+    "team2_name": "Ding Junhui",
+    "start_ts": 1768395600,
+    "markets_count": 13,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708425,
+    "team1_name": "Mark James Williams",
+    "team2_name": "Mark Allen",
+    "start_ts": 1768222800,
+    "markets_count": 14,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708426,
+    "team1_name": "Mark Selby",
+    "team2_name": "Xiao Guodong",
+    "start_ts": 1768158000,
+    "markets_count": 13,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708427,
+    "team1_name": "Shaun Murphy",
+    "team2_name": "Wu Yize",
+    "start_ts": 1768136400,
+    "markets_count": 13,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708428,
+    "team1_name": "Neil Robertson",
+    "team2_name": "Ronnie O'Sullivan",
+    "start_ts": 1768417200,
+    "markets_count": 14,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters",
+    "id": 28708429,
+    "team1_name": "Kyren Wilson",
+    "team2_name": "Si Jiahui",
+    "start_ts": 1768309200,
+    "markets_count": 13,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "The Masters. Outright",
+    "id": 27192768,
+    "team1_name": "The Masters 2026",
+    "start_ts": 1768039200,
+    "markets_count": 12,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Snooker",
+    "region": "World",
+    "competition": "World Championship. Outright",
+    "id": 27183945,
+    "team1_name": "World Championship 2026",
+    "start_ts": 1775034000,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

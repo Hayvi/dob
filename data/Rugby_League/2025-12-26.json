@@ -1,0 +1,82 @@
+[
+  {
+    "sport": "Rugby League",
+    "region": "World",
+    "competition": "World Cup. Outright",
+    "id": 28703429,
+    "team1_name": "World Cup 2026",
+    "start_ts": 1794715500,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Rugby League",
+    "region": "Australia",
+    "competition": "National Rugby League. Outright",
+    "id": 28192437,
+    "team1_name": "National Rugby League 2026",
+    "start_ts": 1770314400,
+    "markets_count": 4,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Rugby League",
+    "region": "Australia",
+    "competition": "State of Origin. Outright",
+    "id": 27563374,
+    "team1_name": "State of Origin 2026",
+    "start_ts": 1783501200,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Rugby League",
+    "region": "England",
+    "competition": "Super League. Outright",
+    "id": 28703413,
+    "team1_name": "Super League XXXI",
+    "start_ts": 1770926400,
+    "markets_count": 2,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

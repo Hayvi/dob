@@ -1,0 +1,522 @@
+[
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Winter (LEC). Outright",
+    "id": 28668888,
+    "team1_name": "LoL European Championship Winter Versus 2026 (LEC) ",
+    "start_ts": 1768669200,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "Legends Premier League",
+    "id": 28720873,
+    "team1_name": "Verdant",
+    "team2_name": "mCon esports",
+    "start_ts": 1766862000,
+    "markets_count": 9,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691836,
+    "team1_name": "Team Vitality",
+    "team2_name": "Natus Vincere",
+    "start_ts": 1768757400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691837,
+    "team1_name": "G 2 Esports",
+    "team2_name": "GIANTX",
+    "start_ts": 1768762800,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691838,
+    "team1_name": "Movistar KOI",
+    "team2_name": "G 2 Esports",
+    "start_ts": 1768679100,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691839,
+    "team1_name": "Los Ratones",
+    "team2_name": "Fnatic",
+    "start_ts": 1768665600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691840,
+    "team1_name": "Team Heretics",
+    "team2_name": "Natus Vincere",
+    "start_ts": 1768671000,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691841,
+    "team1_name": "Team Vitality",
+    "team2_name": "SK Gaming",
+    "start_ts": 1768673700,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691842,
+    "team1_name": "Shifters",
+    "team2_name": "GIANTX",
+    "start_ts": 1768668300,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691843,
+    "team1_name": "Team Heretics",
+    "team2_name": "Shifters",
+    "start_ts": 1768752000,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691844,
+    "team1_name": "SK Gaming",
+    "team2_name": "Fnatic",
+    "start_ts": 1768760100,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691845,
+    "team1_name": "Karmine Corp Blue",
+    "team2_name": "Karmine Corp",
+    "start_ts": 1768676400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691846,
+    "team1_name": "Los Ratones",
+    "team2_name": "Karmine Corp Blue",
+    "start_ts": 1768754700,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691852,
+    "team1_name": "Team Vitality",
+    "team2_name": "Karmine Corp Blue",
+    "start_ts": 1768841100,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691853,
+    "team1_name": "Movistar KOI",
+    "team2_name": "Karmine Corp",
+    "start_ts": 1768765500,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691854,
+    "team1_name": "SK Gaming",
+    "team2_name": "G 2 Esports",
+    "start_ts": 1768851900,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691855,
+    "team1_name": "Los Ratones",
+    "team2_name": "Karmine Corp",
+    "start_ts": 1768849200,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691856,
+    "team1_name": "Team Heretics",
+    "team2_name": "GIANTX",
+    "start_ts": 1768843800,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Europe",
+    "competition": "LoL European Championship Versus (LEC)",
+    "id": 28691857,
+    "team1_name": "Shifters",
+    "team2_name": "Movistar KOI",
+    "start_ts": 1768846500,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "North America",
+    "competition": "League Championship Series (LCS). Outright",
+    "id": 28718074,
+    "team1_name": "LCS 2026. Lock-In",
+    "start_ts": 1769230800,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Brazil",
+    "competition": "CBLoL. Outright",
+    "id": 28668852,
+    "team1_name": "CBLOL Cup",
+    "start_ts": 1768665600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "China",
+    "competition": "Demacia Cup",
+    "id": 28717980,
+    "team1_name": "JingDong Gaming",
+    "team2_name": "EDward Gaming",
+    "start_ts": 1766826000,
+    "markets_count": 84,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "China",
+    "competition": "Demacia Cup",
+    "id": 28718119,
+    "team1_name": "Oh My God",
+    "team2_name": "Lining Gaming",
+    "start_ts": 1766912400,
+    "markets_count": 84,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "China",
+    "competition": "LoL Pro League (LPL) Outright",
+    "id": 28668910,
+    "team1_name": "LPL Split 1",
+    "start_ts": 1768208400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "League of legends",
+    "region": "Korea (South)",
+    "competition": "LoL Champions Korea Cup (LCK). Outright",
+    "id": 28668860,
+    "team1_name": "LoL Champions Korea Cup 2026 (LCK)",
+    "start_ts": 1768381200,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

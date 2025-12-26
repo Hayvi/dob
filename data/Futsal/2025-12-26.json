@@ -1,0 +1,200 @@
+[
+  {
+    "sport": "Futsal",
+    "region": "Europe",
+    "competition": "UEFA Futsal Champions League",
+    "id": 28662148,
+    "team1_name": "Etoile Lavalloise Mayenne FC",
+    "team2_name": "FC Semey",
+    "start_ts": 1771862400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Europe",
+    "competition": "UEFA Futsal Champions League",
+    "id": 28662149,
+    "team1_name": "Kairat Almaty",
+    "team2_name": "Cartagena FS",
+    "start_ts": 1771862400,
+    "markets_count": 6,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Europe",
+    "competition": "UEFA Futsal Champions League",
+    "id": 28662150,
+    "team1_name": "SL Benfica",
+    "team2_name": "Sporting CP",
+    "start_ts": 1771862400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Europe",
+    "competition": "UEFA Futsal Champions League",
+    "id": 28662151,
+    "team1_name": "AE Palma Futsal",
+    "team2_name": "FC Riga",
+    "start_ts": 1771862400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Kazakhstan",
+    "competition": "Championship",
+    "id": 28681388,
+    "team1_name": "Caspian Aktau",
+    "team2_name": "Kairat Almaty",
+    "start_ts": 1767715200,
+    "markets_count": 3,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Kazakhstan",
+    "competition": "Championship",
+    "id": 28714080,
+    "team1_name": "Bayterek",
+    "team2_name": "FK Aktobe",
+    "start_ts": 1767711600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Kazakhstan",
+    "competition": "Championship",
+    "id": 28714081,
+    "team1_name": "MFC Tulpar",
+    "team2_name": "Karaganda",
+    "start_ts": 1767711600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Kazakhstan",
+    "competition": "Championship",
+    "id": 28714097,
+    "team1_name": "Zhetysu",
+    "team2_name": "MFC Ayat Rudny",
+    "start_ts": 1767711600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Futsal",
+    "region": "Kazakhstan",
+    "competition": "Championship",
+    "id": 28714098,
+    "team1_name": "Astana",
+    "team2_name": "FC Semey",
+    "start_ts": 1767711600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

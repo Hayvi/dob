@@ -1,0 +1,177 @@
+[
+  {
+    "sport": "Virtual Marble Racing",
+    "region": "World",
+    "competition": "Crazy Marbles",
+    "id": 1517595604,
+    "team1_name": "Crazy Marbles",
+    "start_ts": 1766778840,
+    "markets_count": 0,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Blue"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Green"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Yellow"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Red"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Marble Racing",
+    "region": "World",
+    "competition": "Crazy Marbles",
+    "id": 1517595613,
+    "team1_name": "Crazy Marbles",
+    "start_ts": 1766778960,
+    "markets_count": 6,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Blue"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Green"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Yellow"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Red"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Marble Racing",
+    "region": "World",
+    "competition": "Crazy Marbles",
+    "id": 1517595621,
+    "team1_name": "Crazy Marbles",
+    "start_ts": 1766779080,
+    "markets_count": 6,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Blue"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Green"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Yellow"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Red"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Marble Racing",
+    "region": "World",
+    "competition": "Crazy Marbles",
+    "id": 1517595627,
+    "team1_name": "Crazy Marbles",
+    "start_ts": 1766779200,
+    "markets_count": 6,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Blue"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Green"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Yellow"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Red"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Marble Racing",
+    "region": "World",
+    "competition": "Crazy Marbles",
+    "id": 1517595636,
+    "team1_name": "Crazy Marbles",
+    "start_ts": 1766779320,
+    "markets_count": 6,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Blue"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Green"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Yellow"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Red"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  }
+]

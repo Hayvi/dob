@@ -1,0 +1,132 @@
+[
+  {
+    "sport": "Virtual Drag Racing",
+    "region": "World",
+    "competition": "Drag Racing",
+    "id": 1517595603,
+    "team1_name": "Bluedini",
+    "team2_name": "Crumpy",
+    "start_ts": 1766778840,
+    "markets_count": 0,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Bluedini"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Crumpy"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Drag Racing",
+    "region": "World",
+    "competition": "Drag Racing",
+    "id": 1517595612,
+    "team1_name": "Bruno",
+    "team2_name": "Bluedini",
+    "start_ts": 1766778960,
+    "markets_count": 9,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Bruno"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Bluedini"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Drag Racing",
+    "region": "World",
+    "competition": "Drag Racing",
+    "id": 1517595620,
+    "team1_name": "Roadkill",
+    "team2_name": "Firefly",
+    "start_ts": 1766779080,
+    "markets_count": 9,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Roadkill"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Firefly"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Drag Racing",
+    "region": "World",
+    "competition": "Drag Racing",
+    "id": 1517595626,
+    "team1_name": "Crumpy",
+    "team2_name": "Frogger",
+    "start_ts": 1766779200,
+    "markets_count": 9,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Crumpy"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Frogger"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Drag Racing",
+    "region": "World",
+    "competition": "Drag Racing",
+    "id": 1517595635,
+    "team1_name": "Shadow",
+    "team2_name": "Bloodshot",
+    "start_ts": 1766779320,
+    "markets_count": 9,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Shadow"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Bloodshot"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  }
+]

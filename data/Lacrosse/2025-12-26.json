@@ -1,0 +1,154 @@
+[
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League",
+    "id": 28703659,
+    "team1_name": "Las Vegas Desert Dogs",
+    "team2_name": "Toronto Rock",
+    "start_ts": 1766880000,
+    "markets_count": 31,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League",
+    "id": 28703660,
+    "team1_name": "Philadelphia Wings",
+    "team2_name": "Ottawa Black Bears",
+    "start_ts": 1766880000,
+    "markets_count": 31,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League",
+    "id": 28703661,
+    "team1_name": "Saskatchewan Rush",
+    "team2_name": "Halifax Thunderbirds",
+    "start_ts": 1766876400,
+    "markets_count": 31,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League",
+    "id": 28703662,
+    "team1_name": "Buffalo Bandits",
+    "team2_name": "Calgary Roughnecks",
+    "start_ts": 1766970000,
+    "markets_count": 9,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League",
+    "id": 28703663,
+    "team1_name": "Georgia Swarm",
+    "team2_name": "Colorado Mammoth",
+    "start_ts": 1766887200,
+    "markets_count": 31,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "Premier League. Outright",
+    "id": 28218068,
+    "team1_name": "PLL Championship Series 2026",
+    "start_ts": 1771174800,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Lacrosse",
+    "region": "North America",
+    "competition": "National Lacrosse League. Outright",
+    "id": 28095613,
+    "team1_name": "National Lacrosse League 2025/2026",
+    "start_ts": 1766876400,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "15:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

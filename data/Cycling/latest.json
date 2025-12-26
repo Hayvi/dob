@@ -1,0 +1,41 @@
+[
+  {
+    "sport": "Cycling",
+    "region": "World",
+    "competition": "Tour de France",
+    "id": 27678030,
+    "team1_name": "Tour de France 2026",
+    "start_ts": 1783159200,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Cycling",
+    "region": "World",
+    "competition": "Paris-Roubaix",
+    "id": 28183156,
+    "team1_name": "Paris-Roubaix 2026",
+    "start_ts": 1775985000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Cycling",
+    "region": "World",
+    "competition": "Milan-San Remo",
+    "id": 28183647,
+    "team1_name": "Milan-San Remo 2026",
+    "start_ts": 1774083600,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

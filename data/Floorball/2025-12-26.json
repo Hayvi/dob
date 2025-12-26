@@ -1,0 +1,178 @@
+[
+  {
+    "sport": "Floorball",
+    "region": "Poland",
+    "competition": "Extraliga",
+    "id": 28709123,
+    "team1_name": "UKS Nowa Lodz",
+    "team2_name": "KS Olimpia Osowa Gdansk",
+    "start_ts": 1767528000,
+    "markets_count": 19,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Poland",
+    "competition": "Extraliga",
+    "id": 28712304,
+    "team1_name": "UKS Bankowka Zielonka",
+    "team2_name": "Smoki Krakow",
+    "start_ts": 1767441600,
+    "markets_count": 3,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League",
+    "id": 28689466,
+    "team1_name": "Warbergs IC",
+    "team2_name": "IBF Falun",
+    "start_ts": 1766844000,
+    "markets_count": 24,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League",
+    "id": 28689674,
+    "team1_name": "FBC Kalmarsund",
+    "team2_name": "Pixbo Wallenstam IBK",
+    "start_ts": 1766847600,
+    "markets_count": 7,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League",
+    "id": 28689866,
+    "team1_name": "Jonkopings IK",
+    "team2_name": "Linkoping IBK",
+    "start_ts": 1766851200,
+    "markets_count": 22,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League",
+    "id": 28689868,
+    "team1_name": "Visby IBK",
+    "team2_name": "Nykvarns IBF Ungdom",
+    "start_ts": 1766851200,
+    "markets_count": 22,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League - Women",
+    "id": 28718541,
+    "team1_name": "Karlstad IBF (Wom)",
+    "team2_name": "Warbergs IC (Wom)",
+    "start_ts": 1766840400,
+    "markets_count": 22,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Floorball",
+    "region": "Sweden",
+    "competition": "Super League - Women",
+    "id": 28718542,
+    "team1_name": "Partille (Wom)",
+    "team2_name": "Storvreta IBK (Wom)",
+    "start_ts": 1766840400,
+    "markets_count": 22,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "20:00",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

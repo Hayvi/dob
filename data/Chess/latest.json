@@ -1,0 +1,15 @@
+[
+  {
+    "sport": "Chess",
+    "region": "World",
+    "competition": "Candidates Tournament. Outright",
+    "id": 28668108,
+    "team1_name": "Candidates Chess Tournament 2026",
+    "start_ts": 1774688400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

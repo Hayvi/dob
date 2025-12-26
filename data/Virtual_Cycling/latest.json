@@ -1,0 +1,227 @@
+[
+  {
+    "sport": "Virtual Cycling",
+    "region": "World",
+    "competition": "Velodrome",
+    "id": 1517595602,
+    "team1_name": "VeloTrack",
+    "start_ts": 1766778840,
+    "markets_count": 0,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Perce Child"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Lowell Abdalkarim"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Hall Gantvoort"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Chase Budak"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Daren Halperin"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Adolph Bolner"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Cycling",
+    "region": "World",
+    "competition": "Velodrome",
+    "id": 1517595611,
+    "team1_name": "VeloTrack",
+    "start_ts": 1766778960,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Davin Elian"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Keshaun Hosse"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Ned Chock"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Paise Cerri"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Gosse Falsetti"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Glanville Harer"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Cycling",
+    "region": "World",
+    "competition": "Velodrome",
+    "id": 1517595619,
+    "team1_name": "VeloTrack",
+    "start_ts": 1766779080,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Luther Dickson"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Qain Caul"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Pancras Brest"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Ernest Buffett"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Coty Birrell"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Paden Edelbrock"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Cycling",
+    "region": "World",
+    "competition": "Velodrome",
+    "id": 1517595625,
+    "team1_name": "VeloTrack",
+    "start_ts": 1766779200,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Jaln Betran"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Harold Akande"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Allen Egelhoff"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Leland Hordge"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Roland Castin"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Brenden Gourler"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Cycling",
+    "region": "World",
+    "competition": "Velodrome",
+    "id": 1517595634,
+    "team1_name": "VeloTrack",
+    "start_ts": 1766779320,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Harold Akande"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Glanville Harer"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Qain Caul"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Lowell Abdalkarim"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Keshaun Hosse"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Daren Halperin"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "sport": "TV Shows and Movies",
+    "region": "Sweden",
+    "competition": "Melodifestivalen",
+    "id": 28713806,
+    "team1_name": "Melodifestivalen 2026",
+    "start_ts": 1769886000,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

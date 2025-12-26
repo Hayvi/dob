@@ -1,0 +1,133 @@
+[
+  {
+    "sport": "Bandy",
+    "region": "Russia",
+    "competition": "Superleague",
+    "id": 28687392,
+    "team1_name": "Kuzbass Kemerovo",
+    "team2_name": "Volga Ulyanovsk",
+    "start_ts": 1766815200,
+    "markets_count": 15,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Bandy",
+    "region": "Russia",
+    "competition": "Superleague",
+    "id": 28687393,
+    "team1_name": "Sibselmash Novosibirsk",
+    "team2_name": "AK Bars-Dynamo",
+    "start_ts": 1766826000,
+    "markets_count": 19,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Bandy",
+    "region": "Russia",
+    "competition": "Superleague",
+    "id": 28688345,
+    "team1_name": "Dynamo Moscow",
+    "team2_name": "Vodnik",
+    "start_ts": 1766830500,
+    "markets_count": 21,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Bandy",
+    "region": "Russia",
+    "competition": "Superleague",
+    "id": 28688347,
+    "team1_name": "Rodina",
+    "team2_name": "SKA Neftyanik",
+    "start_ts": 1766829600,
+    "markets_count": 20,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Bandy",
+    "region": "Russia",
+    "competition": "Superleague",
+    "id": 28688349,
+    "team1_name": "Start",
+    "team2_name": "Yenisei Krasnoyarsk",
+    "start_ts": 1766829600,
+    "markets_count": 19,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Bandy",
+    "region": "Sweden",
+    "competition": "Elitserien. Outright",
+    "id": 28138308,
+    "team1_name": "Elitserien 2025/2026",
+    "start_ts": 1773507600,
+    "markets_count": 1,
+    "info": {
+      "current_game_state": "notstarted",
+      "current_game_time": "00:45",
+      "score1": "0",
+      "score2": "0",
+      "shirt1_color": "000000",
+      "shirt2_color": "000000",
+      "short1_color": "000000",
+      "short2_color": "000000",
+      "field": 0
+    },
+    "market": {}
+  }
+]

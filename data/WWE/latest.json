@@ -1,0 +1,28 @@
+[
+  {
+    "sport": "WWE",
+    "region": "World",
+    "competition": "Royal Rumble",
+    "id": 27607642,
+    "team1_name": "Royal Rumble 2026",
+    "start_ts": 1768694400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "WWE",
+    "region": "World",
+    "competition": "Royal Rumble - Women",
+    "id": 27607643,
+    "team1_name": "Royal Rumble - Women 2026",
+    "start_ts": 1768694400,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

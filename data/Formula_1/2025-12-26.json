@@ -1,0 +1,28 @@
+[
+  {
+    "sport": "Formula 1",
+    "region": "World",
+    "competition": "F1 World Championship. Outright",
+    "id": 28052332,
+    "team1_name": "Drivers Championship 2026",
+    "start_ts": 1772773200,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Formula 1",
+    "region": "World",
+    "competition": "F1 World Championship. Outright",
+    "id": 28572547,
+    "team1_name": "Constructors Championship 2026",
+    "start_ts": 1772773200,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

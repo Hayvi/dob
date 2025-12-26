@@ -1,0 +1,28 @@
+[
+  {
+    "sport": "Special Bets",
+    "region": "World",
+    "competition": "Golden Globe Award",
+    "id": 28668194,
+    "team1_name": "The 83rd Annual Golden Globe Awards 2026",
+    "start_ts": 1768089600,
+    "markets_count": 15,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Special Bets",
+    "region": "Australia",
+    "competition": "Triple J Hottest 100",
+    "id": 28717929,
+    "team1_name": "Triple J Hottest 100",
+    "start_ts": 1769212800,
+    "markets_count": 1,
+    "info": {
+      "field": 0
+    },
+    "market": {}
+  }
+]

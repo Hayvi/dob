@@ -1,0 +1,227 @@
+[
+  {
+    "sport": "Virtual Greyhounds",
+    "region": "World",
+    "competition": "Kinsley Park",
+    "id": 1517595601,
+    "team1_name": "Kinsley Park",
+    "start_ts": 1766778840,
+    "markets_count": 0,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Juventus"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Balboa"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Carolina"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Iodine"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Chery"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Zera"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Greyhounds",
+    "region": "World",
+    "competition": "Kinsley Park",
+    "id": 1517595610,
+    "team1_name": "Kinsley Park",
+    "start_ts": 1766778960,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Tigulilie"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Pupius"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Anka"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Kiaar"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Poanius"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Nugget"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Greyhounds",
+    "region": "World",
+    "competition": "Kinsley Park",
+    "id": 1517595618,
+    "team1_name": "Kinsley Park",
+    "start_ts": 1766779080,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Casey"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Haley"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Santano"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Timon"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Syrion"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Cadmus"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Greyhounds",
+    "region": "World",
+    "competition": "Kinsley Park",
+    "id": 1517595624,
+    "team1_name": "Kinsley Park",
+    "start_ts": 1766779200,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Vagabund"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Taiga"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Puff"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Atial"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Tarek"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Sepp"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  },
+  {
+    "sport": "Virtual Greyhounds",
+    "region": "World",
+    "competition": "Kinsley Park",
+    "id": 1517595633,
+    "team1_name": "Kinsley Park",
+    "start_ts": 1766779320,
+    "markets_count": 7,
+    "info": {
+      "virtual": [
+        {
+          "Number": 1,
+          "PlayerName": "",
+          "AnimalName": "1 Diamond"
+        },
+        {
+          "Number": 2,
+          "PlayerName": "",
+          "AnimalName": "2 Samato"
+        },
+        {
+          "Number": 3,
+          "PlayerName": "",
+          "AnimalName": "3 Guffaw"
+        },
+        {
+          "Number": 4,
+          "PlayerName": "",
+          "AnimalName": "4 Shetty"
+        },
+        {
+          "Number": 5,
+          "PlayerName": "",
+          "AnimalName": "5 Igal"
+        },
+        {
+          "Number": 6,
+          "PlayerName": "",
+          "AnimalName": "6 Tony"
+        }
+      ],
+      "field": 0
+    },
+    "market": {}
+  }
+]

@@ -105,16 +105,13 @@ class ForzzaScraper {
         const response = await this.sendRequest('get', {
             source: 'betting',
             what: {
-                region: ['id', 'name'],
-                competition: ['id', 'name'],
-                game: ['id', 'team1_name', 'team2_name', 'start_ts', 'markets_count', 'info'],
-                market: ['id', 'name', 'type', 'order', 'col_count', 'display_key'],
-                event: ['id', 'name', 'price', 'order', 'type', 'base']
+                region: ['id', 'name', 'order'],
+                competition: ['id', 'name', 'order'],
+                game: ['id', 'team1_name', 'team2_name', 'start_ts', 'markets_count', 'info']
             },
             where: {
                 sport: { id: parseInt(sportId) },
-                game: { type: 0 }, // Prematch
-                market: { type: 'P1XP2' } // Only Match Winner for bulk to save space
+                game: { type: 0 } // Prematch
             }
         });
         return response.data;
