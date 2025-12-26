@@ -137,11 +137,31 @@ app.get('/api/football-full-scrape', async (req, res) => {
                             const gameIds = Object.keys(competition.game);
                             for (const gameId of gameIds) {
                                 const game = competition.game[gameId];
+
+                                // Collect markets
+                                const markets = {};
+                                if (game.market) {
+                                    for (const mId in game.market) {
+                                        const market = game.market[mId];
+                                        const events = {};
+                                        if (market.event) {
+                                            for (const eId in market.event) {
+                                                events[eId] = market.event[eId];
+                                            }
+                                        }
+                                        markets[mId] = {
+                                            ...market,
+                                            event: events
+                                        };
+                                    }
+                                }
+
                                 allGames.push({
                                     sport: "Football",
                                     region: region.name,
                                     competition: competition.name,
-                                    ...game
+                                    ...game,
+                                    market: markets
                                 });
                             }
                         }

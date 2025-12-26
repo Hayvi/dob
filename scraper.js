@@ -107,10 +107,14 @@ class ForzzaScraper {
             what: {
                 region: ['id', 'name'],
                 competition: ['id', 'name'],
-                game: ['id', 'team1_name', 'team2_name', 'start_ts', 'markets_count', 'info']
+                game: ['id', 'team1_name', 'team2_name', 'start_ts', 'markets_count', 'info'],
+                market: ['id', 'name', 'type', 'order', 'col_count', 'display_key'],
+                event: ['id', 'name', 'price', 'order', 'type', 'base']
             },
             where: {
-                sport: { id: parseInt(sportId) }
+                sport: { id: parseInt(sportId) },
+                game: { type: 0 }, // Prematch
+                market: { type: 'P1XP2' } // Only Match Winner for bulk to save space
             }
         });
         return response.data;
