@@ -36,8 +36,8 @@ This document lists all available HTTP endpoints for the Forzza Scraper API.
 
 ### 3. Football Full Scrape (Fresh)
 **Endpoint:** `GET /api/football-full-scrape`
-**Description:** Triggers a fresh, high-speed extraction of all football pre-games across all regions and competitions. Updates the local cache.
-**Response:** JSON array of game objects.
+**Description:** Triggers a fresh, high-speed extraction of all football pre-games. Includes **1X2 (Match Result)** odds. Updates the `/data/Football/` directory.
+**Response:** JSON array of game objects with nested `market` and `event` data.
 
 ---
 
@@ -45,21 +45,48 @@ This document lists all available HTTP endpoints for the Forzza Scraper API.
 
 ### 4. Fetch All Sports (Bulk)
 **Endpoint:** `GET /api/fetch-all-sports`
-**Description:** Triggers a bulk scrape of ALL available sports. Organizes data into directories by sport name and saves as date-stamped JSON files (e.g., `data/Basketball/2025-12-26.json`).
-**Response:** Summary of sports scraped and their match counts.
+**Description:** Triggers a bulk scrape of ALL available sports. Organizes data into directories by sport name.
+**Response Structure:**
+```json
+{
+  "message": "Bulk scrape completed",
+  "summary": [
+    { "sport": "Football", "id": "1", "count": 680 },
+    { "sport": "Basketball", "id": "3", "count": 142 }
+  ],
+  "count": 42,
+  "timestamp": "2025-12-26T20:51:33.679Z"
+}
+```
 
 ### 5. Games by Sport (Cached)
 **Endpoint:** `GET /api/sport-games?sportName={NAME}`
-**Description:** Returns the latest cached games for a specific sport from its corresponding directory.
+**Description:** Returns the latest cached games for a specific sport.
 **Parameters:**
-- `sportName` (Required): The name of the sport (e.g., Basketball, Tennis).
+- `sportName` (Required): The name of the sport (e.g., `Tennis`, `Ice_Hockey`).
+**Response:**
+```json
+{
+  "source": "cache",
+  "sport": "Tennis",
+  "count": 84,
+  "data": [ ... ]
+}
+```
 
 ### 6. Sport Full Scrape (Fresh)
 **Endpoint:** `GET /api/sport-full-scrape?sportId={ID}&sportName={NAME}`
-**Description:** Triggers a fresh bulk fetch for a specific sport and updates its directory.
+**Description:** Triggers a fresh bulk fetch for a specific sport. Includes **Winner (1X2 or 1-2)** odds.
 **Parameters:**
 - `sportId` (Required): The ID of the sport.
 - `sportName` (Required): The name of the sport.
+
+---
+
+## Data Organization
+Scraped data is stored in the `/data` directory:
+- **Structure:** `/data/{Sport_Name}/{YYYY-MM-DD}.json`
+- **Latest:** `/data/{Sport_Name}/latest.json` (Symlink-like copy for the most recent scrape).
 
 ---
 
@@ -68,21 +95,15 @@ This document lists all available HTTP endpoints for the Forzza Scraper API.
 ### 7. Sports Hierarchy
 **Endpoint:** `GET /api/hierarchy`
 **Description:** Returns the complete tree of available Sports > Regions > Competitions.
-**Response: Standard Swarm API hierarchy JSON.
 
 ### 8. Games by Competition
 **Endpoint:** `GET /api/games?competitionId={ID}`
 **Description:** Returns all prematch games for a specific competition ID.
-**Parameters:**
-- `competitionId` (Required): The ID of the competition.
 
 ### 9. Game Odds & Markets
 **Endpoint:** `GET /api/odds?gameId={ID}`
-**Description:** Returns comprehensive market and odds data for a specific game.
-**Parameters:**
-- `gameId` (Required): The ID of the game.
+**Description:** Returns **all available markets** and odds for a specific game (detailed view).
 
 ### 10. Full Sportsbook Scrape (Experimental)
 **Endpoint:** `GET /api/full-scrape`
-**Description:** Attempts to traverse the entire sportsbook (all sports, all games).
-**Warning:** This is resource-intensive and may be very slow.
+**Description:** Naive traversal of the entire hierarchy. **Slow and heavy.**
