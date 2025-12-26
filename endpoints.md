@@ -1,123 +1,73 @@
-# API Endpoints Documentation
+# Forzza Scraper - API Endpoints Documentation
 
-This document lists all available HTTP endpoints for the Forzza Scraper API.
+This document provides all available HTTP endpoints for your live scraper. 
 
-## Base URL
-`http://localhost:3000`
-
----
-
-## Football Specific Endpoints
-
-### 1. Football Games (Cached)
-**Endpoint:** `GET /api/football-games`
-**Description:** Returns the latest cached football games from `data/Football/latest.json`.
-**Response Structure:**
-```json
-{
-  "source": "cache",
-  "sport": "Football",
-  "count": 681,
-  "data": [ ... ]
-}
-```
-
-### 2. Football Games Count
-**Endpoint:** `GET /api/football-games-count`
-**Description:** Returns the real-time count of football pre-games available on the sportsbook without fetching full details.
-**Response Structure:**
-```json
-{
-  "sport": "Football",
-  "count": 681,
-  "timestamp": "2025-12-26T20:18:49.596Z"
-}
-```
-
-### 3. Football Full Scrape (Fresh)
-**Endpoint:** `GET /api/football-full-scrape`
-**Description:** Triggers a fresh, high-speed extraction of all football pre-games. Includes **1X2 (Match Result)** odds. Updates the `/data/Football/` directory.
-**Response:** JSON array of game objects with nested `market` and `event` data.
+**Production Base URL:** `https://dob-lqpg.onrender.com`
 
 ---
 
-## Multi-Sport & Organization Endpoints
+## 🚀 Live Extraction Links (Every Sport)
 
-### 4. Fetch All Sports (Bulk)
-**Endpoint:** `GET /api/fetch-all-sports`
-**Description:** Triggers a bulk scrape of ALL available sports. Organizes data into directories by sport name.
-**Response Structure:**
-```json
-{
-  "message": "Bulk scrape completed",
-  "summary": [
-    { "sport": "Football", "id": "1", "count": 680 },
-    { "sport": "Basketball", "id": "3", "count": 142 }
-  ],
-  "count": 42,
-  "timestamp": "2025-12-26T20:51:33.679Z"
-}
-```
+Click any of the links below to trigger a **fresh, high-speed extraction** for that specific sport. This will update your MongoDB database with the latest prematch data.
 
-### 5. Games by Sport (Cached)
-**Endpoint:** `GET /api/sport-games?sportName={NAME}`
-**Description:** Returns the latest cached games for a specific sport.
-**Parameters:**
-- `sportName` (Required): The name of the sport (e.g., `Tennis`, `Ice_Hockey`).
-**Response:**
-```json
-{
-  "source": "cache",
-  "sport": "Tennis",
-  "count": 84,
-  "data": [ ... ]
-}
-```
-
-### 6. Sport Games Count
-**Endpoint:** `GET /api/sport-games-count?sportName={NAME}`
-**Description:** Returns the real-time match count for any specific sport.
-**Parameters:**
-- `sportName` (Required): The name of the sport (e.g., `Basketball`, `Tennis`).
-**Response:**
-```json
-{
-  "sport": "Basketball",
-  "count": 142,
-  "timestamp": "2025-12-26T21:05:01.123Z"
-}
-```
-
-### 7. Sport Full Scrape (Fresh)
-**Endpoint:** `GET /api/sport-full-scrape?sportId={ID}&sportName={NAME}`
-**Description:** Triggers a fresh bulk fetch for a specific sport. Includes **Winner (1X2 or 1-2)** odds.
-**Parameters:**
-- `sportId` (Required): The ID of the sport.
-- `sportName` (Required): The name of the sport.
+| Sport Name | Live Extraction Link (Click to Start Scrape) |
+| :--- | :--- |
+| **Football** | [Scrape Football (ID: 1)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=1&sportName=Football) |
+| **Ice Hockey** | [Scrape Ice Hockey (ID: 2)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=2&sportName=Ice_Hockey) |
+| **Basketball** | [Scrape Basketball (ID: 3)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=3&sportName=Basketball) |
+| **Tennis** | [Scrape Tennis (ID: 4)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=4&sportName=Tennis) |
+| **Volleyball** | [Scrape Volleyball (ID: 5)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=5&sportName=Volleyball) |
+| **American Football** | [Scrape American Football (ID: 6)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=6&sportName=American_Football) |
+| **Aussie Rules** | [Scrape Aussie Rules (ID: 8)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=8&sportName=Aussie_Rules) |
+| **Bandy** | [Scrape Bandy (ID: 10)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=10&sportName=Bandy) |
+| **Baseball** | [Scrape Baseball (ID: 11)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=11&sportName=Baseball) |
+| **Chess** | [Scrape Chess (ID: 18)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=18&sportName=Chess) |
+| **Cricket** | [Scrape Cricket (ID: 19)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=19&sportName=Cricket) |
+| **Curling** | [Scrape Curling (ID: 20)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=20&sportName=Curling) |
+| **Cycling** | [Scrape Cycling (ID: 21)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=21&sportName=Cycling) |
+| **Darts** | [Scrape Darts (ID: 22)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=22&sportName=Darts) |
+| **Floorball** | [Scrape Floorball (ID: 24)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=24&sportName=Floorball) |
+| **Formula 1** | [Scrape Formula 1 (ID: 25)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=25&sportName=Formula_1) |
+| **Futsal** | [Scrape Futsal (ID: 26)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=26&sportName=Futsal) |
+| **Golf** | [Scrape Golf (ID: 27)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=27&sportName=Golf) |
+| **Handball** | [Scrape Handball (ID: 29)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=29&sportName=Handball) |
+| **Lacrosse** | [Scrape Lacrosse (ID: 110)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=110&sportName=Lacrosse) |
+| **Rugby League** | [Scrape Rugby League (ID: 36)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=36&sportName=Rugby_League) |
+| **Rugby Union** | [Scrape Rugby Union (ID: 37)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=37&sportName=Rugby_Union) |
+| **Snooker** | [Scrape Snooker (ID: 39)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=39&sportName=Snooker) |
+| **Table Tennis** | [Scrape Table Tennis (ID: 41)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=41&sportName=Table_Tennis) |
+| **Water Polo** | [Scrape Water Polo (ID: 42)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=42&sportName=Water_Polo) |
+| **3x3 Basketball** | [Scrape 3x3 Basketball (ID: 190)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=190&sportName=3x3_Basketball) |
+| **Counter-Strike 2** | [Scrape Counter-Strike 2 (ID: 75)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=75&sportName=Counter-Strike_2) |
+| **Dota 2** | [Scrape Dota 2 (ID: 76)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=76&sportName=Dota_2) |
+| **League of legends** | [Scrape League of legends (ID: 77)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=77&sportName=League_of_legends) |
+| **Valorant** | [Scrape Valorant (ID: 208)](https://dob-lqpg.onrender.com/api/sport-full-scrape?sportId=208&sportName=Valorant) |
 
 ---
 
-## Data Organization
-Scraped data is stored in the `/data` directory:
-- **Structure:** `/data/{Sport_Name}/{YYYY-MM-DD}.json`
-- **Latest:** `/data/{Sport_Name}/latest.json` (Symlink-like copy for the most recent scrape).
+## 🛠️ General API Endpoints
+
+### 1. Global Hierarchy
+Returns the full tree of Sports > Regions > Competitions.
+*   **URL:** [`/api/hierarchy`](https://dob-lqpg.onrender.com/api/hierarchy)
+
+### 2. Bulk Fetch All Sports
+Triggers an automated scrape for every single sport in the sportsbook.
+*   **URL:** [`/api/fetch-all-sports`](https://dob-lqpg.onrender.com/api/fetch-all-sports)
+
+### 3. View Saved Data (Cached)
+Retrieves the most recent data for a specific sport from your MongoDB database.
+*   **URL:** `/api/sport-games?sportName={NAME}`
+*   **Example:** [Football Latest](https://dob-lqpg.onrender.com/api/sport-games?sportName=Football)
+
+### 4. Real-time Game Count
+Returns the current number of upcoming (prematch) games for a sport.
+*   **URL:** `/api/sport-games-count?sportName={NAME}`
+*   **Example:** [Basketball Count](https://dob-lqpg.onrender.com/api/sport-games-count?sportName=Basketball)
 
 ---
 
-## General Betting Endpoints
-
-### 7. Sports Hierarchy
-**Endpoint:** `GET /api/hierarchy`
-**Description:** Returns the complete tree of available Sports > Regions > Competitions.
-
-### 8. Games by Competition
-**Endpoint:** `GET /api/games?competitionId={ID}`
-**Description:** Returns all prematch games for a specific competition ID.
-
-### 9. Game Odds & Markets
-**Endpoint:** `GET /api/odds?gameId={ID}`
-**Description:** Returns **all available markets** and odds for a specific game (detailed view).
-
-### 10. Full Sportsbook Scrape (Experimental)
-**Endpoint:** `GET /api/full-scrape`
-**Description:** Naive traversal of the entire hierarchy. **Slow and heavy.**
+## 📁 Storage Info
+*   **Database:** MongoDB Atlas
+*   **Format:** Optimized JSON objects with nested Markets and Event Odds.
+*   **Rule:** Strictly **Prematch Only** (Live games are automatically hidden).
