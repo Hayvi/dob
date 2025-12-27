@@ -1,0 +1,57 @@
+/* Additional responsive styles */
+@media (max-width: 768px) {
+    .container { padding: 10px; }
+    .grid { grid-template-columns: 1fr; }
+    .btn-group { justify-content: center; }
+    .global-actions .btn { display: block; margin: 5px 0; }
+}
+
+/* Loading animation */
+.status.loading::after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #856404;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hover effects */
+.sport-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.2s ease;
+}
+
+/* Status visibility */
+.sport-card .status {
+    display: block !important;
+    margin-top: 10px;
+}
+
+/* Better scrollbar for response box */
+.response-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.response-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.response-box::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.response-box::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

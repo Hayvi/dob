@@ -9,6 +9,9 @@ const Game = require('./models/Game');
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Serve static files from public directory
+app.use(express.static('public'));
+
 // MongoDB Connection
 const mongoUri = process.env.MONGODB_URI;
 if (mongoUri) {
