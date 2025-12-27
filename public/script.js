@@ -29,7 +29,7 @@ const sports = [
     { name: '3x3 Basketball', id: 190 },
     { name: 'Counter-Strike 2', id: 75 },
     { name: 'Dota 2', id: 76 },
-    { name: 'League of Legends', id: 77 }
+    { name: 'League of legends', id: 77 }
 ];
 
 function showResponse(data, status = 'success') {
