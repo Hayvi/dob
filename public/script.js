@@ -2,12 +2,12 @@ const API_BASE = 'https://dob-lqpg.onrender.com/api';
 
 const sports = [
     { name: 'Football', id: 1 },
-    { name: 'Ice_Hockey', id: 2 },
+    { name: 'Ice Hockey', id: 2 },
     { name: 'Basketball', id: 3 },
     { name: 'Tennis', id: 4 },
     { name: 'Volleyball', id: 5 },
-    { name: 'American_Football', id: 6 },
-    { name: 'Aussie_Rules', id: 8 },
+    { name: 'American Football', id: 6 },
+    { name: 'Aussie Rules', id: 8 },
     { name: 'Bandy', id: 10 },
     { name: 'Baseball', id: 11 },
     { name: 'Chess', id: 18 },
@@ -16,20 +16,20 @@ const sports = [
     { name: 'Cycling', id: 21 },
     { name: 'Darts', id: 22 },
     { name: 'Floorball', id: 24 },
-    { name: 'Formula_1', id: 25 },
+    { name: 'Formula 1', id: 25 },
     { name: 'Futsal', id: 26 },
     { name: 'Golf', id: 27 },
     { name: 'Handball', id: 29 },
     { name: 'Lacrosse', id: 110 },
-    { name: 'Rugby_League', id: 36 },
-    { name: 'Rugby_Union', id: 37 },
+    { name: 'Rugby League', id: 36 },
+    { name: 'Rugby Union', id: 37 },
     { name: 'Snooker', id: 39 },
-    { name: 'Table_Tennis', id: 41 },
-    { name: 'Water_Polo', id: 42 },
-    { name: '3x3_Basketball', id: 190 },
-    { name: 'Counter_Strike_2', id: 75 },
-    { name: 'Dota_2', id: 76 },
-    { name: 'League_of_legends', id: 77 }
+    { name: 'Table Tennis', id: 41 },
+    { name: 'Water Polo', id: 42 },
+    { name: '3x3 Basketball', id: 190 },
+    { name: 'Counter-Strike 2', id: 75 },
+    { name: 'Dota 2', id: 76 },
+    { name: 'League of Legends', id: 77 }
 ];
 
 function showResponse(data, status = 'success') {
@@ -39,7 +39,8 @@ function showResponse(data, status = 'success') {
 }
 
 function setStatus(sportName, message, type = 'loading') {
-    const statusEl = document.getElementById(`status-${sportName}`);
+    const statusId = sportName.replace(/\s+/g, '_').replace(/-/g, '_');
+    const statusEl = document.getElementById(`status-${statusId}`);
     if (statusEl) {
         statusEl.textContent = message;
         statusEl.className = `status ${type}`;
@@ -79,7 +80,9 @@ function getLiveCount(sportName) {
 }
 
 function scrapeSport(sportName, sportId) {
-    apiCall(`${API_BASE}/sport-full-scrape?sportId=${sportId}&sportName=${sportName}`, sportName);
+    // Convert spaces to underscores for scrape endpoint
+    const scrapeName = sportName.replace(/\s+/g, '_').replace(/-/g, '_');
+    apiCall(`${API_BASE}/sport-full-scrape?sportId=${sportId}&sportName=${scrapeName}`, sportName);
 }
 
 function testHierarchy() {
@@ -92,15 +95,16 @@ function bulkScrape() {
 }
 
 function createSportCard(sport) {
+    const statusId = sport.name.replace(/\s+/g, '_').replace(/-/g, '_');
     return `
         <div class="sport-card">
-            <div class="sport-name">${sport.name.replace(/_/g, ' ')}</div>
+            <div class="sport-name">${sport.name}</div>
             <div class="btn-group">
                 <button class="btn btn-cached" onclick="getCachedData('${sport.name}')">Cached</button>
                 <button class="btn btn-live" onclick="getLiveCount('${sport.name}')">Count</button>
                 <button class="btn btn-scrape" onclick="scrapeSport('${sport.name}', ${sport.id})">Scrape</button>
             </div>
-            <div id="status-${sport.name}" class="status" style="display: none;"></div>
+            <div id="status-${statusId}" class="status" style="display: none;"></div>
         </div>
     `;
 }
