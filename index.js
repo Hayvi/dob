@@ -237,10 +237,12 @@ app.get('/api/sport-full-scrape', async (req, res) => {
 
     try {
         const rawData = await scraper.getGamesBySport(sportId);
-        const allGames = parseGamesFromData(rawData, sportName);
-        const scrapeTime = await saveSportData(sportName, allGames);
+        // Normalize sport name: replace underscores with spaces
+        const normalizedName = sportName.replace(/_/g, ' ');
+        const allGames = parseGamesFromData(rawData, normalizedName);
+        const scrapeTime = await saveSportData(normalizedName, allGames);
         res.json({
-            message: `Scrape completed for ${sportName}`,
+            message: `Scrape completed for ${normalizedName}`,
             count: allGames.length,
             last_updated: scrapeTime,
             data: allGames
