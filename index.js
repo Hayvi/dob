@@ -133,17 +133,20 @@ app.get('/api/sport-games', async (req, res) => {
     try {
         if (!mongoUri) return res.status(501).json({ error: 'MongoDB not configured' });
 
-        const latestGame = await Game.findOne({ sport: sportName }).sort({ last_updated: -1 });
+        // Case-insensitive search
+        const latestGame = await Game.findOne({ 
+            sport: { $regex: new RegExp(`^${sportName}$`, 'i') } 
+        }).sort({ last_updated: -1 });
         if (!latestGame) return res.status(404).json({ error: `No data found for ${sportName}` });
 
         const games = await Game.find({
-            sport: sportName,
+            sport: latestGame.sport,  // Use exact sport name from DB
             last_updated: latestGame.last_updated
         });
 
         res.json({
             source: 'mongodb',
-            sport: sportName,
+            sport: latestGame.sport,  // Return actual sport name from DB
             last_updated: latestGame.last_updated,
             count: games.length,
             data: games
