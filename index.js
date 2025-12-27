@@ -237,12 +237,24 @@ app.get('/api/sport-full-scrape', async (req, res) => {
 
     try {
         const rawData = await scraper.getGamesBySport(sportId);
-        // Normalize sport name: replace underscores with spaces
-        const normalizedName = sportName.replace(/_/g, ' ');
-        const allGames = parseGamesFromData(rawData, normalizedName);
-        const scrapeTime = await saveSportData(normalizedName, allGames);
+        // Get the actual sport name from the API hierarchy for consistency
+        let actualSportName = sportName.replace(/_/g, ' ');
+        
+        // Try to get the real name from hierarchy
+        try {
+            const hierarchy = await scraper.getHierarchy();
+            const sports = hierarchy.data?.sport || hierarchy.sport || {};
+            if (sports[sportId]) {
+                actualSportName = sports[sportId].name;
+            }
+        } catch (e) {
+            // Fall back to normalized name if hierarchy fails
+        }
+        
+        const allGames = parseGamesFromData(rawData, actualSportName);
+        const scrapeTime = await saveSportData(actualSportName, allGames);
         res.json({
-            message: `Scrape completed for ${normalizedName}`,
+            message: `Scrape completed for ${actualSportName}`,
             count: allGames.length,
             last_updated: scrapeTime,
             data: allGames
